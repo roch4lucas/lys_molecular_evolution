@@ -1,0 +1,118 @@
+species	order	family	diptera_taxa1	diptera_taxa2	diptera_taxa3	lys_genes	genome_length_Mb	genome_lenght_bp
+Protophormia_terraenovae	Diptera	Calliphoridae	Brachycera	Brachycera	Schizophora	23	783,7	
+Calliphora_vicina	Diptera	Calliphoridae	Brachycera	Brachycera	Schizophora	22	706,5	706524439
+Chrysomya_megacephala	Diptera	Calliphoridae	Brachycera	Brachycera	Schizophora	22	629,4	
+Lucilia_cuprina	Diptera	Calliphoridae	Brachycera	Brachycera	Schizophora	22	409,2	409159265
+Lucilia_sericata	Diptera	Calliphoridae	Brachycera	Brachycera	Schizophora	21	565,3	565289533
+Calliphora_vomitoria	Diptera	Calliphoridae	Brachycera	Brachycera	Schizophora	19	707,6	
+Phormia_regina	Diptera	Calliphoridae	Brachycera	Brachycera	Schizophora	15	549,9	
+Chrysomya_bezziana	Diptera	Calliphoridae	Brachycera	Brachycera	Schizophora	14	472,0	
+Cochliomyia_hominivorax	Diptera	Calliphoridae	Brachycera	Brachycera	Schizophora	12	534,4	
+Stomorhina_lunata	Diptera	Calliphoridae	Brachycera	Brachycera	Schizophora	10	728,1	
+Chrysomya_rufifacies	Diptera	Calliphoridae	Brachycera	Brachycera	Schizophora	10	288,5	
+Protocalliphora_azurea	Diptera	Calliphoridae	Brachycera	Brachycera	Schizophora	9	874,2	
+Bellardia_pandia	Diptera	Calliphoridae	Brachycera	Brachycera	Schizophora	9	617,0	
+Bellardia_bayeri	Diptera	Calliphoridae	Brachycera	Brachycera	Schizophora	9	551,7	
+Phyto_melanocephala	Diptera	Calliphoridae	Brachycera	Brachycera	Schizophora	7	739,7	
+Paykullia_maculata	Diptera	Calliphoridae	Brachycera	Brachycera	Schizophora	6	422,4	
+Melanophora_roralis	Diptera	Calliphoridae	Brachycera	Brachycera	Schizophora	5	565,1	
+Contarinia_nasturtii	Diptera	Cecidomyiidae	Nematocera	Other	Other	3	185,9	185885008
+Sitodiplosis_mosellana	Diptera	Cecidomyiidae	Nematocera	Other	Other	2	208,8	208784321
+Culicoides_brevitarsis	Diptera	Ceratopogonidae	Nematocera	Other	Other	5	129,5	129492607
+Armigeres_subalbatus	Diptera	Culicidae	Nematocera	Other	Other	14	1.335,7	1335741332
+Aedes_aegypti	Diptera	Culicidae	Nematocera	Other	Other	11	1.278,7	1278715314
+Uranotaenia_lowii	Diptera	Culicidae	Nematocera	Other	Other	10	1.077,6	1077644186
+Anopheles_ziemanni	Diptera	Culicidae	Nematocera	Other	Other	10	270,0	269983652
+Anopheles_marshallii	Diptera	Culicidae	Nematocera	Other	Other	10	225,7	225712104
+Anopheles_cruzii	Diptera	Culicidae	Nematocera	Other	Other	10	184,1	184069349
+Anopheles_gambiae	Diptera	Culicidae	Nematocera	Other	Other	9	264,5	264451381
+Anopheles_arabiensis	Diptera	Culicidae	Nematocera	Other	Other	9	256,8	256807969
+Anopheles_maculipalpis	Diptera	Culicidae	Nematocera	Other	Other	9	224,1	224059441
+Aedes_albopictus	Diptera	Culicidae	Nematocera	Other	Other	8	1.344,1	1344147842
+Topomyia_yanbarensis	Diptera	Culicidae	Nematocera	Other	Other	8	1.168,2	1168159140
+Malaya_genurostris	Diptera	Culicidae	Nematocera	Other	Other	8	831,3	831262279
+Wyeomyia_smithii	Diptera	Culicidae	Nematocera	Other	Other	8	769,2	769230131
+Anopheles_merus	Diptera	Culicidae	Nematocera	Other	Other	8	294,4	294364394
+Anopheles_coustani	Diptera	Culicidae	Nematocera	Other	Other	8	270,0	269983652
+Anopheles_stephensi	Diptera	Culicidae	Nematocera	Other	Other	8	243,5	243460342
+Toxorhynchites_rutilus	Diptera	Culicidae	Nematocera	Other	Other	7	903,0	903034419
+Sabethes_cyaneus	Diptera	Culicidae	Nematocera	Other	Other	7	676,0	676043992
+Anopheles_coluzzii	Diptera	Culicidae	Nematocera	Other	Other	7	262,6	262602229
+Anopheles_nili	Diptera	Culicidae	Nematocera	Other	Other	7	195,2	195220701
+Anopheles_bellator	Diptera	Culicidae	Nematocera	Other	Other	7	169,6	169575294
+Anopheles_moucheti	Diptera	Culicidae	Nematocera	Other	Other	6	271,3	271316723
+Anopheles_albimanus	Diptera	Culicidae	Nematocera	Other	Other	6	172,6	172602732
+Ochlerotatus_camptorhynchus	Diptera	Culicidae	Nematocera	Other	Other	5	1.079,6	1079575157
+Anopheles_funestus	Diptera	Culicidae	Nematocera	Other	Other	5	250,7	250698078
+Anopheles_darlingi	Diptera	Culicidae	Nematocera	Other	Other	5	181,6	181637336
+Culex_quinquefasciatus	Diptera	Culicidae	Nematocera	Other	Other	4	573,2	573214445
+Culex_pipiens	Diptera	Culicidae	Nematocera	Other	Other	4	566,3	566339288
+Anopheles_aquasalis	Diptera	Culicidae	Nematocera	Other	Other	4	176,6	176573000
+Teleopsis_dalmanni	Diptera	Diopsidae	Brachycera	Brachycera	Schizophora	19	623,7	623660103
+Condylostylus_longicornis	Diptera	Dolichopodidae	Brachycera	Brachycera	Schizophora	8	544,0	543988939
+Drosophila_kikkawai	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	30	188,5	188497101
+Drosophila_miranda	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	28	287,1	287096000
+Scaptodrosophila_lebanonensis	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	26	247,1	247077949
+Drosophila_virilis	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	24	189,4	189440335
+Drosophila_hydei	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	23	153,7	153741574
+Drosophila_rhopaloa	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	22	193,5	193508231
+Drosophila_nasuta	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	22	171,8	171766801
+Drosophila_sulfurigaster	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	21	168,3	168251146
+Drosophila_albomicans	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	21	167,5	167525814
+Drosophila_persimilis	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	20	195,5	195512972
+Drosophila_pseudoobscura	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	20	163,3	163266851
+Drosophila_subpulchrella	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	19	265,2	265153789
+Drosophila_willistoni	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	19	247,0	246985538
+Drosophila_takahashii	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	19	195,9	195929306
+Drosophila_bipectinata	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	19	191,9	191877550
+Drosophila_obscura	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	19	179,8	179834232
+Drosophila_mojavensis	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	19	163,2	163170721
+Drosophila_guanche	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	19	140,6	140632981
+Drosophila_suzukii	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	18	282,3	282295391
+Drosophila_serrata	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	18	196,0	196034539
+Drosophila_biarmipes	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	18	193,6	193597863
+Drosophila_eugracilis	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	18	164,8	164811307
+Drosophila_teissieri	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	18	149,5	149494471
+Drosophila_santomea	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	18	146,8	146800522
+Drosophila_subobscura	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	18	126,2	126232139
+Drosophila_montana	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	17	191,4	191421679
+Drosophila_gunungcola	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	17	189,8	189841955
+Drosophila_novamexicana	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	17	177,2	177223868
+Drosophila_yakuba	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	17	147,9	147883098
+Drosophila_navojoa	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	17	147,4	147357603
+Drosophila_erecta	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	17	146,5	146538397
+Drosophila_simulans	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	17	131,7	131663590
+Drosophila_ananassae	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	16	213,8	213817545
+Drosophila_grimshawi	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	16	191,4	191382978
+Drosophila_innubila	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	16	168,0	167978031
+Drosophila_ficusphila	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	16	167,8	167832931
+Drosophila_mauritiana	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	16	152,3	152298302
+Drosophila_busckii	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	16	118,5	118492362
+Drosophila_tropicalis	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	15	211,0	211041385
+Drosophila_elegans	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	15	178,4	178445117
+Drosophila_sechellia	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	15	153,1	153084571
+Drosophila_arizonae	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	11	141,4	141386800
+Drosophila_melanogaster	Diptera	Drosophilidae	Brachycera	Brachycera	Schizophora	7	143,7	143706478
+Glossina_fuscipes	Diptera	Glossinidae	Brachycera	Brachycera	Schizophora	6	389,4	389358103
+Musca_domestica	Diptera	Muscidae	Brachycera	Brachycera	Schizophora	44	1.032,6	1032604506
+Stomoxys_calcitrans	Diptera	Muscidae	Brachycera	Brachycera	Schizophora	30	1.070,9	1070934565
+Musca_vetustissima	Diptera	Muscidae	Brachycera	Brachycera	Schizophora	29	850,6	850573461
+Lutzomyia_longipalpis	Diptera	Psychodidae	Nematocera	Other	Other	6	147,8	147838017
+Phlebotomus_argentipes	Diptera	Psychodidae	Nematocera	Other	Other	4	97,6	97615085
+Phlebotomus_papatasi	Diptera	Psychodidae	Nematocera	Other	Other	3	351,6	351607531
+Bradysia_coprophila	Diptera	Sciaridae	Nematocera	Other	Other	8	309,7	309728657
+Hermetia_illucens	Diptera	Stratiomyidae	Brachycera	Brachycera	Other	51	1.004,9	1004932590
+Eupeodes_corollae	Diptera	Syrphidae	Brachycera	Brachycera	Other	9	648,2	648195582
+Episyrphus_balteatus	Diptera	Syrphidae	Brachycera	Brachycera	Other	7	535,3	535345329
+Bactrocera_dorsalis	Diptera	Tephritidae	Brachycera	Brachycera	Schizophora	17	530,3	530310706
+Zeugodacus_cucurbitae	Diptera	Tephritidae	Brachycera	Brachycera	Schizophora	17	439,2	439243742
+Eurosta_solidaginis	Diptera	Tephritidae	Brachycera	Brachycera	Schizophora	16	1.907,8	1907801847
+Anastrepha_obliqua	Diptera	Tephritidae	Brachycera	Brachycera	Schizophora	15	836,7	836742189
+Anastrepha_ludens	Diptera	Tephritidae	Brachycera	Brachycera	Schizophora	15	820,8	820766187
+Bactrocera_neohumeralis	Diptera	Tephritidae	Brachycera	Brachycera	Schizophora	15	577,3	577326612
+Ceratitis_capitata	Diptera	Tephritidae	Brachycera	Brachycera	Schizophora	13	436,5	436474819
+Rhagoletis_zephyria	Diptera	Tephritidae	Brachycera	Brachycera	Schizophora	12	1.109,8	1109796908
+Bactrocera_tryoni	Diptera	Tephritidae	Brachycera	Brachycera	Schizophora	12	570,6	570642875
+Bactrocera_oleae	Diptera	Tephritidae	Brachycera	Brachycera	Schizophora	11	468,8	468767170
+Bactrocera_latifrons	Diptera	Tephritidae	Brachycera	Brachycera	Schizophora	11	462,5	462489382
+Rhagoletis_pomonella	Diptera	Tephritidae	Brachycera	Brachycera	Schizophora	10	1.223,3	1223288327

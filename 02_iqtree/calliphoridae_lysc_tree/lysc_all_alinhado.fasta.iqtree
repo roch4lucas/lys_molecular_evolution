@@ -1,0 +1,1189 @@
+IQ-TREE 2.4.0 built Feb 12 2025
+
+Input file name: lysc_all_alinhado.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (10000 replicates)
+Random seed number: 242985
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 246 sequences with 735 nucleotide sites
+Number of constant sites: 136 (= 18.5034% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 136 (= 18.5034% of all sites)
+Number of parsimony informative sites: 545
+Number of distinct site patterns: 662
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: GTR+F+I+R6
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+GTR+F+I+R6       -34000.148   68992.297 +    0.782   71063.826 - 9.39e-20   71273.833 +     0.39
+TIM2+F+I+R6      -34007.039   69002.077 -  0.00588   71039.827 - 1.53e-14   71274.413 +    0.292
+GTR+F+R6         -34004.360   68998.721 -   0.0315   71053.281 - 1.83e-17   71275.657 +    0.157
+TIM2+F+R6        -34010.967   69007.933 - 0.000315   71029.029 - 3.38e-12   71275.670 +    0.156
+GTR+F+R7         -34001.996   68997.992 -   0.0453   71086.650 - 1.04e-24   71284.127 -  0.00227
+GTR+F+I+R5       -34011.901   69011.802 - 4.55e-05   71049.552 - 1.18e-16   71284.138 -  0.00226
+GTR+F+I+R7       -33999.905   68995.809 +    0.135   71101.758 - 5.44e-28   71286.545 - 0.000677
+GTR+F+R5         -34017.063   69020.126 - 7.08e-07   71041.221 - 7.61e-15   71287.862 - 0.000351
+GTR+F+I+R4       -34020.740   69025.480 - 4.87e-08   71030.075 -    2e-12   71288.616 -  0.00024
+GTR+F+I+G4       -34038.931   69051.863 - 9.09e-14   70976.203 +        1   71292.000 - 4.43e-05
+TPM2u+F+R6       -34027.490   69038.979 -  5.7e-11   71043.574 - 2.35e-15   71302.116 - 2.82e-07
+TVM+F+R6         -34021.134   69030.268 - 4.44e-09   71068.018 - 1.16e-20   71302.604 - 2.21e-07
+TPM2u+F+I+R6     -34024.688   69035.376 - 3.46e-10   71056.471 - 3.71e-18   71303.112 - 1.71e-07
+TVM+F+I+R6       -34018.191   69026.382 -  3.1e-08   71080.943 -  1.8e-23   71303.318 - 1.54e-07
+GTR+F+R4         -34049.505   69081.011 - 4.26e-20   71069.258 - 6.21e-21   71339.547 -  2.1e-15
+TIM+F+I+R6       -34041.284   69070.569 - 7.88e-18   71108.319 - 2.05e-29   71342.905 - 3.91e-16
+TIM+F+R6         -34044.993   69075.986 - 5.25e-19   71097.081 - 5.65e-27   71343.722 -  2.6e-16
+GTR+F+G4         -34071.349   69114.698 - 2.06e-27   71023.424 - 5.57e-11   71350.235 -    1e-17
+TN+F+R6          -34052.957   69089.915 - 4.96e-22   71094.510 - 2.04e-26   71353.051 - 2.45e-18
+TN+F+I+R6        -34049.752   69085.505 -  4.5e-21   71106.600 - 4.84e-29   71353.241 - 2.23e-18
+TIM3+F+I+R6      -34048.129   69084.259 - 8.39e-21   71122.009 - 2.18e-32   71356.595 - 4.16e-19
+TIM3+F+R6        -34052.202   69090.403 - 3.89e-22   71111.499 - 4.18e-30   71358.139 - 1.92e-19
+K3Pu+F+R6        -34061.723   69107.446 - 7.74e-26   71112.041 - 3.18e-30   71370.583 - 3.82e-22
+K3Pu+F+I+R6      -34058.991   69103.983 - 4.37e-25   71125.078 -  4.7e-33   71371.719 - 2.16e-22
+HKY+F+R6         -34070.340   69122.679 - 3.81e-29   71110.926 - 5.56e-30   71381.216 - 1.88e-24
+HKY+F+I+R6       -34067.658   69119.315 - 2.05e-28   71123.910 - 8.43e-33   71382.452 - 1.01e-24
+TPM3u+F+R6       -34068.582   69121.164 - 8.13e-29   71125.759 - 3.34e-33   71384.300 - 4.01e-25
+TPM3u+F+I+R6     -34065.813   69117.626 - 4.77e-28   71138.722 - 5.12e-36   71385.363 - 2.36e-25
+GTR+F+I+R3       -34104.309   69188.618 - 1.83e-43   71160.667 - 8.79e-41   71442.555 - 8.99e-38
+SYM+I+R6         -34169.406   69324.813 - 4.88e-73   71345.908 - 5.24e-81   71592.549 - 2.41e-70
+SYM+R6           -34175.494   69334.987 - 3.01e-75   71339.582 - 1.24e-79   71598.124 - 1.49e-71
+TIM2e+I+R6       -34180.040   69342.081 - 8.68e-77   71330.328 - 1.27e-77   71600.617 - 4.27e-72
+TIM2e+R6         -34185.039   69350.078 - 1.59e-78   71322.128 - 7.65e-76   71604.015 - 7.82e-73
+GTR+F+R3         -34190.276   69358.553 -  2.3e-80   71314.553 - 3.37e-74   71607.890 - 1.13e-73
+TVMe+I+R6        -34203.432   69390.864 - 2.21e-87   71395.459 - 9.11e-92   71654.001 - 1.09e-83
+TVMe+R6          -34207.819   69397.637 - 7.49e-89   71385.884 - 1.09e-89   71656.174 - 3.69e-84
+TPM2+I+R6        -34213.521   69407.042 -  6.8e-91   71379.091 - 3.26e-88   71660.979 - 3.34e-85
+TPM2+R6          -34216.945   69411.890 - 6.02e-92   71367.890 - 8.84e-86   71661.226 - 2.95e-85
+TIMe+I+R6        -34250.580   69483.159 - 2.01e-107   71471.406 - 2.94e-108   71741.695 - 9.91e-103
+TIMe+R6          -34255.701   69491.401 - 3.27e-109   71463.450 - 1.57e-106   71745.338 - 1.6e-103
+TIM3e+I+R6       -34264.851   69511.702 - 1.28e-113   71499.949 - 1.86e-114   71770.239 - 6.28e-109
+TNe+I+R6         -34268.310   69516.621 - 1.09e-114   71488.670 - 5.24e-112   71770.557 - 5.36e-109
+TNe+R6           -34272.638   69523.277 - 3.91e-116   71479.277 - 5.74e-110   71772.613 - 1.92e-109
+TIM3e+R6         -34271.086   69522.172 - 6.8e-116   71494.221 - 3.26e-113   71776.108 - 3.34e-110
+K3P+I+R6         -34285.791   69551.581 - 2.79e-122   71523.630 - 1.34e-119   71805.518 - 1.37e-116
+K3P+R6           -34289.421   69556.843 - 2.01e-123   71512.843 - 2.95e-117   71806.180 - 9.85e-117
+K2P+I+R6         -34303.649   69585.299 - 1.33e-129   71541.299 - 1.95e-123   71834.635 - 6.52e-123
+TPM3+I+R6        -34300.385   69580.770 - 1.28e-128   71552.820 - 6.16e-126   71834.707 - 6.29e-123
+K2P+R6           -34307.163   69590.326 - 1.08e-130   71530.424 - 4.49e-121   71835.063 - 5.27e-123
+TPM3+R6          -34304.695   69587.390 - 4.68e-130   71543.390 - 6.87e-124   71836.727 - 2.29e-123
+GTR+F+I+R2       -34340.492   69656.983 - 3.62e-145   71597.081 - 1.51e-135   71901.720 - 1.77e-137
+GTR+F+R2         -34491.727   69957.455 - 2.05e-210   71881.795 - 2.26e-197   72197.592 - 9.99e-202
+F81+F+R6         -35181.175   71342.350 -        0   73314.399 -        0   73596.286 -        0
+F81+F+I+R6       -35178.691   71339.382 -        0   73327.629 -        0   73597.918 -        0
+JC+R6            -35365.514   71705.029 -        0   73629.369 -        0   73945.166 -        0
+JC+I+R6          -35362.616   71701.231 -        0   73641.329 -        0   73945.968 -        0
+GTR+F+I          -35914.846   72801.693 -        0   74710.418 -        0   75037.230 -        0
+GTR+F            -36446.772   73863.543 -        0   75756.796 -        0   76094.480 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+I+R6
+
+Rate parameter R:
+
+  A-C: 1.8191
+  A-G: 4.7394
+  A-T: 1.8179
+  C-G: 1.3964
+  C-T: 6.0476
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2635
+  pi(C) = 0.2141
+  pi(G) = 0.2146
+  pi(T) = 0.3078
+
+Rate matrix Q:
+
+  A   -0.9391     0.186    0.4858    0.2672
+  C     0.229    -1.261    0.1431     0.889
+  G    0.5966    0.1428   -0.8864     0.147
+  T    0.2288    0.6184    0.1025   -0.9497
+
+Model of rate heterogeneity: Invar+FreeRate with 6 categories
+Proportion of invariable sites: 0.04684
+Site proportion and rates:  (0.1497,0.08274) (0.1805,0.3116) (0.1922,0.6546) (0.1921,1.273) (0.213,2.144) (0.0257,4.064)
+
+ Category  Relative_rate  Proportion
+  0         0              0.04684
+  1         0.08274        0.1497
+  2         0.3116         0.1805
+  3         0.6546         0.1922
+  4         1.273          0.1921
+  5         2.144          0.213
+  6         4.064          0.0257
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -33934.7015 (s.e. 1308.5417)
+Unconstrained log-likelihood (without tree): -4715.0296
+Number of free parameters (#branches + #model parameters): 496
+Akaike information criterion (AIC) score: 68861.4031
+Corrected Akaike information criterion (AICc) score: 70932.9325
+Bayesian information criterion (BIC) score: 71142.9388
+
+Total tree length (sum of branch lengths): 31.0790
+Sum of internal branch lengths: 16.8915 (54.3501% of tree length)
+
+WARNING: 10 near-zero internal branches (<0.0014) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Glossina_morsitans_DQ307162' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--Glossina_morsitans_DQ307162
+|
+|                        +**Chrysomya_bezziana_lyscc1
+|           +------------| (100)
+|           |            |                          +--Calliphora_vicina_XM_065513499
+|           |            |                       +--| (100)
+|           |            |                       |  +--Calliphora_vomitoria_LysCC1
+|           |            |                    +--| (100)
+|           |            |                    |  |  +--Bellardia_pandia_LysCC1
+|           |            |                    |  +--| (100)
+|           |            |                    |     +--Bellardia_bayeri_LysCC1
+|           |            |                 +--| (97)
+|           |            |                 |  |  +--Lucilia_sericata_XM_037964714
+|           |            |                 |  +--| (100)
+|           |            |                 |     +--Lucilia_cuprina_XM_046953569
+|           |            |              +--| (95)
+|           |            |              |  +--Stomorhina_lunata_LysCC1
+|           |            |           +--| (95)
+|           |            |           |  |  +--Phyto_melanocephala_LysCC1
+|           |            |           |  +--| (99)
+|           |            |           |     |  +--Paykullia_maculata_LysCC1
+|           |            |           |     +--| (99)
+|           |            |           |        +--Melanophora_roralis_LysCC1
+|           |            |        +--| (50)
+|           |            |        |  |     +--Protophormia_terraenovae_LysCC1
+|           |            |        |  |  +--| (98)
+|           |            |        |  |  |  +--Phormia_regina_LysCC1
+|           |            |        |  +--| (100)
+|           |            |        |     +--Protocalliphora_azurea_LysCC1
+|           |            |     +--| (26)
+|           |            |     |  |          +--Stomoxys_calcitrans_XM_013256299
+|           |            |     |  |       +--| (92)
+|           |            |     |  |       |  +--Musca_domestica_XM_005187448
+|           |            |     |  |  +----| (100)
+|           |            |     |  |  |    +----Musca_domestica_XM_005187451
+|           |            |     |  +--| (31)
+|           |            |     |     +--Cochliomyia_hominivoraxUS_LysCC1
+|           |            |  +--| (33)
+|           |            |  |  +--Chrysomya_rufifacies_LysCC1
+|           |            +--| (32)
+|           |               +--Chrysomya_megacephala_LysCC1
++-----------| (100)
+|           |                                            +--Chrysomya_bezziana_lyscp
+|           |                                         +--| (85)
+|           |                                         |  +--Chrysomya_rufifacies_LysC5
+|           |                                      +--| (85)
+|           |                                      |  |     +--Protophormia_terraenovae_LysC16
+|           |                                      |  |  +--| (100)
+|           |                                      |  |  |  +--Phormia_regina_LysC3
+|           |                                      |  +--| (100)
+|           |                                      |     +--Protocalliphora_azurea_LysC4
+|           |                                   +--| (85)
+|           |                                   |  |      +--Stomoxys_calcitrans_XM_013262434
+|           |                                   |  |  +---| (100)
+|           |                                   |  |  |   |    +**Musca_domestica_XM_005184849
+|           |                                   |  |  |   +----| (100)
+|           |                                   |  |  |        +--Musca_domestica_XM_059128787
+|           |                                   |  +--| (75)
+|           |                                   |     +--Stomorhina_lunata_LysC2
+|           |                                +--| (89)
+|           |                                |  |     +--Phyto_melanocephala_LysC1
+|           |                                |  |  +--| (93)
+|           |                                |  |  |  +--Paykullia_maculata_LysC3
+|           |                                |  +--| (90)
+|           |                                |     +--Melanophora_roralis_LysC1
+|           |                             +--| (89)
+|           |                             |  |  +--Lucilia_sericata_XM_037958027
+|           |                             |  +--| (100)
+|           |                             |     +--Lucilia_cuprina_XM_023441183
+|           |                  +----------| (100)
+|           |                  |          |     +--Calliphora_vicina_XM_065512512
+|           |                  |          |  +--| (100)
+|           |                  |          |  |  +--Calliphora_vomitoria_LysC9
+|           |                  |          +--| (91)
+|           |                  |             |  +--Bellardia_pandia_LysC6
+|           |                  |             +--| (99)
+|           |                  |                +--Bellardia_bayeri_LysC6
+|           |               +--| (96)
+|           |               |  |                          +--Chrysomya_bezziana_lysc1b
+|           |               |  |                       +--| (100)
+|           |               |  |                       |  +--Chrysomya_rufifacies_LysC3
+|           |               |  |                    +--| (99)
+|           |               |  |                    |  +--Cochliomyia_hominivoraxUS_LysC4
+|           |               |  |                 +--| (92)
+|           |               |  |                 |  |           +--Calliphora_vicina_LysCP
+|           |               |  |                 |  |        +--| (100)
+|           |               |  |                 |  |        |  +--Calliphora_vomitoria_LysC10
+|           |               |  |                 |  |     +--| (100)
+|           |               |  |                 |  |     |  |  +--Bellardia_pandia_LysC5
+|           |               |  |                 |  |     |  +--| (100)
+|           |               |  |                 |  |     |     +--Bellardia_bayeri_LysC5
+|           |               |  |                 |  |  +--| (81)
+|           |               |  |                 |  |  |  |  +--Phyto_melanocephala_LysC2
+|           |               |  |                 |  |  |  +--| (100)
+|           |               |  |                 |  |  |     |  +--Paykullia_maculata_LysC2
+|           |               |  |                 |  |  |     +--| (98)
+|           |               |  |                 |  |  |        +--Melanophora_roralis_LysC2
+|           |               |  |                 |  +--| (94)
+|           |               |  |                 |     |         +--Stomoxys_calcitrans_XM_013262443
+|           |               |  |                 |     |     +---| (95)
+|           |               |  |                 |     |     |   +-----Musca_domestica_XM_059128789
+|           |               |  |                 |     |  +--| (93)
+|           |               |  |                 |     |  |  |  +--Lucilia_sericata_XM_037958029
+|           |               |  |                 |     |  |  +--| (74)
+|           |               |  |                 |     |  |     +--Lucilia_cuprina_XM_023441184
+|           |               |  |                 |     +--| (63)
+|           |               |  |                 |        +--Stomorhina_lunata_LysC1
+|           |               |  |              +--| (52)
+|           |               |  |              |  +--Protocalliphora_azurea_LysC5
+|           |               |  |           +--| (30)
+|           |               |  |           |  +--Phormia_regina_LysC6
+|           |               |  +-----------| (100)
+|           |               |              +--Protophormia_terraenovae_LysC17
+|           +---------------| (100)
+|                           |                                                           +--Chrysomya_bezziana_lysc1
+|                           |                                                        +--| (93)
+|                           |                                                        |  +--Chrysomya_megacephala_LysC3
+|                           |                                                     +--| (66)
+|                           |                                                     |  +--Chrysomya_megacephala_LysC4
+|                           |                                                  +--| (97)
+|                           |                                                  |  +--Chrysomya_bezziana_lysc2
+|                           |                                               +--| (100)
+|                           |                                               |  +--Chrysomya_megacephala_LysC5
+|                           |                                            +--| (63)
+|                           |                                            |  +--Lucilia_cuprina_XM_023448796
+|                           |                                         +--| (63)
+|                           |                                         |  +--Lucilia_cuprina_XM_023448797
+|                           |                                      +--| (49)
+|                           |                                      |  |        +--Lucilia_sericata_XM_037963752
+|                           |                                      |  |     +--| (80)
+|                           |                                      |  |     |  |  +--Lucilia_sericata_XM_037963760
+|                           |                                      |  |     |  +--| (73)
+|                           |                                      |  |     |     |  +--Lucilia_sericata_XM_037963755
+|                           |                                      |  |     |     +--| (73)
+|                           |                                      |  |     |        +--Lucilia_sericata_XM_037963756
+|                           |                                      |  |  +--| (90)
+|                           |                                      |  |  |  +--Lucilia_sericata_XM_037963759
+|                           |                                      |  +--| (78)
+|                           |                                      |     +--Lucilia_sericata_XM_037963757
+|                           |                                   +--| (58)
+|                           |                                   |  |     +--Lucilia_cuprina_XM_046955367
+|                           |                                   |  |  +--| (100)
+|                           |                                   |  |  |  +--Lucilia_cuprina_XM_023448798
+|                           |                                   |  +--| (100)
+|                           |                                   |     +--Lucilia_cuprina_XM_023448799
+|                           |                                +--| (82)
+|                           |                                |  +--Lucilia_sericata_XM_037963758
+|                           |                             +--| (95)
+|                           |                             |  |     +--Protophormia_terraenovae_LysC20
+|                           |                             |  |  +--| (100)
+|                           |                             |  |  |  +--Phormia_regina_LysC4
+|                           |                             |  +--| (100)
+|                           |                             |     +--Cochliomyia_hominivoraxUS_LysC6
+|                           |                          +--| (95)
+|                           |                          |  |                    +**Calliphora_vicina_XM_065499793
+|                           |                          |  |                 +**| (57)
+|                           |                          |  |                 |  |  +**Calliphora_vicina_XM_065499876
+|                           |                          |  |                 |  +--| (97)
+|                           |                          |  |                 |     |        +--Calliphora_vicina_XM_065500492
+|                           |                          |  |                 |     |     +--| (100)
+|                           |                          |  |                 |     |     |  +--Calliphora_vicina_XM_065500526
+|                           |                          |  |                 |     |  +--| (76)
+|                           |                          |  |                 |     |  |  +--Calliphora_vicina_XM_065500692
+|                           |                          |  |                 |     +--| (97)
+|                           |                          |  |                 |        +--Calliphora_vicina_XM_065500698
+|                           |                          |  |              +--| (97)
+|                           |                          |  |              |  +--Calliphora_vicina_XM_065499877
+|                           |                          |  |           +--| (95)
+|                           |                          |  |           |  +--Calliphora_vomitoria_LysC14
+|                           |                          |  |        +--| (100)
+|                           |                          |  |        |  |  +--Calliphora_vomitoria_LysC12
+|                           |                          |  |        |  +--| (100)
+|                           |                          |  |        |     +--Calliphora_vomitoria_LysC15
+|                           |                          |  |     +--| (50)
+|                           |                          |  |     |  |     +--Calliphora_vicina_XM_065500622
+|                           |                          |  |     |  |  +--| (61)
+|                           |                          |  |     |  |  |  +--Calliphora_vomitoria_LysC11
+|                           |                          |  |     |  +--| (63)
+|                           |                          |  |     |     +--Calliphora_vomitoria_LysC16
+|                           |                          |  |  +--| (98)
+|                           |                          |  |  |  +--Calliphora_vomitoria_LysC13
+|                           |                          |  +--| (92)
+|                           |                          |     |     +--Protophormia_terraenovae_LysC19
+|                           |                          |     |  +--| (100)
+|                           |                          |     |  |  +--Phormia_regina_LysC5
+|                           |                          |     +--| (100)
+|                           |                          |        +--Cochliomyia_hominivoraxUS_LysC3
+|                           |                       +--| (98)
+|                           |                       |  |              +--Chrysomya_bezziana_lysc7
+|                           |                       |  |           +--| (100)
+|                           |                       |  |           |  |        +**Chrysomya_megacephala_LysC1
+|                           |                       |  |           |  |     +**| (59)
+|                           |                       |  |           |  |     |  +**Chrysomya_megacephala_LysC7
+|                           |                       |  |           |  |  +--| (100)
+|                           |                       |  |           |  |  |  +**Chrysomya_megacephala_LysC6
+|                           |                       |  |           |  +--| (99)
+|                           |                       |  |           |     +**Chrysomya_megacephala_LysC8
+|                           |                       |  |        +--| (77)
+|                           |                       |  |        |  |     +--Protophormia_terraenovae_LysC9
+|                           |                       |  |        |  |  +--| (100)
+|                           |                       |  |        |  |  |  +--Phormia_regina_LysC9
+|                           |                       |  |        |  +--| (100)
+|                           |                       |  |        |     +--Protocalliphora_azurea_LysC2
+|                           |                       |  |     +--| (98)
+|                           |                       |  |     |  |        +--Lucilia_sericata_XM_037958008
+|                           |                       |  |     |  |     +--| (100)
+|                           |                       |  |     |  |     |  +--Lucilia_cuprina_XM_046955619
+|                           |                       |  |     |  |  +--| (100)
+|                           |                       |  |     |  |  |  +--Stomorhina_lunata_LysC5
+|                           |                       |  |     |  +--| (81)
+|                           |                       |  |     |     +--Cochliomyia_hominivoraxUS_LysC5
+|                           |                       |  |  +--| (99)
+|                           |                       |  |  |  |     +--Calliphora_vicina_XM_065512186
+|                           |                       |  |  |  |  +--| (100)
+|                           |                       |  |  |  |  |  +--Calliphora_vomitoria_LysC5
+|                           |                       |  |  |  +--| (99)
+|                           |                       |  |  |     |      +--Lucilia_sericata_XM_037958002
+|                           |                       |  |  |     +------| (100)
+|                           |                       |  |  |            +--Lucilia_cuprina_XM_023439612
+|                           |                       |  +--| (99)
+|                           |                       |     +--Phyto_melanocephala_LysC4
+|                           |                    +--| (98)
+|                           |                    |  |                    +--Chrysomya_bezziana_lysc3
+|                           |                    |  |                 +--| (100)
+|                           |                    |  |                 |  +**Chrysomya_megacephala_LysC15
+|                           |                    |  |              +--| (100)
+|                           |                    |  |              |  |        +**Chrysomya_rufifacies_LysC1
+|                           |                    |  |              |  |     +--| (100)
+|                           |                    |  |              |  |     |  +**Chrysomya_rufifacies_LysC2
+|                           |                    |  |              |  |  +--| (100)
+|                           |                    |  |              |  |  |  +--Chrysomya_megacephala_LysC13
+|                           |                    |  |              |  +--| (92)
+|                           |                    |  |              |     +--Chrysomya_megacephala_LysC14
+|                           |                    |  |           +--| (95)
+|                           |                    |  |           |  |     +--Protophormia_terraenovae_LysC1
+|                           |                    |  |           |  |  +--| (100)
+|                           |                    |  |           |  |  |  +--Protophormia_terraenovae_LysC3
+|                           |                    |  |           |  +--| (100)
+|                           |                    |  |           |     |  +--Protophormia_terraenovae_LysC4
+|                           |                    |  |           |     +--| (71)
+|                           |                    |  |           |        +--Phormia_regina_LysC2
+|                           |                    |  |        +--| (99)
+|                           |                    |  |        |  |        +--Calliphora_vicina_XM_065511517
+|                           |                    |  |        |  |     +--| (53)
+|                           |                    |  |        |  |     |  |     +---Stomorhina_lunata_LysC3
+|                           |                    |  |        |  |     |  |  +--| (67)
+|                           |                    |  |        |  |     |  |  |  +**Calliphora_vomitoria_LysC1
+|                           |                    |  |        |  |     |  +--| (67)
+|                           |                    |  |        |  |     |     +--Calliphora_vomitoria_LysC2
+|                           |                    |  |        |  |  +--| (68)
+|                           |                    |  |        |  |  |  +--Calliphora_vicina_XM_065511645
+|                           |                    |  |        |  +--| (68)
+|                           |                    |  |        |     |     +--Lucilia_sericata_XM_037951089
+|                           |                    |  |        |     |  +--| (100)
+|                           |                    |  |        |     |  |  +--Lucilia_sericata_XM_037951088
+|                           |                    |  |        |     +--| (100)
+|                           |                    |  |        |        |  +--Lucilia_cuprina_XM_023438453
+|                           |                    |  |        |        +--| (100)
+|                           |                    |  |        |           +--Lucilia_cuprina_XM_023438456
+|                           |                    |  |     +--| (75)
+|                           |                    |  |     |  |     +--Lucilia_sericata_XM_037951090
+|                           |                    |  |     |  |  +--| (100)
+|                           |                    |  |     |  |  |  +--Lucilia_cuprina_XM_023438454
+|                           |                    |  |     |  +--| (100)
+|                           |                    |  |     |     |  +--Protophormia_terraenovae_LysC2
+|                           |                    |  |     |     +--| (100)
+|                           |                    |  |     |        +--Phormia_regina_LysC1
+|                           |                    |  |  +--| (90)
+|                           |                    |  |  |  |                       +--Stomoxys_calcitrans_XM_059370494
+|                           |                    |  |  |  |                    +--| (41)
+|                           |                    |  |  |  |                    |  +--Stomoxys_calcitrans_XM_013257674
+|                           |                    |  |  |  |                 +--| (29)
+|                           |                    |  |  |  |                 |  +--Stomoxys_calcitrans_XM_059370492
+|                           |                    |  |  |  |              +--| (28)
+|                           |                    |  |  |  |              |  +--Stomoxys_calcitrans_XM_059370490
+|                           |                    |  |  |  |           +--| (30)
+|                           |                    |  |  |  |           |  +--Stomoxys_calcitrans_XM_059370493
+|                           |                    |  |  |  |        +--| (30)
+|                           |                    |  |  |  |        |  +--Stomoxys_calcitrans_XM_059370495
+|                           |                    |  |  |  |     +--| (100)
+|                           |                    |  |  |  |     |  +--Stomoxys_calcitrans_XM_013257675
+|                           |                    |  |  |  |  +--| (48)
+|                           |                    |  |  |  |  |  |           +--Stomoxys_calcitrans_XM_013257684
+|                           |                    |  |  |  |  |  |        +--| (85)
+|                           |                    |  |  |  |  |  |        |  +--Stomoxys_calcitrans_XM_013257687
+|                           |                    |  |  |  |  |  |     +--| (100)
+|                           |                    |  |  |  |  |  |     |  +--Stomoxys_calcitrans_XM_013257686
+|                           |                    |  |  |  |  |  |  +--| (100)
+|                           |                    |  |  |  |  |  |  |  +--Stomoxys_calcitrans_XM_013257682
+|                           |                    |  |  |  |  |  +--| (99)
+|                           |                    |  |  |  |  |     |  +--Stomoxys_calcitrans_XM_013257685
+|                           |                    |  |  |  |  |     +--| (100)
+|                           |                    |  |  |  |  |        +--Stomoxys_calcitrans_XM_013257683
+|                           |                    |  |  |  +**| (41)
+|                           |                    |  |  |     |              +--Musca_domestica_XM_005185318
+|                           |                    |  |  |     |           +--| (90)
+|                           |                    |  |  |     |           |  |  +--Musca_domestica_XM_059126266
+|                           |                    |  |  |     |           |  +--| (100)
+|                           |                    |  |  |     |           |     +--Musca_domestica_XM_059126267
+|                           |                    |  |  |     |        +--| (73)
+|                           |                    |  |  |     |        |  +--Musca_domestica_XM_005185309
+|                           |                    |  |  |     |     +--| (100)
+|                           |                    |  |  |     |     |  +--Musca_domestica_XM_020035064
+|                           |                    |  |  |     |  +--| (99)
+|                           |                    |  |  |     |  |  |  +--Musca_domestica_XM_020035063
+|                           |                    |  |  |     |  |  +--| (100)
+|                           |                    |  |  |     |  |     +--Musca_domestica_XM_011292185
+|                           |                    |  |  |     +--| (29)
+|                           |                    |  |  |        |        +--Musca_domestica_XM_020035061
+|                           |                    |  |  |        |     +--| (99)
+|                           |                    |  |  |        |     |  |  +--Musca_domestica_XM_020035062
+|                           |                    |  |  |        |     |  +--| (92)
+|                           |                    |  |  |        |     |     +--Musca_domestica_XM_011292181
+|                           |                    |  |  |        |  +--| (99)
+|                           |                    |  |  |        |  |  |        +--Musca_domestica_XM_020035060
+|                           |                    |  |  |        |  |  |     +--| (100)
+|                           |                    |  |  |        |  |  |     |  +--Musca_domestica_XM_005178415
+|                           |                    |  |  |        |  |  |  +--| (99)
+|                           |                    |  |  |        |  |  |  |  +--Musca_domestica_XM_005178434
+|                           |                    |  |  |        |  |  +--| (100)
+|                           |                    |  |  |        |  |     +--Musca_domestica_XM_011292180
+|                           |                    |  |  |        +--| (100)
+|                           |                    |  |  |           +--Musca_domestica_XM_005178411
+|                           |                    |  +--| (100)
+|                           |                    |     +---------Musca_domestica_XM_005178432
+|                           |                 +--| (46)
+|                           |                 |  |  +--Stomorhina_lunata_LysC6
+|                           |                 |  +--| (100)
+|                           |                 |     +--Stomorhina_lunata_LysC7
+|                           |              +--| (42)
+|                           |              |  |        +--Calliphora_vicina_XM_065511310
+|                           |              |  |     +--| (100)
+|                           |              |  |     |  +--Calliphora_vomitoria_LysC6
+|                           |              |  |  +--| (76)
+|                           |              |  |  |  |        +--Calliphora_vomitoria_LysC7
+|                           |              |  |  |  |     +--| (100)
+|                           |              |  |  |  |     |  +--Calliphora_vomitoria_LysC8
+|                           |              |  |  |  |  +**| (66)
+|                           |              |  |  |  |  |  +----Bellardia_pandia_LysC4
+|                           |              |  |  |  +--| (77)
+|                           |              |  |  |     |  +--Bellardia_pandia_LysC3
+|                           |              |  |  |     +--| (100)
+|                           |              |  |  |        +--Bellardia_bayeri_LysC4
+|                           |              |  +--| (97)
+|                           |              |     +--Bellardia_pandia_LysC2
+|                           |           +--| (80)
+|                           |           |  |           +--Chrysomya_bezziana_lysc5
+|                           |           |  |        +--| (100)
+|                           |           |  |        |  +--Chrysomya_bezziana_lysc6
+|                           |           |  |     +--| (83)
+|                           |           |  |     |  |  +--Phyto_melanocephala_LysC3
+|                           |           |  |     |  +--| (97)
+|                           |           |  |     |     +---Paykullia_maculata_LysC1
+|                           |           |  |  +--| (79)
+|                           |           |  |  |  |                 +--Protophormia_terraenovae_LysC10
+|                           |           |  |  |  |              +--| (99)
+|                           |           |  |  |  |              |  +--Phormia_regina_LysC8
+|                           |           |  |  |  |           +--| (100)
+|                           |           |  |  |  |           |  +--Protophormia_terraenovae_LysC11
+|                           |           |  |  |  |        +--| (86)
+|                           |           |  |  |  |        |  |  +--Chrysomya_rufifacies_LysC4
+|                           |           |  |  |  |        |  +--| (100)
+|                           |           |  |  |  |        |     +--Chrysomya_rufifacies_LysC6
+|                           |           |  |  |  |     +--| (90)
+|                           |           |  |  |  |     |  +--Phormia_regina_LysC11
+|                           |           |  |  |  |  +--| (87)
+|                           |           |  |  |  |  |  |        +--Protophormia_terraenovae_LysC12
+|                           |           |  |  |  |  |  |     +--| (81)
+|                           |           |  |  |  |  |  |     |  +--Protophormia_terraenovae_LysC13
+|                           |           |  |  |  |  |  |  +--| (100)
+|                           |           |  |  |  |  |  |  |  +--Protophormia_terraenovae_LysC15
+|                           |           |  |  |  |  |  +--| (98)
+|                           |           |  |  |  |  |     +--Protophormia_terraenovae_LysC14
+|                           |           |  |  |  +--| (95)
+|                           |           |  |  |     +--Cochliomyia_hominivoraxUS_LysC1
+|                           |           |  +--| (44)
+|                           |           |     |                 +--Stomoxys_calcitrans_XM_059368529
+|                           |           |     |              +--| (92)
+|                           |           |     |              |  +--Stomoxys_calcitrans_XM_013259396
+|                           |           |     |           +--| (98)
+|                           |           |     |           |  |  +--Stomoxys_calcitrans_XM_059368530
+|                           |           |     |           |  +--| (93)
+|                           |           |     |           |     +**Stomoxys_calcitrans_XM_059368531
+|                           |           |     |        +--| (98)
+|                           |           |     |        |  +--Stomoxys_calcitrans_XM_013259399
+|                           |           |     |     +--| (100)
+|                           |           |     |     |  +--Stomoxys_calcitrans_XM_059368532
+|                           |           |     |  +--| (50)
+|                           |           |     |  |  |  +--Stomoxys_calcitrans_XM_013259394
+|                           |           |     |  |  +--| (100)
+|                           |           |     |  |     +--Stomoxys_calcitrans_XM_013262540
+|                           |           |     +--| (50)
+|                           |           |        |                       +--Musca_domestica_XM_059127590
+|                           |           |        |                    +**| (27)
+|                           |           |        |                    |  +--Musca_domestica_XM_059127594
+|                           |           |        |                 +--| (71)
+|                           |           |        |                 |  |  +**Musca_domestica_XM_059127591
+|                           |           |        |                 |  +--| (100)
+|                           |           |        |                 |     +**Musca_domestica_XM_059127592
+|                           |           |        |              +--| (36)
+|                           |           |        |              |  |     +--Musca_domestica_XM_059127601
+|                           |           |        |              |  |  +**| (17)
+|                           |           |        |              |  |  |  +--Musca_domestica_XM_059127603
+|                           |           |        |              |  +**| (21)
+|                           |           |        |              |     +--Musca_domestica_XM_020037581
+|                           |           |        |           +--| (33)
+|                           |           |        |           |  +--Musca_domestica_XM_059127595
+|                           |           |        |        +--| (34)
+|                           |           |        |        |  |  +--Musca_domestica_XM_059127597
+|                           |           |        |        |  +--| (89)
+|                           |           |        |        |     +--Musca_domestica_XM_005185778
+|                           |           |        |     +**| (14)
+|                           |           |        |     |  |        +**Musca_domestica_XM_005185770
+|                           |           |        |     |  |     +--| (100)
+|                           |           |        |     |  |     |  +--Musca_domestica_XM_059127598
+|                           |           |        |     |  |  +**| (53)
+|                           |           |        |     |  |  |  |  +--Musca_domestica_XM_059127599
+|                           |           |        |     |  |  |  +--| (100)
+|                           |           |        |     |  |  |     +--Musca_domestica_XM_059127602
+|                           |           |        |     |  +--| (99)
+|                           |           |        |     |     |     +--Musca_domestica_XM_005185779
+|                           |           |        |     |     |  +--| (100)
+|                           |           |        |     |     |  |  +--Musca_domestica_XM_059127596
+|                           |           |        |     |     +--| (84)
+|                           |           |        |     |        +--Musca_domestica_XM_020037580
+|                           |           |        |  +--| (96)
+|                           |           |        |  |  +--Musca_domestica_NM_001308972
+|                           |           |        +--| (100)
+|                           |           |           +--Musca_domestica_XM_020037574
+|                           |        +--| (91)
+|                           |        |  |                   +--Chrysomya_bezziana_lysc8
+|                           |        |  |               +---| (100)
+|                           |        |  |               |   |  +**Chrysomya_megacephala_LysC2
+|                           |        |  |               |   +--| (100)
+|                           |        |  |               |      |  +**Chrysomya_megacephala_LysC9
+|                           |        |  |               |      +**| (94)
+|                           |        |  |               |         +**Chrysomya_megacephala_LysC10
+|                           |        |  |            +--| (55)
+|                           |        |  |            |  +**Protophormia_terraenovae_LysC5
+|                           |        |  |         +--| (34)
+|                           |        |  |         |  |  +--Protocalliphora_azurea_LysC1
+|                           |        |  |         |  +--| (44)
+|                           |        |  |         |     +--Phormia_regina_LysC10
+|                           |        |  |      +--| (54)
+|                           |        |  |      |  |     +--Protophormia_terraenovae_LysC6
+|                           |        |  |      |  |  +--| (100)
+|                           |        |  |      |  |  |  +--Protophormia_terraenovae_LysC8
+|                           |        |  |      |  +--| (94)
+|                           |        |  |      |     +----Cochliomyia_hominivoraxUS_LysC2
+|                           |        |  |  +---| (98)
+|                           |        |  |  |   +--Protophormia_terraenovae_LysC7
+|                           |        |  +--| (39)
+|                           |        |     |           +--Calliphora_vicina_XM_065511531
+|                           |        |     |        +--| (90)
+|                           |        |     |        |  |  +--Calliphora_vomitoria_LysC3
+|                           |        |     |        |  +--| (100)
+|                           |        |     |        |     +--Calliphora_vomitoria_LysC4
+|                           |        |     |     +--| (97)
+|                           |        |     |     |  +--Calliphora_vicina_XM_065512022
+|                           |        |     |  +--| (97)
+|                           |        |     |  |  |      +--Lucilia_sericata_XM_037958003
+|                           |        |     |  |  |  +---| (100)
+|                           |        |     |  |  |  |   |  +**Lucilia_cuprina_XM_046955615
+|                           |        |     |  |  |  |   +--| (100)
+|                           |        |     |  |  |  |      +**Lucilia_cuprina_XM_046955614
+|                           |        |     |  |  +--| (100)
+|                           |        |     |  |     +--Lucilia_sericata_XM_037958005
+|                           |        |     +--| (96)
+|                           |        |        |  +--Bellardia_pandia_LysC1
+|                           |        |        +--| (100)
+|                           |        |           +--Bellardia_bayeri_LysC1
+|                           |     +--| (92)
+|                           |     |  +----Stomoxys_calcitrans_XM_013259395
+|                           +-----| (99)
+|                                 +------Stomorhina_lunata_LysC4
+|
+|  +--Stomoxys_calcitrans_XM_013256305
++--| (88)
+   +--Musca_domestica_XM_005187455
+
+Tree in newick format:
+
+(Glossina_morsitans_DQ307162:0.0519604369,((Chrysomya_bezziana_lyscc1:0.0000021212,(((((((((Calliphora_vicina_XM_065513499:0.0361239037,Calliphora_vomitoria_LysCC1:0.0222986192)100:0.0234647213,(Bellardia_pandia_LysCC1:0.0067682012,Bellardia_bayeri_LysCC1:0.0481181654)100:0.0456354651)100:0.0653186357,(Lucilia_sericata_XM_037964714:0.0102862861,Lucilia_cuprina_XM_046953569:0.0537269334)100:0.0922218874)97:0.0207681273,Stomorhina_lunata_LysCC1:0.1898190980)95:0.0076779960,(Phyto_melanocephala_LysCC1:0.1602763229,(Paykullia_maculata_LysCC1:0.0655869641,Melanophora_roralis_LysCC1:0.1107079016)99:0.0265375168)99:0.0765552487)95:0.0560525536,((Protophormia_terraenovae_LysCC1:0.0203677370,Phormia_regina_LysCC1:0.0539534595)98:0.0123385531,Protocalliphora_azurea_LysCC1:0.0377024566)100:0.0296053248)50:0.0192482162,(((Stomoxys_calcitrans_XM_013256299:0.2158794947,Musca_domestica_XM_005187448:0.1386400628)92:0.1155597749,Musca_domestica_XM_005187451:0.3621216518)100:0.3968432351,Cochliomyia_hominivoraxUS_LysCC1:0.1074064488)31:0.0365222273)26:0.0844799747,Chrysomya_rufifacies_LysCC1:0.0996233226)33:0.0654893261,Chrysomya_megacephala_LysCC1:0.0092459960)32:0.0200457446)100:0.9164374508,((((((((Chrysomya_bezziana_lyscp:0.0523019295,Chrysomya_rufifacies_LysC5:0.0629926639)85:0.0605060747,((Protophormia_terraenovae_LysC16:0.0087286070,Phormia_regina_LysC3:0.0288295100)100:0.0109209620,Protocalliphora_azurea_LysC4:0.0113584375)100:0.0472969469)85:0.0467371095,((Stomoxys_calcitrans_XM_013262434:0.2665320575,(Musca_domestica_XM_005184849:0.0000023345,Musca_domestica_XM_059128787:0.0159528622)100:0.3944850233)100:0.3001405057,Stomorhina_lunata_LysC2:0.1611091814)75:0.0763637992)85:0.0248698606,((Phyto_melanocephala_LysC1:0.0726306486,Paykullia_maculata_LysC3:0.0709776258)93:0.0105471498,Melanophora_roralis_LysC1:0.1590811015)90:0.0269505920)89:0.0164532119,(Lucilia_sericata_XM_037958027:0.0473227544,Lucilia_cuprina_XM_023441183:0.0349238764)100:0.1027258912)89:0.0241883971,((Calliphora_vicina_XM_065512512:0.0181448707,Calliphora_vomitoria_LysC9:0.0175649139)100:0.0200796021,(Bellardia_pandia_LysC6:0.0082428569,Bellardia_bayeri_LysC6:0.0036916039)99:0.0282943016)91:0.0190428449)100:0.7678561452,((((((Chrysomya_bezziana_lysc1b:0.0839872204,Chrysomya_rufifacies_LysC3:0.1049902426)100:0.0581650104,Cochliomyia_hominivoraxUS_LysC4:0.1647547471)99:0.0258655565,((((Calliphora_vicina_LysCP:0.0325803331,Calliphora_vomitoria_LysC10:0.0272520903)100:0.0263723296,(Bellardia_pandia_LysC5:0.0121712175,Bellardia_bayeri_LysC5:0.0092585134)100:0.0869638299)100:0.1071744037,(Phyto_melanocephala_LysC2:0.1085792564,(Paykullia_maculata_LysC2:0.0672230342,Melanophora_roralis_LysC2:0.1065234503)98:0.0264978115)100:0.0975863847)81:0.0474381770,(((Stomoxys_calcitrans_XM_013262443:0.2069158441,Musca_domestica_XM_059128789:0.4655662669)95:0.2811403689,(Lucilia_sericata_XM_037958029:0.0237933881,Lucilia_cuprina_XM_023441184:0.0792801783)74:0.0845471864)93:0.0691347176,Stomorhina_lunata_LysC1:0.2627848681)63:0.0422707335)94:0.0819352202)92:0.0365059586,Protocalliphora_azurea_LysC5:0.0723743230)52:0.0219593824,Phormia_regina_LysC6:0.0189415035)30:0.0247856641,Protophormia_terraenovae_LysC17:0.0042375360)100:0.8083861648)96:0.2467134029,(((((((((((((((((((Chrysomya_bezziana_lysc1:0.0349181286,Chrysomya_megacephala_LysC3:0.0426549146)93:0.0158785355,Chrysomya_megacephala_LysC4:0.0334327735)66:0.0215027665,Chrysomya_bezziana_lysc2:0.0324616962)97:0.0146159528,Chrysomya_megacephala_LysC5:0.0392710479)100:0.1106313035,Lucilia_cuprina_XM_023448796:0.0063146576)63:0.0184095189,Lucilia_cuprina_XM_023448797:0.0306659450)63:0.0131133448,(((Lucilia_sericata_XM_037963752:0.0029144486,(Lucilia_sericata_XM_037963760:0.0116513288,(Lucilia_sericata_XM_037963755:0.0208267946,Lucilia_sericata_XM_037963756:0.0148706357)73:0.0025858427)73:0.0028558531)80:0.0139805688,Lucilia_sericata_XM_037963759:0.0122253779)90:0.0034350684,Lucilia_sericata_XM_037963757:0.0536224976)78:0.0136928813)49:0.0120500754,((Lucilia_cuprina_XM_046955367:0.0840935690,Lucilia_cuprina_XM_023448798:0.0052595171)100:0.0094116079,Lucilia_cuprina_XM_023448799:0.0269587767)100:0.0235669767)58:0.0105476047,Lucilia_sericata_XM_037963758:0.0296687744)82:0.0337343097,((Protophormia_terraenovae_LysC20:0.0449525603,Phormia_regina_LysC4:0.0772646600)100:0.0541155899,Cochliomyia_hominivoraxUS_LysC6:0.0842247748)100:0.0466164052)95:0.0145619656,(((((((Calliphora_vicina_XM_065499793:0.0000022290,(Calliphora_vicina_XM_065499876:0.0000020628,(((Calliphora_vicina_XM_065500492:0.0177893518,Calliphora_vicina_XM_065500526:0.0087462033)100:0.0067745846,Calliphora_vicina_XM_065500692:0.0196573157)76:0.0027000564,Calliphora_vicina_XM_065500698:0.0067297331)97:0.0078525448)97:0.0028607326)57:0.0000025477,Calliphora_vicina_XM_065499877:0.0057523563)97:0.0091149483,Calliphora_vomitoria_LysC14:0.0174837738)95:0.0058679951,(Calliphora_vomitoria_LysC12:0.0116257903,Calliphora_vomitoria_LysC15:0.0115769287)100:0.0175728025)100:0.0093994008,((Calliphora_vicina_XM_065500622:0.0389753922,Calliphora_vomitoria_LysC11:0.0214678970)61:0.0051790878,Calliphora_vomitoria_LysC16:0.0178088968)63:0.0059214966)50:0.0025117753,Calliphora_vomitoria_LysC13:0.0216063439)98:0.0263483654,((Protophormia_terraenovae_LysC19:0.0274501645,Phormia_regina_LysC5:0.0618072166)100:0.0796605293,Cochliomyia_hominivoraxUS_LysC3:0.1178768632)100:0.0710020028)92:0.0183411540)95:0.0748019930,(((((Chrysomya_bezziana_lysc7:0.0281304872,(((Chrysomya_megacephala_LysC1:0.0000010178,Chrysomya_megacephala_LysC7:0.0000010178)59:0.0000024542,Chrysomya_megacephala_LysC6:0.0000010178)100:0.0029427504,Chrysomya_megacephala_LysC8:0.0000028851)99:0.0147181958)100:0.1410758653,((Protophormia_terraenovae_LysC9:0.0140674442,Phormia_regina_LysC9:0.1055484161)100:0.0369290785,Protocalliphora_azurea_LysC2:0.0356371664)100:0.0503033575)77:0.0223156784,(((Lucilia_sericata_XM_037958008:0.0354670318,Lucilia_cuprina_XM_046955619:0.0423126560)100:0.2356877400,Stomorhina_lunata_LysC5:0.2306615854)100:0.1951768315,Cochliomyia_hominivoraxUS_LysC5:0.1635823845)81:0.0829669075)98:0.0683308100,((Calliphora_vicina_XM_065512186:0.0790504876,Calliphora_vomitoria_LysC5:0.0698154304)100:0.2265915075,(Lucilia_sericata_XM_037958002:0.0691605703,Lucilia_cuprina_XM_023439612:0.1175268174)100:0.5272747415)99:0.0896859299)99:0.0543554216,Phyto_melanocephala_LysC4:0.1904255769)99:0.1091787019)98:0.0650178860,(((((((Chrysomya_bezziana_lysc3:0.0208050413,Chrysomya_megacephala_LysC15:0.0000022883)100:0.0658536589,(((Chrysomya_rufifacies_LysC1:0.0000010178,Chrysomya_rufifacies_LysC2:0.0000010178)100:0.0602547724,Chrysomya_megacephala_LysC13:0.0648154258)100:0.0212747976,Chrysomya_megacephala_LysC14:0.1077946745)92:0.0152938136)100:0.0766480468,((Protophormia_terraenovae_LysC1:0.0298865593,Protophormia_terraenovae_LysC3:0.0156580121)100:0.0188550044,(Protophormia_terraenovae_LysC4:0.0276896877,Phormia_regina_LysC2:0.0782655896)71:0.0098627556)100:0.0281247902)95:0.0334795696,(((Calliphora_vicina_XM_065511517:0.0162301345,((Stomorhina_lunata_LysC3:0.2716377223,Calliphora_vomitoria_LysC1:0.0000029744)67:0.0057833379,Calliphora_vomitoria_LysC2:0.0173206818)67:0.0217248298)53:0.0058137893,Calliphora_vicina_XM_065511645:0.0384680423)68:0.0592562784,((Lucilia_sericata_XM_037951089:0.0156527594,Lucilia_sericata_XM_037951088:0.0139084775)100:0.0232752571,(Lucilia_cuprina_XM_023438453:0.0150892662,Lucilia_cuprina_XM_023438456:0.0116699579)100:0.0151226660)100:0.0760768523)68:0.0305428943)99:0.0778690931,((Lucilia_sericata_XM_037951090:0.0394104873,Lucilia_cuprina_XM_023438454:0.0117885863)100:0.0970702817,(Protophormia_terraenovae_LysC2:0.0082437032,Phormia_regina_LysC1:0.0524968261)100:0.0715542840)100:0.0904933958)75:0.0559818521,((((((((Stomoxys_calcitrans_XM_059370494:0.0518751264,Stomoxys_calcitrans_XM_013257674:0.0276085805)41:0.0095873008,Stomoxys_calcitrans_XM_059370492:0.0188227813)29:0.0071423341,Stomoxys_calcitrans_XM_059370490:0.0030783005)28:0.0023946764,Stomoxys_calcitrans_XM_059370493:0.0141705141)30:0.0058233048,Stomoxys_calcitrans_XM_059370495:0.0200068333)30:0.0020576664,Stomoxys_calcitrans_XM_013257675:0.0151532999)100:0.0594948663,((((Stomoxys_calcitrans_XM_013257684:0.0424816105,Stomoxys_calcitrans_XM_013257687:0.0219063186)85:0.0105405429,Stomoxys_calcitrans_XM_013257686:0.0145992372)100:0.0227728852,Stomoxys_calcitrans_XM_013257682:0.0374757182)100:0.0321924291,(Stomoxys_calcitrans_XM_013257685:0.0071990480,Stomoxys_calcitrans_XM_013257683:0.0267155304)100:0.0105302363)99:0.0233233757)48:0.0178058466,(((((Musca_domestica_XM_005185318:0.0443235628,(Musca_domestica_XM_059126266:0.0164441118,Musca_domestica_XM_059126267:0.0383784602)100:0.0064875680)90:0.0150339529,Musca_domestica_XM_005185309:0.0382917347)73:0.0052198819,Musca_domestica_XM_020035064:0.0187791166)100:0.0427857993,(Musca_domestica_XM_020035063:0.0414834649,Musca_domestica_XM_011292185:0.0278362655)100:0.0507173456)99:0.0770255988,(((Musca_domestica_XM_020035061:0.0352717947,(Musca_domestica_XM_020035062:0.0180528711,Musca_domestica_XM_011292181:0.0246858267)92:0.0079450434)99:0.0106751102,(((Musca_domestica_XM_020035060:0.0204159645,Musca_domestica_XM_005178415:0.0168393445)100:0.0053600761,Musca_domestica_XM_005178434:0.0621963279)99:0.0056899602,Musca_domestica_XM_011292180:0.0334949248)100:0.0090035330)99:0.0139378103,Musca_domestica_XM_005178411:0.0140415401)100:0.0322941281)29:0.0182063993)41:0.0000029450)90:0.1290127675,Musca_domestica_XM_005178432:0.7364370216)100:0.2589975489)98:0.1280855509,(Stomorhina_lunata_LysC6:0.0709019033,Stomorhina_lunata_LysC7:0.0243444245)100:0.0701773374)46:0.0211608014,(((Calliphora_vicina_XM_065511310:0.0374071975,Calliphora_vomitoria_LysC6:0.0272637583)100:0.0099703827,(((Calliphora_vomitoria_LysC7:0.0303305007,Calliphora_vomitoria_LysC8:0.0381183140)100:0.0105052939,Bellardia_pandia_LysC4:0.3910618874)66:0.0000023522,(Bellardia_pandia_LysC3:0.0389870345,Bellardia_bayeri_LysC4:0.0145071346)100:0.0588573684)77:0.0111991255)76:0.0037585162,Bellardia_pandia_LysC2:0.1236164515)97:0.0305924472)42:0.0159366046,((((Chrysomya_bezziana_lysc5:0.0344558540,Chrysomya_bezziana_lysc6:0.0357116298)100:0.0514234306,(Phyto_melanocephala_LysC3:0.2218826377,Paykullia_maculata_LysC1:0.2753866395)97:0.0695801369)83:0.0182604592,((((((Protophormia_terraenovae_LysC10:0.0298165732,Phormia_regina_LysC8:0.0552263599)99:0.0133211033,Protophormia_terraenovae_LysC11:0.0382206467)100:0.0331692113,(Chrysomya_rufifacies_LysC4:0.0478327932,Chrysomya_rufifacies_LysC6:0.0268408087)100:0.0535318043)86:0.0083947260,Phormia_regina_LysC11:0.0375670404)90:0.0180807673,(((Protophormia_terraenovae_LysC12:0.0199619695,Protophormia_terraenovae_LysC13:0.0175991686)81:0.0131911815,Protophormia_terraenovae_LysC15:0.0218747503)100:0.0226223286,Protophormia_terraenovae_LysC14:0.1214069255)98:0.0119816218)87:0.0074284523,Cochliomyia_hominivoraxUS_LysC1:0.1015998542)95:0.0273435522)79:0.0062831504,((((((Stomoxys_calcitrans_XM_059368529:0.0057910698,Stomoxys_calcitrans_XM_013259396:0.0103616601)92:0.0082701525,(Stomoxys_calcitrans_XM_059368530:0.0026739244,Stomoxys_calcitrans_XM_059368531:0.0000020309)93:0.0030775295)98:0.0074730301,Stomoxys_calcitrans_XM_013259399:0.0084216115)98:0.0052682334,Stomoxys_calcitrans_XM_059368532:0.0058186514)100:0.0169362325,(Stomoxys_calcitrans_XM_013259394:0.1705326361,Stomoxys_calcitrans_XM_013262540:0.0623214894)100:0.2435784645)50:0.0552480081,((((((((Musca_domestica_XM_059127590:0.0053630892,Musca_domestica_XM_059127594:0.0136827458)27:0.0000020938,(Musca_domestica_XM_059127591:0.0000023262,Musca_domestica_XM_059127592:0.0000021441)100:0.0107614802)71:0.0026674264,((Musca_domestica_XM_059127601:0.0135920786,Musca_domestica_XM_059127603:0.0107722737)17:0.0000021458,Musca_domestica_XM_020037581:0.0108221039)21:0.0000027657)36:0.0026852578,Musca_domestica_XM_059127595:0.0107846028)33:0.0026722130,(Musca_domestica_XM_059127597:0.0026596479,Musca_domestica_XM_005185778:0.0027034957)89:0.0026629120)34:0.0026795549,(((Musca_domestica_XM_005185770:0.0000022173,Musca_domestica_XM_059127598:0.0081066828)100:0.0053864175,(Musca_domestica_XM_059127599:0.0026550785,Musca_domestica_XM_059127602:0.0110249403)100:0.0164769153)53:0.0000029681,((Musca_domestica_XM_005185779:0.0411003819,Musca_domestica_XM_059127596:0.0133700137)100:0.0277672145,Musca_domestica_XM_020037580:0.0143685796)84:0.0147501612)99:0.0026957755)14:0.0000020892,Musca_domestica_NM_001308972:0.0107496921)96:0.0070231951,Musca_domestica_XM_020037574:0.0064481492)100:0.0565842562)50:0.0455980846)44:0.0222692530)80:0.0541486339,((((((Chrysomya_bezziana_lysc8:0.0330360508,(Chrysomya_megacephala_LysC2:0.0000010178,(Chrysomya_megacephala_LysC9:0.0000010178,Chrysomya_megacephala_LysC10:0.0000010178)94:0.0000028189)100:0.0465762549)100:0.2736589341,Protophormia_terraenovae_LysC5:0.0000022777)55:0.0150170683,(Protocalliphora_azurea_LysC1:0.0578125487,Phormia_regina_LysC10:0.0967717407)44:0.0247392301)34:0.0129662321,((Protophormia_terraenovae_LysC6:0.0020309869,Protophormia_terraenovae_LysC8:0.0480238943)100:0.1871010800,Cochliomyia_hominivoraxUS_LysC2:0.3963223363)94:0.1083449712)54:0.0196738305,Protophormia_terraenovae_LysC7:0.0545902680)98:0.3098574623,((((Calliphora_vicina_XM_065511531:0.0466922139,(Calliphora_vomitoria_LysC3:0.0061677554,Calliphora_vomitoria_LysC4:0.0106889831)100:0.0352503784)90:0.0231426389,Calliphora_vicina_XM_065512022:0.1145127869)97:0.0609911677,((Lucilia_sericata_XM_037958003:0.0502505376,(Lucilia_cuprina_XM_046955615:0.0000010178,Lucilia_cuprina_XM_046955614:0.0000010178)100:0.0930260039)100:0.2716328450,Lucilia_sericata_XM_037958005:0.2021291629)100:0.2102278305)97:0.0689557212,(Bellardia_pandia_LysC1:0.0470293023,Bellardia_bayeri_LysC1:0.0150220743)100:0.1224156078)96:0.0733780878)39:0.0355629134)91:0.1601644580,Stomoxys_calcitrans_XM_013259395:0.4030011961)92:0.1260976694,Stomorhina_lunata_LysC4:0.5085148117)99:0.4576371960)100:1.1087013990)100:0.8447606808,(Stomoxys_calcitrans_XM_013256305:0.1007606397,Musca_domestica_XM_005187455:0.1414042271)88:0.2658488349);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 10000 bootstrap trees
+Log-likelihood of consensus tree: -33937.897737
+Robinson-Foulds distance between ML tree and consensus tree: 44
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Glossina_morsitans_DQ307162
+|
+|                                  +--Chrysomya_bezziana_lyscc1
+|                               +--| (67)
+|                               |  +--Chrysomya_megacephala_LysCC1
+|                            +--| (47)
+|                            |  +--Chrysomya_rufifacies_LysCC1
+|                         +--| (34)
+|                         |  +--Cochliomyia_hominivoraxUS_LysCC1
+|                      +--| (42)
+|                      |  |                 +--Calliphora_vicina_XM_065513499
+|                      |  |              +--| (100)
+|                      |  |              |  +--Calliphora_vomitoria_LysCC1
+|                      |  |           +--| (100)
+|                      |  |           |  |  +--Bellardia_pandia_LysCC1
+|                      |  |           |  +--| (100)
+|                      |  |           |     +--Bellardia_bayeri_LysCC1
+|                      |  |        +--| (97)
+|                      |  |        |  |  +--Lucilia_sericata_XM_037964714
+|                      |  |        |  +--| (100)
+|                      |  |        |     +--Lucilia_cuprina_XM_046953569
+|                      |  |     +--| (95)
+|                      |  |     |  +--Stomorhina_lunata_LysCC1
+|                      |  |  +--| (95)
+|                      |  |  |  |  +--Phyto_melanocephala_LysCC1
+|                      |  |  |  +--| (99)
+|                      |  |  |     |  +--Paykullia_maculata_LysCC1
+|                      |  |  |     +--| (99)
+|                      |  |  |        +--Melanophora_roralis_LysCC1
+|                      |  +--| (50)
+|                      |     |     +--Protophormia_terraenovae_LysCC1
+|                      |     |  +--| (98)
+|                      |     |  |  +--Phormia_regina_LysCC1
+|                      |     +--| (100)
+|                      |        +--Protocalliphora_azurea_LysCC1
+|           +----------| (100)
+|           |          |      +--Stomoxys_calcitrans_XM_013256299
+|           |          |   +--| (92)
+|           |          |   |  +--Musca_domestica_XM_005187448
+|           |          +---| (100)
+|           |              +----Musca_domestica_XM_005187451
++-----------| (100)
+|           |                                             +--Chrysomya_bezziana_lyscp
+|           |                                          +--| (85)
+|           |                                          |  +--Chrysomya_rufifacies_LysC5
+|           |                                       +--| (85)
+|           |                                       |  |     +--Protophormia_terraenovae_LysC16
+|           |                                       |  |  +--| (100)
+|           |                                       |  |  |  +--Phormia_regina_LysC3
+|           |                                       |  +--| (100)
+|           |                                       |     +--Protocalliphora_azurea_LysC4
+|           |                                    +--| (85)
+|           |                                    |  |      +--Stomoxys_calcitrans_XM_013262434
+|           |                                    |  |  +---| (100)
+|           |                                    |  |  |   |    +--Musca_domestica_XM_005184849
+|           |                                    |  |  |   +----| (100)
+|           |                                    |  |  |        +--Musca_domestica_XM_059128787
+|           |                                    |  +--| (75)
+|           |                                    |     +--Stomorhina_lunata_LysC2
+|           |                                 +--| (89)
+|           |                                 |  |     +--Phyto_melanocephala_LysC1
+|           |                                 |  |  +--| (93)
+|           |                                 |  |  |  +--Paykullia_maculata_LysC3
+|           |                                 |  +--| (90)
+|           |                                 |     +--Melanophora_roralis_LysC1
+|           |                              +--| (89)
+|           |                              |  |  +--Lucilia_sericata_XM_037958027
+|           |                              |  +--| (100)
+|           |                              |     +--Lucilia_cuprina_XM_023441183
+|           |                   +----------| (100)
+|           |                   |          |     +--Calliphora_vicina_XM_065512512
+|           |                   |          |  +--| (100)
+|           |                   |          |  |  +--Calliphora_vomitoria_LysC9
+|           |                   |          +--| (91)
+|           |                   |             |  +--Bellardia_pandia_LysC6
+|           |                   |             +--| (99)
+|           |                   |                +--Bellardia_bayeri_LysC6
+|           |               +---| (96)
+|           |               |   |                       +--Chrysomya_bezziana_lysc1b
+|           |               |   |                    +--| (100)
+|           |               |   |                    |  +--Chrysomya_rufifacies_LysC3
+|           |               |   |                 +--| (99)
+|           |               |   |                 |  +--Cochliomyia_hominivoraxUS_LysC4
+|           |               |   |              +--| (92)
+|           |               |   |              |  |           +--Calliphora_vicina_LysCP
+|           |               |   |              |  |        +--| (100)
+|           |               |   |              |  |        |  +--Calliphora_vomitoria_LysC10
+|           |               |   |              |  |     +--| (100)
+|           |               |   |              |  |     |  |  +--Bellardia_pandia_LysC5
+|           |               |   |              |  |     |  +--| (100)
+|           |               |   |              |  |     |     +--Bellardia_bayeri_LysC5
+|           |               |   |              |  |  +--| (81)
+|           |               |   |              |  |  |  |  +--Phyto_melanocephala_LysC2
+|           |               |   |              |  |  |  +--| (100)
+|           |               |   |              |  |  |     |  +--Paykullia_maculata_LysC2
+|           |               |   |              |  |  |     +--| (98)
+|           |               |   |              |  |  |        +--Melanophora_roralis_LysC2
+|           |               |   |              |  +--| (94)
+|           |               |   |              |     |         +--Stomoxys_calcitrans_XM_013262443
+|           |               |   |              |     |     +---| (95)
+|           |               |   |              |     |     |   +-----Musca_domestica_XM_059128789
+|           |               |   |              |     |  +--| (93)
+|           |               |   |              |     |  |  |  +--Lucilia_sericata_XM_037958029
+|           |               |   |              |     |  |  +--| (74)
+|           |               |   |              |     |  |     +--Lucilia_cuprina_XM_023441184
+|           |               |   |              |     +--| (63)
+|           |               |   |              |        +--Stomorhina_lunata_LysC1
+|           |               |   |           +--| (52)
+|           |               |   |           |  +--Protocalliphora_azurea_LysC5
+|           |               |   +-----------| (100)
+|           |               |               |  +--Protophormia_terraenovae_LysC17
+|           |               |               +--| (45)
+|           |               |                  +--Phormia_regina_LysC6
+|           +---------------| (100)
+|                           |                                                              +--Chrysomya_bezziana_lysc1
+|                           |                                                           +--| (93)
+|                           |                                                           |  +--Chrysomya_megacephala_LysC3
+|                           |                                                        +--| (66)
+|                           |                                                        |  +--Chrysomya_megacephala_LysC4
+|                           |                                                     +--| (97)
+|                           |                                                     |  +--Chrysomya_bezziana_lysc2
+|                           |                                                  +--| (100)
+|                           |                                                  |  +--Chrysomya_megacephala_LysC5
+|                           |                                               +--| (63)
+|                           |                                               |  +--Lucilia_cuprina_XM_023448796
+|                           |                                            +--| (63)
+|                           |                                            |  +--Lucilia_cuprina_XM_023448797
+|                           |                                         +--| (49)
+|                           |                                         |  |        +--Lucilia_sericata_XM_037963752
+|                           |                                         |  |     +--| (80)
+|                           |                                         |  |     |  |  +--Lucilia_sericata_XM_037963760
+|                           |                                         |  |     |  +--| (73)
+|                           |                                         |  |     |     |  +--Lucilia_sericata_XM_037963755
+|                           |                                         |  |     |     +--| (73)
+|                           |                                         |  |     |        +--Lucilia_sericata_XM_037963756
+|                           |                                         |  |  +--| (90)
+|                           |                                         |  |  |  +--Lucilia_sericata_XM_037963759
+|                           |                                         |  +--| (78)
+|                           |                                         |     +--Lucilia_sericata_XM_037963757
+|                           |                                      +--| (58)
+|                           |                                      |  |     +--Lucilia_cuprina_XM_046955367
+|                           |                                      |  |  +--| (100)
+|                           |                                      |  |  |  +--Lucilia_cuprina_XM_023448798
+|                           |                                      |  +--| (100)
+|                           |                                      |     +--Lucilia_cuprina_XM_023448799
+|                           |                                   +--| (82)
+|                           |                                   |  +--Lucilia_sericata_XM_037963758
+|                           |                                +--| (95)
+|                           |                                |  |     +--Protophormia_terraenovae_LysC20
+|                           |                                |  |  +--| (100)
+|                           |                                |  |  |  +--Phormia_regina_LysC4
+|                           |                                |  +--| (100)
+|                           |                                |     +--Cochliomyia_hominivoraxUS_LysC6
+|                           |                             +--| (95)
+|                           |                             |  |                    +--Calliphora_vicina_XM_065499793
+|                           |                             |  |                 +--| (57)
+|                           |                             |  |                 |  |  +--Calliphora_vicina_XM_065499876
+|                           |                             |  |                 |  +--| (97)
+|                           |                             |  |                 |     |        +--Calliphora_vicina_XM_065500492
+|                           |                             |  |                 |     |     +--| (100)
+|                           |                             |  |                 |     |     |  +--Calliphora_vicina_XM_065500526
+|                           |                             |  |                 |     |  +--| (76)
+|                           |                             |  |                 |     |  |  +--Calliphora_vicina_XM_065500692
+|                           |                             |  |                 |     +--| (97)
+|                           |                             |  |                 |        +--Calliphora_vicina_XM_065500698
+|                           |                             |  |              +--| (97)
+|                           |                             |  |              |  +--Calliphora_vicina_XM_065499877
+|                           |                             |  |           +--| (95)
+|                           |                             |  |           |  +--Calliphora_vomitoria_LysC14
+|                           |                             |  |        +--| (100)
+|                           |                             |  |        |  |  +--Calliphora_vomitoria_LysC12
+|                           |                             |  |        |  +--| (100)
+|                           |                             |  |        |     +--Calliphora_vomitoria_LysC15
+|                           |                             |  |     +--| (50)
+|                           |                             |  |     |  |     +--Calliphora_vicina_XM_065500622
+|                           |                             |  |     |  |  +--| (61)
+|                           |                             |  |     |  |  |  +--Calliphora_vomitoria_LysC11
+|                           |                             |  |     |  +--| (63)
+|                           |                             |  |     |     +--Calliphora_vomitoria_LysC16
+|                           |                             |  |  +--| (98)
+|                           |                             |  |  |  +--Calliphora_vomitoria_LysC13
+|                           |                             |  +--| (92)
+|                           |                             |     |     +--Protophormia_terraenovae_LysC19
+|                           |                             |     |  +--| (100)
+|                           |                             |     |  |  +--Phormia_regina_LysC5
+|                           |                             |     +--| (100)
+|                           |                             |        +--Cochliomyia_hominivoraxUS_LysC3
+|                           |                          +--| (98)
+|                           |                          |  |              +--Chrysomya_bezziana_lysc7
+|                           |                          |  |           +--| (100)
+|                           |                          |  |           |  |              +**Chrysomya_megacephala_LysC1
+|                           |                          |  |           |  |           +**|
+|                           |                          |  |           |  |           |  +**Chrysomya_megacephala_LysC17
+|                           |                          |  |           |  |        +--|
+|                           |                          |  |           |  |        |  +**Chrysomya_megacephala_LysC16
+|                           |                          |  |           |  |     +--| (59)
+|                           |                          |  |           |  |     |  +--Chrysomya_megacephala_LysC7
+|                           |                          |  |           |  |  +--| (100)
+|                           |                          |  |           |  |  |  +--Chrysomya_megacephala_LysC6
+|                           |                          |  |           |  +--| (99)
+|                           |                          |  |           |     +--Chrysomya_megacephala_LysC8
+|                           |                          |  |        +--| (77)
+|                           |                          |  |        |  |     +--Protophormia_terraenovae_LysC9
+|                           |                          |  |        |  |  +--| (100)
+|                           |                          |  |        |  |  |  +--Phormia_regina_LysC9
+|                           |                          |  |        |  +--| (100)
+|                           |                          |  |        |     +--Protocalliphora_azurea_LysC2
+|                           |                          |  |     +--| (98)
+|                           |                          |  |     |  |        +--Lucilia_sericata_XM_037958008
+|                           |                          |  |     |  |     +--| (100)
+|                           |                          |  |     |  |     |  +--Lucilia_cuprina_XM_046955619
+|                           |                          |  |     |  |  +--| (100)
+|                           |                          |  |     |  |  |  +--Stomorhina_lunata_LysC5
+|                           |                          |  |     |  +--| (81)
+|                           |                          |  |     |     +--Cochliomyia_hominivoraxUS_LysC5
+|                           |                          |  |  +--| (99)
+|                           |                          |  |  |  |     +--Calliphora_vicina_XM_065512186
+|                           |                          |  |  |  |  +--| (100)
+|                           |                          |  |  |  |  |  +--Calliphora_vomitoria_LysC5
+|                           |                          |  |  |  +--| (99)
+|                           |                          |  |  |     |      +--Lucilia_sericata_XM_037958002
+|                           |                          |  |  |     +------| (100)
+|                           |                          |  |  |            +--Lucilia_cuprina_XM_023439612
+|                           |                          |  +--| (99)
+|                           |                          |     +--Phyto_melanocephala_LysC4
+|                           |                       +--| (98)
+|                           |                       |  |                       +--Chrysomya_bezziana_lysc3
+|                           |                       |  |                    +--| (100)
+|                           |                       |  |                    |  +--Chrysomya_megacephala_LysC15
+|                           |                       |  |                 +--| (100)
+|                           |                       |  |                 |  |        +--Chrysomya_rufifacies_LysC1
+|                           |                       |  |                 |  |     +--| (100)
+|                           |                       |  |                 |  |     |  +--Chrysomya_rufifacies_LysC2
+|                           |                       |  |                 |  |  +--| (100)
+|                           |                       |  |                 |  |  |  +--Chrysomya_megacephala_LysC13
+|                           |                       |  |                 |  +--| (92)
+|                           |                       |  |                 |     +--Chrysomya_megacephala_LysC14
+|                           |                       |  |              +--| (95)
+|                           |                       |  |              |  |     +--Protophormia_terraenovae_LysC1
+|                           |                       |  |              |  |  +--| (100)
+|                           |                       |  |              |  |  |  +--Protophormia_terraenovae_LysC3
+|                           |                       |  |              |  +--| (100)
+|                           |                       |  |              |     |  +--Protophormia_terraenovae_LysC4
+|                           |                       |  |              |     +--| (71)
+|                           |                       |  |              |        +--Phormia_regina_LysC2
+|                           |                       |  |           +--| (99)
+|                           |                       |  |           |  |        +--Calliphora_vicina_XM_065511517
+|                           |                       |  |           |  |     +--| (53)
+|                           |                       |  |           |  |     |  |     +---Stomorhina_lunata_LysC3
+|                           |                       |  |           |  |     |  |  +--| (67)
+|                           |                       |  |           |  |     |  |  |  +--Calliphora_vomitoria_LysC1
+|                           |                       |  |           |  |     |  +--| (67)
+|                           |                       |  |           |  |     |     +--Calliphora_vomitoria_LysC2
+|                           |                       |  |           |  |  +--| (68)
+|                           |                       |  |           |  |  |  +--Calliphora_vicina_XM_065511645
+|                           |                       |  |           |  +--| (68)
+|                           |                       |  |           |     |     +--Lucilia_sericata_XM_037951089
+|                           |                       |  |           |     |  +--| (100)
+|                           |                       |  |           |     |  |  +--Lucilia_sericata_XM_037951088
+|                           |                       |  |           |     +--| (100)
+|                           |                       |  |           |        |  +--Lucilia_cuprina_XM_023438453
+|                           |                       |  |           |        +--| (100)
+|                           |                       |  |           |           +--Lucilia_cuprina_XM_023438456
+|                           |                       |  |        +--| (75)
+|                           |                       |  |        |  |     +--Lucilia_sericata_XM_037951090
+|                           |                       |  |        |  |  +--| (100)
+|                           |                       |  |        |  |  |  +--Lucilia_cuprina_XM_023438454
+|                           |                       |  |        |  +--| (100)
+|                           |                       |  |        |     |  +--Protophormia_terraenovae_LysC2
+|                           |                       |  |        |     +--| (100)
+|                           |                       |  |        |        +--Phormia_regina_LysC1
+|                           |                       |  |     +--| (45)
+|                           |                       |  |     |  |        +--Musca_domestica_XM_020035061
+|                           |                       |  |     |  |     +--| (99)
+|                           |                       |  |     |  |     |  |  +--Musca_domestica_XM_020035062
+|                           |                       |  |     |  |     |  +--| (92)
+|                           |                       |  |     |  |     |     +--Musca_domestica_XM_011292181
+|                           |                       |  |     |  |  +--| (99)
+|                           |                       |  |     |  |  |  |        +--Musca_domestica_XM_020035060
+|                           |                       |  |     |  |  |  |     +--| (100)
+|                           |                       |  |     |  |  |  |     |  +--Musca_domestica_XM_005178415
+|                           |                       |  |     |  |  |  |  +--| (99)
+|                           |                       |  |     |  |  |  |  |  +--Musca_domestica_XM_005178434
+|                           |                       |  |     |  |  |  +--| (100)
+|                           |                       |  |     |  |  |     +--Musca_domestica_XM_011292180
+|                           |                       |  |     |  +--| (100)
+|                           |                       |  |     |     +--Musca_domestica_XM_005178411
+|                           |                       |  |  +--| (90)
+|                           |                       |  |  |  |        +--Stomoxys_calcitrans_XM_059370494
+|                           |                       |  |  |  |     +--| (100)
+|                           |                       |  |  |  |     |  |           +--Stomoxys_calcitrans_XM_059370495
+|                           |                       |  |  |  |     |  |        +--| (68)
+|                           |                       |  |  |  |     |  |        |  +--Stomoxys_calcitrans_XM_013257675
+|                           |                       |  |  |  |     |  |     +--| (51)
+|                           |                       |  |  |  |     |  |     |  +--Stomoxys_calcitrans_XM_059370493
+|                           |                       |  |  |  |     |  |  +--| (47)
+|                           |                       |  |  |  |     |  |  |  +--Stomoxys_calcitrans_XM_059370490
+|                           |                       |  |  |  |     |  +--| (59)
+|                           |                       |  |  |  |     |     |  +--Stomoxys_calcitrans_XM_059370492
+|                           |                       |  |  |  |     |     +--| (28)
+|                           |                       |  |  |  |     |        +--Stomoxys_calcitrans_XM_013257674
+|                           |                       |  |  |  |  +--| (48)
+|                           |                       |  |  |  |  |  |           +--Stomoxys_calcitrans_XM_013257684
+|                           |                       |  |  |  |  |  |        +--| (85)
+|                           |                       |  |  |  |  |  |        |  +--Stomoxys_calcitrans_XM_013257687
+|                           |                       |  |  |  |  |  |     +--| (100)
+|                           |                       |  |  |  |  |  |     |  +--Stomoxys_calcitrans_XM_013257686
+|                           |                       |  |  |  |  |  |  +--| (100)
+|                           |                       |  |  |  |  |  |  |  +--Stomoxys_calcitrans_XM_013257682
+|                           |                       |  |  |  |  |  +--| (99)
+|                           |                       |  |  |  |  |     |  +--Stomoxys_calcitrans_XM_013257685
+|                           |                       |  |  |  |  |     +--| (100)
+|                           |                       |  |  |  |  |        +--Stomoxys_calcitrans_XM_013257683
+|                           |                       |  |  |  +--| (51)
+|                           |                       |  |  |     |           +--Musca_domestica_XM_005185318
+|                           |                       |  |  |     |        +--| (90)
+|                           |                       |  |  |     |        |  |  +--Musca_domestica_XM_059126266
+|                           |                       |  |  |     |        |  +--| (100)
+|                           |                       |  |  |     |        |     +--Musca_domestica_XM_059126267
+|                           |                       |  |  |     |     +--| (73)
+|                           |                       |  |  |     |     |  +--Musca_domestica_XM_005185309
+|                           |                       |  |  |     |  +--| (100)
+|                           |                       |  |  |     |  |  +--Musca_domestica_XM_020035064
+|                           |                       |  |  |     +--| (99)
+|                           |                       |  |  |        |  +--Musca_domestica_XM_020035063
+|                           |                       |  |  |        +--| (100)
+|                           |                       |  |  |           +--Musca_domestica_XM_011292185
+|                           |                       |  +--| (100)
+|                           |                       |     +----------Musca_domestica_XM_005178432
+|                           |                    +--| (46)
+|                           |                    |  |  +--Stomorhina_lunata_LysC6
+|                           |                    |  +--| (100)
+|                           |                    |     +--Stomorhina_lunata_LysC7
+|                           |                 +--| (42)
+|                           |                 |  |        +--Calliphora_vicina_XM_065511310
+|                           |                 |  |     +--| (100)
+|                           |                 |  |     |  +--Calliphora_vomitoria_LysC6
+|                           |                 |  |  +--| (76)
+|                           |                 |  |  |  |        +--Calliphora_vomitoria_LysC7
+|                           |                 |  |  |  |     +--| (100)
+|                           |                 |  |  |  |     |  +--Calliphora_vomitoria_LysC8
+|                           |                 |  |  |  |  +--| (66)
+|                           |                 |  |  |  |  |  +----Bellardia_pandia_LysC4
+|                           |                 |  |  |  +--| (77)
+|                           |                 |  |  |     |  +--Bellardia_pandia_LysC3
+|                           |                 |  |  |     +--| (100)
+|                           |                 |  |  |        +--Bellardia_bayeri_LysC4
+|                           |                 |  +--| (97)
+|                           |                 |     +--Bellardia_pandia_LysC2
+|                           |              +--| (80)
+|                           |              |  |           +--Chrysomya_bezziana_lysc5
+|                           |              |  |        +--| (100)
+|                           |              |  |        |  +--Chrysomya_bezziana_lysc6
+|                           |              |  |     +--| (83)
+|                           |              |  |     |  |  +--Phyto_melanocephala_LysC3
+|                           |              |  |     |  +--| (97)
+|                           |              |  |     |     +---Paykullia_maculata_LysC1
+|                           |              |  |  +--| (79)
+|                           |              |  |  |  |                 +--Protophormia_terraenovae_LysC10
+|                           |              |  |  |  |              +--| (99)
+|                           |              |  |  |  |              |  +--Phormia_regina_LysC8
+|                           |              |  |  |  |           +--| (100)
+|                           |              |  |  |  |           |  +--Protophormia_terraenovae_LysC11
+|                           |              |  |  |  |        +--| (86)
+|                           |              |  |  |  |        |  |  +--Chrysomya_rufifacies_LysC4
+|                           |              |  |  |  |        |  +--| (100)
+|                           |              |  |  |  |        |     +--Chrysomya_rufifacies_LysC6
+|                           |              |  |  |  |     +--| (90)
+|                           |              |  |  |  |     |  +--Phormia_regina_LysC11
+|                           |              |  |  |  |  +--| (87)
+|                           |              |  |  |  |  |  |        +--Protophormia_terraenovae_LysC12
+|                           |              |  |  |  |  |  |     +--| (81)
+|                           |              |  |  |  |  |  |     |  +--Protophormia_terraenovae_LysC13
+|                           |              |  |  |  |  |  |  +--| (100)
+|                           |              |  |  |  |  |  |  |  +--Protophormia_terraenovae_LysC15
+|                           |              |  |  |  |  |  +--| (98)
+|                           |              |  |  |  |  |     +--Protophormia_terraenovae_LysC14
+|                           |              |  |  |  +--| (95)
+|                           |              |  |  |     +--Cochliomyia_hominivoraxUS_LysC1
+|                           |              |  +--| (44)
+|                           |              |     |                 +--Stomoxys_calcitrans_XM_059368529
+|                           |              |     |              +--| (92)
+|                           |              |     |              |  +--Stomoxys_calcitrans_XM_013259396
+|                           |              |     |           +--| (98)
+|                           |              |     |           |  |  +--Stomoxys_calcitrans_XM_059368530
+|                           |              |     |           |  +--| (93)
+|                           |              |     |           |     +--Stomoxys_calcitrans_XM_059368531
+|                           |              |     |        +--| (98)
+|                           |              |     |        |  +--Stomoxys_calcitrans_XM_013259399
+|                           |              |     |     +--| (100)
+|                           |              |     |     |  +--Stomoxys_calcitrans_XM_059368532
+|                           |              |     |  +--| (50)
+|                           |              |     |  |  |  +--Stomoxys_calcitrans_XM_013259394
+|                           |              |     |  |  +--| (100)
+|                           |              |     |  |     +--Stomoxys_calcitrans_XM_013262540
+|                           |              |     +--| (50)
+|                           |              |        |                    +--Musca_domestica_XM_059127590
+|                           |              |        |                 +--| (71)
+|                           |              |        |                 |  |     +--Musca_domestica_XM_059127591
+|                           |              |        |                 |  |  +--| (100)
+|                           |              |        |                 |  |  |  +--Musca_domestica_XM_059127592
+|                           |              |        |                 |  +--| (63)
+|                           |              |        |                 |     +--Musca_domestica_XM_059127594
+|                           |              |        |              +--| (53)
+|                           |              |        |              |  |  +--Musca_domestica_XM_059127603
+|                           |              |        |              |  +--| (38)
+|                           |              |        |              |     +--Musca_domestica_XM_020037581
+|                           |              |        |           +--| (50)
+|                           |              |        |           |  +--Musca_domestica_XM_059127595
+|                           |              |        |        +--| (48)
+|                           |              |        |        |  |  +--Musca_domestica_XM_059127597
+|                           |              |        |        |  +--| (89)
+|                           |              |        |        |     +--Musca_domestica_XM_005185778
+|                           |              |        |     +--| (50)
+|                           |              |        |     |  |           +--Musca_domestica_XM_005185770
+|                           |              |        |     |  |        +--| (100)
+|                           |              |        |     |  |        |  +--Musca_domestica_XM_059127598
+|                           |              |        |     |  |     +--| (53)
+|                           |              |        |     |  |     |  |  +--Musca_domestica_XM_059127599
+|                           |              |        |     |  |     |  +--| (100)
+|                           |              |        |     |  |     |     +--Musca_domestica_XM_059127602
+|                           |              |        |     |  |  +--| (99)
+|                           |              |        |     |  |  |  |     +--Musca_domestica_XM_005185779
+|                           |              |        |     |  |  |  |  +--| (100)
+|                           |              |        |     |  |  |  |  |  +--Musca_domestica_XM_059127596
+|                           |              |        |     |  |  |  +--| (84)
+|                           |              |        |     |  |  |     +--Musca_domestica_XM_020037580
+|                           |              |        |     |  +--| (35)
+|                           |              |        |     |     +--Musca_domestica_NM_001308972
+|                           |              |        |  +--| (96)
+|                           |              |        |  |  +--Musca_domestica_XM_059127601
+|                           |              |        +--| (100)
+|                           |              |           +--Musca_domestica_XM_020037574
+|                           |           +--| (54)
+|                           |           |  |           +--Calliphora_vicina_XM_065511531
+|                           |           |  |        +--| (90)
+|                           |           |  |        |  |  +--Calliphora_vomitoria_LysC3
+|                           |           |  |        |  +--| (100)
+|                           |           |  |        |     +--Calliphora_vomitoria_LysC4
+|                           |           |  |     +--| (97)
+|                           |           |  |     |  +--Calliphora_vicina_XM_065512022
+|                           |           |  |  +--| (97)
+|                           |           |  |  |  |      +--Lucilia_sericata_XM_037958003
+|                           |           |  |  |  |  +---| (100)
+|                           |           |  |  |  |  |   |  +--Lucilia_cuprina_XM_046955615
+|                           |           |  |  |  |  |   +--| (100)
+|                           |           |  |  |  |  |      +--Lucilia_cuprina_XM_046955614
+|                           |           |  |  |  +--| (100)
+|                           |           |  |  |     +--Lucilia_sericata_XM_037958005
+|                           |           |  +--| (96)
+|                           |           |     |  +--Bellardia_pandia_LysC1
+|                           |           |     +--| (100)
+|                           |           |        +--Bellardia_bayeri_LysC1
+|                           |        +--| (91)
+|                           |        |  |             +--Chrysomya_bezziana_lysc8
+|                           |        |  |         +---| (100)
+|                           |        |  |         |   |  +--Chrysomya_megacephala_LysC2
+|                           |        |  |         |   +--| (100)
+|                           |        |  |         |      |              +**Chrysomya_megacephala_LysC9
+|                           |        |  |         |      |           +**|
+|                           |        |  |         |      |           |  +**Chrysomya_megacephala_LysC11
+|                           |        |  |         |      |        +**|
+|                           |        |  |         |      |        |  +**Chrysomya_megacephala_LysC12
+|                           |        |  |         |      |     +**|
+|                           |        |  |         |      |     |  +**Chrysomya_megacephala_LysC18
+|                           |        |  |         |      |  +--|
+|                           |        |  |         |      |  |  +**Chrysomya_megacephala_LysC19
+|                           |        |  |         |      +--| (94)
+|                           |        |  |         |         +--Chrysomya_megacephala_LysC10
+|                           |        |  |      +--| (55)
+|                           |        |  |      |  +--Protophormia_terraenovae_LysC5
+|                           |        |  |   +--| (54)
+|                           |        |  |   |  |           +--Protophormia_terraenovae_LysC6
+|                           |        |  |   |  |        +--| (100)
+|                           |        |  |   |  |        |  +--Protophormia_terraenovae_LysC8
+|                           |        |  |   |  |     +--| (94)
+|                           |        |  |   |  |     |  +-----Cochliomyia_hominivoraxUS_LysC2
+|                           |        |  |   |  |  +--| (50)
+|                           |        |  |   |  |  |  +--Phormia_regina_LysC10
+|                           |        |  |   |  +--| (45)
+|                           |        |  |   |     +--Protocalliphora_azurea_LysC1
+|                           |        |  +---| (98)
+|                           |        |      +--Protophormia_terraenovae_LysC7
+|                           |     +--| (92)
+|                           |     |  +-----Stomoxys_calcitrans_XM_013259395
+|                           +-----| (99)
+|                                 +------Stomorhina_lunata_LysC4
+|
+|   +--Stomoxys_calcitrans_XM_013256305
++---| (88)
+    +--Musca_domestica_XM_005187455
+
+
+Consensus tree in newick format: 
+
+(Glossina_morsitans_DQ307162:0.0502671211,((((((Chrysomya_bezziana_lyscc1:0.0201804010,Chrysomya_megacephala_LysCC1:0.0091349168)67:0.0656821724,Chrysomya_rufifacies_LysCC1:0.0995218137)47:0.0807920231,Cochliomyia_hominivoraxUS_LysCC1:0.1393279882)34:0.0210560542,((((((Calliphora_vicina_XM_065513499:0.0360360864,Calliphora_vomitoria_LysCC1:0.0222707544)100:0.0233685233,(Bellardia_pandia_LysCC1:0.0067635332,Bellardia_bayeri_LysCC1:0.0480182008)100:0.0455924013)100:0.0654686449,(Lucilia_sericata_XM_037964714:0.0104812833,Lucilia_cuprina_XM_046953569:0.0533904061)100:0.0921541106)97:0.0208670450,Stomorhina_lunata_LysCC1:0.1890924384)95:0.0075072897,(Phyto_melanocephala_LysCC1:0.1595320704,(Paykullia_maculata_LysCC1:0.0654678088,Melanophora_roralis_LysCC1:0.1104909137)99:0.0271516267)99:0.0759214608)95:0.0563986855,((Protophormia_terraenovae_LysCC1:0.0203149699,Phormia_regina_LysCC1:0.0538666064)98:0.0125468334,Protocalliphora_azurea_LysCC1:0.0373840335)100:0.0303834742)50:0.0015193027)42:0.1515546152,((Stomoxys_calcitrans_XM_013256299:0.2136555906,Musca_domestica_XM_005187448:0.1403012572)92:0.1230297512,Musca_domestica_XM_005187451:0.3477844589)100:0.2721376689)100:0.7559048905,((((((((Chrysomya_bezziana_lyscp:0.0521478838,Chrysomya_rufifacies_LysC5:0.0628592082)85:0.0603921335,((Protophormia_terraenovae_LysC16:0.0087051398,Phormia_regina_LysC3:0.0287545787)100:0.0108846631,Protocalliphora_azurea_LysC4:0.0113406732)100:0.0471030026)85:0.0467615556,((Stomoxys_calcitrans_XM_013262434:0.2661843246,(Musca_domestica_XM_005184849:0.0000020537,Musca_domestica_XM_059128787:0.0159072972)100:0.3924634949)100:0.2996098899,Stomorhina_lunata_LysC2:0.1604584319)75:0.0766990669)85:0.0247093689,((Phyto_melanocephala_LysC1:0.0724497201,Paykullia_maculata_LysC3:0.0707393781)93:0.0105732936,Melanophora_roralis_LysC1:0.1585898451)90:0.0267399646)89:0.0164615040,(Lucilia_sericata_XM_037958027:0.0472102635,Lucilia_cuprina_XM_023441183:0.0348384873)100:0.1025186270)89:0.0238108648,((Calliphora_vicina_XM_065512512:0.0180988051,Calliphora_vomitoria_LysC9:0.0174931611)100:0.0200191323,(Bellardia_pandia_LysC6:0.0082244856,Bellardia_bayeri_LysC6:0.0036783249)99:0.0282471470)91:0.0193030406)100:0.7487602843,(((((Chrysomya_bezziana_lysc1b:0.0837422086,Chrysomya_rufifacies_LysC3:0.1046282060)100:0.0576089749,Cochliomyia_hominivoraxUS_LysC4:0.1641054384)99:0.0252639937,((((Calliphora_vicina_LysCP:0.0325168821,Calliphora_vomitoria_LysC10:0.0271165100)100:0.0261346794,(Bellardia_pandia_LysC5:0.0121328803,Bellardia_bayeri_LysC5:0.0092231380)100:0.0867737899)100:0.1070934744,(Phyto_melanocephala_LysC2:0.1081149006,(Paykullia_maculata_LysC2:0.0668527336,Melanophora_roralis_LysC2:0.1061224866)98:0.0266661623)100:0.0968797705)81:0.0472525859,(((Stomoxys_calcitrans_XM_013262443:0.2070802233,Musca_domestica_XM_059128789:0.4638093341)95:0.2794500731,(Lucilia_sericata_XM_037958029:0.0235626319,Lucilia_cuprina_XM_023441184:0.0791392186)74:0.0843689595)93:0.0688146750,Stomorhina_lunata_LysC1:0.2623698306)63:0.0421180884)94:0.0813990525)92:0.0390706884,Protocalliphora_azurea_LysC5:0.0703369645)52:0.0220353105,(Protophormia_terraenovae_LysC17:0.0273966345,Phormia_regina_LysC6:0.0203360962)45:0.0000022807)100:0.8117993156)96:0.2681499285,((((((((((((((((((((Chrysomya_bezziana_lysc1:0.0347587836,Chrysomya_megacephala_LysC3:0.0424616625)93:0.0158197052,Chrysomya_megacephala_LysC4:0.0332829706)66:0.0213884222,Chrysomya_bezziana_lysc2:0.0323083020)97:0.0145850384,Chrysomya_megacephala_LysC5:0.0391155267)100:0.1101109301,Lucilia_cuprina_XM_023448796:0.0063213190)63:0.0183010310,Lucilia_cuprina_XM_023448797:0.0305431962)63:0.0130386076,(((Lucilia_sericata_XM_037963752:0.0029000629,(Lucilia_sericata_XM_037963760:0.0115951959,(Lucilia_sericata_XM_037963755:0.0207231944,Lucilia_sericata_XM_037963756:0.0147968243)73:0.0025744524)73:0.0028408778)80:0.0139099125,Lucilia_sericata_XM_037963759:0.0121800451)90:0.0034124521,Lucilia_sericata_XM_037963757:0.0533513842)78:0.0136669251)49:0.0118906819,((Lucilia_cuprina_XM_046955367:0.0836557920,Lucilia_cuprina_XM_023448798:0.0052379092)100:0.0093892200,Lucilia_cuprina_XM_023448799:0.0267876879)100:0.0234870014)58:0.0104410667,Lucilia_sericata_XM_037963758:0.0296713446)82:0.0336273236,((Protophormia_terraenovae_LysC20:0.0446912483,Phormia_regina_LysC4:0.0769094239)100:0.0538055041,Cochliomyia_hominivoraxUS_LysC6:0.0838077238)100:0.0464221905)95:0.0148210846,(((((((Calliphora_vicina_XM_065499793:0.0000023301,(Calliphora_vicina_XM_065499876:0.0000023301,(((Calliphora_vicina_XM_065500492:0.0177084743,Calliphora_vicina_XM_065500526:0.0086993816)100:0.0067405884,Calliphora_vicina_XM_065500692:0.0195599091)76:0.0026949266,Calliphora_vicina_XM_065500698:0.0066949311)97:0.0078130418)97:0.0028468768)57:0.0000023301,Calliphora_vicina_XM_065499877:0.0057243128)97:0.0090778657,Calliphora_vomitoria_LysC14:0.0173913798)95:0.0058384399,(Calliphora_vomitoria_LysC12:0.0115682378,Calliphora_vomitoria_LysC15:0.0115260588)100:0.0174805202)100:0.0093562906,((Calliphora_vicina_XM_065500622:0.0387934357,Calliphora_vomitoria_LysC11:0.0213680895)61:0.0051705391,Calliphora_vomitoria_LysC16:0.0177267465)63:0.0058943726)50:0.0025015874,Calliphora_vomitoria_LysC13:0.0215219693)98:0.0262090979,((Protophormia_terraenovae_LysC19:0.0272423096,Phormia_regina_LysC5:0.0615482216)100:0.0793751113,Cochliomyia_hominivoraxUS_LysC3:0.1173730530)100:0.0706943008)92:0.0178235728)95:0.0757198489,(((((Chrysomya_bezziana_lysc7:0.0280241054,(((((Chrysomya_megacephala_LysC1:0.0000000000,Chrysomya_megacephala_LysC17:0.0000000000):0.0000000000,Chrysomya_megacephala_LysC16:0.0000000000):0.0000023301,Chrysomya_megacephala_LysC7:0.0000023301)59:0.0000023301,Chrysomya_megacephala_LysC6:0.0000023301)100:0.0029280175,Chrysomya_megacephala_LysC8:0.0000023301)99:0.0146262492)100:0.1407974426,((Protophormia_terraenovae_LysC9:0.0139824321,Phormia_regina_LysC9:0.1051107066)100:0.0368377013,Protocalliphora_azurea_LysC2:0.0354579286)100:0.0498464989)77:0.0223015840,(((Lucilia_sericata_XM_037958008:0.0354812408,Lucilia_cuprina_XM_046955619:0.0419364585)100:0.2339382372,Stomorhina_lunata_LysC5:0.2298655535)100:0.1944371528,Cochliomyia_hominivoraxUS_LysC5:0.1625878272)81:0.0832125843)98:0.0680210443,((Calliphora_vicina_XM_065512186:0.0786009958,Calliphora_vomitoria_LysC5:0.0696030155)100:0.2251144556,(Lucilia_sericata_XM_037958002:0.0692379855,Lucilia_cuprina_XM_023439612:0.1165537017)100:0.5242461524)99:0.0888842411)99:0.0536918626,Phyto_melanocephala_LysC4:0.1891422811)99:0.1082791251)98:0.0640070618,((((((((Chrysomya_bezziana_lysc3:0.0207215474,Chrysomya_megacephala_LysC15:0.0000026062)100:0.0655968857,(((Chrysomya_rufifacies_LysC1:0.0000023301,Chrysomya_rufifacies_LysC2:0.0000023301)100:0.0600250309,Chrysomya_megacephala_LysC13:0.0644459772)100:0.0212338300,Chrysomya_megacephala_LysC14:0.1074434904)92:0.0151897719)100:0.0762880474,((Protophormia_terraenovae_LysC1:0.0297211905,Protophormia_terraenovae_LysC3:0.0156315275)100:0.0188656788,(Protophormia_terraenovae_LysC4:0.0274373149,Phormia_regina_LysC2:0.0780613608)71:0.0098202924)100:0.0282157544)95:0.0318485730,(((Calliphora_vicina_XM_065511517:0.0161979528,((Stomorhina_lunata_LysC3:0.2706530062,Calliphora_vomitoria_LysC1:0.0000023330)67:0.0057540953,Calliphora_vomitoria_LysC2:0.0172545842)67:0.0216041447)53:0.0058108459,Calliphora_vicina_XM_065511645:0.0382782047)68:0.0586600089,((Lucilia_sericata_XM_037951089:0.0156118055,Lucilia_sericata_XM_037951088:0.0138176523)100:0.0231704026,(Lucilia_cuprina_XM_023438453:0.0150066117,Lucilia_cuprina_XM_023438456:0.0116374505)100:0.0150609068)100:0.0757399170)68:0.0319917372)99:0.0759393153,((Lucilia_sericata_XM_037951090:0.0389154834,Lucilia_cuprina_XM_023438454:0.0120508745)100:0.0985431215,(Protophormia_terraenovae_LysC2:0.0081122623,Phormia_regina_LysC1:0.0523621121)100:0.0699285987)100:0.0923856383)75:0.0566405133,(((Musca_domestica_XM_020035061:0.0352821389,(Musca_domestica_XM_020035062:0.0177961440,Musca_domestica_XM_011292181:0.0247671061)92:0.0078917682)99:0.0106087906,(((Musca_domestica_XM_020035060:0.0202905332,Musca_domestica_XM_005178415:0.0168185268)100:0.0053876695,Musca_domestica_XM_005178434:0.0618059170)99:0.0056113927,Musca_domestica_XM_011292180:0.0334237482)100:0.0087851342)99:0.0137494100,Musca_domestica_XM_005178411:0.0142910717)100:0.0353286402)45:0.0079512891,(((Stomoxys_calcitrans_XM_059370494:0.0404931314,((((Stomoxys_calcitrans_XM_059370495:0.0199192887,Stomoxys_calcitrans_XM_013257675:0.0171151659)68:0.0056412167,Stomoxys_calcitrans_XM_059370493:0.0140377365)51:0.0026270375,Stomoxys_calcitrans_XM_059370490:0.0028730223)47:0.0056402059,(Stomoxys_calcitrans_XM_059370492:0.0167409479,Stomoxys_calcitrans_XM_013257674:0.0356209008)28:0.0041245146)59:0.0184365568)100:0.0472044364,((((Stomoxys_calcitrans_XM_013257684:0.0423519881,Stomoxys_calcitrans_XM_013257687:0.0217659034)85:0.0095613193,Stomoxys_calcitrans_XM_013257686:0.0156612462)100:0.0221741707,Stomoxys_calcitrans_XM_013257682:0.0371021853)100:0.0312765274,(Stomoxys_calcitrans_XM_013257685:0.0091771778,Stomoxys_calcitrans_XM_013257683:0.0245697220)100:0.0095180388)99:0.0214562353)48:0.0163286168,((((Musca_domestica_XM_005185318:0.0441613122,(Musca_domestica_XM_059126266:0.0165239487,Musca_domestica_XM_059126267:0.0380519723)100:0.0064722426)90:0.0153666494,Musca_domestica_XM_005185309:0.0377238064)73:0.0054995683,Musca_domestica_XM_020035064:0.0175944661)100:0.0425209274,(Musca_domestica_XM_020035063:0.0423697706,Musca_domestica_XM_011292185:0.0267549419)100:0.0515419727)99:0.0762919775)51:0.0102419759)90:0.1319805380,Musca_domestica_XM_005178432:0.7332057234)100:0.2627443572)98:0.1273629586,(Stomorhina_lunata_LysC6:0.0706879573,Stomorhina_lunata_LysC7:0.0241523902)100:0.0703500059)46:0.0216484037,(((Calliphora_vicina_XM_065511310:0.0372120356,Calliphora_vomitoria_LysC6:0.0271549375)100:0.0099562950,(((Calliphora_vomitoria_LysC7:0.0302335004,Calliphora_vomitoria_LysC8:0.0379713634)100:0.0105062387,Bellardia_pandia_LysC4:0.3907491094)66:0.0000024637,(Bellardia_pandia_LysC3:0.0388291098,Bellardia_bayeri_LysC4:0.0144356453)100:0.0585536767)77:0.0111617440)76:0.0038139581,Bellardia_pandia_LysC2:0.1231344773)97:0.0293778693)42:0.0160959387,((((Chrysomya_bezziana_lysc5:0.0342186906,Chrysomya_bezziana_lysc6:0.0356117451)100:0.0511142122,(Phyto_melanocephala_LysC3:0.2208451492,Paykullia_maculata_LysC1:0.2735469315)97:0.0695330141)83:0.0181863499,((((((Protophormia_terraenovae_LysC10:0.0296903632,Phormia_regina_LysC8:0.0549731180)99:0.0132751987,Protophormia_terraenovae_LysC11:0.0380293553)100:0.0330200603,(Chrysomya_rufifacies_LysC4:0.0476434582,Chrysomya_rufifacies_LysC6:0.0267046367)100:0.0533446780)86:0.0083508577,Phormia_regina_LysC11:0.0373269538)90:0.0179751543,(((Protophormia_terraenovae_LysC12:0.0198642316,Protophormia_terraenovae_LysC13:0.0175454912)81:0.0131834857,Protophormia_terraenovae_LysC15:0.0217197586)100:0.0225321812,Protophormia_terraenovae_LysC14:0.1207149568)98:0.0119128359)87:0.0075512212,Cochliomyia_hominivoraxUS_LysC1:0.1011160803)95:0.0270968988)79:0.0067883090,((((((Stomoxys_calcitrans_XM_059368529:0.0057683143,Stomoxys_calcitrans_XM_013259396:0.0103179014)92:0.0082356330,(Stomoxys_calcitrans_XM_059368530:0.0026621935,Stomoxys_calcitrans_XM_059368531:0.0000023301)93:0.0030657298)98:0.0074368854,Stomoxys_calcitrans_XM_013259399:0.0083902067)98:0.0052513191,Stomoxys_calcitrans_XM_059368532:0.0057921048)100:0.0168297649,(Stomoxys_calcitrans_XM_013259394:0.1696260692,Stomoxys_calcitrans_XM_013262540:0.0623193344)100:0.2425081945)50:0.0540722366,(((((((Musca_domestica_XM_059127590:0.0053308620,((Musca_domestica_XM_059127591:0.0000023301,Musca_domestica_XM_059127592:0.0000023301)100:0.0107216125,Musca_domestica_XM_059127594:0.0136304915)63:0.0000023301)71:0.0026560659,(Musca_domestica_XM_059127603:0.0107340749,Musca_domestica_XM_020037581:0.0107837568)38:0.0000024440)53:0.0026652648,Musca_domestica_XM_059127595:0.0107370985)50:0.0026576914,(Musca_domestica_XM_059127597:0.0026474980,Musca_domestica_XM_005185778:0.0026909002)89:0.0026506693)48:0.0026677215,((((Musca_domestica_XM_005185770:0.0000023301,Musca_domestica_XM_059127598:0.0080700605)100:0.0053630460,(Musca_domestica_XM_059127599:0.0026438886,Musca_domestica_XM_059127602:0.0109742098)100:0.0164044372)53:0.0000023301,((Musca_domestica_XM_005185779:0.0409236777,Musca_domestica_XM_059127596:0.0133127519)100:0.0276563902,Musca_domestica_XM_020037580:0.0143055787)84:0.0146992449)99:0.0026830680,Musca_domestica_NM_001308972:0.0107017115)35:0.0000023301)50:0.0026028120,Musca_domestica_XM_059127601:0.0136066529)96:0.0038147056,Musca_domestica_XM_020037574:0.0069903840)100:0.0561073929)50:0.0459492497)44:0.0224555622)80:0.0698432854,((((Calliphora_vicina_XM_065511531:0.0460354832,(Calliphora_vomitoria_LysC3:0.0062024446,Calliphora_vomitoria_LysC4:0.0105906904)100:0.0355933156)90:0.0238119568,Calliphora_vicina_XM_065512022:0.1137802113)97:0.0512212712,((Lucilia_sericata_XM_037958003:0.0497307816,(Lucilia_cuprina_XM_046955615:0.0000023301,Lucilia_cuprina_XM_046955614:0.0000023301)100:0.0930063938)100:0.2726348943,Lucilia_sericata_XM_037958005:0.1979890599)100:0.2194707473)97:0.0742966924,(Bellardia_pandia_LysC1:0.0470397392,Bellardia_bayeri_LysC1:0.0147532473)100:0.1248011608)96:0.0804603631)54:0.0473413657,((((Chrysomya_bezziana_lysc8:0.0330349636,(Chrysomya_megacephala_LysC2:0.0000023301,(((((Chrysomya_megacephala_LysC9:0.0000000000,Chrysomya_megacephala_LysC11:0.0000000000):0.0000000000,Chrysomya_megacephala_LysC12:0.0000000000):0.0000000000,Chrysomya_megacephala_LysC18:0.0000000000):0.0000000000,Chrysomya_megacephala_LysC19:0.0000000000):0.0000023301,Chrysomya_megacephala_LysC10:0.0000023301)94:0.0000023382)100:0.0462538119)100:0.2724402976,Protophormia_terraenovae_LysC5:0.0000020306)55:0.0118029533,((((Protophormia_terraenovae_LysC6:0.0038739589,Protophormia_terraenovae_LysC8:0.0458689412)100:0.1688630125,Cochliomyia_hominivoraxUS_LysC2:0.4088842522)94:0.1094510272,Phormia_regina_LysC10:0.0757805673)50:0.0226643938,Protocalliphora_azurea_LysC1:0.0612607544)45:0.0233868922)54:0.0317317489,Protophormia_terraenovae_LysC7:0.0548609036)98:0.2818127858)91:0.1329211296,Stomoxys_calcitrans_XM_013259395:0.4088620690)92:0.1079773257,Stomorhina_lunata_LysC4:0.5108608726)99:0.4128219922)100:1.1078157952)100:0.8099426871,(Stomoxys_calcitrans_XM_013256305:0.1005850273,Musca_domestica_XM_005187455:0.1407712644)88:0.2665515171);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t lysc_all_alinhado.fasta.treefile -m "GTR{1.81912,4.73938,1.81794,1.39638,6.04758}+F{0.263535,0.21408,0.214617,0.307768}+I{0.0468444}+R6{0.149721,0.0827428,0.180497,0.31163,0.192193,0.654565,0.192094,1.27336,0.212954,2.14378,0.0256977,4.06378}" --length 735
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s lysc_all_alinhado.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s lysc_all_alinhado.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Feb 27 14:37:07 2025
+Total CPU time used: 2225.631439 seconds (0h:37m:5s)
+Total wall-clock time used: 812.1248929 seconds (0h:13m:32s)
+

@@ -1,0 +1,696 @@
+     17    375
+
+Musdom_lysp                     CGC ATC TTA AAT TGC TGT GAT TTG GCC AGG GAA ATG TCC CGT TTG GGC GTT GCA AAA TCC GAA CTT GCC ACC TGG TGT TGC ATT GCC CAG TTC GAA AGT CGC TAC AAC ACC ACC GCC ATT GGC CGC CTG AAT GGC AAT TGG TCC AAT GAC TAT GGC CTG TTT CAG TTC AGC GAT CGC TAC TGG TGT CAG TCG TCG GCG TCA AGA AGT TCA GCA AAT TTG TGT CAA ATT AAT TGT CAG CAT TTG GTC AGC GAT GAT GTG AGA GAG TCT ATC AAA TGT GCC CAG AAA GTG AAA AAG CTA CAG GGA TGG CGG GCC TGG TCG GTG TAC AAT GGC CGC TGT AAG AAT GCA AAA CTT TTG CCC TCA ATA GAG GAA TGT TTT 
+Stocal_lysp                     CGC ATT TTG AAA TGC TGC GAA TTG GCT CGT GAA ATG CTG CGT TTG GGA ACT TCA AAA TCA GAA CTA GCC ACC TGG TGT TGC ATA GCA CAA TTT GAA AGT AAA TTT AAT ACT TCG GCC ATT GGA CGT TTG AAC GGC AAT TGG TCC AAT GAT TTT GGT CTA TTT CAA GTG AGT GAC CGC TAT TGG TGT CAA TCG AAA GCT TCA AGA AGT TCA GCA AAT CTT TGT CAA ATC AAT TGC CAG CAA TTG CTA ACA GAT GAT ATC AAA GAA TCG GTT AAG TGT GCC CAT CAT GTT AAG AAA CTT CAG GGC TGG AAA GCT TGG GCG GTC TAC AAT GGA CGA TGT AAA AAT TCC AAG TTG TTA CCC TCC ATA GAA GAA TGT CTT 
+Chrbez_lysp                     CGA GTT TTG AAA CGT TGC GAA TTA GCT CGT GAA CTT TTA CGT TTG GGT ATT GCA AAA CAT GAT GTG GCA ACT TGG TGT TGC ATA GCA CAA TAC GAA AGT AAA TTT AAT ACT TCG GCC GTG GGA AAA TTA AAT GGT AAT TGG TCT AAT GAT TAT GGT CTC TTT CAA GTC AGT GAT CGT TAT TGG TGT CAA TCG AGA GCT GAC AGA TCG TCG GCT AAT TTA TGT CAA ATT GCT TGT CAA GCA TTG TTA AGT GAT AAT ATT AGT GAA GCA GTT AAA TGT GCT CAA TAT GTT AAG AAA CGT CAA GGT TGG CGA GCT TGG GCA GCA TAC AAT GGT CGT TGT AAT AAA ATG AAA AAT TTG CCA TCT ATA CAA GAA TGT TTT 
+Proazu_lysp                     CGC ATT TTA AAA CGC TGT GAA TTG GCC CGT GAG ATG TTG CGT TTG GGT ATT GCC AAA CAT GAA CTT GCC ACT TGG TGT TGC ATT GTA CAA TAT GAA AGT AAA TTC AAT ACA TCG GCG GTG GGA AAA TTA AAT GGT AAT TGG TCA AAT GAT TAT GGT CTC TTT CAA GTG AGT GAT CGT TAT TGG TGT CAA TCG AGA GCC GAA AGA TCT TCA GCC AAT TTG TGT CAA ATT GCT TGT CAA ACA TTG TTA AGT GAT AAT ATT AGC GAA GCT GTA AAA TGT GCT CAA TAT GTT AAA AAA CGT CAA GGT TGG CGA GCT TGG GCT GCT TAC AAT GGT CGC TGT AAT AAA ATG AAA ATT TTG CCA ACT ATA GAG GAA TGT TTT 
+Phymel_lysp                     CGC GTT TTA AAG CGC TGT GAA TTG GCC AGA GAA ATG TTG CGT TTG GGC TCG GCC AAA CAT GAT CTG GCC ACT TGG TGT TGC ATT GCT CAA TAC GAA AGT AAA TTG AAT ACG TCA GCG GTG GGA CAG TTG AAT GGT AAT TGG TCA AAT GAT TAT GGT CTG TTT CAA GTC AGT GAT CGT TAT TGG TGT CAA TCG AGA GCA TCG CGA CCA TCG GCC AAT TTA TGC CAA ATC GAT TGT CAA GTG CTG TTA AAT GAC AAT ATT GCC GAA GCG GTT AAG TGT GCT CAG CAT GTG AAA AAG CGT CAA GGT TGG CGA GCA TGG GCT GCA TAC AAT GGA CGT TGT AAT AAG ATG AAA ACT ATG ACG TCC GTA GAG GAT TGT TTT 
+Melror_lysp                     CGC ATT TTA AAA CGC TGC GAA TTG GCT AAG GAA ATG TTG CGT TTG GGT TCG GCT AAA CAT GAT TTA GCT ACT TGG TGT TGT ATT GCT CAA TAC GAA AGT AAA CTG AAT ACC TCA GCG GTG GGA CAG TTA AAT GGT AAT TGG TCA AAT GAT TAT GGT CTT TTT CAA CTT AGC GAT CGC TAT TGG TGT CAA TCG AGA GCA TCA CGA CCG TCG GCC AAT TTA TGT CAA ATC GAT TGT CAA GTG CTT TTA AGT GAC AAT ATT GCC GAA GCG GTT AAA TGT GCT CAG TAT GTT AAA AAA CGT CAG GGT TGG CGA GCA TGG TCT GCT TAC AAT GGA CGC TGT AAT AAG ATG AAA ACA ATG ATG TCA ATA GAA GAA TGT TTT 
+Cochom_lysp                     CGC ATT TTA AAA CGT TGT GAA TTG GCG AGA GAA TTA TTG CGT TTG GGT ATA TCA AAA CAT GAA CTT GCC ACC TGG TGT TGC ATA GCA CAA TTT GAA AGT AAA TTT AAT ACT TCA GCG GTG GGT AAA CTA AAT GGT AAT TGG TCA AAT GAT TAT GGT CTC TTT CAA GTA AGT GAT CGT TAT TGG TGT CAA TCG AGA TCG GAA AGA TCT TCA GCG AAT TTA TGT CAA ATA TCA TGT CAA GCC TTA ATA AGT GAT AAT ATT AGT GAA ACT GTT AAA TGT GCA CAA TAT GTT AAG AAA CGT CAA GGT TGG CGT GCA TGG GCT GCT TAT AAT GGT CGT TGT AAT AAA CTG AAA AAT TTA CCT TCA ATT GAG GAA TGT TTT 
+Chrruf_lysp                     CGT ATA TTA AAA CGT TGC GAA TTA GCT CGT GAA CTA TTA CGT TTG GGT ATT GCT AAA CAT GAT ATT GCC ACT TGG TGT TGC ATT GCA CAA TAT GAA AGT AAA TTT AAT ACT TCG GCC GTG GGA AAA TTA AAT GGT AAT TGG TCT AAT GAT TAT GGT CTA TTT CAA CTC AGT GAT CGT TAT TGG TGT CAA TCG AGA GCT GAA AGA ACT TCG GCA AAT TTA TGT CGA ATC TCT TGT CAA GCA TTG TTA AGT GAT AAT ATT AGC GAA GCA GTT AAA TGT GCT CAA TAT GTT AAG AAA CGT CAA GGC TGG CGA GCT TGG GCT GCA TAC AAT GGT CGT TGT AAT AAA ATG AAA AAT TTG CCA TCT ATA CAA GAA TGT TTT 
+Luccup_lysp                     CGC ATT TTA AAA CGT TGT GAT TTA GCA CGA GAA ATG TTA CGT TTA GGT ACT TCT AAA CAT GAA CTT GCC ACC TGG TGT TGC ATT GCT CAA TAT GAA AGT AAA TTT AAT ACA TCA GCA GTG GGT CAA TTA AAT GGT AAT TGG TCT AAT GAT TAT GGT TTA TTT CAA GTT AGT GAT CGT TAT TGG TGT CAA TCG AGA AGT TCA AGA ACT TCA GCT AAT CTA TGT AAA GTT TCA TGT CAA TCT TTA ATA ACA GAT AAT ATA ACA GAA GCT GTT AAA TGT GCT CAT AAT GTT AAA AAA CGT CAA GGT TGG CGA GCT TGG GCT GCT TAT AAT GGT CGT TGT AAT AAA TTG AAA TCT TTG CCG TCT ATA GAA GAA TGT TTT 
+Lucser_lysp                     CGC ATT TTA AAA CGC TGT GAT TTG GCT CGA GAA ATG TTA CGT TTG GGT ACT TCT AAA CAT GAA CTT GCC ACC TGG TGT TGC ATT GCA CAA TTT GAA AGT AAA TTT AAT ACT TCG GCG GTG GGC CAA TTA AAT GGC AAT TGG TCT AAT GAT TAT GGT CTT TTT CAA GTT AGT GAT CGT TAT TGG TGT CAA TCG AGA GCT TCA AGA CCC TCT GCT AAT CTA TGT AAA GTT TCA TGT CAA TCT TTA ATA ACT GAC AAT ATA GCA GAA GCT GTT AAA TGT GCT CAT AAT GTT AAG AAA CGT CAA GGT TGG CGA GCT TGG GCT GCT TAC AAT GGT CGT TGT AAT AAA TTG AAA TCT TTG CCG TCT ATA GAA GAA TGT TTT 
+Belpan_lysp                     CGG ATT TTA AAA CGC TGC GAT TTA GCA AGA GAA ATG TTA CGT TTG GGC ATT TTG AAA CAT GAA CTT GCC ACC TGG TGT TGC ATT GCC CAA TAC GAG AGT AAA TTG AAT ACA TCG GCG GTG GGT AAA TTA AAT GGC AAT TGG TCT AAT GAT TAT GGT CTC TTT CAA GTC AGT GAT CGT TAT TGG TGT CAG TCG CGG CAA TCA CGG CCA TCG GCC AAT TTG TGT CAA ATC AAG TGT CAA TCT TTG CTA AAT GAC AAT ATT GCC GAC GCG GTT AAA TGT GCT CAA TAT GTT AAA AAA CGT CAA GGT TGG CAG GCT TGG GCT GCT TAC AAT GGC CGT TGC CAT AAA TTG AAA ACG TTG CCG TCC ATC GAG GAA TGT TTT 
+Stolun_lysp                     CGC ATT TTA AAA CGT TGC GAT TTG GCC CGC GAA ATG CTG CGT CTG GGT ACA GCC AAA CAT GAG CTA GCC ACT TGG TGT TGC ATT GCC CAG TTT GAG AGT AAA TTC AAT ACT TCT GCT GTG GGT CAA CTC AAT GGC AAT TGG TCA AAT GAT TAT GGT CTC TTT CAA GTT AGT GAT CGT TAT TGG TGT CAA TCG AGA CCC TCG AGG CCC TCA GCC AAT TTA TGT CAA ATC AAG TGT CAG TCG CTG TTA AGT GAT AAT GTA GCA GAA GCG GTC AAG TGT GCC CAT TAT GTG AAA AAA AGA CAA GGT TGG CGA GCT TGG GCT GCC TAC AAT GGC AGA TGT TAT AAA GTG AAA AGT TTG GCA TCC ATA GAG GAA TGT TTT 
+Belbay_lysp                     CGG ATT TTA AAA CGC TGT GAT TTA GCA AGA GAA ATG TTA CGT TTG GGA ATT TTG AAA GAT GAA CTT GCC ACC TGG TGT TGC ATT GCC CAA TAC GAG AGT AAA TTG AAT ACA TCG GCG GTG GGT AAA TTA AAT GGC AAT TGG TCT AAT GAT TAT GGT CTC TTT CAA GTC AGT GAT CGT TAT TGG TGT CAG TCG CGG CAA TCA CGG CCA TCG GCC AAT TTG TGT CAA ATC AAG TGT CAA TCT TTG CTA AAT GAC AAT ATT GCC GAA GCA GTT ACA TGT GCT CAA TAT GTT AAA AAA CGT CAA GGT TGG CAA GCT TGG GCT GCT TAC AAT GGC CGT TGC CAT AAA TTG AAA ACG TTG CCG TCC ATC GAG GAA TGT TTT 
+Calvom_lysp                     CGC ATT TTA AAA CGC TGT GAT TTG GCC AGA GAA ATG TTA CGT TTG GGC ATT GAC AAA GTA GAA CTT GCC ATC TGG TGT TGC ATA GCC CAA TAC GAG AGT AAA TTG AAT ACC ATG GCG GTG GGA AAA CTA AAT GGT AAT TGG TCG AAT GAT TAT GGT CTC TTT CAG GTC AGT GAT CGT TAT TGG TGT CAA TCG AGA CAA TCA CGG CCA TCG GCC AAT TTG TGT AAA ATC AAG TGT CAA TCT CTG CTA AGC GAC AAT ATT GCC GAA GCG GTT AAA TGT GCT CAA TAT GTA AAG AAA CGT CAA GGT TGG CAA GCT TGG GCT GCT TAC AAT GGC CGT TGC CAT AAA TTG AAA ACG TTG CCG TCC ATA GAG GAA TGT TTT 
+Calvic_lysp                     CGC ATT TTA AAA CGC TGT GAC TTG GCC AGA GAA ATG TTA CGT TTG GGC ATT GAC AAA ATA GAA CTT GCC ACC TGG TGT TGC ATA GCC CAA TTT GAG AGT AAA TTG AAT ACC ACG GCG GTG GGA AAA CTA AAT GGT AAT TGG TCA AAT GAT TAT GGA CTC TTT CAG GTC AGT GAT CGT TAT TGG TGT CAA TCT AGA CAA TCA CGG CCA TCG GCC AAT TTG TGT CAA ATC AAA TGT CAA TCT CTG CTA AGT GAC AAT ATA GCC GAA GCG GTT AAA TGT GCT CAA TAT GTA AAG AAA CGT CAA GGT TGG CAA GCT TGG GCT GCT TAT AAT GGC CGT TGC CAT AAA TTG AAA ACG TTG CCG TCC ATA GAG GAA TGT TTT 
+Proter_lysp                     CGC ATT TTA AAA CGT TGT GAA TTG GCC CGT GAG ATG TTA CGT TTG GGT ATT GCC AAA CAT GAA CTT GCC ACT TGG TGT TGC ATT GTA CAA TAT GAA AGT AAA TTT AAT ACA TCG GCA GTG GGA AAA TTA AAT GGT AAT TGG TCA AAT GAT TAT GGT CTC TTT CAA GTG AGT GAT CGT TAT TGG TGT CAA TCG AGA GCC GAA AGA TCT TCA GCC AAT TTA TGT AAA ATT GCT TGT CAA GCA TTG TTA AGT GAT AAT ATA AGT GAA GCT GTA AAA TGT GCT CAA TAT GTT AAA AAA CGT CAA GGT TGG CGA GCT TGG GCT GCC TAT AAT GGT CGT TGT AAT AAA ATG AAA AAT TTG CCA ACA ATA GAG GAA TGT TTT 
+Phoreg_lysp                     CGC ATT TTA AAA CGT TGT GAA TTG GCC CGT GAA ATG TTA CGT TTG GGT ATT GCC AAA CAT GAA CTT GCC ACT TGG TGT TGC ATA GTA CAA TAT GAA AGT AAA TAC AAT ACA TCG GCG GTG GGA AAA TTA AAT GGT AAT TGG TCA AAT GAT TAT GGT CTC TTT CAA GTG AGT GAT CGT TAT TGG TGT CAA TCG AGA ACC GAA AGA TCT TCA GCC AAT TTG TGT AAA ATT GCT TGT CAA GCT TTG TTA AGT GAT AAT ATT AGT GAA GCT GTA AAA TGT GCT CAA TAT GTT AAG AAA CGT CAA GGT TGG CGA GCT TGG GCT GCT TAT AAT GGT CGT TGT AAT AAA ATG AAA AAT TTG CCA TCA ATA GAG GAA TGT TTT 
+
+
+
+Printing out site pattern counts
+
+
+        17        345  P
+
+Musdom_lysp                     AAA AAA AAA AAA AAA AAC AAG AAG AAT AAT AAT AAT AAT ACC ACC ACC AGA AGA AGC AGC AGG AGT AGT ATA ATC ATC ATG ATT ATT ATT CAA CAG CAG CAG CAG CAG CAG CAT CCC CGC CGC CGC CGC CGC CGG CGT CTA CTG CTG CTT CTT GAA GAA GAA GAA GAC GAG GAG GAT GAT GAT GAT GCA GCA GCA GCC GCC GCC GCC GCC GCC GCG GGA GGC GGC GGC GGC GGC GTC GTG GTG GTG GTT TAC TAC TAC TAT TCA TCA TCA TCC TCC TCC TCG TCG TCG TCT TGC TGC TGG TGT TGT TGT TGT TGT TTA TTC TTC TTG TTG TTG TTG TTG TTT TTT 
+Stocal_lysp                     ... ..G ..G ..G C.T ..T ..A ..A ..A ..C ... ... ... ... ..T T.G .A. ... .CA ..T C.T ... ... ... ..T G.T ... ..A ..C ... ... ..A ..A ..A ... ... ..T ..A ... AAA ..A ... ... ..T AAA ... ..T ..A T.. ..A T.G ... ... ... ... ..T ..A ..A ..A ..C ... ... ... T.. T.C ..A ... ... ... ..T ..T ..T ..C ..A ..A ..A ... ..T C.A A.C ..C ..T AC. ... ..T .TT .T. ... ... ..C CTG ..A ... AAA G.. ... ..G ... ... ... ..C ..C ... ... ... ..G G.G ..T C.T ..A ... ... ... C.. ... 
+Chrbez_lysp                     ... ... ... ..G T.T ..T ..A ..T ..A ... ..A ... GC. ..T ..T T.G ..T ... ..T ..T C.T ... TCG ... G.T G.T C.T ..A ... G.G ... ..A ..A ..A ..A ..A ..A GCA ..A AAA ..T ..A ..T AAA ..A ... .GT ..C T.A G.G AA. ... ... ... ..T ..T C.A ..A ..A ... A.. ... ..T ... ATG ..A ..A ... ..T ..T ..T ..T ..T ..A ..T ..T ..T ..T T.A A.T .CA ..T A.. ... ..T .TT ... GAC ..G ..T .TA CAT ..T AGA G.A ... G.A C.T ... ... ..C ... ... ... ... ..G G.. .A. ..A ... ..A ... ... ... ... 
+Proazu_lysp                     ... ... ... ... T.T ..T ..A ..T ..A ... ..A ... GC. ..T ..A T.G ..C ... ..T ..T C.T ... TC. ... ..T G.A ... ... ... G.G ... ..A ..A ..A ..A ..A ..A ACA ..A AAA ... ... ..T AAA ..A ... .GT ..C T.A ... A.. ... ... ..G ... ..T ... ..A ..A ... A.. ... ..C ..C ATG .TA ... ..G ..T ... ..T ..C ..T ..A ..T ..T ..T ..T T.A A.T .CT ..T A.. ... ..T .T. ... GA. ... A.T .TG CAT ..A AGA G.T ... G.. C.. ... ... ... ... ... ... ... ... G.G .AT ... ... ... ... ... ... ... 
+Phymel_lysp                     ... ... ..G ... C.T ..T ... ..T ..G ... ..G ... G.. ..T ..G T.A GCC C.. .AT ..T ..A ... CCA G.. G.T G.T ... ... ..C G.G ... ..A ..A ..A ..A ..A ... GTG A.G AAA ..T ... ..T .AG ..A ... .GT ... T.. ..G AC. ... ..T ... ..T ..T ... ..A ..A ... A.. ..C ..C ..C ATG ..T ... ..G ..T ... ..A ..A ..T ..A ..A ... ..T ..T T.A A.T .CA ... TCG ... ..T .TG ... ..G ..G ..C .TG CAT ..A AGA G.T ... G.G C.. ... ... ... ... ..C ... ... ... G.. .A. ..A A.. ... C.. ... ... ... 
+Melror_lysp                     ... ... ... ... T.T ..T ..A ..T ..A ... ..G ... G.. ..T ... T.A GCC C.. ..T ... .A. ... CCG ... ..T G.T ... ... ..C G.G ... ..A ..A ..A ..A ... ... GTG ATG AAA ... ... ... .AG ..A ... .GT ..T T.A T.A ACA ... ... ... ..T ..T ..A ..A ..A ... A.. ..C ..C ..T ATG ..T ..T ..G ..T ..T ..A ..A ..T ..A ..A ..T ..T ..T T.A A.T .CT ..T TCG ... ..T CTG ... ... ..G ... .TG CAT ..A AGA ..T ... G.G C.. ..T ... ..C ... ... ... ... ... C.T .A. ..A A.. ... C.T ... ... ... 
+Cochom_lysp                     ... ... ... ..G T.T ..T ..A ..T ..A ... ..A ... TCA ... ..T T.A ..T ... ..T ..T ..A ... TC. ..T ..T G.T T.A ..A ..A G.G ... ..A ..A ..A ..A ..A ..A GCC ..T AAA ..T ... ..T AAA ..T ... .GT ..C ..A ... AA. ... ... ... ... ..T ... ..A ..A ... A.. ... ..G T.. CTG ..A ... ..G ..A ..G ..A T.. ..T ..T ..T ..T ..T ..T A.A A.T .CT ..T A.A ..T ..T .TT ... GA. ... ... .TG CAT ..A AGA G.T ... A.. C.T ... ... ... ... ... ... ... ... G.A ..T ..A ..A ... ..A ... ... ... 
+Chrruf_lysp                     ... ... ... ..G T.T ..T ..A ..T ..A ... ..A ... TC. ..T ..T T.G ..C ... ..T ..T C.T ... .C. ... ..A G.T C.A ... ..C G.G .G. ..A ..A ..A ..A ..A ..A GCA ..A AAA ..T ..T ..T AAA ..A ... .GT ..A T.A A.. AA. ... ... ... ..T ..T C.A ..A ..A ... A.. ... ... ..T ATG ..A ... ... ..T ..T ..T ..T ..C ..A ..T ..T ..T ..T T.A A.T .CA ..T A.. ... ..T .TT ... GA. ..G ..T .TA CAT ..T AGA G.T ... G.A C.T ... ... ..C ... ... ... ... ... C.. .AT ..A ... ..A ... ... ... ... 
+Luccup_lysp                     ... ... ... ... ..T ..T ..A ..T ..A ... ..A ... TCA ... ..A T.A .C. ... .CA ..T C.A ... .C. ... ..T G.T ... ... G.. G.G A.. ..A ..A ..A ..A ..A ..T TC. ..G AAA ..T ... ..T .AA ..A ... .GT T.A T.A ... TC. ... ... ... ... ..T ..A ..A ... ... A.. ... ..T T.T TTG ..T ... ..A ..T ..A ..T AGT ..T ..T ..T ..T ..T ..T A.A A.A .CT ..T AC. ..T ..T .TT ... ... ... ..T .TA CAT ..T AGA G.T ... G.. C.T ... ... ... ... ... ... ... ... G.T .AT C.A ... ..A ..A ..A ... ... 
+Lucser_lysp                     ... ... ... ..G ..T ..T ..A ..T ..A ... ..A ... TCA ... ..T T.G GC. ... .CT ..T C.A ... CCC ... ..T G.T ... ... G.. G.G A.. ..A ..A ..A ..A ..A ..T TC. ..G AAA ..T ... ..T .AA ..A ... .GT ..T T.A ... TC. ... ... ... ... ..T ..A ..A ... ... A.. ..C ..T T.T TTG ..A ... ..G ..T ..T ..T ..T ..T ... ..T ..T ... ..T A.A A.A .CT ..T AC. ... ..T .TT ... ... ..T ..T .TA CAT ..T AGA G.T ... G.. C.. ... ... ... ... ... ... ... ... G.T ..T C.A ... ... ..A ... ... ... 
+Belpan_lysp                     ... ... ... ... T.T ..T ..A C.T ..A ... ..A ... ..G ... ..A T.G GCC C.G .AT ..T ..A ... CCA ..C ..T G.T ... ... ..C G.G ... ..A ..A ... ..A ..A ..A TC. ..G AAA ..T ..G ..T AAA .A. ... .GT ..C T.A ... ACG ..G ... ... ... ..T ... ..C ... ... A.. ..C ..C TTG TTG ... ... ..G ..T ..A ..T CAA ..T ..T ... ... ... ..T C.A A.T .CT ..T A.. ... ..T .TG ... ... ..G ..C .TA CAT ..T CG. G.T ... G.G C.. ... ... ..C ... ... ..C ... ... G.. .A. ... ... ..A ... ... ... ... 
+Stolun_lysp                     ... ... ..G ... T.T ..T ..A T.T ..A ... ..A ... ..G ..T ..T T.T GC. ..G ..T ..T C.C ... CCC ... ..T G.. ... ... ..C G.G ... ..A ... ..A ... ..A ..T TCG G.A AAA A.A ... ..T .AA ..A ... AG. ..C ..C ..A AG. ..G ... ... ..G ..T ... ..A ... ... A.. ... ..C ..C .TG ... ... ..T ... ... ..T C.C ..T ..T ... ..T ... ..T T.A ..A .CC ... ACA ... ..T .T. ... ..G ... ..C CTG CAT ..A AGA G.T ... G.G C.T ... ... ..C ... ... ... ... ... G.T ..T ..A ... ... C.. C.. ... ... 
+Belbay_lysp                     ... ... .C. ... T.T ..T ..A C.T ..A ... ..A ... ..G ... ..A T.G GCC C.G .AT ..T ..A ... CCA ..C ..T G.T ... ... ..C G.G ... ..A ..A ... ..A ..A ..A TC. ..G AAA ..T ..G ..T AAA .AA ... .GT ..C T.A ... ACG ..G ... ... ... ..T ... ..A ... ... A.. ..C ..C TTG TTG ... ... ..G ..T ..A ..T CAA ..T ..T ... ..A ... ..T C.A A.T .CT ..T A.. ... ..T .TG ... ... ..G ..C .TA GAT ..T CG. G.T ... G.A C.. ... ... ... ... ... ..C ... ... G.. .A. ... ... ..A ... ... ... ... 
+Calvom_lysp                     ... ... ... ..G T.T ..T ..A C.T ..A ... ..A ... ..G .T. ... .TG GCC C.G ... ..T ..A ... CCA ... ..T G.T ... ..A ..C G.G A.. ... ..A ..A ..A ..A ..A TC. ..G AAA ..T ... ..T AAA .AA ... .GT ..C ..A ... ACG ..G ... ... ... ..T ... ..A ... ... A.. ..C ..C .AC TTG ... ... ..G ..T ... ..T CAA ..T ..A ... ... ..T ..T C.A A.T .CT ..A A.. ... ..T .TG ... ... ..G ..C .TA GTA ..G AGA G.T ... G.G C.. ... ... ... ... ... ..C ... ... G.. .A. ... ... ... C.. ... ... ... 
+Calvic_lysp                     ... ... ... ..G T.T ..T ..A C.T ..A ... ..A ... ..A ... ... ..G GCC C.G ..T ..T ..A ... CCA ... ..T G.T ... ..A ..C G.G ... ... ..A ..A ..A ..A ..A TC. ..G AAA ..T ... ..T AAA .AA ... .GT ..C ..A ... ACG ..G ... ... ... ..T ... ..A ..C ... A.. ..C ..C .AC TTG ... ... ..G ..T ... ..T CAA ..T ..A ... ... ..T ..A C.A A.A .CT ..A A.. ..T ..T .TG ... ... ..G ..C .TA ATA ..A AGA G.T ..T G.G C.. ... ... ... ... ... ..C ... ... G.. ..T ... ... ... C.. ... ... ... 
+Proter_lysp                     ... ... ... ... T.T ..T ..A ..T ..A ... ..A ... GC. ..T ..A T.G ..T ... ..T ..T C.T ... TC. ... ..T G.A ... ... ... G.G A.. ..A ..A ..A ..A ..A ..A GCA ..A AAA ..T ... ..T AAA ..A ... .GT ..C T.A ... AA. ... ... ..G ... ..T ... ..A ..A ... A.. ... ..C ..C ATG .TA ... ..A ..T ... ..T ..C ..T ..A ..T ..T ..T ..T T.A A.A .CC ..T A.. ..T ..T .TT ... GA. ... A.. .TA CAT ..A AGA G.T ... G.. C.T ... ... ... ... ... ... ... ... G.G .AT ..A ... ... ... ... ... ... 
+Phoreg_lysp                     ... ... ... ..G T.T ..T ..A ..T ..A ... ..A ... GC. ..T ..A T.G ..T ... ..T ..T C.T ... TC. ... ..T G.A ... ..A ... G.G A.. ..A ..A ..A ..A ..A ..A GC. ..A AAA ..T ... ..T AAA ..A ... .GT ..C T.A ... AA. ... ... ... ... ..T ... ..A ..A ... A.. ... ..C ..C ATG .TA ... ..G ..T ... ..T A.C ..T ..A ..T ..T ..T ..T T.A A.T .CT ..T A.. ..T ..T ... ... GA. ... ... .TA CAT ..A AGA G.T ... G.. C.T ... ... ... ... ... ... ... ... G.G .AT ... ... ... ... ... ... ... 
+
+    1    1    1    1    1    1    1    1    1    1    1    4    1    1    1
+    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+    1    1    1    1    1    1    1    1    1    5    1    1    1    1    4
+    1    1    1    1    1    1    1    1    1    1
+
+CODONML (in paml version 4.10.7, June 2023)  lysp_aln.phy
+Model: One dN/dS ratio, 
+Codon frequency model: FMutSel
+Site-class models: 
+ns =  17  ls = 125
+
+Codon usage in sequences
+--------------------------------------------------------------------------------------------------------------------------------------
+Phe TTT   2   4   3   2   2   2 | Ser TCT   1   0   2   1   0   1 | Tyr TAT   1   1   3   4   2   3 | Cys TGT   8   6   7   8   7   8
+    TTC   2   0   0   1   0   0 |     TCC   3   3   0   0   1   0 |     TAC   3   1   2   1   2   2 |     TGC   2   4   2   1   2   1
+Leu TTA   1   1   5   3   3   5 |     TCA   3   4   0   2   2   4 | *** TAA   0   0   0   0   0   0 | *** TGA   0   0   0   0   0   0
+    TTG   5   6   4   6   5   3 |     TCG   3   3   4   2   4   3 |     TAG   0   0   0   0   0   0 | Trp TGG   5   5   5   5   5   5
+--------------------------------------------------------------------------------------------------------------------------------------
+Leu CTT   2   3   1   1   0   3 | Pro CCT   0   0   0   0   0   0 | His CAT   1   2   1   1   2   1 | Arg CGT   1   3   6   4   4   2
+    CTC   0   0   1   1   0   0 |     CCC   1   1   0   0   0   0 |     CAC   0   0   0   0   0   0 |     CGC   5   2   0   3   2   4
+    CTA   1   3   0   0   0   0 |     CCA   0   0   1   1   1   0 | Gln CAA   1   5   8   7   6   5 |     CGA   0   1   2   1   2   2
+    CTG   2   1   0   0   3   1 |     CCG   0   0   0   0   0   1 |     CAG   6   2   0   0   2   3 |     CGG   1   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+Ile ATT   3   2   3   6   2   3 | Thr ACT   0   2   2   2   2   1 | Asn AAT   8   7   9   8   9   8 | Ser AGT   2   3   4   3   2   2
+    ATC   2   2   0   0   1   1 |     ACC   3   1   0   0   0   1 |     AAC   1   1   0   0   0   0 |     AGC   2   0   0   1   0   1
+    ATA   1   2   2   1   0   1 |     ACA   0   1   0   2   0   1 | Lys AAA   5   8   8   9   4   7 | Arg AGA   2   1   2   2   2   1
+Met ATG   1   1   1   2   3   4 |     ACG   0   0   0   0   2   0 |     AAG   2   3   1   0   4   2 |     AGG   1   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+Val GTT   1   2   3   1   2   2 | Ala GCT   0   3   6   6   3   6 | Asp GAT   4   3   4   3   5   4 | Gly GGT   0   1   5   5   3   4
+    GTC   1   1   1   0   1   0 |     GCC   6   3   1   5   5   2 |     GAC   1   1   1   0   1   1 |     GGC   5   2   0   0   1   0
+    GTA   0   0   0   2   1   0 |     GCA   3   2   7   0   3   2 | Glu GAA   4   7   5   6   4   6 |     GGA   1   3   1   1   2   2
+    GTG   3   1   2   2   3   2 |     GCG   1   1   0   1   2   2 |     GAG   2   0   0   2   1   0 |     GGG   0   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------------------
+Phe TTT   4   3   3   4   2   3 | Ser TCT   1   3   5   6   2   1 | Tyr TAT   4   4   4   2   3   4 | Cys TGT   8   7   8   8   6   7
+    TTC   0   0   0   0   0   1 |     TCC   0   0   0   0   1   1 |     TAC   0   1   0   1   2   1 |     TGC   1   2   1   1   3   2
+Leu TTA   5   6   7   4   4   3 |     TCA   6   0   4   2   1   2 | *** TAA   0   0   0   0   0   0 | *** TGA   0   0   0   0   0   0
+    TTG   3   3   2   4   7   2 |     TCG   2   3   1   2   3   3 |     TAG   0   0   0   0   0   0 | Trp TGG   5   5   5   5   5   5
+--------------------------------------------------------------------------------------------------------------------------------------
+Leu CTT   1   0   1   2   1   0 | Pro CCT   1   0   0   0   0   0 | His CAT   1   1   2   2   2   2 | Arg CGT   6   7   5   4   4   3
+    CTC   1   1   0   0   1   2 |     CCC   0   0   0   1   0   2 |     CAC   0   0   0   0   0   0 |     CGC   1   0   1   2   1   2
+    CTA   1   2   1   1   1   1 |     CCA   0   1   0   0   1   0 | Gln CAA   7   7   6   6   7   5 |     CGA   0   2   2   2   0   1
+    CTG   1   0   0   0   0   3 |     CCG   0   0   1   1   1   0 |     CAG   0   0   0   0   2   2 |     CGG   0   0   0   0   3   0
+--------------------------------------------------------------------------------------------------------------------------------------
+Ile ATT   3   4   2   2   4   2 | Thr ACT   2   3   2   3   0   2 | Asn AAT   9   9   9   9   8   7 | Ser AGT   4   3   3   2   2   4
+    ATC   0   1   0   0   2   1 |     ACC   1   0   1   1   1   0 |     AAC   0   0   0   0   0   0 |     AGC   0   1   0   0   0   0
+    ATA   4   2   3   3   0   1 |     ACA   0   0   3   0   1   1 | Lys AAA   8   8   9   8   9   7 | Arg AGA   3   2   2   2   1   3
+Met ATG   0   1   1   1   1   1 |     ACG   0   0   0   0   1   0 |     AAG   1   1   0   1   1   2 |     AGG   0   0   0   0   0   1
+--------------------------------------------------------------------------------------------------------------------------------------
+Val GTT   2   2   4   4   2   1 | Ala GCT   2   6   7   8   4   3 | Asp GAT   3   4   4   3   3   4 | Gly GGT   6   4   6   4   3   4
+    GTC   0   0   0   0   1   1 |     GCC   2   2   1   1   4   7 |     GAC   0   0   0   1   2   0 |     GGC   0   1   0   2   3   2
+    GTA   1   0   0   0   0   1 |     GCA   3   5   2   2   1   2 | Glu GAA   7   6   6   6   3   3 |     GGA   0   1   0   0   0   0
+    GTG   1   1   1   1   1   3 |     GCG   3   0   0   1   2   1 |     GAG   1   0   0   0   2   3 |     GGG   0   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------
+Phe TTT   2   2   3   3   2 | Ser TCT   2   1   2   1   1 | Tyr TAT   3   3   4   5   5 | Cys TGT   7   7   7   8   8
+    TTC   0   0   0   0   0 |     TCC   1   1   1   0   0 |     TAC   2   2   0   0   1 |     TGC   2   2   2   1   1
+Leu TTA   4   2   2   5   4 |     TCA   1   1   2   2   3 | *** TAA   0   0   0   0   0 | *** TGA   0   0   0   0   0
+    TTG   7   6   6   4   5 |     TCG   3   3   1   2   2 |     TAG   0   0   0   0   0 | Trp TGG   5   5   5   5   5
+----------------------------------------------------------------------------------------------------------------------
+Leu CTT   1   1   1   1   1 | Pro CCT   0   0   0   0   0 | His CAT   1   1   1   1   1 | Arg CGT   4   4   4   6   6
+    CTC   1   1   1   1   1 |     CCC   0   0   0   0   0 |     CAC   0   0   0   0   0 |     CGC   1   2   2   1   1
+    CTA   1   2   2   0   0 |     CCA   1   1   1   1   1 | Gln CAA   8   7   8   6   6 |     CGA   0   0   0   1   1
+    CTG   0   1   1   0   0 |     CCG   1   1   1   0   0 |     CAG   1   1   1   0   0 |     CGG   3   1   1   0   0
+----------------------------------------------------------------------------------------------------------------------
+Ile ATT   4   3   2   4   4 | Thr ACT   0   0   0   1   1 | Asn AAT   8   7   7   9   9 | Ser AGT   2   2   3   4   4
+    ATC   2   2   1   0   0 |     ACC   1   1   2   0   1 |     AAC   0   0   0   0   0 |     AGC   0   1   0   0   0
+    ATA   0   2   4   2   2 |     ACA   2   0   0   2   1 | Lys AAA   8   9   9  10   9 | Arg AGA   1   2   2   2   2
+Met ATG   1   2   1   2   2 |     ACG   1   1   2   0   0 |     AAG   1   2   1   0   1 |     AGG   0   0   0   0   0
+----------------------------------------------------------------------------------------------------------------------
+Val GTT   2   1   1   1   1 | Ala GCT   4   4   4   5   7 | Asp GAT   4   3   2   3   3 | Gly GGT   3   3   2   5   5
+    GTC   1   1   1   0   0 |     GCC   4   5   5   6   4 |     GAC   1   2   3   0   0 |     GGC   2   2   2   0   0
+    GTA   0   2   1   2   2 |     GCA   2   0   0   2   0 | Glu GAA   4   4   4   6   7 |     GGA   1   1   2   1   1
+    GTG   1   1   1   2   2 |     GCG   1   2   2   0   1 |     GAG   2   2   2   2   1 |     GGG   0   0   0   0   0
+----------------------------------------------------------------------------------------------------------------------
+
+Codon position x base (3x4) table for each sequence.
+
+#1: Musdom_lysp    
+position  1:    T:0.31200    C:0.16800    A:0.26400    G:0.25600
+position  2:    T:0.21600    C:0.19200    A:0.31200    G:0.28000
+position  3:    T:0.27200    C:0.29600    A:0.17600    G:0.25600
+Average         T:0.26667    C:0.21867    A:0.25067    G:0.26400
+
+#2: Stocal_lysp    
+position  1:    T:0.30400    C:0.18400    A:0.27200    G:0.24000
+position  2:    T:0.23200    C:0.19200    A:0.32800    G:0.24800
+position  3:    T:0.33600    C:0.17600    A:0.30400    G:0.18400
+Average         T:0.29067    C:0.18400    A:0.30133    G:0.22400
+
+#3: Chrbez_lysp    
+position  1:    T:0.29600    C:0.16000    A:0.25600    G:0.28800
+position  2:    T:0.20800    C:0.18400    A:0.33600    G:0.27200
+position  3:    T:0.47200    C:0.06400    A:0.32800    G:0.13600
+Average         T:0.32533    C:0.13600    A:0.30667    G:0.23200
+
+#4: Proazu_lysp    
+position  1:    T:0.28800    C:0.15200    A:0.28800    G:0.27200
+position  2:    T:0.22400    C:0.17600    A:0.32800    G:0.27200
+position  3:    T:0.44000    C:0.10400    A:0.29600    G:0.16000
+Average         T:0.31733    C:0.14400    A:0.30400    G:0.23467
+
+#5: Phymel_lysp    
+position  1:    T:0.28000    C:0.17600    A:0.24800    G:0.29600
+position  2:    T:0.20800    C:0.20000    A:0.33600    G:0.25600
+position  3:    T:0.36000    C:0.12800    A:0.24000    G:0.27200
+Average         T:0.28267    C:0.16800    A:0.27467    G:0.27467
+
+#6: Melror_lysp    
+position  1:    T:0.29600    C:0.17600    A:0.26400    G:0.26400
+position  2:    T:0.21600    C:0.19200    A:0.33600    G:0.25600
+position  3:    T:0.40000    C:0.10400    A:0.28800    G:0.20800
+Average         T:0.30400    C:0.15733    A:0.29600    G:0.24267
+
+#7: Cochom_lysp    
+position  1:    T:0.31200    C:0.16000    A:0.28000    G:0.24800
+position  2:    T:0.21600    C:0.18400    A:0.32800    G:0.27200
+position  3:    T:0.45600    C:0.04800    A:0.36000    G:0.13600
+Average         T:0.32800    C:0.13067    A:0.32267    G:0.21867
+
+#8: Chrruf_lysp    
+position  1:    T:0.29600    C:0.16800    A:0.28000    G:0.25600
+position  2:    T:0.20800    C:0.18400    A:0.32800    G:0.28000
+position  3:    T:0.48000    C:0.07200    A:0.33600    G:0.11200
+Average         T:0.32800    C:0.14133    A:0.31467    G:0.21600
+
+#9: Luccup_lysp    
+position  1:    T:0.32000    C:0.15200    A:0.28000    G:0.24800
+position  2:    T:0.20000    C:0.21600    A:0.32000    G:0.26400
+position  3:    T:0.52000    C:0.03200    A:0.36000    G:0.08800
+Average         T:0.34667    C:0.13333    A:0.32000    G:0.20000
+
+#10: Lucser_lysp    
+position  1:    T:0.31200    C:0.16800    A:0.25600    G:0.26400
+position  2:    T:0.20800    C:0.22400    A:0.31200    G:0.25600
+position  3:    T:0.50400    C:0.08000    A:0.28800    G:0.12800
+Average         T:0.34133    C:0.15733    A:0.28533    G:0.21600
+
+#11: Belpan_lysp    
+position  1:    T:0.31200    C:0.19200    A:0.24800    G:0.24800
+position  2:    T:0.21600    C:0.18400    A:0.35200    G:0.24800
+position  3:    T:0.36800    C:0.16800    A:0.23200    G:0.23200
+Average         T:0.29867    C:0.18133    A:0.27733    G:0.24267
+
+#12: Stolun_lysp    
+position  1:    T:0.28000    C:0.18400    A:0.25600    G:0.28000
+position  2:    T:0.20800    C:0.20000    A:0.32000    G:0.27200
+position  3:    T:0.37600    C:0.17600    A:0.24000    G:0.20800
+Average         T:0.28800    C:0.18667    A:0.27200    G:0.25333
+
+#13: Belbay_lysp    
+position  1:    T:0.31200    C:0.18400    A:0.24800    G:0.25600
+position  2:    T:0.21600    C:0.19200    A:0.34400    G:0.24800
+position  3:    T:0.37600    C:0.14400    A:0.26400    G:0.21600
+Average         T:0.30133    C:0.17333    A:0.28533    G:0.24000
+
+#14: Calvom_lysp    
+position  1:    T:0.28000    C:0.18400    A:0.27200    G:0.26400
+position  2:    T:0.23200    C:0.16800    A:0.34400    G:0.25600
+position  3:    T:0.33600    C:0.17600    A:0.26400    G:0.22400
+Average         T:0.28267    C:0.17600    A:0.29333    G:0.24800
+
+#15: Calvic_lysp    
+position  1:    T:0.28000    C:0.19200    A:0.27200    G:0.25600
+position  2:    T:0.22400    C:0.18400    A:0.33600    G:0.25600
+position  3:    T:0.34400    C:0.16000    A:0.29600    G:0.20000
+Average         T:0.28267    C:0.17867    A:0.30133    G:0.23733
+
+#16: Proter_lysp    
+position  1:    T:0.28800    C:0.14400    A:0.28800    G:0.28000
+position  2:    T:0.21600    C:0.17600    A:0.33600    G:0.27200
+position  3:    T:0.45600    C:0.07200    A:0.33600    G:0.13600
+Average         T:0.32000    C:0.13067    A:0.32000    G:0.22933
+
+#17: Phoreg_lysp    
+position  1:    T:0.29600    C:0.14400    A:0.28800    G:0.27200
+position  2:    T:0.20800    C:0.17600    A:0.34400    G:0.27200
+position  3:    T:0.46400    C:0.07200    A:0.31200    G:0.15200
+Average         T:0.32267    C:0.13067    A:0.31467    G:0.23200
+
+Sums of codon usage counts
+------------------------------------------------------------------------------
+Phe F TTT      46 | Ser S TCT      30 | Tyr Y TAT      55 | Cys C TGT     125
+      TTC       4 |       TCC      12 |       TAC      21 |       TGC      30
+Leu L TTA      64 |       TCA      39 | *** * TAA       0 | *** * TGA       0
+      TTG      78 |       TCG      44 |       TAG       0 | Trp W TGG      85
+------------------------------------------------------------------------------
+Leu L CTT      20 | Pro P CCT       1 | His H CAT      23 | Arg R CGT      73
+      CTC      12 |       CCC       5 |       CAC       0 |       CGC      30
+      CTA      16 |       CCA      10 | Gln Q CAA     105 |       CGA      17
+      CTG      13 |       CCG       7 |       CAG      20 |       CGG       9
+------------------------------------------------------------------------------
+Ile I ATT      53 | Thr T ACT      23 | Asn N AAT     140 | Ser S AGT      49
+      ATC      15 |       ACC      14 |       AAC       2 |       AGC       6
+      ATA      30 |       ACA      14 | Lys K AAA     135 | Arg R AGA      32
+Met M ATG      25 |       ACG       7 |       AAG      23 |       AGG       2
+------------------------------------------------------------------------------
+Val V GTT      32 | Ala A GCT      78 | Asp D GAT      59 | Gly G GGT      63
+      GTC       9 |       GCC      63 |       GAC      14 |       GGC      22
+      GTA      12 |       GCA      36 | Glu E GAA      88 |       GGA      17
+      GTG      28 |       GCG      20 |       GAG      20 |       GGG       0
+------------------------------------------------------------------------------
+
+
+Codon position x base (3x4) table, overall
+
+position  1:    T:0.29788    C:0.16988    A:0.26824    G:0.26400
+position  2:    T:0.21506    C:0.18965    A:0.33176    G:0.26353
+position  3:    T:0.40941    C:0.12188    A:0.28941    G:0.17929
+Average         T:0.30745    C:0.16047    A:0.29647    G:0.23561
+
+Codon frequencies under model, for use in evolver (TTT TTC TTA TTG ... GGG):
+  0.02164706  0.00188235  0.03011765  0.03670588
+  0.01411765  0.00564706  0.01835294  0.02070588
+  0.02588235  0.00988235  0.00000000  0.00000000
+  0.05882353  0.01411765  0.00000000  0.04000000
+  0.00941176  0.00564706  0.00752941  0.00611765
+  0.00047059  0.00235294  0.00470588  0.00329412
+  0.01082353  0.00000000  0.04941176  0.00941176
+  0.03435294  0.01411765  0.00800000  0.00423529
+  0.02494118  0.00705882  0.01411765  0.01176471
+  0.01082353  0.00658824  0.00658824  0.00329412
+  0.06588235  0.00094118  0.06352941  0.01082353
+  0.02305882  0.00282353  0.01505882  0.00094118
+  0.01505882  0.00423529  0.00564706  0.01317647
+  0.03670588  0.02964706  0.01694118  0.00941176
+  0.02776471  0.00658824  0.04141176  0.00941176
+  0.02964706  0.01035294  0.00800000  0.00000000
+
+
+
+Nei & Gojobori 1986. dN/dS (dN, dS)
+(Note: This matrix is not used in later ML. analysis.
+Use runmode = -2 for ML pairwise comparison.)
+
+Musdom_lysp         
+Stocal_lysp          0.0555 (0.1236 2.2255)
+Chrbez_lysp         -1.0000 (0.2116 -1.0000) 0.1906 (0.1804 0.9462)
+Proazu_lysp          0.1252 (0.1899 1.5163) 0.1403 (0.1575 1.1225) 0.0658 (0.0365 0.5550)
+Phymel_lysp          0.0971 (0.2098 2.1595) 0.0940 (0.1699 1.8085) 0.0822 (0.0839 1.0210) 0.1255 (0.0891 0.7098)
+Melror_lysp          0.0495 (0.2070 4.1857) 0.1224 (0.1843 1.5055) 0.1022 (0.0963 0.9428) 0.1308 (0.0958 0.7321) 0.0624 (0.0314 0.5023)
+Cochom_lysp         -1.0000 (0.1882 -1.0000) 0.1312 (0.1692 1.2896) 0.0646 (0.0493 0.7631) 0.0784 (0.0473 0.6040) 0.0996 (0.1086 1.0910) 0.1068 (0.1154 1.0811)
+Chrruf_lysp         -1.0000 (0.2040 -1.0000) 0.2187 (0.1774 0.8112) 0.1182 (0.0260 0.2198) 0.0962 (0.0437 0.4545) 0.1100 (0.1004 0.9131) 0.1207 (0.0974 0.8070) 0.0604 (0.0457 0.7573)
+Luccup_lysp         -1.0000 (0.1881 -1.0000) 0.0932 (0.1287 1.3801) 0.1737 (0.1053 0.6064) 0.1711 (0.0905 0.5289) 0.0880 (0.0998 1.1337) 0.1237 (0.1172 0.9470) 0.1531 (0.0832 0.5430) 0.1911 (0.0947 0.4956)
+Lucser_lysp          0.0597 (0.1802 3.0168) 0.1222 (0.1247 1.0204) 0.1905 (0.0988 0.5190) 0.1700 (0.0841 0.4950) 0.0872 (0.0850 0.9744) 0.1253 (0.0982 0.7833) 0.1193 (0.0712 0.5970) 0.2175 (0.0960 0.4416) 0.0885 (0.0209 0.2362)
+Belpan_lysp          0.0959 (0.2032 2.1191) 0.0905 (0.1695 1.8737) 0.1087 (0.1030 0.9469) 0.1198 (0.0895 0.7473) 0.1063 (0.0869 0.8170) 0.0975 (0.0981 1.0055) 0.0723 (0.0848 1.1724) 0.1373 (0.1073 0.7816) 0.1039 (0.0819 0.7877) 0.1013 (0.0718 0.7085)
+Stolun_lysp          0.0766 (0.1793 2.3404) 0.1100 (0.1531 1.3912) 0.0821 (0.1046 1.2743) 0.1172 (0.0898 0.7663) 0.1134 (0.0949 0.8368) 0.0779 (0.0958 1.2291) 0.0797 (0.0940 1.1795) 0.0979 (0.1077 1.0998) 0.0731 (0.0853 1.1676) 0.0596 (0.0645 1.0819) 0.0665 (0.0768 1.1542)
+Belbay_lysp          0.0784 (0.2035 2.5955) 0.0925 (0.1697 1.8346) 0.1194 (0.1070 0.8962) 0.1380 (0.0935 0.6776) 0.1121 (0.0908 0.8100) 0.0979 (0.1021 1.0429) 0.0804 (0.0887 1.1038) 0.1503 (0.1114 0.7415) 0.1199 (0.0858 0.7158) 0.1175 (0.0757 0.6440) 0.2047 (0.0103 0.0504) 0.0673 (0.0807 1.1985)
+Calvom_lysp          0.1126 (0.2036 1.8084) 0.1299 (0.1843 1.4192) 0.1297 (0.1186 0.9141) 0.1554 (0.1016 0.6534) 0.1830 (0.1081 0.5907) 0.1189 (0.1077 0.9056) 0.1161 (0.1082 0.9322) 0.1344 (0.1177 0.8760) 0.1051 (0.0984 0.9362) 0.1216 (0.0869 0.7147) 0.1260 (0.0393 0.3121) 0.0844 (0.0868 1.0286) 0.1153 (0.0358 0.3102)
+Calvic_lysp          0.0477 (0.1841 3.8626) 0.1067 (0.1674 1.5691) 0.1019 (0.1108 1.0882) 0.1389 (0.0940 0.6770) 0.1460 (0.0991 0.6792) 0.0946 (0.0987 1.0440) 0.1071 (0.0915 0.8546) 0.1208 (0.1120 0.9266) 0.1084 (0.0973 0.8980) 0.1122 (0.0794 0.7076) 0.0750 (0.0322 0.4298) 0.0641 (0.0699 1.0893) 0.0756 (0.0323 0.4270) 0.1439 (0.0172 0.1197)
+Proter_lysp          0.0971 (0.1986 2.0457) 0.1402 (0.1659 1.1832) 0.0684 (0.0329 0.4814) 0.0669 (0.0102 0.1529) 0.1032 (0.0884 0.8570) 0.1021 (0.0970 0.9502) 0.0831 (0.0437 0.5261) 0.0863 (0.0383 0.4440) 0.2199 (0.0866 0.3939) 0.1620 (0.0803 0.4959) 0.0993 (0.0933 0.9397) 0.1275 (0.0936 0.7346) 0.1145 (0.0973 0.8497) 0.1189 (0.0977 0.8213) 0.1379 (0.0978 0.7097)
+Phoreg_lysp          0.1071 (0.1921 1.7943) 0.1499 (0.1724 1.1500) 0.0798 (0.0365 0.4572) 0.1499 (0.0206 0.1374) 0.1080 (0.0923 0.8547) 0.1139 (0.1019 0.8943) 0.1014 (0.0437 0.4314) 0.0900 (0.0419 0.4659) 0.1809 (0.0828 0.4579) 0.1784 (0.0842 0.4716) 0.1195 (0.0934 0.7814) 0.1118 (0.0937 0.8374) 0.1374 (0.0973 0.7084) 0.1717 (0.0977 0.5689) 0.1820 (0.0979 0.5379) 0.0834 (0.0102 0.1226)
+
+NSsites Model 0: one-ratio
+
+TREE #  1:  (2, 1, ((10, 9), (((8, 3), (7, (17, (16, 4)))), (12, ((6, 5), ((15, 14), (13, 11)))))));   MP score: 420
+lnL(ntime: 31  np: 36):  -2401.734778      +0.000000
+  18..2    18..1    18..19   19..20   20..10   20..9    19..21   21..22   22..23   23..8    23..3    22..24   24..7    24..25   25..17   25..26   26..16   26..4    21..27   27..12   27..28   28..29   29..6    29..5    28..30   30..31   31..15   31..14   30..32   32..13   32..11 
+ 0.257446 0.954127 0.795887 0.112359 0.026285 0.198733 0.177229 0.252044 0.207385 0.105222 0.138291 0.000004 0.377135 0.112679 0.045830 0.031942 0.052379 0.083996 0.128599 0.429894 0.080134 0.301879 0.250109 0.135724 0.178069 0.085662 0.070778 0.045539 0.154120 0.037234 0.020862 1.392277 2.457901 1.401108 5.394080 0.081141
+
+Note: Branch length is defined as number of nucleotide substitutions per codon (not per nucleotide site).
+
+tree length =  5.847575
+
+(2: 0.257446, 1: 0.954127, ((10: 0.026285, 9: 0.198733): 0.112359, (((8: 0.105222, 3: 0.138291): 0.207385, (7: 0.377135, (17: 0.045830, (16: 0.052379, 4: 0.083996): 0.031942): 0.112679): 0.000004): 0.252044, (12: 0.429894, ((6: 0.250109, 5: 0.135724): 0.301879, ((15: 0.070778, 14: 0.045539): 0.085662, (13: 0.037234, 11: 0.020862): 0.154120): 0.178069): 0.080134): 0.128599): 0.177229): 0.795887);
+
+(Stocal_lysp: 0.257446, Musdom_lysp: 0.954127, ((Lucser_lysp: 0.026285, Luccup_lysp: 0.198733): 0.112359, (((Chrruf_lysp: 0.105222, Chrbez_lysp: 0.138291): 0.207385, (Cochom_lysp: 0.377135, (Phoreg_lysp: 0.045830, (Proter_lysp: 0.052379, Proazu_lysp: 0.083996): 0.031942): 0.112679): 0.000004): 0.252044, (Stolun_lysp: 0.429894, ((Melror_lysp: 0.250109, Phymel_lysp: 0.135724): 0.301879, ((Calvic_lysp: 0.070778, Calvom_lysp: 0.045539): 0.085662, (Belbay_lysp: 0.037234, Belpan_lysp: 0.020862): 0.154120): 0.178069): 0.080134): 0.128599): 0.177229): 0.795887);
+
+Detailed output identifying parameters
+
+kappa (ts/tv) =  1.39228
+
+Frequency parameters:
+   0.23972 (T)   0.13665 (C)   0.52609 (A)   0.09753 (G)
+omega (dN/dS) =  0.08114
+
+dN & dS for each branch
+
+ branch          t       N       S   dN/dS      dN      dS  N*dN  S*dS
+
+  18..2      0.257   290.4    84.6  0.0811  0.0241  0.2976   7.0  25.2
+  18..1      0.954   290.4    84.6  0.0811  0.0895  1.1029  26.0  93.3
+  18..19     0.796   290.4    84.6  0.0811  0.0747  0.9200  21.7  77.8
+  19..20     0.112   290.4    84.6  0.0811  0.0105  0.1299   3.1  11.0
+  20..10     0.026   290.4    84.6  0.0811  0.0025  0.0304   0.7   2.6
+  20..9      0.199   290.4    84.6  0.0811  0.0186  0.2297   5.4  19.4
+  19..21     0.177   290.4    84.6  0.0811  0.0166  0.2049   4.8  17.3
+  21..22     0.252   290.4    84.6  0.0811  0.0236  0.2913   6.9  24.6
+  22..23     0.207   290.4    84.6  0.0811  0.0195  0.2397   5.6  20.3
+  23..8      0.105   290.4    84.6  0.0811  0.0099  0.1216   2.9  10.3
+  23..3      0.138   290.4    84.6  0.0811  0.0130  0.1599   3.8  13.5
+  22..24     0.000   290.4    84.6  0.0811  0.0000  0.0000   0.0   0.0
+  24..7      0.377   290.4    84.6  0.0811  0.0354  0.4359  10.3  36.9
+  24..25     0.113   290.4    84.6  0.0811  0.0106  0.1303   3.1  11.0
+  25..17     0.046   290.4    84.6  0.0811  0.0043  0.0530   1.2   4.5
+  25..26     0.032   290.4    84.6  0.0811  0.0030  0.0369   0.9   3.1
+  26..16     0.052   290.4    84.6  0.0811  0.0049  0.0605   1.4   5.1
+  26..4      0.084   290.4    84.6  0.0811  0.0079  0.0971   2.3   8.2
+  21..27     0.129   290.4    84.6  0.0811  0.0121  0.1487   3.5  12.6
+  27..12     0.430   290.4    84.6  0.0811  0.0403  0.4969  11.7  42.0
+  27..28     0.080   290.4    84.6  0.0811  0.0075  0.0926   2.2   7.8
+  28..29     0.302   290.4    84.6  0.0811  0.0283  0.3490   8.2  29.5
+  29..6      0.250   290.4    84.6  0.0811  0.0235  0.2891   6.8  24.5
+  29..5      0.136   290.4    84.6  0.0811  0.0127  0.1569   3.7  13.3
+  28..30     0.178   290.4    84.6  0.0811  0.0167  0.2058   4.9  17.4
+  30..31     0.086   290.4    84.6  0.0811  0.0080  0.0990   2.3   8.4
+  31..15     0.071   290.4    84.6  0.0811  0.0066  0.0818   1.9   6.9
+  31..14     0.046   290.4    84.6  0.0811  0.0043  0.0526   1.2   4.5
+  30..32     0.154   290.4    84.6  0.0811  0.0145  0.1782   4.2  15.1
+  32..13     0.037   290.4    84.6  0.0811  0.0035  0.0430   1.0   3.6
+  32..11     0.021   290.4    84.6  0.0811  0.0020  0.0241   0.6   2.0
+
+tree length for dN:       0.5485
+tree length for dS:       6.7595
+
+
+
+NSsites Model 1: NearlyNeutral (2 categories)
+
+TREE #  1:  (2, 1, ((10, 9), (((8, 3), (7, (17, (16, 4)))), (12, ((6, 5), ((15, 14), (13, 11)))))));   MP score: 420
+lnL(ntime: 31  np: 37):  -2375.166290      +0.000000
+  18..2    18..1    18..19   19..20   20..10   20..9    19..21   21..22   22..23   23..8    23..3    22..24   24..7    24..25   25..17   25..26   26..16   26..4    21..27   27..12   27..28   28..29   29..6    29..5    28..30   30..31   31..15   31..14   30..32   32..13   32..11 
+ 0.275941 1.050924 0.852205 0.134473 0.000004 0.226221 0.210151 0.301811 0.223893 0.106689 0.133864 0.000004 0.391244 0.097732 0.039874 0.036763 0.051279 0.085070 0.049895 0.467275 0.119822 0.289467 0.252054 0.143271 0.193731 0.086774 0.072642 0.045834 0.160967 0.038098 0.022052 1.564633 2.995860 1.265541 6.439794 0.942333 0.063008
+
+Note: Branch length is defined as number of nucleotide substitutions per codon (not per nucleotide site).
+
+tree length =  6.160024
+
+(2: 0.275941, 1: 1.050924, ((10: 0.000004, 9: 0.226221): 0.134473, (((8: 0.106689, 3: 0.133864): 0.223893, (7: 0.391244, (17: 0.039874, (16: 0.051279, 4: 0.085070): 0.036763): 0.097732): 0.000004): 0.301811, (12: 0.467275, ((6: 0.252054, 5: 0.143271): 0.289467, ((15: 0.072642, 14: 0.045834): 0.086774, (13: 0.038098, 11: 0.022052): 0.160967): 0.193731): 0.119822): 0.049895): 0.210151): 0.852205);
+
+(Stocal_lysp: 0.275941, Musdom_lysp: 1.050924, ((Lucser_lysp: 0.000004, Luccup_lysp: 0.226221): 0.134473, (((Chrruf_lysp: 0.106689, Chrbez_lysp: 0.133864): 0.223893, (Cochom_lysp: 0.391244, (Phoreg_lysp: 0.039874, (Proter_lysp: 0.051279, Proazu_lysp: 0.085070): 0.036763): 0.097732): 0.000004): 0.301811, (Stolun_lysp: 0.467275, ((Melror_lysp: 0.252054, Phymel_lysp: 0.143271): 0.289467, ((Calvic_lysp: 0.072642, Calvom_lysp: 0.045834): 0.086774, (Belbay_lysp: 0.038098, Belpan_lysp: 0.022052): 0.160967): 0.193731): 0.119822): 0.049895): 0.210151): 0.852205);
+
+Detailed output identifying parameters
+
+kappa (ts/tv) =  1.56463
+
+Frequency parameters:
+   0.25603 (T)   0.10815 (C)   0.55035 (A)   0.08546 (G)
+
+MLEs of dN/dS (w) for site classes (K=2)
+
+p:   0.94233  0.05767
+w:   0.06301  1.00000
+
+dN & dS for each branch
+
+ branch          t       N       S   dN/dS      dN      dS  N*dN  S*dS
+
+  18..2      0.276   289.1    85.9  0.1170  0.0337  0.2880   9.7  24.7
+  18..1      1.051   289.1    85.9  0.1170  0.1284  1.0970  37.1  94.2
+  18..19     0.852   289.1    85.9  0.1170  0.1041  0.8896  30.1  76.4
+  19..20     0.134   289.1    85.9  0.1170  0.0164  0.1404   4.7  12.1
+  20..10     0.000   289.1    85.9  0.1170  0.0000  0.0000   0.0   0.0
+  20..9      0.226   289.1    85.9  0.1170  0.0276  0.2361   8.0  20.3
+  19..21     0.210   289.1    85.9  0.1170  0.0257  0.2194   7.4  18.8
+  21..22     0.302   289.1    85.9  0.1170  0.0369  0.3150  10.7  27.1
+  22..23     0.224   289.1    85.9  0.1170  0.0274  0.2337   7.9  20.1
+  23..8      0.107   289.1    85.9  0.1170  0.0130  0.1114   3.8   9.6
+  23..3      0.134   289.1    85.9  0.1170  0.0164  0.1397   4.7  12.0
+  22..24     0.000   289.1    85.9  0.1170  0.0000  0.0000   0.0   0.0
+  24..7      0.391   289.1    85.9  0.1170  0.0478  0.4084  13.8  35.1
+  24..25     0.098   289.1    85.9  0.1170  0.0119  0.1020   3.5   8.8
+  25..17     0.040   289.1    85.9  0.1170  0.0049  0.0416   1.4   3.6
+  25..26     0.037   289.1    85.9  0.1170  0.0045  0.0384   1.3   3.3
+  26..16     0.051   289.1    85.9  0.1170  0.0063  0.0535   1.8   4.6
+  26..4      0.085   289.1    85.9  0.1170  0.0104  0.0888   3.0   7.6
+  21..27     0.050   289.1    85.9  0.1170  0.0061  0.0521   1.8   4.5
+  27..12     0.467   289.1    85.9  0.1170  0.0571  0.4878  16.5  41.9
+  27..28     0.120   289.1    85.9  0.1170  0.0146  0.1251   4.2  10.7
+  28..29     0.289   289.1    85.9  0.1170  0.0354  0.3022  10.2  26.0
+  29..6      0.252   289.1    85.9  0.1170  0.0308  0.2631   8.9  22.6
+  29..5      0.143   289.1    85.9  0.1170  0.0175  0.1496   5.1  12.8
+  28..30     0.194   289.1    85.9  0.1170  0.0237  0.2022   6.8  17.4
+  30..31     0.087   289.1    85.9  0.1170  0.0106  0.0906   3.1   7.8
+  31..15     0.073   289.1    85.9  0.1170  0.0089  0.0758   2.6   6.5
+  31..14     0.046   289.1    85.9  0.1170  0.0056  0.0478   1.6   4.1
+  30..32     0.161   289.1    85.9  0.1170  0.0197  0.1680   5.7  14.4
+  32..13     0.038   289.1    85.9  0.1170  0.0047  0.0398   1.3   3.4
+  32..11     0.022   289.1    85.9  0.1170  0.0027  0.0230   0.8   2.0
+
+
+
+NSsites Model 2: PositiveSelection (3 categories)
+
+TREE #  1:  (2, 1, ((10, 9), (((8, 3), (7, (17, (16, 4)))), (12, ((6, 5), ((15, 14), (13, 11)))))));   MP score: 420
+check convergence..
+lnL(ntime: 31  np: 39):  -2375.166290      +0.000000
+  18..2    18..1    18..19   19..20   20..10   20..9    19..21   21..22   22..23   23..8    23..3    22..24   24..7    24..25   25..17   25..26   26..16   26..4    21..27   27..12   27..28   28..29   29..6    29..5    28..30   30..31   31..15   31..14   30..32   32..13   32..11 
+ 0.275941 1.050924 0.852205 0.134473 0.000004 0.226221 0.210151 0.301811 0.223893 0.106689 0.133864 0.000004 0.391244 0.097732 0.039874 0.036763 0.051279 0.085070 0.049894 0.467275 0.119822 0.289467 0.252054 0.143271 0.193731 0.086774 0.072642 0.045834 0.160967 0.038098 0.022052 1.564633 2.995860 1.265540 6.439798 0.942333 0.038887 0.063008 1.000000
+
+Note: Branch length is defined as number of nucleotide substitutions per codon (not per nucleotide site).
+
+tree length =  6.160023
+
+(2: 0.275941, 1: 1.050924, ((10: 0.000004, 9: 0.226221): 0.134473, (((8: 0.106689, 3: 0.133864): 0.223893, (7: 0.391244, (17: 0.039874, (16: 0.051279, 4: 0.085070): 0.036763): 0.097732): 0.000004): 0.301811, (12: 0.467275, ((6: 0.252054, 5: 0.143271): 0.289467, ((15: 0.072642, 14: 0.045834): 0.086774, (13: 0.038098, 11: 0.022052): 0.160967): 0.193731): 0.119822): 0.049894): 0.210151): 0.852205);
+
+(Stocal_lysp: 0.275941, Musdom_lysp: 1.050924, ((Lucser_lysp: 0.000004, Luccup_lysp: 0.226221): 0.134473, (((Chrruf_lysp: 0.106689, Chrbez_lysp: 0.133864): 0.223893, (Cochom_lysp: 0.391244, (Phoreg_lysp: 0.039874, (Proter_lysp: 0.051279, Proazu_lysp: 0.085070): 0.036763): 0.097732): 0.000004): 0.301811, (Stolun_lysp: 0.467275, ((Melror_lysp: 0.252054, Phymel_lysp: 0.143271): 0.289467, ((Calvic_lysp: 0.072642, Calvom_lysp: 0.045834): 0.086774, (Belbay_lysp: 0.038098, Belpan_lysp: 0.022052): 0.160967): 0.193731): 0.119822): 0.049894): 0.210151): 0.852205);
+
+Detailed output identifying parameters
+
+kappa (ts/tv) =  1.56463
+
+Frequency parameters:
+   0.25603 (T)   0.10815 (C)   0.55035 (A)   0.08546 (G)
+
+MLEs of dN/dS (w) for site classes (K=3)
+
+p:   0.94233  0.03889  0.01878
+w:   0.06301  1.00000  1.00000
+
+dN & dS for each branch
+
+ branch          t       N       S   dN/dS      dN      dS  N*dN  S*dS
+
+  18..2      0.276   289.1    85.9  0.1170  0.0337  0.2880   9.7  24.7
+  18..1      1.051   289.1    85.9  0.1170  0.1284  1.0970  37.1  94.2
+  18..19     0.852   289.1    85.9  0.1170  0.1041  0.8896  30.1  76.4
+  19..20     0.134   289.1    85.9  0.1170  0.0164  0.1404   4.7  12.1
+  20..10     0.000   289.1    85.9  0.1170  0.0000  0.0000   0.0   0.0
+  20..9      0.226   289.1    85.9  0.1170  0.0276  0.2361   8.0  20.3
+  19..21     0.210   289.1    85.9  0.1170  0.0257  0.2194   7.4  18.8
+  21..22     0.302   289.1    85.9  0.1170  0.0369  0.3150  10.7  27.1
+  22..23     0.224   289.1    85.9  0.1170  0.0274  0.2337   7.9  20.1
+  23..8      0.107   289.1    85.9  0.1170  0.0130  0.1114   3.8   9.6
+  23..3      0.134   289.1    85.9  0.1170  0.0164  0.1397   4.7  12.0
+  22..24     0.000   289.1    85.9  0.1170  0.0000  0.0000   0.0   0.0
+  24..7      0.391   289.1    85.9  0.1170  0.0478  0.4084  13.8  35.1
+  24..25     0.098   289.1    85.9  0.1170  0.0119  0.1020   3.5   8.8
+  25..17     0.040   289.1    85.9  0.1170  0.0049  0.0416   1.4   3.6
+  25..26     0.037   289.1    85.9  0.1170  0.0045  0.0384   1.3   3.3
+  26..16     0.051   289.1    85.9  0.1170  0.0063  0.0535   1.8   4.6
+  26..4      0.085   289.1    85.9  0.1170  0.0104  0.0888   3.0   7.6
+  21..27     0.050   289.1    85.9  0.1170  0.0061  0.0521   1.8   4.5
+  27..12     0.467   289.1    85.9  0.1170  0.0571  0.4878  16.5  41.9
+  27..28     0.120   289.1    85.9  0.1170  0.0146  0.1251   4.2  10.7
+  28..29     0.289   289.1    85.9  0.1170  0.0354  0.3022  10.2  26.0
+  29..6      0.252   289.1    85.9  0.1170  0.0308  0.2631   8.9  22.6
+  29..5      0.143   289.1    85.9  0.1170  0.0175  0.1496   5.1  12.8
+  28..30     0.194   289.1    85.9  0.1170  0.0237  0.2022   6.8  17.4
+  30..31     0.087   289.1    85.9  0.1170  0.0106  0.0906   3.1   7.8
+  31..15     0.073   289.1    85.9  0.1170  0.0089  0.0758   2.6   6.5
+  31..14     0.046   289.1    85.9  0.1170  0.0056  0.0478   1.6   4.1
+  30..32     0.161   289.1    85.9  0.1170  0.0197  0.1680   5.7  14.4
+  32..13     0.038   289.1    85.9  0.1170  0.0047  0.0398   1.3   3.4
+  32..11     0.022   289.1    85.9  0.1170  0.0027  0.0230   0.8   2.0
+
+
+Naive Empirical Bayes (NEB) analysis
+Bayes Empirical Bayes (BEB) analysis (Yang, Wong & Nielsen 2005. Mol. Biol. Evol. 22:1107-1118)
+Positively selected sites (*: P>95%; **: P>99%)
+(amino acids refer to 1st sequence: Musdom_lysp)
+
+            Pr(w>1)     post mean +- SE for w
+
+
+
+
+The grid (see ternary graph for p0-p1)
+
+w0:   0.050  0.150  0.250  0.350  0.450  0.550  0.650  0.750  0.850  0.950
+w2:   1.500  2.500  3.500  4.500  5.500  6.500  7.500  8.500  9.500 10.500
+
+
+Posterior on the grid
+
+w0:   1.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000
+w2:   0.532  0.085  0.055  0.049  0.047  0.047  0.046  0.046  0.046  0.046
+
+Posterior for p0-p1 (see the ternary graph) (YWN2015, fig. 1)
+
+ 0.000
+ 0.000 0.000 0.000
+ 0.000 0.000 0.000 0.000 0.000
+ 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+ 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+ 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+ 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+ 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+ 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.048
+ 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.031 0.921
+
+sum of density on p0-p1 =   1.000000
+
+
+NSsites Model 7: beta (10 categories)
+
+TREE #  1:  (2, 1, ((10, 9), (((8, 3), (7, (17, (16, 4)))), (12, ((6, 5), ((15, 14), (13, 11)))))));   MP score: 420
+lnL(ntime: 31  np: 37):  -2357.103476      +0.000000
+  18..2    18..1    18..19   19..20   20..10   20..9    19..21   21..22   22..23   23..8    23..3    22..24   24..7    24..25   25..17   25..26   26..16   26..4    21..27   27..12   27..28   28..29   29..6    29..5    28..30   30..31   31..15   31..14   30..32   32..13   32..11 
+ 0.236439 1.069971 0.917534 0.123885 0.000004 0.225049 0.197177 0.291619 0.217060 0.108966 0.133924 0.000004 0.380688 0.106659 0.042463 0.034277 0.051261 0.085201 0.088994 0.439063 0.092894 0.302030 0.255693 0.135003 0.187334 0.082871 0.071013 0.045108 0.158557 0.036783 0.021846 1.404018 2.396978 1.120229 4.921727 0.369772 3.671954
+
+Note: Branch length is defined as number of nucleotide substitutions per codon (not per nucleotide site).
+
+tree length =  6.139371
+
+(2: 0.236439, 1: 1.069971, ((10: 0.000004, 9: 0.225049): 0.123885, (((8: 0.108966, 3: 0.133924): 0.217060, (7: 0.380688, (17: 0.042463, (16: 0.051261, 4: 0.085201): 0.034277): 0.106659): 0.000004): 0.291619, (12: 0.439063, ((6: 0.255693, 5: 0.135003): 0.302030, ((15: 0.071013, 14: 0.045108): 0.082871, (13: 0.036783, 11: 0.021846): 0.158557): 0.187334): 0.092894): 0.088994): 0.197177): 0.917534);
+
+(Stocal_lysp: 0.236439, Musdom_lysp: 1.069971, ((Lucser_lysp: 0.000004, Luccup_lysp: 0.225049): 0.123885, (((Chrruf_lysp: 0.108966, Chrbez_lysp: 0.133924): 0.217060, (Cochom_lysp: 0.380688, (Phoreg_lysp: 0.042463, (Proter_lysp: 0.051261, Proazu_lysp: 0.085201): 0.034277): 0.106659): 0.000004): 0.291619, (Stolun_lysp: 0.439063, ((Melror_lysp: 0.255693, Phymel_lysp: 0.135003): 0.302030, ((Calvic_lysp: 0.071013, Calvom_lysp: 0.045108): 0.082871, (Belbay_lysp: 0.036783, Belpan_lysp: 0.021846): 0.158557): 0.187334): 0.092894): 0.088994): 0.197177): 0.917534);
+
+Detailed output identifying parameters
+
+kappa (ts/tv) =  1.40402
+
+Frequency parameters:
+   0.25395 (T)   0.11868 (C)   0.52143 (A)   0.10594 (G)
+Parameters in M7 (beta):
+ p =   0.36977  q =   3.67195
+
+
+MLEs of dN/dS (w) for site classes (K=10)
+
+p:   0.10000  0.10000  0.10000  0.10000  0.10000  0.10000  0.10000  0.10000  0.10000  0.10000
+w:   0.00007  0.00128  0.00514  0.01297  0.02626  0.04703  0.07849  0.12662  0.20567  0.37314
+
+dN & dS for each branch
+
+ branch          t       N       S   dN/dS      dN      dS  N*dN  S*dS
+
+  18..2      0.236   290.8    84.2  0.0877  0.0236  0.2695   6.9  22.7
+  18..1      1.070   290.8    84.2  0.0877  0.1069  1.2195  31.1 102.7
+  18..19     0.918   290.8    84.2  0.0877  0.0917  1.0457  26.7  88.0
+  19..20     0.124   290.8    84.2  0.0877  0.0124  0.1412   3.6  11.9
+  20..10     0.000   290.8    84.2  0.0877  0.0000  0.0000   0.0   0.0
+  20..9      0.225   290.8    84.2  0.0877  0.0225  0.2565   6.5  21.6
+  19..21     0.197   290.8    84.2  0.0877  0.0197  0.2247   5.7  18.9
+  21..22     0.292   290.8    84.2  0.0877  0.0291  0.3324   8.5  28.0
+  22..23     0.217   290.8    84.2  0.0877  0.0217  0.2474   6.3  20.8
+  23..8      0.109   290.8    84.2  0.0877  0.0109  0.1242   3.2  10.5
+  23..3      0.134   290.8    84.2  0.0877  0.0134  0.1526   3.9  12.8
+  22..24     0.000   290.8    84.2  0.0877  0.0000  0.0000   0.0   0.0
+  24..7      0.381   290.8    84.2  0.0877  0.0380  0.4339  11.1  36.5
+  24..25     0.107   290.8    84.2  0.0877  0.0107  0.1216   3.1  10.2
+  25..17     0.042   290.8    84.2  0.0877  0.0042  0.0484   1.2   4.1
+  25..26     0.034   290.8    84.2  0.0877  0.0034  0.0391   1.0   3.3
+  26..16     0.051   290.8    84.2  0.0877  0.0051  0.0584   1.5   4.9
+  26..4      0.085   290.8    84.2  0.0877  0.0085  0.0971   2.5   8.2
+  21..27     0.089   290.8    84.2  0.0877  0.0089  0.1014   2.6   8.5
+  27..12     0.439   290.8    84.2  0.0877  0.0439  0.5004  12.8  42.1
+  27..28     0.093   290.8    84.2  0.0877  0.0093  0.1059   2.7   8.9
+  28..29     0.302   290.8    84.2  0.0877  0.0302  0.3442   8.8  29.0
+  29..6      0.256   290.8    84.2  0.0877  0.0255  0.2914   7.4  24.5
+  29..5      0.135   290.8    84.2  0.0877  0.0135  0.1539   3.9  13.0
+  28..30     0.187   290.8    84.2  0.0877  0.0187  0.2135   5.4  18.0
+  30..31     0.083   290.8    84.2  0.0877  0.0083  0.0945   2.4   8.0
+  31..15     0.071   290.8    84.2  0.0877  0.0071  0.0809   2.1   6.8
+  31..14     0.045   290.8    84.2  0.0877  0.0045  0.0514   1.3   4.3
+  30..32     0.159   290.8    84.2  0.0877  0.0158  0.1807   4.6  15.2
+  32..13     0.037   290.8    84.2  0.0877  0.0037  0.0419   1.1   3.5
+  32..11     0.022   290.8    84.2  0.0877  0.0022  0.0249   0.6   2.1
+
+
+
+NSsites Model 8: beta&w>1 (11 categories)
+
+TREE #  1:  (2, 1, ((10, 9), (((8, 3), (7, (17, (16, 4)))), (12, ((6, 5), ((15, 14), (13, 11)))))));   MP score: 420
+check convergence..
+lnL(ntime: 31  np: 39):  -2355.692169      +0.000000
+  18..2    18..1    18..19   19..20   20..10   20..9    19..21   21..22   22..23   23..8    23..3    22..24   24..7    24..25   25..17   25..26   26..16   26..4    21..27   27..12   27..28   28..29   29..6    29..5    28..30   30..31   31..15   31..14   30..32   32..13   32..11 
+ 0.244732 1.105560 0.923733 0.121683 0.000004 0.223638 0.222256 0.299560 0.228246 0.110901 0.133444 0.000004 0.391432 0.098441 0.040652 0.036851 0.052112 0.086194 0.053116 0.459650 0.109370 0.286381 0.255148 0.137875 0.199439 0.081706 0.070623 0.044691 0.159159 0.036482 0.022183 1.482423 2.650278 1.102864 5.604225 0.969129 0.494970 6.509326 1.000000
+
+Note: Branch length is defined as number of nucleotide substitutions per codon (not per nucleotide site).
+
+tree length =  6.235265
+
+(2: 0.244732, 1: 1.105560, ((10: 0.000004, 9: 0.223638): 0.121683, (((8: 0.110901, 3: 0.133444): 0.228246, (7: 0.391432, (17: 0.040652, (16: 0.052112, 4: 0.086194): 0.036851): 0.098441): 0.000004): 0.299560, (12: 0.459650, ((6: 0.255148, 5: 0.137875): 0.286381, ((15: 0.070623, 14: 0.044691): 0.081706, (13: 0.036482, 11: 0.022183): 0.159159): 0.199439): 0.109370): 0.053116): 0.222256): 0.923733);
+
+(Stocal_lysp: 0.244732, Musdom_lysp: 1.105560, ((Lucser_lysp: 0.000004, Luccup_lysp: 0.223638): 0.121683, (((Chrruf_lysp: 0.110901, Chrbez_lysp: 0.133444): 0.228246, (Cochom_lysp: 0.391432, (Phoreg_lysp: 0.040652, (Proter_lysp: 0.052112, Proazu_lysp: 0.086194): 0.036851): 0.098441): 0.000004): 0.299560, (Stolun_lysp: 0.459650, ((Melror_lysp: 0.255148, Phymel_lysp: 0.137875): 0.286381, ((Calvic_lysp: 0.070623, Calvom_lysp: 0.044691): 0.081706, (Belbay_lysp: 0.036482, Belpan_lysp: 0.022183): 0.159159): 0.199439): 0.109370): 0.053116): 0.222256): 0.923733);
+
+Detailed output identifying parameters
+
+kappa (ts/tv) =  1.48242
+
+Frequency parameters:
+   0.25588 (T)   0.10648 (C)   0.54109 (A)   0.09655 (G)
+Parameters in M8 (beta&w>1):
+  p0 =   0.96913  p =   0.49497 q =   6.50933
+ (p1 =   0.03087) w =   1.00000
+
+
+MLEs of dN/dS (w) for site classes (K=11)
+
+p:   0.09691  0.09691  0.09691  0.09691  0.09691  0.09691  0.09691  0.09691  0.09691  0.09691  0.03087
+w:   0.00029  0.00274  0.00782  0.01590  0.02755  0.04378  0.06642  0.09912  0.15112  0.26246  1.00000
+
+dN & dS for each branch
+
+ branch          t       N       S   dN/dS      dN      dS  N*dN  S*dS
+
+  18..2      0.245   290.2    84.8  0.0965  0.0262  0.2713   7.6  23.0
+  18..1      1.106   290.2    84.8  0.0965  0.1182  1.2254  34.3 103.9
+  18..19     0.924   290.2    84.8  0.0965  0.0988  1.0238  28.7  86.8
+  19..20     0.122   290.2    84.8  0.0965  0.0130  0.1349   3.8  11.4
+  20..10     0.000   290.2    84.8  0.0965  0.0000  0.0000   0.0   0.0
+  20..9      0.224   290.2    84.8  0.0965  0.0239  0.2479   6.9  21.0
+  19..21     0.222   290.2    84.8  0.0965  0.0238  0.2463   6.9  20.9
+  21..22     0.300   290.2    84.8  0.0965  0.0320  0.3320   9.3  28.1
+  22..23     0.228   290.2    84.8  0.0965  0.0244  0.2530   7.1  21.4
+  23..8      0.111   290.2    84.8  0.0965  0.0119  0.1229   3.4  10.4
+  23..3      0.133   290.2    84.8  0.0965  0.0143  0.1479   4.1  12.5
+  22..24     0.000   290.2    84.8  0.0965  0.0000  0.0000   0.0   0.0
+  24..7      0.391   290.2    84.8  0.0965  0.0419  0.4338  12.2  36.8
+  24..25     0.098   290.2    84.8  0.0965  0.0105  0.1091   3.1   9.2
+  25..17     0.041   290.2    84.8  0.0965  0.0043  0.0451   1.3   3.8
+  25..26     0.037   290.2    84.8  0.0965  0.0039  0.0408   1.1   3.5
+  26..16     0.052   290.2    84.8  0.0965  0.0056  0.0578   1.6   4.9
+  26..4      0.086   290.2    84.8  0.0965  0.0092  0.0955   2.7   8.1
+  21..27     0.053   290.2    84.8  0.0965  0.0057  0.0589   1.6   5.0
+  27..12     0.460   290.2    84.8  0.0965  0.0492  0.5095  14.3  43.2
+  27..28     0.109   290.2    84.8  0.0965  0.0117  0.1212   3.4  10.3
+  28..29     0.286   290.2    84.8  0.0965  0.0306  0.3174   8.9  26.9
+  29..6      0.255   290.2    84.8  0.0965  0.0273  0.2828   7.9  24.0
+  29..5      0.138   290.2    84.8  0.0965  0.0147  0.1528   4.3  13.0
+  28..30     0.199   290.2    84.8  0.0965  0.0213  0.2211   6.2  18.7
+  30..31     0.082   290.2    84.8  0.0965  0.0087  0.0906   2.5   7.7
+  31..15     0.071   290.2    84.8  0.0965  0.0076  0.0783   2.2   6.6
+  31..14     0.045   290.2    84.8  0.0965  0.0048  0.0495   1.4   4.2
+  30..32     0.159   290.2    84.8  0.0965  0.0170  0.1764   4.9  15.0
+  32..13     0.036   290.2    84.8  0.0965  0.0039  0.0404   1.1   3.4
+  32..11     0.022   290.2    84.8  0.0965  0.0024  0.0246   0.7   2.1
+
+
+Naive Empirical Bayes (NEB) analysis
+Bayes Empirical Bayes (BEB) analysis (Yang, Wong & Nielsen 2005. Mol. Biol. Evol. 22:1107-1118)
+Positively selected sites (*: P>95%; **: P>99%)
+(amino acids refer to 1st sequence: Musdom_lysp)
+
+            Pr(w>1)     post mean +- SE for w
+
+
+
+
+The grid 
+
+p0:   0.050  0.150  0.250  0.350  0.450  0.550  0.650  0.750  0.850  0.950
+p :   0.100  0.300  0.500  0.700  0.900  1.100  1.300  1.500  1.700  1.900
+q :   0.100  0.300  0.500  0.700  0.900  1.100  1.300  1.500  1.700  1.900
+ws:   1.500  2.500  3.500  4.500  5.500  6.500  7.500  8.500  9.500 10.500
+
+
+Posterior on the grid
+
+p0:   0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  1.000
+p :   1.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000
+q :   0.000  0.000  0.000  0.003  0.029  0.094  0.173  0.227  0.244  0.230
+ws:   0.586  0.083  0.049  0.043  0.041  0.040  0.040  0.040  0.040  0.040

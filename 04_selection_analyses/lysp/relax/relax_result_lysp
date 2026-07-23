@@ -1,0 +1,1347 @@
+{
+ "Evidence Ratios":{
+   "0":{
+     "By Branch":{
+       "Belbay_lysp":0.6421970177050357,
+       "Belpan_lysp":0.8533542948749363,
+       "Chrbez_lysp":1.223011864940019,
+       "Cochom_lysp":3.12900135166925,
+       "Melror_lysp":3.460157042138769,
+       "Node22":0.6922922195620583,
+       "Node29":3.465997885838568,
+       "Phymel_lysp":0.6561218991457985,
+       "Proazu_lysp":0.8676319081030525,
+       "Stolun_lysp":7.23132010091173
+      }
+    }
+  },
+ "Site Log Likelihood":{
+   "0":{
+     "constrained":      [
+[1.193195132534605, 0.4738820179484116, 1.147969175999468, 1.209417000142717, 1.200834625116923, 1.170679271843883, 0.7883545675547271, 1.133191701501616, 1.183736175873314, 0.7596362066839564, 1.203836327757473, 0.7874430273104833, 1.13531183432913, 1.201110183761381, 1.130300433108379, 1.158890574331808, 0.79371912178953, 0.7324481725798706, 1.21344859107322, 0.8067751182768265, 0.780815381961954, 0.8736529442374736, 1.183690865009117, 1.217226798774343, 1.13546329052652, 1.17017321954508, 1.173352563776698, 1.219322816448809, 1.183102071641213, 1.206032611306852, 0.7814132931199935, 1.196298086412509, 1.240593732018138, 1.213448570512899, 1.168621635173853, 1.246939290885063, 1.217247895028092, 1.122496828928075, 1.18375843017757, 1.174591384419441, 1.145847895565906, 1.191174494111885, 1.122399364490549, 1.246938350110208, 1.15918802964185, 1.2469394074073, 1.13546329052652, 1.12946381614723, 1.2469394074073, 1.216449487756783, 1.168826798250369, 1.15925812757564, 1.209097656014727, 1.223055076605531, 1.209075371976935, 0.7588929713478112, 1.238656983405199, 1.216448476762025, 1.200736823992252, 1.168826811424967, 1.13546329052652, 1.17017321954508, 1.205831637867661, 1.135833501775465, 1.183217375680959, 0.531302162515106, 0.7282041380923266, 1.158001901777973, 1.198237384788983, 1.1291692860278, 1.1837401067351, 1.2469394074073, 1.144662917393037, 1.170232284727919, 0.8703442054027843, 1.220205013348153, 0.4041905061681421, 1.170173181840575, 1.206025079351252, 0.6256351803593632, 1.146300947719461, 0.7866213127744306, 0.5004421436800625, 1.21688412701381, 1.246939312840602, 0.8703045357134132, 1.200664415169768, 0.7443674823519478, 0.8116581500055404, 1.17473944253103, 0.7352546589652446, 1.17017321954508, 1.183758799280969, 0.976487864120157, 0.7322746985123346, 1.174906804182556, 1.196943297070411, 1.209416170264675, 1.165966493028251, 1.205756484346409, 1.159250189164324, 1.13546329052652, 1.124389022652801, 1.1837512086761, 1.13546329052652, 0.7404913547466057, 1.183719590073367, 1.168860306500625, 1.2469394074073, 1.15366064996712, 1.165651253834684, 1.170647785702258, 0.8934484139166051, 1.203052860157513, 0.5726499211218049, 1.213447311288547, 0.5323595278426189, 0.7547020673306584, 0.34323350341418, 1.167231711342682, 0.760817490871895, 1.17938969534949, 0.7568732469787861, 1.17017321954508, 1.223055062970782] 
+      ]
+    },
+   "unconstrained":    [
+[-21.79140733436219, -24.168669887111, -12.28506227509972, -12.58612436503066, -24.02047912061182, -20.28429229604195, -23.5671581115879, -16.10993580994895, -25.43876493705875, -30.47998400240624, -10.77286532102382, -21.87387361628006, -28.3115894121321, -10.02788426879068, -13.90187557023284, -20.43984947842712, -34.95147841561943, -49.07707106765595, -6.445545427705946, -37.16574503730049, -17.04390923974244, -31.85964430857875, -18.34426615148594, -25.52907201089272, -4.708400850039749, -5.351047442505746, -11.10731084151088, -20.43449735152848, -25.72706764042032, -9.663681480874542, -40.437748487308, -10.9666194891043, -6.178554971270369, -13.95729733490695, -34.69311129137512, -7.554483500902418, -25.73967815172728, -34.75765615576507, -24.5973042096631, -15.76750952467562, -20.79298113935473, -26.29693301159078, -24.62314685308429, -7.957691941011395, -20.23492133311634, -5.907660145790462, -4.708400850039749, -22.32895704697133, -5.907660145790462, -7.396618791591469, -9.828999897954979, -14.03435134464889, -28.64427125110122, -5.979444409674647, -11.8573385162821, -40.45016032895666, -10.48990958461916, -7.799772708252474, -15.1675506739561, -6.684537961604242, -4.708400850039749, -5.351047442505746, -10.91609028041815, -14.65611548446182, -23.87063484392999, -53.16604903874811, -27.91743966121091, -16.88835135312201, -43.96618656268155, -18.94494396915239, -20.86097726170927, -5.907660145790462, -24.00916584284305, -8.38112189770335, -34.79901967608264, -24.90195013541881, -49.74229496551837, -7.405174068192069, -10.19568791053114, -49.35964919585618, -22.63820527250514, -28.79663571281157, -36.24554186646527, -13.02893244895497, -9.888195206249796, -29.99167819738997, -42.42498992549891, -15.50577214170223, -31.01640223751293, -19.83261626113162, -19.43755001056229, -5.351047442505746, -15.86877194397816, -21.87327974492738, -23.8806012095184, -20.00722663699573, -18.97236924477203, -10.15078182113265, -18.88040812306384, -10.72816709748399, -14.96608718915457, -4.708400850039749, -29.10679251532711, -14.64978238566608, -4.708400850039749, -23.4317795485859, -27.28177658286533, -20.55888852065459, -5.907660145790462, -17.67720251023529, -22.00280473067057, -8.926720400082502, -20.48624318693544, -12.42853470114739, -37.81163209882955, -8.006818509361576, -42.48988033765379, -16.8785313256331, -33.67722045241741, -29.41008440437341, -19.70718499056546, -19.92639228033589, -11.40145724765419, -5.351047442505746, -10.9393653359496] 
+    ]
+  },
+ "analysis":{
+   "authors":"Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM / UCSD viral evolution g",
+   "citation":"RELAX: Detecting Relaxed Selection in a Phylogenetic Framework (2015). Mol Biol Evol 32 (3): 820-832",
+   "contact":"spond@temple.edu",
+   "info":"RELAX (a random effects test of selection relaxation) uses a random effects branch-site model framework to test whether a set of 'Test' branches evolves under relaxed selection relative to a set of 'Reference' branches (R), as measured by the relaxation parameter (K).\n                                                Version 2.1 adds a check for stability in K estimates to try to mitigate convergence problems. \n                                                Version 3 provides support for >2 branch sets.\n                                                Version 3.1 adds LHC + Nedler-Mead initial fit phase and keyword support.\n                                                Version 3.1.1 adds some bug fixes for better convergence.\n                                                Version 4.0 adds support for synonymous rate variation.\n                                                Version 4.1 adds further support for multiple hit models.\n                                                Version 4.1.1 adds reporting for convergence diagnostics.\n                                                Version 4.5 adds support for multiple datasets for joint testing.\n                                                Version 4.6 adds support for branch- and site-level evidence ratio calculation.",
+   "requirements":"in-frame codon alignment and a phylogenetic tree, with at least two groups of branches defined using the {} notation (one group can be defined as all unlabeled branches)",
+   "settings":{
+     "convergence-flat-surface":4.623260346839288,
+     "convergence-unstable-alernative":      [
+[1, -2506.905775146381] 
+      ]
+    },
+   "version":"4.6"
+  },
+ "branch attributes":{
+   "0":{
+     "Belbay_lysp":{
+       "MG94xREV with separate rates for branch sets":0.01129628447358609,
+       "Nucleotide GTR":0.01014657743874647,
+       "RELAX alternative":1089.999928242172,
+       "RELAX null":19.62723539195947,
+       "original name":"Belbay_lysp"
+      },
+     "Belpan_lysp":{
+       "MG94xREV with separate rates for branch sets":0.008151101994813637,
+       "Nucleotide GTR":0.008608197576781374,
+       "RELAX alternative":699.9626445255857,
+       "RELAX null":12.56807697095502,
+       "original name":"Belpan_lysp"
+      },
+     "Calvic_lysp":{
+       "MG94xREV with separate rates for branch sets":0.02440181115126654,
+       "Nucleotide GTR":0.02353201182139828,
+       "RELAX alternative":1.891378039776195,
+       "RELAX null":37.66276276592491,
+       "original name":"Calvic_lysp"
+      },
+     "Calvom_lysp":{
+       "MG94xREV with separate rates for branch sets":0.01506174953042411,
+       "Nucleotide GTR":0.01457285508701241,
+       "RELAX alternative":1.223660225659962,
+       "RELAX null":24.63902541694273,
+       "original name":"Calvom_lysp"
+      },
+     "Chrbez_lysp":{
+       "MG94xREV with separate rates for branch sets":0.04455115405605518,
+       "Nucleotide GTR":0.03632683877760283,
+       "RELAX alternative":4659.702558242405,
+       "RELAX null":79.45396179496959,
+       "original name":"Chrbez_lysp"
+      },
+     "Chrruf_lysp":{
+       "MG94xREV with separate rates for branch sets":0.03727006863679259,
+       "Nucleotide GTR":0.03185947787291143,
+       "RELAX alternative":2.696436361496084,
+       "RELAX null":56.65561443798582,
+       "original name":"Chrruf_lysp"
+      },
+     "Cochom_lysp":{
+       "MG94xREV with separate rates for branch sets":0.1288464326424333,
+       "Nucleotide GTR":0.09447000089566855,
+       "RELAX alternative":12416.50589428858,
+       "RELAX null":216.8817009196724,
+       "original name":"Cochom_lysp"
+      },
+     "Luccup_lysp":{
+       "MG94xREV with separate rates for branch sets":0.07228255419045536,
+       "Nucleotide GTR":0.05156166944015305,
+       "RELAX alternative":6.472566064702226,
+       "RELAX null":129.2970738651134,
+       "original name":"Luccup_lysp"
+      },
+     "Lucser_lysp":{
+       "MG94xREV with separate rates for branch sets":0.00207119639631676,
+       "Nucleotide GTR":0.01344229540590978,
+       "RELAX alternative":0,
+       "RELAX null":0,
+       "original name":"Lucser_lysp"
+      },
+     "Melror_lysp":{
+       "MG94xREV with separate rates for branch sets":0.0855197633155238,
+       "Nucleotide GTR":0.06824532810584717,
+       "RELAX alternative":8527.846527344704,
+       "RELAX null":150.9715710374273,
+       "original name":"Melror_lysp"
+      },
+     "Musdom_lysp":{
+       "MG94xREV with separate rates for branch sets":0.2928915404151149,
+       "Nucleotide GTR":0.2073074307446518,
+       "RELAX alternative":30.64550331398669,
+       "RELAX null":631.5545220664674,
+       "original name":"Musdom_lysp"
+      },
+     "Node12":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0.004427749850490068,
+       "RELAX alternative":0,
+       "RELAX null":0
+      },
+     "Node14":{
+       "MG94xREV with separate rates for branch sets":0.02670372790200993,
+       "Nucleotide GTR":0.01949699402963996,
+       "RELAX alternative":2.845596228292325,
+       "RELAX null":56.49089171604714
+      },
+     "Node16":{
+       "MG94xREV with separate rates for branch sets":0.01072984729479265,
+       "Nucleotide GTR":0.009931280180445617,
+       "RELAX alternative":0.9394269629850457,
+       "RELAX null":19.41698032002146
+      },
+     "Node19":{
+       "MG94xREV with separate rates for branch sets":0.02630412668266946,
+       "Nucleotide GTR":0.02964309625265361,
+       "RELAX alternative":0.4485287555174058,
+       "RELAX null":14.37434291981544
+      },
+     "Node21":{
+       "MG94xREV with separate rates for branch sets":0.02676225789640164,
+       "Nucleotide GTR":0.03094174581684023,
+       "RELAX alternative":3.018549209238362,
+       "RELAX null":59.20456917553327
+      },
+     "Node22":{
+       "MG94xREV with separate rates for branch sets":0.09214383603931814,
+       "Nucleotide GTR":0.0619548925663725,
+       "RELAX alternative":6948.598382273505,
+       "RELAX null":123.2562481446155
+      },
+     "Node25":{
+       "MG94xREV with separate rates for branch sets":0.04955857591896177,
+       "Nucleotide GTR":0.04437239946765666,
+       "RELAX alternative":3.63824484430257,
+       "RELAX null":72.61298452115682
+      },
+     "Node26":{
+       "MG94xREV with separate rates for branch sets":0.02702076581663418,
+       "Nucleotide GTR":0.02629910823785104,
+       "RELAX alternative":1.28349399789918,
+       "RELAX null":26.77910775642921
+      },
+     "Node29":{
+       "MG94xREV with separate rates for branch sets":0.04942853301675054,
+       "Nucleotide GTR":0.04343683124780208,
+       "RELAX alternative":4305.053450899799,
+       "RELAX null":75.7104315491955
+      },
+     "Node3":{
+       "MG94xREV with separate rates for branch sets":0.2241245327895502,
+       "Nucleotide GTR":0.129570795506545,
+       "RELAX alternative":21.64471482258233,
+       "RELAX null":453.3750129111088
+      },
+     "Node4":{
+       "MG94xREV with separate rates for branch sets":0.04613486376965933,
+       "Nucleotide GTR":0.04024627544736029,
+       "RELAX alternative":4.506939985596498,
+       "RELAX null":84.669837063613
+      },
+     "Node7":{
+       "MG94xREV with separate rates for branch sets":0.05061839500818315,
+       "Nucleotide GTR":0.03350138694112636,
+       "RELAX alternative":3.789225375569113,
+       "RELAX null":84.75024972784362
+      },
+     "Node8":{
+       "MG94xREV with separate rates for branch sets":0.08090178907190525,
+       "Nucleotide GTR":0.05049085878220161,
+       "RELAX alternative":5.068631080203264,
+       "RELAX null":99.97823937043505
+      },
+     "Node9":{
+       "MG94xREV with separate rates for branch sets":0.06556299943355996,
+       "Nucleotide GTR":0.0496195618071815,
+       "RELAX alternative":5.837744303479111,
+       "RELAX null":119.7316689816373
+      },
+     "Phoreg_lysp":{
+       "MG94xREV with separate rates for branch sets":0.01505364647045012,
+       "Nucleotide GTR":0.01318609756294349,
+       "RELAX alternative":1.105782265640838,
+       "RELAX null":21.38589673876277,
+       "original name":"Phoreg_lysp"
+      },
+     "Phymel_lysp":{
+       "MG94xREV with separate rates for branch sets":0.04800497228852397,
+       "Nucleotide GTR":0.04451307187408685,
+       "RELAX alternative":4839.476070183397,
+       "RELAX null":84.42717792834777,
+       "original name":"Phymel_lysp"
+      },
+     "Proazu_lysp":{
+       "MG94xREV with separate rates for branch sets":0.0265449829209144,
+       "Nucleotide GTR":0.02591170016326305,
+       "RELAX alternative":2659.849537618625,
+       "RELAX null":47.17018669093461,
+       "original name":"Proazu_lysp"
+      },
+     "Proter_lysp":{
+       "MG94xREV with separate rates for branch sets":0.01707161587531128,
+       "Nucleotide GTR":0.01266778945889943,
+       "RELAX alternative":1.405823534716292,
+       "RELAX null":28.18128262078173,
+       "original name":"Proter_lysp"
+      },
+     "Stocal_lysp":{
+       "MG94xREV with separate rates for branch sets":0.0918883372076858,
+       "Nucleotide GTR":0.1004125310566022,
+       "RELAX alternative":7.22063920156375,
+       "RELAX null":147.3977146789331,
+       "original name":"Stocal_lysp"
+      },
+     "Stolun_lysp":{
+       "MG94xREV with separate rates for branch sets":0.1519479068207656,
+       "Nucleotide GTR":0.120671947394251,
+       "RELAX alternative":16443.14616876745,
+       "RELAX null":285.2101120661574,
+       "original name":"Stolun_lysp"
+      }
+    },
+   "attributes":{
+     "MG94xREV with separate rates for branch sets":{
+       "attribute type":"branch length",
+       "display order":1
+      },
+     "Nucleotide GTR":{
+       "attribute type":"branch length",
+       "display order":0
+      },
+     "RELAX alternative":{
+       "attribute type":"branch length",
+       "display order":2
+      },
+     "RELAX null":{
+       "attribute type":"branch length",
+       "display order":3
+      },
+     "original name":{
+       "attribute type":"node label",
+       "display order":-1
+      }
+    }
+  },
+ "data partitions":{
+   "0":{
+     "coverage":      [
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124] 
+      ],
+     "name":"relax.filter.default"
+    }
+  },
+ "fits":{
+   "MG94xREV with separate rates for branch sets":{
+     "AIC-c":5071.806217135317,
+     "Equilibrium frequencies":      [
+[0.03353030976013527],
+      [0.01077292362329448],
+      [0.01836708323734161],
+      [0.03619027440799682],
+      [0.01542432260476713],
+      [0.004955666993561958],
+      [0.008449066506930617],
+      [0.01664793649737337],
+      [0.02453103973678201],
+      [0.007881556101773639],
+      [0.01343750332064311],
+      [0.02647709090487189],
+      [0.01749158483987287],
+      [0.005619855852162749],
+      [0.009581462175721683],
+      [0.01887919496462184],
+      [0.02123735087912768],
+      [0.0068233297162664],
+      [0.01163330115731071],
+      [0.02292211320183887],
+      [0.009769422160834181],
+      [0.003138809021905156],
+      [0.005351450412847224],
+      [0.01054443192852651],
+      [0.01553741382190445],
+      [0.004992001970882516],
+      [0.008511015108462567],
+      [0.01676999925821909],
+      [0.01107877998544657],
+      [0.00355949144151354],
+      [0.006068684590645149],
+      [0.01195766131143302],
+      [0.03300275546573132],
+      [0.01060342616975435],
+      [0.01807810190353197],
+      [0.03562086915000261],
+      [0.01518164164874175],
+      [0.004877696243431945],
+      [0.008316131817352081],
+      [0.01638600362365458],
+      [0.02414507684374845],
+      [0.007757550424587213],
+      [0.01322608229192059],
+      [0.02606050951596998],
+      [0.01721637829498205],
+      [0.005531434984298759],
+      [0.00943071076442752],
+      [0.01858215624205337],
+      [0.01672882503923967],
+      [0.05619837194281599],
+      [0.0239517890617914],
+      [0.007695449163750814],
+      [0.01312020397450084],
+      [0.02585188818444099],
+      [0.01223894066958976],
+      [0.02086654002903776],
+      [0.04111517326066338],
+      [0.02716195460743142],
+      [0.008726840418072826],
+      [0.01487865411123404],
+      [0.02931671665822783] 
+      ],
+     "Log Likelihood":-2487.816926574399,
+     "Rate Distributions":{
+       "non-synonymous/synonymous rate ratio for *Reference*":        [
+[0.1049459271201296, 1] 
+        ],
+       "non-synonymous/synonymous rate ratio for *Test*":        [
+[0.07103825598732315, 1] 
+        ]
+      },
+     "display order":1,
+     "estimated parameters":47
+    },
+   "Nucleotide GTR":{
+     "AIC-c":5689.918680340867,
+     "Equilibrium frequencies":      [
+[0.2964705882352941],
+      [0.1604705882352941],
+      [0.2356078431372549],
+      [0.3074509803921568] 
+      ],
+     "Log Likelihood":-2805.713089183851,
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":0.8404696007040027,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0.6901459430457788,
+       "Substitution rate from nucleotide C to nucleotide G":0.4498907224043804,
+       "Substitution rate from nucleotide C to nucleotide T":1.656401950492817,
+       "Substitution rate from nucleotide G to nucleotide T":0.3222603320261652
+      },
+     "display order":0,
+     "estimated parameters":39
+    },
+   "RELAX alternative":{
+     "AIC-c":5020.793902304417,
+     "Log Likelihood":-2458.11764579765,
+     "Rate Distributions":{
+       "Reference":{
+         "0":{
+           "omega":0,
+           "proportion":0.7697259392408115
+          },
+         "1":{
+           "omega":0.4904500581299028,
+           "proportion":0.2265068209935975
+          },
+         "2":{
+           "omega":9606.631387448442,
+           "proportion":0.003767239765591056
+          }
+        },
+       "Test":{
+         "0":{
+           "omega":0,
+           "proportion":0.7697259392408115
+          },
+         "1":{
+           "omega":0.2863790939359463,
+           "proportion":0.2265068209935975
+          },
+         "2":{
+           "omega":9774368.057409137,
+           "proportion":0.003767239765591056
+          }
+        }
+      },
+     "display order":2,
+     "estimated parameters":51
+    },
+   "RELAX null":{
+     "AIC-c":5022.409238480029,
+     "Log Likelihood":-2459.975111043293,
+     "Rate Distributions":{
+       "Reference":{
+         "0":{
+           "omega":0,
+           "proportion":0.7681306367955301
+          },
+         "1":{
+           "omega":0.3951823798635075,
+           "proportion":0.2279310154347946
+          },
+         "2":{
+           "omega":177801.8354869938,
+           "proportion":0.003938347769675368
+          }
+        },
+       "Test":{
+         "0":{
+           "omega":0,
+           "proportion":0.7681306367955301
+          },
+         "1":{
+           "omega":0.3951823798635075,
+           "proportion":0.2279310154347946
+          },
+         "2":{
+           "omega":177801.8354869938,
+           "proportion":0.003938347769675368
+          }
+        }
+      },
+     "display order":3,
+     "estimated parameters":50
+    }
+  },
+ "input":{
+   "file name":"/Users/lucas/Desktop/dipteraic/analise_selecao/hyphy2/lysp_aln.phy",
+   "number of sequences":17,
+   "number of sites":125,
+   "partition count":1,
+   "trees":{
+     "0":"(Stocal_lysp:0.1319095523,Musdom_lysp:0.4425810598,((Lucser_lysp:0.0151022467,Luccup_lysp:0.0559254017)Node4:0.0348033028,(((Chrruf_lysp:0.0332499028,Chrbez_lysp:0.0416139432)Node9:0.0590470443,(Cochom_lysp:0.1151551573,(Phoreg_lysp:0.0139507725,(Proter_lysp:0.0120355892,Proazu_lysp:0.0290291386)Node16:0.0104551846)Node14:0.0246417205)Node12:0.001801889)Node8:0.0573141394,(Stolun_lysp:0.1815165416,((Melror_lysp:0.08165540139999999,Phymel_lysp:0.0571700766)Node22:0.0820416868,((Calvic_lysp:0.0252481774,Calvom_lysp:0.0166271842)Node26:0.0282429814,(Belbay_lysp:0.010183764,Belpan_lysp:0.0103035156)Node29:0.055326279)Node25:0.06967968200000001)Node21:0.0349294683)Node19:0.0343048642)Node7:0.0554146122)Node3:0.2400365704)"
+    }
+  },
+ "runtime":"2.5.93",
+ "substitutions":{
+   "0":{
+     "0":{
+       "Chrbez_lysp":"CGA",
+       "Node29":"CGG",
+       "Node9":"CGT",
+       "root":"CGC"
+      },
+     "1":{
+       "Chrbez_lysp":"GTT",
+       "Chrruf_lysp":"ATA",
+       "Musdom_lysp":"ATC",
+       "Phymel_lysp":"GTT",
+       "root":"ATT"
+      },
+     "10":{
+       "Node16":"GAG",
+       "root":"GAA"
+      },
+     "100":{
+       "Chrruf_lysp":"GGC",
+       "Musdom_lysp":"GGA",
+       "Node3":"GGT",
+       "root":"GGC"
+      },
+     "101":{
+       "root":"TGG"
+      },
+     "102":{
+       "Belpan_lysp":"CAG",
+       "Cochom_lysp":"CGT",
+       "Musdom_lysp":"CGG",
+       "Node25":"CAA",
+       "Node3":"CGA",
+       "Stocal_lysp":"AAA",
+       "root":"AGA"
+      },
+     "103":{
+       "Cochom_lysp":"GCA",
+       "Musdom_lysp":"GCC",
+       "Node22":"GCA",
+       "root":"GCT"
+      },
+     "104":{
+       "root":"TGG"
+      },
+     "105":{
+       "Chrbez_lysp":"GCA",
+       "Melror_lysp":"TCT",
+       "Musdom_lysp":"TCG",
+       "Node3":"GCT",
+       "root":"GCG"
+      },
+     "106":{
+       "Musdom_lysp":"GTG",
+       "Node3":"GCT",
+       "Node9":"GCA",
+       "Phymel_lysp":"GCA",
+       "Proter_lysp":"GCC",
+       "Stolun_lysp":"GCC",
+       "root":"GTC"
+      },
+     "107":{
+       "Calvic_lysp":"TAT",
+       "Cochom_lysp":"TAT",
+       "Luccup_lysp":"TAT",
+       "Node14":"TAT",
+       "Proazu_lysp":"TAC",
+       "root":"TAC"
+      },
+     "108":{
+       "root":"AAT"
+      },
+     "109":{
+       "Musdom_lysp":"GGC",
+       "Node22":"GGA",
+       "Node25":"GGC",
+       "Node3":"GGT",
+       "Stolun_lysp":"GGC",
+       "root":"GGA"
+      },
+     "11":{
+       "Chrbez_lysp":"CTT",
+       "Cochom_lysp":"TTA",
+       "Node9":"CTA",
+       "root":"ATG"
+      },
+     "110":{
+       "Melror_lysp":"CGC",
+       "Musdom_lysp":"CGC",
+       "Node3":"CGT",
+       "Proazu_lysp":"CGC",
+       "Stolun_lysp":"AGA",
+       "root":"CGA"
+      },
+     "111":{
+       "Node25":"TGC",
+       "root":"TGT"
+      },
+     "112":{
+       "Musdom_lysp":"AAG",
+       "Node25":"CAT",
+       "Node3":"AAT",
+       "Stolun_lysp":"TAT",
+       "root":"AAA"
+      },
+     "113":{
+       "Node22":"AAG",
+       "Node3":"AAA",
+       "root":"AAT"
+      },
+     "114":{
+       "Cochom_lysp":"CTG",
+       "Musdom_lysp":"GCA",
+       "Node25":"TTG",
+       "Node3":"TTG",
+       "Node7":"ATG",
+       "Stolun_lysp":"GTG",
+       "root":"TCC"
+      },
+     "115":{
+       "Musdom_lysp":"AAA",
+       "Node3":"AAA",
+       "root":"AAG"
+      },
+     "116":{
+       "Melror_lysp":"ACA",
+       "Musdom_lysp":"CTT",
+       "Node25":"ACG",
+       "Node3":"TCT",
+       "Node7":"ACT",
+       "Node8":"AAT",
+       "Proazu_lysp":"ATT",
+       "Stolun_lysp":"AGT",
+       "root":"TTG"
+      },
+     "117":{
+       "Cochom_lysp":"TTA",
+       "Musdom_lysp":"TTG",
+       "Node22":"ATG",
+       "Node3":"TTG",
+       "root":"TTA"
+      },
+     "118":{
+       "Cochom_lysp":"CCT",
+       "Melror_lysp":"ATG",
+       "Node22":"ACG",
+       "Node3":"CCG",
+       "Node8":"CCA",
+       "Stolun_lysp":"GCA",
+       "root":"CCC"
+      },
+     "119":{
+       "Melror_lysp":"TCA",
+       "Musdom_lysp":"TCA",
+       "Node16":"ACA",
+       "Node4":"TCT",
+       "Node8":"TCA",
+       "Node9":"TCT",
+       "Proazu_lysp":"ACT",
+       "root":"TCC"
+      },
+     "12":{
+       "Cochom_lysp":"TTG",
+       "Musdom_lysp":"TCC",
+       "Node22":"TTG",
+       "Node3":"TTA",
+       "Proazu_lysp":"TTG",
+       "Stocal_lysp":"CTG",
+       "Stolun_lysp":"CTG",
+       "root":"TTG"
+      },
+     "120":{
+       "Cochom_lysp":"ATT",
+       "Node29":"ATC",
+       "Phymel_lysp":"GTA",
+       "root":"ATA"
+      },
+     "121":{
+       "Melror_lysp":"GAA",
+       "Musdom_lysp":"GAG",
+       "Node7":"GAG",
+       "Node9":"CAA",
+       "root":"GAA"
+      },
+     "122":{
+       "Phymel_lysp":"GAT",
+       "root":"GAA"
+      },
+     "123":{
+       "root":"TGT"
+      },
+     "124":{
+       "Stocal_lysp":"CTT",
+       "root":"TTT"
+      },
+     "13":{
+       "root":"CGT"
+      },
+     "14":{
+       "Luccup_lysp":"TTA",
+       "Stolun_lysp":"CTG",
+       "root":"TTG"
+      },
+     "15":{
+       "Belbay_lysp":"GGA",
+       "Melror_lysp":"GGT",
+       "Musdom_lysp":"GGC",
+       "Node21":"GGC",
+       "Node3":"GGT",
+       "root":"GGA"
+      },
+     "16":{
+       "Cochom_lysp":"ATA",
+       "Musdom_lysp":"GTT",
+       "Node22":"TCG",
+       "Node25":"ATT",
+       "Node8":"ATT",
+       "Stolun_lysp":"ACA",
+       "root":"ACT"
+      },
+     "17":{
+       "Chrbez_lysp":"GCA",
+       "Cochom_lysp":"TCA",
+       "Melror_lysp":"GCT",
+       "Musdom_lysp":"GCA",
+       "Node25":"GAC",
+       "Node29":"TTG",
+       "Node3":"TCT",
+       "Node7":"GCC",
+       "Node9":"GCT",
+       "root":"TCA"
+      },
+     "18":{
+       "root":"AAA"
+      },
+     "19":{
+       "Belbay_lysp":"GAT",
+       "Calvic_lysp":"ATA",
+       "Musdom_lysp":"TCC",
+       "Node26":"GTA",
+       "Node3":"CAT",
+       "root":"TCA"
+      },
+     "2":{
+       "Chrbez_lysp":"TTG",
+       "Musdom_lysp":"TTA",
+       "Node3":"TTA",
+       "root":"TTG"
+      },
+     "20":{
+       "Node22":"GAT",
+       "Node9":"GAT",
+       "Stolun_lysp":"GAG",
+       "root":"GAA"
+      },
+     "21":{
+       "Chrbez_lysp":"GTG",
+       "Melror_lysp":"TTA",
+       "Node22":"CTA",
+       "Node9":"ATT",
+       "Phymel_lysp":"CTG",
+       "Stocal_lysp":"CTA",
+       "Stolun_lysp":"CTA",
+       "root":"CTT"
+      },
+     "22":{
+       "Chrbez_lysp":"GCA",
+       "Melror_lysp":"GCT",
+       "root":"GCC"
+      },
+     "23":{
+       "Calvom_lysp":"ATC",
+       "Cochom_lysp":"ACC",
+       "Node22":"ACT",
+       "Node8":"ACT",
+       "Stolun_lysp":"ACT",
+       "root":"ACC"
+      },
+     "24":{
+       "root":"TGG"
+      },
+     "25":{
+       "root":"TGT"
+      },
+     "26":{
+       "Melror_lysp":"TGT",
+       "root":"TGC"
+      },
+     "27":{
+       "Chrbez_lysp":"ATA",
+       "Cochom_lysp":"ATA",
+       "Musdom_lysp":"ATT",
+       "Node26":"ATA",
+       "Node3":"ATT",
+       "Phoreg_lysp":"ATA",
+       "root":"ATA"
+      },
+     "28":{
+       "Luccup_lysp":"GCT",
+       "Musdom_lysp":"GCC",
+       "Node14":"GTA",
+       "Node22":"GCT",
+       "Node25":"GCC",
+       "Stolun_lysp":"GCC",
+       "root":"GCA"
+      },
+     "29":{
+       "Musdom_lysp":"CAG",
+       "Stolun_lysp":"CAG",
+       "root":"CAA"
+      },
+     "3":{
+       "Musdom_lysp":"AAT",
+       "Phymel_lysp":"AAG",
+       "root":"AAA"
+      },
+     "30":{
+       "Calvic_lysp":"TTT",
+       "Chrbez_lysp":"TAC",
+       "Cochom_lysp":"TTT",
+       "Luccup_lysp":"TAT",
+       "Musdom_lysp":"TTC",
+       "Node21":"TAC",
+       "Node7":"TAT",
+       "Stolun_lysp":"TTT",
+       "root":"TTT"
+      },
+     "31":{
+       "Node25":"GAG",
+       "Stolun_lysp":"GAG",
+       "root":"GAA"
+      },
+     "32":{
+       "root":"AGT"
+      },
+     "33":{
+       "Musdom_lysp":"CGC",
+       "root":"AAA"
+      },
+     "34":{
+       "Melror_lysp":"CTG",
+       "Musdom_lysp":"TAC",
+       "Node14":"TTC",
+       "Node21":"TTG",
+       "Phoreg_lysp":"TAC",
+       "Proter_lysp":"TTT",
+       "Stolun_lysp":"TTC",
+       "root":"TTT"
+      },
+     "35":{
+       "Musdom_lysp":"AAC",
+       "root":"AAT"
+      },
+     "36":{
+       "Luccup_lysp":"ACA",
+       "Musdom_lysp":"ACC",
+       "Node14":"ACA",
+       "Node21":"ACC",
+       "Node29":"ACA",
+       "Phymel_lysp":"ACG",
+       "root":"ACT"
+      },
+     "37":{
+       "Calvom_lysp":"ATG",
+       "Cochom_lysp":"TCA",
+       "Luccup_lysp":"TCA",
+       "Musdom_lysp":"ACC",
+       "Node22":"TCA",
+       "Node26":"ACG",
+       "Stolun_lysp":"TCT",
+       "root":"TCG"
+      },
+     "38":{
+       "Luccup_lysp":"GCA",
+       "Node3":"GCG",
+       "Node9":"GCC",
+       "Proter_lysp":"GCA",
+       "Stolun_lysp":"GCT",
+       "root":"GCC"
+      },
+     "39":{
+       "Node3":"GTG",
+       "root":"ATT"
+      },
+     "4":{
+       "Luccup_lysp":"CGT",
+       "Node3":"CGC",
+       "Node8":"CGT",
+       "Proazu_lysp":"CGC",
+       "Stolun_lysp":"CGT",
+       "root":"TGC"
+      },
+     "40":{
+       "Cochom_lysp":"GGT",
+       "Luccup_lysp":"GGT",
+       "Musdom_lysp":"GGC",
+       "Node29":"GGT",
+       "Node4":"GGC",
+       "Stolun_lysp":"GGT",
+       "root":"GGA"
+      },
+     "41":{
+       "Musdom_lysp":"CGC",
+       "Node22":"CAG",
+       "Node25":"AAA",
+       "Node3":"CAA",
+       "Node8":"AAA",
+       "root":"CGT"
+      },
+     "42":{
+       "Cochom_lysp":"CTA",
+       "Musdom_lysp":"CTG",
+       "Node26":"CTA",
+       "Node3":"TTA",
+       "Phymel_lysp":"TTG",
+       "Stolun_lysp":"CTC",
+       "root":"TTG"
+      },
+     "43":{
+       "Musdom_lysp":"AAT",
+       "Node3":"AAT",
+       "root":"AAC"
+      },
+     "44":{
+       "Luccup_lysp":"GGT",
+       "Node22":"GGT",
+       "Node26":"GGT",
+       "Node8":"GGT",
+       "root":"GGC"
+      },
+     "45":{
+       "root":"AAT"
+      },
+     "46":{
+       "root":"TGG"
+      },
+     "47":{
+       "Calvom_lysp":"TCG",
+       "Node29":"TCT",
+       "Node3":"TCA",
+       "Node4":"TCT",
+       "Node9":"TCT",
+       "root":"TCC"
+      },
+     "48":{
+       "root":"AAT"
+      },
+     "49":{
+       "Musdom_lysp":"GAC",
+       "root":"GAT"
+      },
+     "5":{
+       "Belpan_lysp":"TGC",
+       "Melror_lysp":"TGC",
+       "Musdom_lysp":"TGT",
+       "Node3":"TGT",
+       "Node9":"TGC",
+       "Stolun_lysp":"TGC",
+       "root":"TGC"
+      },
+     "50":{
+       "Stocal_lysp":"TTT",
+       "root":"TAT"
+      },
+     "51":{
+       "Calvic_lysp":"GGA",
+       "Musdom_lysp":"GGC",
+       "root":"GGT"
+      },
+     "52":{
+       "Chrruf_lysp":"CTA",
+       "Luccup_lysp":"TTA",
+       "Melror_lysp":"CTT",
+       "Musdom_lysp":"CTG",
+       "Node3":"CTC",
+       "Node4":"CTT",
+       "Phymel_lysp":"CTG",
+       "root":"CTA"
+      },
+     "53":{
+       "root":"TTT"
+      },
+     "54":{
+       "Musdom_lysp":"CAG",
+       "Node26":"CAG",
+       "root":"CAA"
+      },
+     "55":{
+       "Chrruf_lysp":"CTC",
+       "Cochom_lysp":"GTA",
+       "Melror_lysp":"CTT",
+       "Musdom_lysp":"TTC",
+       "Node14":"GTG",
+       "Node3":"GTC",
+       "Node4":"GTT",
+       "Stolun_lysp":"GTT",
+       "root":"GTG"
+      },
+     "56":{
+       "Melror_lysp":"AGC",
+       "Musdom_lysp":"AGC",
+       "root":"AGT"
+      },
+     "57":{
+       "Musdom_lysp":"GAT",
+       "Node3":"GAT",
+       "root":"GAC"
+      },
+     "58":{
+       "Melror_lysp":"CGC",
+       "Node3":"CGT",
+       "root":"CGC"
+      },
+     "59":{
+       "Musdom_lysp":"TAC",
+       "root":"TAT"
+      },
+     "6":{
+       "Calvic_lysp":"GAC",
+       "Node22":"GAA",
+       "Node8":"GAA",
+       "Stocal_lysp":"GAA",
+       "root":"GAT"
+      },
+     "60":{
+       "root":"TGG"
+      },
+     "61":{
+       "root":"TGT"
+      },
+     "62":{
+       "Musdom_lysp":"CAG",
+       "Node29":"CAG",
+       "root":"CAA"
+      },
+     "63":{
+       "Calvic_lysp":"TCT",
+       "root":"TCG"
+      },
+     "64":{
+       "Musdom_lysp":"TCG",
+       "Node29":"CGG",
+       "Node3":"AGA",
+       "root":"AAA"
+      },
+     "65":{
+       "Cochom_lysp":"TCG",
+       "Luccup_lysp":"AGT",
+       "Musdom_lysp":"GCG",
+       "Node22":"GCA",
+       "Node25":"CAA",
+       "Node7":"GCC",
+       "Node9":"GCT",
+       "Phoreg_lysp":"ACC",
+       "Stolun_lysp":"CCC",
+       "root":"GCT"
+      },
+     "66":{
+       "Chrbez_lysp":"GAC",
+       "Node8":"GAA",
+       "Phymel_lysp":"TCG",
+       "Stolun_lysp":"TCG",
+       "root":"TCA"
+      },
+     "67":{
+       "Node21":"CGA",
+       "Node25":"CGG",
+       "Stolun_lysp":"AGG",
+       "root":"AGA"
+      },
+     "68":{
+       "Chrbez_lysp":"TCG",
+       "Chrruf_lysp":"ACT",
+       "Luccup_lysp":"ACT",
+       "Melror_lysp":"CCG",
+       "Node21":"CCA",
+       "Node3":"CCC",
+       "Node8":"TCT",
+       "root":"AGT"
+      },
+     "69":{
+       "Luccup_lysp":"TCA",
+       "Node21":"TCG",
+       "Node4":"TCT",
+       "Node9":"TCG",
+       "root":"TCA"
+      },
+     "7":{
+       "Luccup_lysp":"TTA",
+       "Node29":"TTA",
+       "Node9":"TTA",
+       "root":"TTG"
+      },
+     "70":{
+       "Chrbez_lysp":"GCT",
+       "Cochom_lysp":"GCG",
+       "Node3":"GCC",
+       "Node4":"GCT",
+       "Node9":"GCA",
+       "root":"GCA"
+      },
+     "71":{
+       "root":"AAT"
+      },
+     "72":{
+       "Musdom_lysp":"TTG",
+       "Node14":"TTG",
+       "Node25":"TTG",
+       "Node3":"CTA",
+       "Node7":"TTA",
+       "Proter_lysp":"TTA",
+       "root":"CTT"
+      },
+     "73":{
+       "Phymel_lysp":"TGC",
+       "root":"TGT"
+      },
+     "74":{
+       "Calvom_lysp":"AAA",
+       "Chrruf_lysp":"CGA",
+       "Node14":"AAA",
+       "Node4":"AAA",
+       "Proazu_lysp":"CAA",
+       "root":"CAA"
+      },
+     "75":{
+       "Chrbez_lysp":"ATT",
+       "Cochom_lysp":"ATA",
+       "Musdom_lysp":"ATT",
+       "Node14":"ATT",
+       "Node4":"GTT",
+       "root":"ATC"
+      },
+     "76":{
+       "Calvic_lysp":"AAA",
+       "Chrbez_lysp":"GCT",
+       "Cochom_lysp":"TCA",
+       "Node14":"GCT",
+       "Node19":"AAG",
+       "Node22":"GAT",
+       "Node3":"TCT",
+       "Node4":"TCA",
+       "root":"AAT"
+      },
+     "77":{
+       "Musdom_lysp":"TGT",
+       "Node3":"TGT",
+       "root":"TGC"
+      },
+     "78":{
+       "Node3":"CAA",
+       "Stolun_lysp":"CAG",
+       "root":"CAG"
+      },
+     "79":{
+       "Cochom_lysp":"GCC",
+       "Node22":"GTG",
+       "Node3":"TCT",
+       "Node8":"GCA",
+       "Phoreg_lysp":"GCT",
+       "Proazu_lysp":"ACA",
+       "Stocal_lysp":"CAA",
+       "Stolun_lysp":"TCG",
+       "root":"CAT"
+      },
+     "8":{
+       "Cochom_lysp":"GCG",
+       "Luccup_lysp":"GCA",
+       "Melror_lysp":"GCT",
+       "Musdom_lysp":"GCC",
+       "Node29":"GCA",
+       "Node7":"GCC",
+       "Node9":"GCT",
+       "root":"GCT"
+      },
+     "80":{
+       "Cochom_lysp":"TTA",
+       "Melror_lysp":"CTT",
+       "Node21":"CTG",
+       "Node29":"TTG",
+       "Node4":"TTA",
+       "Stolun_lysp":"CTG",
+       "root":"TTG"
+      },
+     "81":{
+       "Cochom_lysp":"ATA",
+       "Musdom_lysp":"GTC",
+       "Node25":"CTA",
+       "Node3":"TTA",
+       "Node4":"ATA",
+       "root":"CTA"
+      },
+     "82":{
+       "Calvom_lysp":"AGC",
+       "Luccup_lysp":"ACA",
+       "Musdom_lysp":"AGC",
+       "Node29":"AAT",
+       "Node3":"ACT",
+       "Node7":"AGT",
+       "Phymel_lysp":"AAT",
+       "root":"ACA"
+      },
+     "83":{
+       "Luccup_lysp":"GAT",
+       "Node3":"GAC",
+       "Node8":"GAT",
+       "Stolun_lysp":"GAT",
+       "root":"GAT"
+      },
+     "84":{
+       "Node3":"AAT",
+       "root":"GAT"
+      },
+     "85":{
+       "Calvic_lysp":"ATA",
+       "Musdom_lysp":"GTG",
+       "Node3":"ATT",
+       "Node4":"ATA",
+       "Proter_lysp":"ATA",
+       "Stolun_lysp":"GTA",
+       "root":"ATC"
+      },
+     "86":{
+       "Chrruf_lysp":"AGC",
+       "Luccup_lysp":"ACA",
+       "Musdom_lysp":"AGA",
+       "Node21":"GCC",
+       "Node3":"GCA",
+       "Node8":"AGT",
+       "Proazu_lysp":"AGC",
+       "root":"AAA"
+      },
+     "87":{
+       "Belpan_lysp":"GAC",
+       "Musdom_lysp":"GAG",
+       "root":"GAA"
+      },
+     "88":{
+       "Belbay_lysp":"GCA",
+       "Cochom_lysp":"ACT",
+       "Musdom_lysp":"TCT",
+       "Node3":"GCG",
+       "Node4":"GCT",
+       "Node8":"GCT",
+       "Node9":"GCA",
+       "root":"TCG"
+      },
+     "89":{
+       "Musdom_lysp":"ATC",
+       "Node14":"GTA",
+       "Stolun_lysp":"GTC",
+       "root":"GTT"
+      },
+     "9":{
+       "Cochom_lysp":"AGA",
+       "Melror_lysp":"AAG",
+       "Musdom_lysp":"AGG",
+       "Node21":"AGA",
+       "Node3":"CGA",
+       "Node8":"CGT",
+       "Stolun_lysp":"CGC",
+       "root":"CGT"
+      },
+     "90":{
+       "Belbay_lysp":"ACA",
+       "Musdom_lysp":"AAA",
+       "Node3":"AAA",
+       "Phymel_lysp":"AAG",
+       "Stolun_lysp":"AAG",
+       "root":"AAG"
+      },
+     "91":{
+       "root":"TGT"
+      },
+     "92":{
+       "Cochom_lysp":"GCA",
+       "Node3":"GCT",
+       "Stolun_lysp":"GCC",
+       "root":"GCC"
+      },
+     "93":{
+       "Musdom_lysp":"CAG",
+       "Node22":"CAG",
+       "Node7":"CAA",
+       "Stolun_lysp":"CAT",
+       "root":"CAT"
+      },
+     "94":{
+       "Musdom_lysp":"AAA",
+       "Node7":"TAT",
+       "Phymel_lysp":"CAT",
+       "Stocal_lysp":"CAT",
+       "root":"AAT"
+      },
+     "95":{
+       "Musdom_lysp":"GTG",
+       "Node26":"GTA",
+       "Phymel_lysp":"GTG",
+       "Stolun_lysp":"GTG",
+       "root":"GTT"
+      },
+     "96":{
+       "Luccup_lysp":"AAA",
+       "Musdom_lysp":"AAA",
+       "Node16":"AAA",
+       "Node22":"AAA",
+       "Node29":"AAA",
+       "Stolun_lysp":"AAA",
+       "root":"AAG"
+      },
+     "97":{
+       "Musdom_lysp":"AAG",
+       "Phymel_lysp":"AAG",
+       "root":"AAA"
+      },
+     "98":{
+       "Musdom_lysp":"CTA",
+       "Node3":"CGT",
+       "Stolun_lysp":"AGA",
+       "root":"CTT"
+      },
+     "99":{
+       "Melror_lysp":"CAG",
+       "Node3":"CAA",
+       "root":"CAG"
+      }
+    }
+  },
+ "test results":{
+   "LRT":3.714930491286395,
+   "p-value":0.05392787006970012,
+   "relaxation or intensification parameter":1.755169830204235
+  },
+ "tested":{
+   "0":{
+     "Belbay_lysp":"Test",
+     "Belpan_lysp":"Test",
+     "Calvic_lysp":"Reference",
+     "Calvom_lysp":"Reference",
+     "Chrbez_lysp":"Test",
+     "Chrruf_lysp":"Reference",
+     "Cochom_lysp":"Test",
+     "Luccup_lysp":"Reference",
+     "Lucser_lysp":"Reference",
+     "Melror_lysp":"Test",
+     "Musdom_lysp":"Reference",
+     "Node12":"Reference",
+     "Node14":"Reference",
+     "Node16":"Reference",
+     "Node19":"Reference",
+     "Node21":"Reference",
+     "Node22":"Test",
+     "Node25":"Reference",
+     "Node26":"Reference",
+     "Node29":"Test",
+     "Node3":"Reference",
+     "Node4":"Reference",
+     "Node7":"Reference",
+     "Node8":"Reference",
+     "Node9":"Reference",
+     "Phoreg_lysp":"Reference",
+     "Phymel_lysp":"Test",
+     "Proazu_lysp":"Test",
+     "Proter_lysp":"Reference",
+     "Stocal_lysp":"Reference",
+     "Stolun_lysp":"Test"
+    }
+  },
+ "timers":{
+   "Overall":{
+     "order":0,
+     "timer":17
+    },
+   "Preliminary model fitting":{
+     "order":1,
+     "timer":1
+    },
+   "RELAX alternative model fitting":{
+     "order":3,
+     "timer":13
+    },
+   "RELAX null model fitting":{
+     "order":4,
+     "timer":3
+    }
+  }
+}

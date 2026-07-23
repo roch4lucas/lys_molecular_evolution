@@ -1,0 +1,1414 @@
+{
+ "Evidence Ratios":{
+   "0":{
+     "By Branch":{
+       "Bellardia_bayeri_lysi1":1.055563033195124,
+       "Bellardia_pandia_lysi1":1.017520460751558,
+       "Chrysomya_bezziana_lysi1":1.137500873385615,
+       "Cochliomyia_hominivorax_lysi1":1.667260880820825,
+       "Melanophora_roralis_lysi1":2.876293517729269,
+       "Node18":0.9554415330590041,
+       "Node20":0.9057602316762035,
+       "Node24":1.045138232938327,
+       "Paykullia_maculata_lysi1":1.245743951820591,
+       "Phyto_melanocephala_lysi1":0.666451918434989,
+       "Protocalliphora_azurea_lysi1":1.038846554062018,
+       "Stomorhina_lunata_lysi1":0.5838719358438073
+      }
+    }
+  },
+ "Site Log Likelihood":{
+   "0":{
+     "constrained":      [
+[1.052196926011012, 1.047918217628769, 1.035776001599568, 1.045353098519828, 1.041596045638434, 1.035775774997981, 1.037957963227508, 1.030612476702813, 1.041891135111527, 1.039951521405234, 1.043831934208305, 1.038359375379195, 1.047375822242493, 1.038209211472275, 1.0438319197024, 1.054200760674526, 1.041897491175886, 1.039103358228915, 1.048896308736163, 1.049808349556513, 1.045351756668091, 0.9424047378605217, 0.7519060226966958, 1.039312135789539, 0.8717413229628462, 1.041894267123091, 1.041701001342062, 1.035775881409786, 1.038162468226147, 1.041892169885462, 1.031675697070479, 1.036964699955729, 1.051643472648536, 1.044529861493732, 1.045353092336997, 1.032326734714431, 1.03820893530715, 1.031593771194444, 1.032326841396829, 1.038209134937095, 1.041596045638434, 1.041893376311813, 1.040588421177352, 1.052203316611432, 1.031260403974323, 1.045353091358378, 0.9424903658700459, 1.04986528936493, 0.7814740081889689, 1.050644219238456, 1.042001888420062, 0.9387838114363666, 0.8822593629445934, 1.031481363980582, 0.9231156828722756, 1.045353143669498, 1.031592982821789, 0.8568844405483953, 1.049969827239026, 1.037752742221647, 1.035776679251537, 1.049398200660279, 1.041596045638434, 1.047918217187785, 1.031594007370858, 1.038079352556542, 1.038209126216086, 1.038209114831081, 1.049687347572634, 1.045353100561441, 1.044320931600732, 1.049609778748756, 1.049116360985384, 1.031593185171856, 1.064041116549578, 1.051645528909496, 1.052203348468489, 0.9400438235830865, 1.032051929421954, 1.049860092773593, 1.041596045638434, 1.038197073117132, 1.049067052174983, 0.9043468893519939, 1.041703628324468, 0.869883479503104, 0.9285496684463015, 1.035779322549568, 0.9359230457906945, 1.039527074961212, 1.028304569012312, 1.041596045638434, 1.031593063141276, 1.038209130932859, 1.038209115106078, 1.045261891718079, 1.052113580952203, 1.049561700937625, 1.030527606847961, 1.041894659606204, 0.9281714903288074, 1.031592935847559, 0.8091848682376814, 1.039857438184204, 0.77929188839301, 1.041895936259362, 0.9252661838576046, 1.030951968077822, 0.9193912280572568, 1.031593459539371, 0.9527516931992845, 0.9275941941700997, 1.033000060500973, 1.036458658152644, 1.051872429650816, 1.030688157224751, 0.8663228214793077, 1.021795928560276, 1.037948326851704, 1.032030554252143, 0.6947028794965937, 0.8678496662996159, 1.035902756496269, 1.041894560690409, 1.041660014265802, 1.043831928607927, 0.8608938113792056, 1.035776135063907, 1.051634902250302, 1.031524212896718, 1.048896313033784] 
+      ]
+    },
+   "unconstrained":    [
+[-10.0789552629363, -17.46454220762417, -21.1909531081508, -20.48763341330175, -6.328693277828044, -25.79381853000816, -12.02141819018898, -23.08609640003357, -16.62356164286028, -15.22940568097508, -9.253013083690217, -12.79430108993369, -11.82093985719583, -15.67910163309059, -26.09149212674999, -13.66169312819734, -15.66217669915648, -12.00923996659465, -8.270629374478704, -13.29939976162481, -25.08489040156314, -34.87374759753637, -45.42940959607714, -15.50101109507251, -43.13810760183922, -26.30096852668325, -16.10693243689998, -15.10718876875158, -12.57052556747099, -16.05120766979182, -27.93508008497319, -9.521617625016237, -24.19903264577526, -13.86171693291223, -20.07409470819212, -10.49704569801804, -25.41261289654989, -10.44323715254037, -5.523260729575025, -14.25802650471556, -6.328693277828044, -16.46282064216899, -18.5453873824164, -11.07568153268938, -25.29462067794147, -21.80459337717375, -34.1353386210749, -11.9347977283915, -32.36144097989065, -10.7650240599218, -24.67398600307997, -37.84246896369766, -31.95699348243549, -19.69749067352402, -13.77364546000481, -19.6378439485716, -15.76144387952445, -44.53321843750776, -12.76790212660168, -8.838649331873548, -20.31805774469894, -9.19209958870295, -6.328693277828044, -21.12891629297651, -15.89350630097941, -10.80522886727787, -17.12590195244912, -11.0169864640626, -12.38441121095643, -18.5965952095452, -17.8348354393314, -11.94260837326007, -13.881799388374, -11.20178650319553, -6.627422720768536, -27.99357756236272, -6.696342874715886, -29.54809520755129, -21.85519275813008, -15.60788437381067, -6.328693277828044, -13.70017340668907, -16.05704979122183, -27.91852241258159, -9.59051851798864, -16.04250703578383, -21.08587016465192, -20.48165758384646, -21.68017662632785, -15.9994900158051, -26.40207878762179, -6.328693277828044, -6.166657722229107, -12.86113103652265, -13.17469238597121, -15.55354903549375, -16.17510632360029, -21.03798450166347, -11.43325216429639, -12.94061787071607, -29.8442190433198, -18.09940069273664, -33.50472365647492, -13.63807004362827, -41.44998010400039, -7.925600708265923, -16.15471802511569, -14.20041239488848, -30.98557963336068, -17.68761038938176, -19.09659564460757, -19.96844749461948, -41.51876882287792, -35.46436616924143, -25.93336358631635, -15.07214552913575, -60.09454579882602, -39.65189530207182, -8.607777372452684, -25.57067216066713, -39.87301708204846, -26.46951987588115, -19.3675268922221, -20.10197381176488, -22.61773710952937, -6.959791891333228, -19.54948622570249, -22.07369567601684, -9.799560247643919, -21.83709056063677, -9.252933952737008] 
+    ]
+  },
+ "analysis":{
+   "authors":"Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM / UCSD viral evolution g",
+   "citation":"RELAX: Detecting Relaxed Selection in a Phylogenetic Framework (2015). Mol Biol Evol 32 (3): 820-832",
+   "contact":"spond@temple.edu",
+   "info":"RELAX (a random effects test of selection relaxation) uses a random effects branch-site model framework to test whether a set of 'Test' branches evolves under relaxed selection relative to a set of 'Reference' branches (R), as measured by the relaxation parameter (K).\n                                                Version 2.1 adds a check for stability in K estimates to try to mitigate convergence problems. \n                                                Version 3 provides support for >2 branch sets.\n                                                Version 3.1 adds LHC + Nedler-Mead initial fit phase and keyword support.\n                                                Version 3.1.1 adds some bug fixes for better convergence.\n                                                Version 4.0 adds support for synonymous rate variation.\n                                                Version 4.1 adds further support for multiple hit models.\n                                                Version 4.1.1 adds reporting for convergence diagnostics.\n                                                Version 4.5 adds support for multiple datasets for joint testing.\n                                                Version 4.6 adds support for branch- and site-level evidence ratio calculation.",
+   "requirements":"in-frame codon alignment and a phylogenetic tree, with at least two groups of branches defined using the {} notation (one group can be defined as all unlabeled branches)",
+   "settings":{
+     "convergence-flat-surface":1.122186405590128,
+     "convergence-unstable-alernative":      [
+[0.9963180046869996, -2486.620699017029] 
+      ]
+    },
+   "version":"4.6"
+  },
+ "branch attributes":{
+   "0":{
+     "Bellardia_bayeri_lysi1":{
+       "MG94xREV with separate rates for branch sets":0.01862690818424496,
+       "Nucleotide GTR":0.01751154602333086,
+       "RELAX alternative":0.01867939463783865,
+       "RELAX null":0.01870677226474821,
+       "original name":"Bellardia_bayeri_lysi1"
+      },
+     "Bellardia_pandia_lysi1":{
+       "MG94xREV with separate rates for branch sets":0.002360377246009206,
+       "Nucleotide GTR":0.002844489708597968,
+       "RELAX alternative":0.002495241354463584,
+       "RELAX null":0.002508943301357917,
+       "original name":"Bellardia_pandia_lysi1"
+      },
+     "Calliphora_vicina_lysi1":{
+       "MG94xREV with separate rates for branch sets":0.1316943117965808,
+       "Nucleotide GTR":0.1157283945713382,
+       "RELAX alternative":0.1069781217284454,
+       "RELAX null":0.1037587221421084,
+       "original name":"Calliphora_vicina_lysi1"
+      },
+     "Calliphora_vicina_lysi1_2":{
+       "MG94xREV with separate rates for branch sets":0.004593983053497958,
+       "Nucleotide GTR":0.005172347827756318,
+       "RELAX alternative":0.004505450311473029,
+       "RELAX null":0.004244957658567889,
+       "original name":"Calliphora_vicina_lysi1_2"
+      },
+     "Calliphora_vomitoria_lysi1":{
+       "MG94xREV with separate rates for branch sets":0.01152758944984352,
+       "Nucleotide GTR":0.0120166218721802,
+       "RELAX alternative":0.0122480042399534,
+       "RELAX null":0.01229965223935815,
+       "original name":"Calliphora_vomitoria_lysi1"
+      },
+     "Chrysomya_bezziana_lysi1":{
+       "MG94xREV with separate rates for branch sets":0.04446922966484187,
+       "Nucleotide GTR":0.03694467824447219,
+       "RELAX alternative":0.0442493618016848,
+       "RELAX null":0.04385735871849739,
+       "original name":"Chrysomya_bezziana_lysi1"
+      },
+     "Chrysomya_rufifacies_lysi1":{
+       "MG94xREV with separate rates for branch sets":0.04043476866409026,
+       "Nucleotide GTR":0.03735371396290738,
+       "RELAX alternative":0.04306679680496114,
+       "RELAX null":0.04352955711177806,
+       "original name":"Chrysomya_rufifacies_lysi1"
+      },
+     "Cochliomyia_hominivorax_lysi1":{
+       "MG94xREV with separate rates for branch sets":0.06531518190591025,
+       "Nucleotide GTR":0.0545777572634302,
+       "RELAX alternative":0.0708965915040466,
+       "RELAX null":0.07071947452388334,
+       "original name":"Cochliomyia_hominivorax_lysi1"
+      },
+     "Lucilia_cuprina_lysi1":{
+       "MG94xREV with separate rates for branch sets":0.062692489378745,
+       "Nucleotide GTR":0.05525600310497761,
+       "RELAX alternative":0.06933030637804018,
+       "RELAX null":0.07028959828438223,
+       "original name":"Lucilia_cuprina_lysi1"
+      },
+     "Melanophora_roralis_lysi1":{
+       "MG94xREV with separate rates for branch sets":0.1145120765870875,
+       "Nucleotide GTR":0.08971308969763532,
+       "RELAX alternative":0.1421438211696134,
+       "RELAX null":0.1421628938430864,
+       "original name":"Melanophora_roralis_lysi1"
+      },
+     "Musca_domestica_lysi1":{
+       "MG94xREV with separate rates for branch sets":0.1235611942283803,
+       "Nucleotide GTR":0.1158200482475379,
+       "RELAX alternative":0.1044973796900033,
+       "RELAX null":0.1070839364834678,
+       "original name":"Musca_domestica_lysi1"
+      },
+     "Node10":{
+       "MG94xREV with separate rates for branch sets":0.01299554473065854,
+       "Nucleotide GTR":0.01171390912405929,
+       "RELAX alternative":0.01140922217068173,
+       "RELAX null":0.01141520359030523
+      },
+     "Node12":{
+       "MG94xREV with separate rates for branch sets":0.04357489438546547,
+       "Nucleotide GTR":0.03921624273594018,
+       "RELAX alternative":0.04885950589540744,
+       "RELAX null":0.04964297103158768
+      },
+     "Node15":{
+       "MG94xREV with separate rates for branch sets":0.01692361303884301,
+       "Nucleotide GTR":0.007971727489855446,
+       "RELAX alternative":0.02098027730143701,
+       "RELAX null":0.02059498632393712
+      },
+     "Node17":{
+       "MG94xREV with separate rates for branch sets":0.0299770541375102,
+       "Nucleotide GTR":0.02413258038140078,
+       "RELAX alternative":0.02831459138485302,
+       "RELAX null":0.02828937151033102
+      },
+     "Node18":{
+       "MG94xREV with separate rates for branch sets":0.06810250160496764,
+       "Nucleotide GTR":0.05608891063031031,
+       "RELAX alternative":0.06322354796533011,
+       "RELAX null":0.06313938891148048
+      },
+     "Node20":{
+       "MG94xREV with separate rates for branch sets":0.05108682578250007,
+       "Nucleotide GTR":0.03651217869124448,
+       "RELAX alternative":0.05002810650371908,
+       "RELAX null":0.04980822099783974
+      },
+     "Node23":{
+       "MG94xREV with separate rates for branch sets":0.01030037638292474,
+       "Nucleotide GTR":0.01291910368920872,
+       "RELAX alternative":0.01501997917380606,
+       "RELAX null":0.0151526802874518
+      },
+     "Node24":{
+       "MG94xREV with separate rates for branch sets":0.041053891279951,
+       "Nucleotide GTR":0.0376041929027677,
+       "RELAX alternative":0.04008999533524499,
+       "RELAX null":0.04002984534716245
+      },
+     "Node27":{
+       "MG94xREV with separate rates for branch sets":0.01191569566431967,
+       "Nucleotide GTR":0.0129793568959247,
+       "RELAX alternative":0.01322243054069158,
+       "RELAX null":0.01339033282533412
+      },
+     "Node29":{
+       "MG94xREV with separate rates for branch sets":0.008666783000480726,
+       "Nucleotide GTR":0.006966312564892688,
+       "RELAX alternative":0.0080877651641905,
+       "RELAX null":0.008117984750060729
+      },
+     "Node3":{
+       "MG94xREV with separate rates for branch sets":0.3450494396747089,
+       "Nucleotide GTR":0.2012680724174364,
+       "RELAX alternative":0.3681016726118558,
+       "RELAX null":0.3446545816384968
+      },
+     "Node31":{
+       "MG94xREV with separate rates for branch sets":0.018927726390454,
+       "Nucleotide GTR":0.01674957097166565,
+       "RELAX alternative":0.01922878903856829,
+       "RELAX null":0.01940329725732893
+      },
+     "Node4":{
+       "MG94xREV with separate rates for branch sets":0.04049558589821828,
+       "Nucleotide GTR":0.04225913342744058,
+       "RELAX alternative":0.03940999276859764,
+       "RELAX null":0.04005813779270863
+      },
+     "Node5":{
+       "MG94xREV with separate rates for branch sets":0.008683943755136826,
+       "Nucleotide GTR":0.007469350705565194,
+       "RELAX alternative":0.008449270680027623,
+       "RELAX null":0.008410832667317363
+      },
+     "Node8":{
+       "MG94xREV with separate rates for branch sets":0.003696289602316166,
+       "Nucleotide GTR":0.004556837228255372,
+       "RELAX alternative":0.003878873552776974,
+       "RELAX null":0.003937847379661912
+      },
+     "Paykullia_maculata_lysi1":{
+       "MG94xREV with separate rates for branch sets":0.0450197652024294,
+       "Nucleotide GTR":0.04720518997911638,
+       "RELAX alternative":0.04524749259567824,
+       "RELAX null":0.04529214738074385,
+       "original name":"Paykullia_maculata_lysi1"
+      },
+     "Phormia_regina_lysi1":{
+       "MG94xREV with separate rates for branch sets":0.0293346859237797,
+       "Nucleotide GTR":0.02689201406533027,
+       "RELAX alternative":0.03047431595054935,
+       "RELAX null":0.03060945146434281,
+       "original name":"Phormia_regina_lysi1"
+      },
+     "Phyto_melanocephala_lysi1":{
+       "MG94xREV with separate rates for branch sets":0.0857908881831787,
+       "Nucleotide GTR":0.07037090175351159,
+       "RELAX alternative":0.08163234334317504,
+       "RELAX null":0.08207689879769482,
+       "original name":"Phyto_melanocephala_lysi1"
+      },
+     "Protocalliphora_azurea_lysi1":{
+       "MG94xREV with separate rates for branch sets":0.01655472614309237,
+       "Nucleotide GTR":0.01469116050459305,
+       "RELAX alternative":0.01650558035235532,
+       "RELAX null":0.01648186946142583,
+       "original name":"Protocalliphora_azurea_lysi1"
+      },
+     "Protophormia_terraenovae_lysi1":{
+       "MG94xREV with separate rates for branch sets":0.008650524456952684,
+       "Nucleotide GTR":0.008100417452098869,
+       "RELAX alternative":0.008754799463743947,
+       "RELAX null":0.008768618614231467,
+       "original name":"Protophormia_terraenovae_lysi1"
+      },
+     "Stomorhina_lunata_lysi1":{
+       "MG94xREV with separate rates for branch sets":0.1410658521023722,
+       "Nucleotide GTR":0.1174672382743226,
+       "RELAX alternative":0.1385991831744302,
+       "RELAX null":0.1397265636218012,
+       "original name":"Stomorhina_lunata_lysi1"
+      },
+     "Stomoxys_calcitrans_lysi1":{
+       "MG94xREV with separate rates for branch sets":0.1983876099003588,
+       "Nucleotide GTR":0.1437330180263801,
+       "RELAX alternative":0.3321402587670438,
+       "RELAX null":0.3437964439273415,
+       "original name":"Stomoxys_calcitrans_lysi1"
+      }
+    },
+   "attributes":{
+     "MG94xREV with separate rates for branch sets":{
+       "attribute type":"branch length",
+       "display order":1
+      },
+     "Nucleotide GTR":{
+       "attribute type":"branch length",
+       "display order":0
+      },
+     "RELAX alternative":{
+       "attribute type":"branch length",
+       "display order":2
+      },
+     "RELAX null":{
+       "attribute type":"branch length",
+       "display order":3
+      },
+     "original name":{
+       "attribute type":"node label",
+       "display order":-1
+      }
+    }
+  },
+ "data partitions":{
+   "0":{
+     "coverage":      [
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130] 
+      ],
+     "name":"relax.filter.default"
+    }
+  },
+ "fits":{
+   "MG94xREV with separate rates for branch sets":{
+     "AIC-c":5146.634760780483,
+     "Equilibrium frequencies":      [
+[0.01580354668845882],
+      [0.0276175258998579],
+      [0.01084323372894708],
+      [0.04613208673442461],
+      [0.008397478928834447],
+      [0.01467503443261654],
+      [0.005761733650950473],
+      [0.02451305608369566],
+      [0.01117857975362133],
+      [0.01953515384585936],
+      [0.007669920899130302],
+      [0.03263135933520205],
+      [0.007532111100697812],
+      [0.01316275881008678],
+      [0.005167981766833889],
+      [0.02198696339755617],
+      [0.005776738319029382],
+      [0.01009515289748253],
+      [0.003963573811563754],
+      [0.016862859864878],
+      [0.003069566551593522],
+      [0.005364228385637076],
+      [0.002106111256012783],
+      [0.008960362707607541],
+      [0.004086154284735933],
+      [0.007140768715665761],
+      [0.002803619139132065],
+      [0.01192788097442334],
+      [0.002753244931428167],
+      [0.004811439780027327],
+      [0.001889074578829615],
+      [0.008036989194996054],
+      [0.01967740081285084],
+      [0.0343872889613863],
+      [0.01350118808126372],
+      [0.05744024293416369],
+      [0.01045591612804348],
+      [0.01827226129460334],
+      [0.007174082164065126],
+      [0.03052183406773046],
+      [0.0139187360069664],
+      [0.02432372047512624],
+      [0.009550014987791743],
+      [0.04063014140843794],
+      [0.009378424477563135],
+      [0.01638928817783118],
+      [0.006434786483325326],
+      [0.02737653135464528],
+      [0.03391410127887711],
+      [0.05664983414481996],
+      [0.0103120370706774],
+      [0.01802082510299473],
+      [0.007075362915881402],
+      [0.0301018371338443],
+      [0.02398901293436748],
+      [0.009418601619756954],
+      [0.04007104870198269],
+      [0.009249372287694116],
+      [0.0161637627140602],
+      [0.00634624034329942],
+      [0.02699981548613377] 
+      ],
+     "Log Likelihood":-2523.255855260259,
+     "Rate Distributions":{
+       "non-synonymous/synonymous rate ratio for *Reference*":        [
+[0.1174847805654597, 1] 
+        ],
+       "non-synonymous/synonymous rate ratio for *Test*":        [
+[0.0736385562135322, 1] 
+        ]
+      },
+     "display order":1,
+     "estimated parameters":49
+    },
+   "Nucleotide GTR":{
+     "AIC-c":5647.724320340724,
+     "Equilibrium frequencies":      [
+[0.2522714366837024],
+      [0.197473026689381],
+      [0.2326802952867688],
+      [0.3175752413401476] 
+      ],
+     "Log Likelihood":-2782.617279624287,
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":0.4859541507646589,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0.4664693167932215,
+       "Substitution rate from nucleotide C to nucleotide G":0.6421980282507234,
+       "Substitution rate from nucleotide C to nucleotide T":3.110247315712935,
+       "Substitution rate from nucleotide G to nucleotide T":0.1601847400501915
+      },
+     "display order":0,
+     "estimated parameters":41
+    },
+   "RELAX alternative":{
+     "AIC-c":5080.961193416081,
+     "Log Likelihood":-2486.238409208041,
+     "Rate Distributions":{
+       "Reference":{
+         "0":{
+           "omega":0,
+           "proportion":0.3526196734566426
+          },
+         "1":{
+           "omega":0.01585967505241287,
+           "proportion":0.5347589451910323
+          },
+         "2":{
+           "omega":1,
+           "proportion":0.1126213813523251
+          }
+        },
+       "Test":{
+         "0":{
+           "omega":0,
+           "proportion":0.3526196734566426
+          },
+         "1":{
+           "omega":2.276325093917832e-15,
+           "proportion":0.5347589451910323
+          },
+         "2":{
+           "omega":1,
+           "proportion":0.1126213813523251
+          }
+        }
+      },
+     "display order":2,
+     "estimated parameters":53
+    },
+   "RELAX null":{
+     "AIC-c":5079.631601995049,
+     "Log Likelihood":-2486.620139392318,
+     "Rate Distributions":{
+       "Reference":{
+         "0":{
+           "omega":0,
+           "proportion":0.2892718906032545
+          },
+         "1":{
+           "omega":0,
+           "proportion":0.5886332503349687
+          },
+         "2":{
+           "omega":1,
+           "proportion":0.1220948590617768
+          }
+        },
+       "Test":{
+         "0":{
+           "omega":0,
+           "proportion":0.2892718906032545
+          },
+         "1":{
+           "omega":0,
+           "proportion":0.5886332503349687
+          },
+         "2":{
+           "omega":1,
+           "proportion":0.1220948590617768
+          }
+        }
+      },
+     "display order":3,
+     "estimated parameters":52
+    }
+  },
+ "input":{
+   "file name":"/Users/lucas/Desktop/dipteraic/analise_selecao/hyphy2/lysi1_aln.phy",
+   "number of sequences":18,
+   "number of sites":131,
+   "partition count":1,
+   "trees":{
+     "0":"(Stomoxys_calcitrans_lysi1:0.2114852724,Musca_domestica_lysi1:0.1332933079,(((Phormia_regina_lysi1:0.0262639614,Protophormia_terraenovae_lysi1:0.0076093773)Node5:0.0060978926,(Protocalliphora_azurea_lysi1:0.0157559876,(Cochliomyia_hominivorax_lysi1:0.0525131166,(Chrysomya_rufifacies_lysi1:0.039451444,Chrysomya_bezziana_lysi1:0.0360935547)Node12:0.0438340169)Node10:0.0127845185)Node8:0.0042759907)Node4:0.0278422897,(Lucilia_cuprina_lysi1:0.0674151145,((Phyto_melanocephala_lysi1:0.0833717164,(Paykullia_maculata_lysi1:0.050963569,Melanophora_roralis_lysi1:0.1005493205)Node20:0.043996069)Node18:0.0678144874,((Bellardia_bayeri_lysi1:0.0174964295,Bellardia_pandia_lysi1:0.0029759383)Node24:0.0399657294,(Calliphora_vicina_lysi1:0.1385596758,(Calliphora_vomitoria_lysi1:0.0120045405,(Calliphora_vicina_lysi1_2:0.0031078611,Stomorhina_lunata_lysi1:0.1412506935)Node31:0.0187451081)Node29:0.008912477)Node27:0.0112700511)Node23:0.0139963062)Node17:0.0264171556)Node15:0.0201933099)Node3:0.3700582071)"
+    }
+  },
+ "runtime":"2.5.93",
+ "substitutions":{
+   "0":{
+     "0":{
+       "Chrysomya_rufifacies_lysi1":"AAG",
+       "root":"AAA"
+      },
+     "1":{
+       "Node12":"CCC",
+       "Node3":"CCC",
+       "Node4":"CCT",
+       "Stomoxys_calcitrans_lysi1":"CCT",
+       "root":"CCA"
+      },
+     "10":{
+       "Node3":"ATT",
+       "Stomoxys_calcitrans_lysi1":"ATT",
+       "root":"ATC"
+      },
+     "100":{
+       "Calliphora_vicina_lysi1":"GGC",
+       "Chrysomya_bezziana_lysi1":"GCT",
+       "Cochliomyia_hominivorax_lysi1":"GCT",
+       "Melanophora_roralis_lysi1":"GCA",
+       "Node3":"GCC",
+       "Phyto_melanocephala_lysi1":"GGC",
+       "root":"GGT"
+      },
+     "101":{
+       "Calliphora_vicina_lysi1":"CAT",
+       "Lucilia_cuprina_lysi1":"TAC",
+       "Node24":"TAC",
+       "Stomorhina_lunata_lysi1":"TAC",
+       "root":"TAT"
+      },
+     "102":{
+       "Calliphora_vicina_lysi1":"GAT",
+       "Cochliomyia_hominivorax_lysi1":"GGC",
+       "Node18":"GGC",
+       "Node29":"GCT",
+       "Node3":"GGT",
+       "Phyto_melanocephala_lysi1":"GCC",
+       "Stomorhina_lunata_lysi1":"GGT",
+       "Stomoxys_calcitrans_lysi1":"GGT",
+       "root":"GGC"
+      },
+     "103":{
+       "Chrysomya_bezziana_lysi1":"TGT",
+       "Cochliomyia_hominivorax_lysi1":"TGT",
+       "Melanophora_roralis_lysi1":"TGT",
+       "root":"TGC"
+      },
+     "104":{
+       "Calliphora_vicina_lysi1":"CAG",
+       "Node12":"AAA",
+       "Node18":"AAT",
+       "Node3":"AAG",
+       "Phormia_regina_lysi1":"AAA",
+       "Stomorhina_lunata_lysi1":"AAT",
+       "Stomoxys_calcitrans_lysi1":"ACT",
+       "root":"GGT"
+      },
+     "105":{
+       "root":"GGT"
+      },
+     "106":{
+       "Musca_domestica_lysi1":"GAT",
+       "Phyto_melanocephala_lysi1":"GAC",
+       "root":"GAA"
+      },
+     "107":{
+       "Node18":"TTG",
+       "Node4":"TTG",
+       "root":"TTA"
+      },
+     "108":{
+       "Lucilia_cuprina_lysi1":"TCG",
+       "Melanophora_roralis_lysi1":"TCT",
+       "Musca_domestica_lysi1":"CCC",
+       "Phyto_melanocephala_lysi1":"CCT",
+       "Protophormia_terraenovae_lysi1":"TCT",
+       "Stomoxys_calcitrans_lysi1":"TCT",
+       "root":"TCC"
+      },
+     "109":{
+       "Calliphora_vicina_lysi1":"TAC",
+       "Node3":"TAT",
+       "Node31":"TAC",
+       "root":"CAC"
+      },
+     "11":{
+       "Node12":"TGC",
+       "Phyto_melanocephala_lysi1":"TGC",
+       "Stomorhina_lunata_lysi1":"TGC",
+       "root":"TGT"
+      },
+     "110":{
+       "Node20":"CCA",
+       "Node3":"CAA",
+       "root":"AAA"
+      },
+     "111":{
+       "Chrysomya_rufifacies_lysi1":"TTT",
+       "Node3":"TAT",
+       "Phyto_melanocephala_lysi1":"TTT",
+       "Stomorhina_lunata_lysi1":"TAC",
+       "Stomoxys_calcitrans_lysi1":"TAT",
+       "root":"TAC"
+      },
+     "112":{
+       "Calliphora_vicina_lysi1":"CAC",
+       "Cochliomyia_hominivorax_lysi1":"GGC",
+       "Node20":"TAT",
+       "Node3":"GGC",
+       "Node4":"GGT",
+       "Stomorhina_lunata_lysi1":"GGA",
+       "Stomoxys_calcitrans_lysi1":"GTC",
+       "root":"GCC"
+      },
+     "113":{
+       "Calliphora_vicina_lysi1":"AGT",
+       "Chrysomya_rufifacies_lysi1":"ACT",
+       "Cochliomyia_hominivorax_lysi1":"ACT",
+       "Melanophora_roralis_lysi1":"TCT",
+       "Node15":"AAC",
+       "Node27":"AGC",
+       "Node3":"ACC",
+       "Stomoxys_calcitrans_lysi1":"ACC",
+       "root":"ACT"
+      },
+     "114":{
+       "Chrysomya_bezziana_lysi1":"AAG",
+       "Lucilia_cuprina_lysi1":"AGC",
+       "Node24":"AAG",
+       "Node3":"AAA",
+       "root":"GAT"
+      },
+     "115":{
+       "Node12":"TTG",
+       "Node4":"TTA",
+       "root":"TTG"
+      },
+     "116":{
+       "Chrysomya_rufifacies_lysi1":"AAT",
+       "Cochliomyia_hominivorax_lysi1":"ACA",
+       "Lucilia_cuprina_lysi1":"GCC",
+       "Melanophora_roralis_lysi1":"TCT",
+       "Node17":"TCC",
+       "Node24":"ACC",
+       "Node3":"ACC",
+       "Node4":"ACT",
+       "Phormia_regina_lysi1":"TCT",
+       "Phyto_melanocephala_lysi1":"TCG",
+       "Protocalliphora_azurea_lysi1":"AGT",
+       "Stomorhina_lunata_lysi1":"TCA",
+       "Stomoxys_calcitrans_lysi1":"GAG",
+       "root":"GAA"
+      },
+     "117":{
+       "Node23":"ACA",
+       "Node3":"AAT",
+       "Node4":"GAA",
+       "Paykullia_maculata_lysi1":"AAC",
+       "Stomoxys_calcitrans_lysi1":"TTG",
+       "root":"CTT"
+      },
+     "118":{
+       "Phyto_melanocephala_lysi1":"TGC",
+       "root":"TGT"
+      },
+     "119":{
+       "Chrysomya_rufifacies_lysi1":"TTG",
+       "Node20":"CTA",
+       "Node24":"CTA",
+       "Node3":"TTA",
+       "Stomorhina_lunata_lysi1":"TTG",
+       "Stomoxys_calcitrans_lysi1":"CTA",
+       "root":"TTG"
+      },
+     "12":{
+       "Lucilia_cuprina_lysi1":"GAA",
+       "Melanophora_roralis_lysi1":"GAA",
+       "root":"GAG"
+      },
+     "120":{
+       "Calliphora_vicina_lysi1":"AAT",
+       "Chrysomya_bezziana_lysi1":"AAT",
+       "Cochliomyia_hominivorax_lysi1":"GCT",
+       "Melanophora_roralis_lysi1":"AAC",
+       "Node18":"AAT",
+       "Node3":"AGT",
+       "Stomorhina_lunata_lysi1":"AAT",
+       "Stomoxys_calcitrans_lysi1":"AAA",
+       "root":"AAG"
+      },
+     "121":{
+       "Node10":"AAT",
+       "Node3":"AGT",
+       "Paykullia_maculata_lysi1":"AGC",
+       "Stomorhina_lunata_lysi1":"AAT",
+       "Stomoxys_calcitrans_lysi1":"TCA",
+       "root":"TCT"
+      },
+     "122":{
+       "Chrysomya_rufifacies_lysi1":"TTT",
+       "Lucilia_cuprina_lysi1":"TTC",
+       "Node3":"TTT",
+       "Node8":"TTC",
+       "root":"TAT"
+      },
+     "123":{
+       "Melanophora_roralis_lysi1":"GGC",
+       "Node27":"GGC",
+       "Stomoxys_calcitrans_lysi1":"AAG",
+       "root":"GGT"
+      },
+     "124":{
+       "Calliphora_vicina_lysi1":"GAT",
+       "Node3":"GGC",
+       "Stomorhina_lunata_lysi1":"GGA",
+       "Stomoxys_calcitrans_lysi1":"GCT",
+       "root":"GCC"
+      },
+     "125":{
+       "Musca_domestica_lysi1":"---",
+       "Stomoxys_calcitrans_lysi1":"---",
+       "root":"ATT"
+      },
+     "126":{
+       "Bellardia_bayeri_lysi1":"GAT",
+       "Calliphora_vicina_lysi1":"GAT",
+       "Musca_domestica_lysi1":"---",
+       "Node18":"GAT",
+       "Stomoxys_calcitrans_lysi1":"---",
+       "root":"AAT"
+      },
+     "127":{
+       "Calliphora_vomitoria_lysi1":"GTC",
+       "Lucilia_cuprina_lysi1":"GTG",
+       "Musca_domestica_lysi1":"---",
+       "Node20":"GTT",
+       "Node27":"GTT",
+       "Stomorhina_lunata_lysi1":"GTC",
+       "Stomoxys_calcitrans_lysi1":"---",
+       "root":"GTA"
+      },
+     "128":{
+       "Musca_domestica_lysi1":"---",
+       "Phyto_melanocephala_lysi1":"CGC",
+       "Stomoxys_calcitrans_lysi1":"---",
+       "root":"CGT"
+      },
+     "129":{
+       "Chrysomya_rufifacies_lysi1":"TCT",
+       "Musca_domestica_lysi1":"---",
+       "Node18":"TCC",
+       "Node4":"TCC",
+       "Paykullia_maculata_lysi1":"TCT",
+       "Phormia_regina_lysi1":"TCT",
+       "Stomorhina_lunata_lysi1":"TCC",
+       "Stomoxys_calcitrans_lysi1":"---",
+       "root":"TCG"
+      },
+     "13":{
+       "Melanophora_roralis_lysi1":"GCA",
+       "Node24":"GCT",
+       "root":"GCC"
+      },
+     "130":{
+       "Node3":"AAT",
+       "Stomorhina_lunata_lysi1":"AAC",
+       "Stomoxys_calcitrans_lysi1":"AAT",
+       "root":"AAC"
+      },
+     "14":{
+       "Calliphora_vicina_lysi1":"CGT",
+       "Musca_domestica_lysi1":"TCA",
+       "Node3":"ATT",
+       "root":"ATA"
+      },
+     "15":{
+       "Node3":"AGT",
+       "Stomoxys_calcitrans_lysi1":"TCC",
+       "root":"TCT"
+      },
+     "16":{
+       "Lucilia_cuprina_lysi1":"GGT",
+       "Node12":"GGT",
+       "Node3":"GGC",
+       "Phyto_melanocephala_lysi1":"GGT",
+       "Stomoxys_calcitrans_lysi1":"GGC",
+       "root":"GGT"
+      },
+     "17":{
+       "Melanophora_roralis_lysi1":"TGT",
+       "Node17":"TGC",
+       "Phyto_melanocephala_lysi1":"TGT",
+       "root":"TGT"
+      },
+     "18":{
+       "Stomorhina_lunata_lysi1":"AAC",
+       "root":"AAT"
+      },
+     "19":{
+       "Chrysomya_bezziana_lysi1":"CAG",
+       "Stomorhina_lunata_lysi1":"CAG",
+       "root":"CAA"
+      },
+     "2":{
+       "Melanophora_roralis_lysi1":"GTT",
+       "Node12":"GTT",
+       "Node17":"GTC",
+       "Node3":"GTA",
+       "Phyto_melanocephala_lysi1":"GTT",
+       "Stomoxys_calcitrans_lysi1":"GTA",
+       "root":"GTG"
+      },
+     "20":{
+       "Chrysomya_bezziana_lysi1":"ACG",
+       "Lucilia_cuprina_lysi1":"ACC",
+       "Melanophora_roralis_lysi1":"ACT",
+       "Node12":"ACA",
+       "Node3":"ACA",
+       "Node4":"ACT",
+       "Stomoxys_calcitrans_lysi1":"ACC",
+       "root":"ACG"
+      },
+     "21":{
+       "Calliphora_vicina_lysi1":"CCC",
+       "Node3":"GCC",
+       "Paykullia_maculata_lysi1":"AAC",
+       "Phyto_melanocephala_lysi1":"TCC",
+       "root":"AAC"
+      },
+     "22":{
+       "Bellardia_bayeri_lysi1":"CAC",
+       "Calliphora_vicina_lysi1":"ATT",
+       "Lucilia_cuprina_lysi1":"TAC",
+       "Node20":"TTT",
+       "Node24":"CAT",
+       "Phyto_melanocephala_lysi1":"TAC",
+       "Stomorhina_lunata_lysi1":"TTC",
+       "Stomoxys_calcitrans_lysi1":"TTC",
+       "root":"TAT"
+      },
+     "23":{
+       "Chrysomya_rufifacies_lysi1":"TGC",
+       "Melanophora_roralis_lysi1":"TGT",
+       "Node3":"TGC",
+       "Node4":"TGT",
+       "Phyto_melanocephala_lysi1":"TGT",
+       "Stomoxys_calcitrans_lysi1":"TGC",
+       "root":"TGT"
+      },
+     "24":{
+       "Calliphora_vicina_lysi1":"TGC",
+       "Melanophora_roralis_lysi1":"GGT",
+       "Node17":"GGC",
+       "Node24":"GCC",
+       "Node3":"GGT",
+       "Phyto_melanocephala_lysi1":"GGT",
+       "Stomorhina_lunata_lysi1":"GAA",
+       "Stomoxys_calcitrans_lysi1":"CAG",
+       "root":"GCC"
+      },
+     "25":{
+       "Bellardia_pandia_lysi1":"GGG",
+       "Calliphora_vicina_lysi1":"AGA",
+       "Chrysomya_bezziana_lysi1":"GGC",
+       "Node3":"GGT",
+       "Stomoxys_calcitrans_lysi1":"GGT",
+       "root":"GGC"
+      },
+     "26":{
+       "Cochliomyia_hominivorax_lysi1":"GGC",
+       "Melanophora_roralis_lysi1":"GGC",
+       "Phyto_melanocephala_lysi1":"GGA",
+       "Stomoxys_calcitrans_lysi1":"GGA",
+       "root":"GGT"
+      },
+     "27":{
+       "Node12":"GTC",
+       "Node3":"GTC",
+       "Node4":"GTT",
+       "Stomoxys_calcitrans_lysi1":"GTC",
+       "root":"GTT"
+      },
+     "28":{
+       "Cochliomyia_hominivorax_lysi1":"TGC",
+       "Lucilia_cuprina_lysi1":"TGC",
+       "Melanophora_roralis_lysi1":"TGC",
+       "root":"TGT"
+      },
+     "29":{
+       "Chrysomya_rufifacies_lysi1":"GGA",
+       "Node17":"GGC",
+       "Stomoxys_calcitrans_lysi1":"GGC",
+       "root":"GGT"
+      },
+     "3":{
+       "Chrysomya_bezziana_lysi1":"ACC",
+       "Node3":"ACC",
+       "Node4":"ACT",
+       "Phormia_regina_lysi1":"ACC",
+       "Stomorhina_lunata_lysi1":"ACT",
+       "root":"ACA"
+      },
+     "30":{
+       "Calliphora_vicina_lysi1":"ATG",
+       "Node18":"TTA",
+       "Node27":"CTG",
+       "Paykullia_maculata_lysi1":"CTA",
+       "Stomoxys_calcitrans_lysi1":"CTA",
+       "root":"TTG"
+      },
+     "31":{
+       "Stomoxys_calcitrans_lysi1":"TTT",
+       "root":"TTC"
+      },
+     "32":{
+       "Calliphora_vicina_lysi1":"TTC",
+       "Node10":"CGT",
+       "Paykullia_maculata_lysi1":"CGT",
+       "root":"CGC"
+      },
+     "33":{
+       "Melanophora_roralis_lysi1":"ATA",
+       "Stomorhina_lunata_lysi1":"ATC",
+       "Stomoxys_calcitrans_lysi1":"ATA",
+       "root":"ATT"
+      },
+     "34":{
+       "Chrysomya_bezziana_lysi1":"ACT",
+       "Lucilia_cuprina_lysi1":"ACT",
+       "Node3":"ACC",
+       "Protocalliphora_azurea_lysi1":"ACT",
+       "Stomorhina_lunata_lysi1":"ACT",
+       "Stomoxys_calcitrans_lysi1":"ACT",
+       "root":"ACA"
+      },
+     "35":{
+       "Calliphora_vicina_lysi1":"AGG",
+       "root":"TGG"
+      },
+     "36":{
+       "Calliphora_vicina_lysi1":"CCC",
+       "Melanophora_roralis_lysi1":"GCT",
+       "Node31":"GCT",
+       "Stomoxys_calcitrans_lysi1":"CCC",
+       "root":"GCC"
+      },
+     "37":{
+       "Melanophora_roralis_lysi1":"TAT",
+       "Node3":"TAC",
+       "Node4":"TAT",
+       "root":"TAT"
+      },
+     "38":{
+       "root":"TGG"
+      },
+     "39":{
+       "Melanophora_roralis_lysi1":"GCC",
+       "Node23":"GCC",
+       "Stomorhina_lunata_lysi1":"GCT",
+       "root":"GCT"
+      },
+     "4":{
+       "root":"GAT"
+      },
+     "40":{
+       "root":"GAT"
+      },
+     "41":{
+       "Bellardia_bayeri_lysi1":"GGT",
+       "Node23":"GGC",
+       "Node3":"GGT",
+       "Stomorhina_lunata_lysi1":"GGT",
+       "Stomoxys_calcitrans_lysi1":"GGT",
+       "root":"GGC"
+      },
+     "42":{
+       "Chrysomya_bezziana_lysi1":"GGT",
+       "Node18":"GGA",
+       "Node3":"GGT",
+       "Node4":"GGC",
+       "Stomorhina_lunata_lysi1":"GGC",
+       "Stomoxys_calcitrans_lysi1":"GGT",
+       "root":"GGC"
+      },
+     "43":{
+       "Calliphora_vicina_lysi1":"AAT",
+       "root":"AAA"
+      },
+     "44":{
+       "Calliphora_vicina_lysi1":"CTC",
+       "Calliphora_vicina_lysi1_2":"CTG",
+       "Node18":"TTA",
+       "Node3":"TTG",
+       "root":"CTT"
+      },
+     "45":{
+       "Melanophora_roralis_lysi1":"ACT",
+       "Node12":"ACA",
+       "Node3":"ACC",
+       "Node4":"ACT",
+       "Protocalliphora_azurea_lysi1":"ACC",
+       "Stomoxys_calcitrans_lysi1":"ACC",
+       "root":"ACA"
+      },
+     "46":{
+       "Cochliomyia_hominivorax_lysi1":"TTG",
+       "Melanophora_roralis_lysi1":"TTA",
+       "Node10":"CTT",
+       "Node20":"CTT",
+       "root":"ATT"
+      },
+     "47":{
+       "Cochliomyia_hominivorax_lysi1":"AAT",
+       "Melanophora_roralis_lysi1":"AAT",
+       "Node3":"AAC",
+       "Stomoxys_calcitrans_lysi1":"AAC",
+       "root":"AAT"
+      },
+     "48":{
+       "Musca_domestica_lysi1":"GGC",
+       "Node12":"GGT",
+       "Node3":"AAT",
+       "Paykullia_maculata_lysi1":"AGC",
+       "Stomorhina_lunata_lysi1":"AGT",
+       "Stomoxys_calcitrans_lysi1":"AAT",
+       "root":"AAC"
+      },
+     "49":{
+       "Lucilia_cuprina_lysi1":"GAG",
+       "Stomoxys_calcitrans_lysi1":"GAG",
+       "root":"GAA"
+      },
+     "5":{
+       "Calliphora_vicina_lysi1":"CTC",
+       "Node3":"GTC",
+       "Paykullia_maculata_lysi1":"GTT",
+       "Phormia_regina_lysi1":"GTT",
+       "Stomorhina_lunata_lysi1":"GTT",
+       "Stomoxys_calcitrans_lysi1":"ATC",
+       "root":"ATT"
+      },
+     "50":{
+       "Calliphora_vomitoria_lysi1":"AAT",
+       "Lucilia_cuprina_lysi1":"GAC",
+       "Melanophora_roralis_lysi1":"GAT",
+       "Node18":"GAC",
+       "Node3":"GAT",
+       "root":"CCT"
+      },
+     "51":{
+       "Calliphora_vomitoria_lysi1":"CCA",
+       "Lucilia_cuprina_lysi1":"CCC",
+       "Node18":"CCA",
+       "Node3":"CCT",
+       "Phyto_melanocephala_lysi1":"CAA",
+       "Stomorhina_lunata_lysi1":"CCA",
+       "Stomoxys_calcitrans_lysi1":"ATA",
+       "root":"GCT"
+      },
+     "52":{
+       "Calliphora_vicina_lysi1":"ACC",
+       "Cochliomyia_hominivorax_lysi1":"GCC",
+       "Lucilia_cuprina_lysi1":"GCA",
+       "Melanophora_roralis_lysi1":"GCT",
+       "Node17":"GCC",
+       "Node3":"GCT",
+       "Stomorhina_lunata_lysi1":"ACT",
+       "root":"GAA"
+      },
+     "53":{
+       "Node12":"TCA",
+       "Node17":"TCT",
+       "Stomorhina_lunata_lysi1":"TCC",
+       "Stomoxys_calcitrans_lysi1":"TCT",
+       "root":"TCG"
+      },
+     "54":{
+       "Phyto_melanocephala_lysi1":"CAA",
+       "Stomoxys_calcitrans_lysi1":"GAG",
+       "root":"GAA"
+      },
+     "55":{
+       "Calliphora_vicina_lysi1":"AAT",
+       "Calliphora_vomitoria_lysi1":"ACG",
+       "root":"ACT"
+      },
+     "56":{
+       "Calliphora_vicina_lysi1":"TTT",
+       "Lucilia_cuprina_lysi1":"TAC",
+       "Paykullia_maculata_lysi1":"TAC",
+       "root":"TAT"
+      },
+     "57":{
+       "Calliphora_vicina_lysi1":"CCC",
+       "Chrysomya_bezziana_lysi1":"CCC",
+       "Node20":"CCC",
+       "Node5":"CCC",
+       "Phormia_regina_lysi1":"CCT",
+       "Stomoxys_calcitrans_lysi1":"CCC",
+       "root":"GCC"
+      },
+     "58":{
+       "Chrysomya_bezziana_lysi1":"AAT",
+       "Cochliomyia_hominivorax_lysi1":"AAT",
+       "root":"AAC"
+      },
+     "59":{
+       "Lucilia_cuprina_lysi1":"TGC",
+       "root":"TGT"
+      },
+     "6":{
+       "Chrysomya_rufifacies_lysi1":"TGC",
+       "Phyto_melanocephala_lysi1":"TGC",
+       "Stomoxys_calcitrans_lysi1":"TGC",
+       "root":"TGT"
+      },
+     "60":{
+       "Lucilia_cuprina_lysi1":"GTT",
+       "Node10":"GTT",
+       "Node20":"GTT",
+       "Node3":"GTC",
+       "Stomorhina_lunata_lysi1":"GTA",
+       "Stomoxys_calcitrans_lysi1":"GTT",
+       "root":"GTA"
+      },
+     "61":{
+       "Node18":"AAC",
+       "root":"AAT"
+      },
+     "62":{
+       "root":"GAT"
+      },
+     "63":{
+       "Bellardia_bayeri_lysi1":"CCT",
+       "Chrysomya_bezziana_lysi1":"CCT",
+       "Protophormia_terraenovae_lysi1":"CCT",
+       "root":"CCC"
+      },
+     "64":{
+       "Calliphora_vicina_lysi1":"TAT",
+       "Chrysomya_rufifacies_lysi1":"TAC",
+       "Node4":"TAT",
+       "Paykullia_maculata_lysi1":"TAT",
+       "root":"TAC"
+      },
+     "65":{
+       "Cochliomyia_hominivorax_lysi1":"TGC",
+       "Phyto_melanocephala_lysi1":"TGC",
+       "root":"TGT"
+      },
+     "66":{
+       "Node18":"GCC",
+       "Node3":"GCT",
+       "Protocalliphora_azurea_lysi1":"GCC",
+       "Stomorhina_lunata_lysi1":"GCC",
+       "root":"GCC"
+      },
+     "67":{
+       "root":"GCC"
+      },
+     "68":{
+       "Calliphora_vicina_lysi1":"AAT",
+       "Melanophora_roralis_lysi1":"AAT",
+       "Node17":"AAC",
+       "root":"AAT"
+      },
+     "69":{
+       "Lucilia_cuprina_lysi1":"ACA",
+       "Node20":"ACT",
+       "Phormia_regina_lysi1":"ACT",
+       "root":"ACC"
+      },
+     "7":{
+       "Calliphora_vicina_lysi1":"ATG",
+       "Chrysomya_rufifacies_lysi1":"TTA",
+       "Phyto_melanocephala_lysi1":"TTA",
+       "Protocalliphora_azurea_lysi1":"TTA",
+       "root":"TTG"
+      },
+     "70":{
+       "Node3":"ATT",
+       "Phyto_melanocephala_lysi1":"ATC",
+       "Protocalliphora_azurea_lysi1":"ATC",
+       "Stomorhina_lunata_lysi1":"ATC",
+       "Stomoxys_calcitrans_lysi1":"ATA",
+       "root":"ATC"
+      },
+     "71":{
+       "Node31":"CAG",
+       "root":"CAA"
+      },
+     "72":{
+       "Node24":"AAC",
+       "Node3":"AAT",
+       "Node31":"AAC",
+       "Stomoxys_calcitrans_lysi1":"AAT",
+       "root":"AAC"
+      },
+     "73":{
+       "Node29":"TAC",
+       "Stomorhina_lunata_lysi1":"TAT",
+       "root":"TAT"
+      },
+     "74":{
+       "root":"ATG"
+      },
+     "75":{
+       "Calliphora_vicina_lysi1":"CGG",
+       "Chrysomya_rufifacies_lysi1":"CGT",
+       "Cochliomyia_hominivorax_lysi1":"CGT",
+       "Node3":"CGC",
+       "Phyto_melanocephala_lysi1":"CGT",
+       "Stomoxys_calcitrans_lysi1":"TTG",
+       "root":"CTC"
+      },
+     "76":{
+       "root":"AAA"
+      },
+     "77":{
+       "Bellardia_bayeri_lysi1":"TAT",
+       "Calliphora_vicina_lysi1":"TTC",
+       "Chrysomya_bezziana_lysi1":"TAT",
+       "Cochliomyia_hominivorax_lysi1":"TAT",
+       "Node20":"TTC",
+       "Phormia_regina_lysi1":"TAT",
+       "Stomorhina_lunata_lysi1":"TAT",
+       "Stomoxys_calcitrans_lysi1":"TAT",
+       "root":"TAC"
+      },
+     "78":{
+       "Node3":"TCT",
+       "Paykullia_maculata_lysi1":"TCA",
+       "Phormia_regina_lysi1":"TCA",
+       "Stomoxys_calcitrans_lysi1":"GGT",
+       "root":"GGC"
+      },
+     "79":{
+       "Bellardia_bayeri_lysi1":"CAG",
+       "Melanophora_roralis_lysi1":"CAG",
+       "Node3":"CAA",
+       "root":"CAG"
+      },
+     "8":{
+       "Melanophora_roralis_lysi1":"GGG",
+       "Node18":"GGC",
+       "Node24":"GGC",
+       "Node3":"GGT",
+       "root":"GGC"
+      },
+     "80":{
+       "root":"GAT"
+      },
+     "81":{
+       "Calliphora_vicina_lysi1":"TGC",
+       "Melanophora_roralis_lysi1":"TGC",
+       "Node24":"TGC",
+       "Node3":"TGT",
+       "Stomoxys_calcitrans_lysi1":"TGT",
+       "root":"TGC"
+      },
+     "82":{
+       "Calliphora_vomitoria_lysi1":"AAC",
+       "Node24":"AAC",
+       "Node3":"AAT",
+       "Paykullia_maculata_lysi1":"AAC",
+       "Stomoxys_calcitrans_lysi1":"AAT",
+       "root":"AAC"
+      },
+     "83":{
+       "Node29":"GAT",
+       "Node3":"GGT",
+       "Stomorhina_lunata_lysi1":"GGT",
+       "Stomoxys_calcitrans_lysi1":"AAC",
+       "root":"AAG"
+      },
+     "84":{
+       "Node3":"GAT",
+       "Paykullia_maculata_lysi1":"GAC",
+       "Stomoxys_calcitrans_lysi1":"GAT",
+       "root":"GAC"
+      },
+     "85":{
+       "Node3":"AAT",
+       "Stomorhina_lunata_lysi1":"AGT",
+       "root":"GGT"
+      },
+     "86":{
+       "Node31":"GCC",
+       "Phyto_melanocephala_lysi1":"GTT",
+       "Stomoxys_calcitrans_lysi1":"GTT",
+       "root":"GCT"
+      },
+     "87":{
+       "Melanophora_roralis_lysi1":"GTT",
+       "Node12":"GTT",
+       "Node20":"GTA",
+       "Node3":"GTG",
+       "Stomorhina_lunata_lysi1":"GTC",
+       "root":"GTC"
+      },
+     "88":{
+       "Node18":"AAC",
+       "Node3":"GAT",
+       "Phormia_regina_lysi1":"GAC",
+       "root":"AAC"
+      },
+     "89":{
+       "Cochliomyia_hominivorax_lysi1":"TGC",
+       "Node17":"TGC",
+       "Node31":"TGT",
+       "Stomoxys_calcitrans_lysi1":"TGC",
+       "root":"TGT"
+      },
+     "9":{
+       "Cochliomyia_hominivorax_lysi1":"TGT",
+       "Melanophora_roralis_lysi1":"TGT",
+       "Node5":"TGT",
+       "Stomoxys_calcitrans_lysi1":"TGT",
+       "root":"TGC"
+      },
+     "90":{
+       "Node18":"TAT",
+       "Node24":"TTG",
+       "Node3":"TAC",
+       "Node4":"TAT",
+       "root":"TTC"
+      },
+     "91":{
+       "root":"GAT"
+      },
+     "92":{
+       "root":"TAT"
+      },
+     "93":{
+       "Node24":"GCC",
+       "Phyto_melanocephala_lysi1":"GCC",
+       "root":"GCT"
+      },
+     "94":{
+       "Node24":"GCT",
+       "root":"GCC"
+      },
+     "95":{
+       "Node18":"ATT",
+       "Protophormia_terraenovae_lysi1":"ATT",
+       "Stomoxys_calcitrans_lysi1":"ATT",
+       "root":"ATC"
+      },
+     "96":{
+       "Bellardia_bayeri_lysi1":"CAC",
+       "Node18":"CAC",
+       "Stomorhina_lunata_lysi1":"CAC",
+       "Stomoxys_calcitrans_lysi1":"CAC",
+       "root":"CAT"
+      },
+     "97":{
+       "Calliphora_vicina_lysi1":"ATG",
+       "Node8":"AAA",
+       "Stomorhina_lunata_lysi1":"AAA",
+       "Stomoxys_calcitrans_lysi1":"AAA",
+       "root":"AAG"
+      },
+     "98":{
+       "Musca_domestica_lysi1":"CTG",
+       "root":"TTG"
+      },
+     "99":{
+       "Node3":"GGT",
+       "Node31":"GGC",
+       "Stomorhina_lunata_lysi1":"GGT",
+       "Stomoxys_calcitrans_lysi1":"GGT",
+       "root":"GGC"
+      }
+    }
+  },
+ "test results":{
+   "LRT":0.7634603685555703,
+   "p-value":0.3822477740310612,
+   "relaxation or intensification parameter":8.136200041318517
+  },
+ "tested":{
+   "0":{
+     "Bellardia_bayeri_lysi1":"Test",
+     "Bellardia_pandia_lysi1":"Test",
+     "Calliphora_vicina_lysi1":"Reference",
+     "Calliphora_vicina_lysi1_2":"Reference",
+     "Calliphora_vomitoria_lysi1":"Reference",
+     "Chrysomya_bezziana_lysi1":"Test",
+     "Chrysomya_rufifacies_lysi1":"Reference",
+     "Cochliomyia_hominivorax_lysi1":"Test",
+     "Lucilia_cuprina_lysi1":"Reference",
+     "Melanophora_roralis_lysi1":"Test",
+     "Musca_domestica_lysi1":"Reference",
+     "Node10":"Reference",
+     "Node12":"Reference",
+     "Node15":"Reference",
+     "Node17":"Reference",
+     "Node18":"Test",
+     "Node20":"Test",
+     "Node23":"Reference",
+     "Node24":"Test",
+     "Node27":"Reference",
+     "Node29":"Reference",
+     "Node3":"Reference",
+     "Node31":"Reference",
+     "Node4":"Reference",
+     "Node5":"Reference",
+     "Node8":"Reference",
+     "Paykullia_maculata_lysi1":"Test",
+     "Phormia_regina_lysi1":"Reference",
+     "Phyto_melanocephala_lysi1":"Test",
+     "Protocalliphora_azurea_lysi1":"Test",
+     "Protophormia_terraenovae_lysi1":"Reference",
+     "Stomorhina_lunata_lysi1":"Test",
+     "Stomoxys_calcitrans_lysi1":"Reference"
+    }
+  },
+ "timers":{
+   "Overall":{
+     "order":0,
+     "timer":11
+    },
+   "Preliminary model fitting":{
+     "order":1,
+     "timer":2
+    },
+   "RELAX alternative model fitting":{
+     "order":3,
+     "timer":8
+    },
+   "RELAX null model fitting":{
+     "order":4,
+     "timer":1
+    }
+  }
+}

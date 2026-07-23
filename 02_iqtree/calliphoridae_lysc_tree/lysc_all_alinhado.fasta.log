@@ -1,0 +1,554 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Feb 12 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    master-XPS-8930 (AVX2, FMA3, 14 GB RAM)
+Command: iqtree -s lysc_all_alinhado.fasta -T AUTO -B 10000 -st DNA
+Seed:    242985 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Feb 27 14:23:35 2025
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file lysc_all_alinhado.fasta ... Fasta format detected
+Reading fasta file: done in 0.00183406 secs using 89.96% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 246 sequences with 735 columns, 662 distinct patterns
+545 parsimony-informative, 54 singleton sites, 136 constant sites
+                                  Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 4.2968e-05 secs using 3207% CPU
+   1  Glossina_morsitans_DQ307162        39.59%    failed      4.56%
+   2  Chrysomya_bezziana_lyscc1          29.80%    failed      0.00%
+   3  Chrysomya_bezziana_lyscp           24.49%    failed      0.01%
+   4  Chrysomya_bezziana_lysc1b          37.96%    failed      0.00%
+   5  Chrysomya_bezziana_lysc1           42.04%    passed     27.28%
+   6  Chrysomya_bezziana_lysc2           42.04%    passed      5.15%
+   7  Chrysomya_bezziana_lysc3           41.63%    passed     90.53%
+   8  Chrysomya_bezziana_lysc5           42.04%    passed     50.13%
+   9  Chrysomya_bezziana_lysc6           42.04%    passed     39.44%
+  10  Chrysomya_bezziana_lysc7           42.45%    passed     60.09%
+  11  Chrysomya_bezziana_lysc8           41.63%    passed     11.48%
+  12  Calliphora_vicina_XM_065499793     42.04%    passed     32.44%
+  13  Calliphora_vicina_XM_065499876     42.04%    passed     32.22%
+  14  Calliphora_vicina_XM_065499877     42.04%    passed     37.23%
+  15  Calliphora_vicina_XM_065500492     42.04%    passed     32.21%
+  16  Calliphora_vicina_XM_065500526     42.04%    passed     43.65%
+  17  Calliphora_vicina_XM_065500622     42.04%    passed     21.47%
+  18  Calliphora_vicina_XM_065500692     42.04%    passed     38.72%
+  19  Calliphora_vicina_XM_065500698     42.04%    passed     24.75%
+  20  Calliphora_vicina_XM_065511310     42.04%    passed     15.71%
+  21  Calliphora_vicina_XM_065511517     41.63%    passed     58.97%
+  22  Calliphora_vicina_XM_065511531     41.63%    passed     50.63%
+  23  Calliphora_vicina_XM_065511645     41.63%    passed     81.64%
+  24  Calliphora_vicina_XM_065512022     41.22%    passed     73.66%
+  25  Calliphora_vicina_XM_065512186     42.04%    passed     55.79%
+  26  Calliphora_vicina_XM_065512512     42.86%    passed      7.07%
+  27  Calliphora_vicina_XM_065513499     29.39%    failed      0.00%
+  28  Calliphora_vicina_LysCP            37.14%    failed      3.18%
+  29  Stomoxys_calcitrans_XM_013262443   39.18%    passed     23.27%
+  30  Stomoxys_calcitrans_XM_013262434   23.27%    passed     11.71%
+  31  Stomoxys_calcitrans_XM_059368529   42.04%    failed      0.00%
+  32  Stomoxys_calcitrans_XM_059368530   42.04%    failed      0.00%
+  33  Stomoxys_calcitrans_XM_059368531   42.04%    failed      0.00%
+  34  Stomoxys_calcitrans_XM_013259399   42.04%    failed      0.00%
+  35  Stomoxys_calcitrans_XM_013259396   42.04%    failed      0.00%
+  36  Stomoxys_calcitrans_XM_059368532   42.04%    failed      0.00%
+  37  Stomoxys_calcitrans_XM_013259394   42.04%    passed     24.18%
+  38  Stomoxys_calcitrans_XM_013262540   41.63%    failed      0.98%
+  39  Stomoxys_calcitrans_XM_013259395   41.22%    passed     20.99%
+  40  Stomoxys_calcitrans_XM_059370494   41.63%    passed      6.10%
+  41  Stomoxys_calcitrans_XM_059370495   41.63%    passed      5.14%
+  42  Stomoxys_calcitrans_XM_059370493   41.63%    failed      1.80%
+  43  Stomoxys_calcitrans_XM_013257675   41.63%    failed      4.47%
+  44  Stomoxys_calcitrans_XM_059370490   41.63%    failed      2.64%
+  45  Stomoxys_calcitrans_XM_059370492   41.63%    passed      7.05%
+  46  Stomoxys_calcitrans_XM_013257674   41.63%    failed      4.17%
+  47  Stomoxys_calcitrans_XM_013257684   41.63%    failed      0.46%
+  48  Stomoxys_calcitrans_XM_013257687   41.63%    failed      0.17%
+  49  Stomoxys_calcitrans_XM_013257682   41.63%    failed      0.89%
+  50  Stomoxys_calcitrans_XM_013257685   41.63%    failed      0.13%
+  51  Stomoxys_calcitrans_XM_013257683   41.63%    failed      1.16%
+  52  Stomoxys_calcitrans_XM_013257686   41.63%    failed      0.51%
+  53  Stomoxys_calcitrans_XM_013256299   26.12%    failed      1.65%
+  54  Stomoxys_calcitrans_XM_013256305   39.59%    passed     33.27%
+  55  Musca_domestica_XM_005184849       24.90%    failed      3.11%
+  56  Musca_domestica_XM_005185318       41.63%    failed      3.96%
+  57  Musca_domestica_XM_059126266       41.63%    failed      3.11%
+  58  Musca_domestica_XM_005185309       41.63%    failed      0.94%
+  59  Musca_domestica_XM_059126267       41.63%    failed      1.81%
+  60  Musca_domestica_XM_020035064       41.63%    failed      1.43%
+  61  Musca_domestica_XM_020035063       41.63%    passed     23.79%
+  62  Musca_domestica_XM_011292185       41.63%    passed      6.74%
+  63  Musca_domestica_XM_020035061       41.63%    failed      0.08%
+  64  Musca_domestica_XM_020035062       41.63%    failed      0.15%
+  65  Musca_domestica_XM_011292181       41.63%    failed      0.25%
+  66  Musca_domestica_XM_005178411       41.63%    failed      0.48%
+  67  Musca_domestica_XM_020035060       41.63%    failed      0.10%
+  68  Musca_domestica_XM_011292180       41.63%    failed      0.42%
+  69  Musca_domestica_XM_005178434       65.71%    passed     22.51%
+  70  Musca_domestica_XM_005178415       41.63%    failed      0.54%
+  71  Musca_domestica_XM_005178432       40.82%    passed     32.63%
+  72  Musca_domestica_XM_059127590       42.04%    failed      0.00%
+  73  Musca_domestica_XM_059127601       42.04%    failed      0.00%
+  74  Musca_domestica_XM_020037574       42.04%    failed      0.00%
+  75  Musca_domestica_XM_005185770       42.04%    failed      0.00%
+  76  Musca_domestica_XM_059127603       42.04%    failed      0.00%
+  77  Musca_domestica_XM_059127595       42.04%    failed      0.00%
+  78  Musca_domestica_NM_001308972       42.04%    failed      0.00%
+  79  Musca_domestica_XM_020037581       42.04%    failed      0.00%
+  80  Musca_domestica_XM_005185779       42.04%    failed      0.12%
+  81  Musca_domestica_XM_059127596       42.04%    failed      0.01%
+  82  Musca_domestica_XM_020037580       42.04%    failed      0.00%
+  83  Musca_domestica_XM_059127597       42.04%    failed      0.00%
+  84  Musca_domestica_XM_005185778       42.04%    failed      0.00%
+  85  Musca_domestica_XM_059127598       42.04%    failed      0.00%
+  86  Musca_domestica_XM_059127599       42.04%    failed      0.00%
+  87  Musca_domestica_XM_059127591       42.04%    failed      0.00%
+  88  Musca_domestica_XM_059127602       42.04%    failed      0.01%
+  89  Musca_domestica_XM_059127592       42.04%    failed      0.00%
+  90  Musca_domestica_XM_059127594       42.04%    failed      0.00%
+  91  Musca_domestica_XM_059128789       37.96%    passed     11.58%
+  92  Musca_domestica_XM_059128787       24.90%    failed      2.63%
+  93  Musca_domestica_XM_005187455       39.18%    passed      5.37%
+  94  Musca_domestica_XM_005187448       27.35%    failed      3.61%
+  95  Musca_domestica_XM_005187451       33.06%    failed      1.17%
+  96  Lucilia_sericata_XM_037951090      41.63%    passed     97.10%
+  97  Lucilia_sericata_XM_037951089      41.63%    passed     53.40%
+  98  Lucilia_sericata_XM_037951088      41.63%    passed     61.49%
+  99  Lucilia_sericata_XM_037958002      40.00%    passed     20.39%
+ 100  Lucilia_sericata_XM_037958008      42.04%    passed     42.96%
+ 101  Lucilia_sericata_XM_037958003      41.22%    passed     60.50%
+ 102  Lucilia_sericata_XM_037958005      41.63%    passed     89.08%
+ 103  Lucilia_sericata_XM_037958027      25.71%    failed      2.07%
+ 104  Lucilia_sericata_XM_037958029      39.18%    failed      0.07%
+ 105  Lucilia_sericata_XM_037963752      42.04%    passed     44.81%
+ 106  Lucilia_sericata_XM_037963759      42.04%    passed     33.02%
+ 107  Lucilia_sericata_XM_037963760      42.04%    passed     41.83%
+ 108  Lucilia_sericata_XM_037963755      42.04%    passed     37.34%
+ 109  Lucilia_sericata_XM_037963756      42.04%    passed     56.50%
+ 110  Lucilia_sericata_XM_037963758      42.04%    passed     49.10%
+ 111  Lucilia_sericata_XM_037963757      42.04%    passed     51.46%
+ 112  Lucilia_sericata_XM_037964714      27.35%    failed      0.00%
+ 113  Lucilia_cuprina_XM_046955367       56.73%    passed     42.03%
+ 114  Lucilia_cuprina_XM_023448796       42.04%    passed     26.27%
+ 115  Lucilia_cuprina_XM_023448799       42.04%    passed     52.50%
+ 116  Lucilia_cuprina_XM_023448798       42.04%    passed     52.13%
+ 117  Lucilia_cuprina_XM_023448797       42.04%    passed     18.33%
+ 118  Lucilia_cuprina_XM_023438454       41.63%    passed     90.91%
+ 119  Lucilia_cuprina_XM_023438453       41.63%    passed     22.70%
+ 120  Lucilia_cuprina_XM_023438456       41.63%    passed     45.10%
+ 121  Lucilia_cuprina_XM_046955615       41.22%    passed     14.43%
+ 122  Lucilia_cuprina_XM_023439612       40.82%    passed     25.36%
+ 123  Lucilia_cuprina_XM_046955619       42.04%    passed      9.82%
+ 124  Lucilia_cuprina_XM_046955614       41.22%    passed     14.43%
+ 125  Lucilia_cuprina_XM_023441183       25.31%    failed      0.87%
+ 126  Lucilia_cuprina_XM_023441184       39.18%    failed      0.00%
+ 127  Lucilia_cuprina_XM_046953569       27.35%    failed      0.00%
+ 128  Stomorhina_lunata_LysCC1           28.98%    failed      0.00%
+ 129  Stomorhina_lunata_LysC1            37.55%    failed      2.31%
+ 130  Stomorhina_lunata_LysC2            24.90%    passed     14.69%
+ 131  Stomorhina_lunata_LysC3            41.22%    passed      6.42%
+ 132  Stomorhina_lunata_LysC4            41.63%    passed     73.56%
+ 133  Stomorhina_lunata_LysC5            41.63%    failed      0.52%
+ 134  Stomorhina_lunata_LysC6            42.04%    passed     11.67%
+ 135  Stomorhina_lunata_LysC7            42.04%    failed      1.50%
+ 136  Protophormia_terraenovae_LysCC1    27.35%    failed      0.00%
+ 137  Protophormia_terraenovae_LysC1     41.63%    passed     81.89%
+ 138  Protophormia_terraenovae_LysC2     41.63%    passed     70.92%
+ 139  Protophormia_terraenovae_LysC3     41.63%    passed     66.23%
+ 140  Protophormia_terraenovae_LysC4     41.63%    passed     45.65%
+ 141  Protophormia_terraenovae_LysC5     41.63%    passed     25.20%
+ 142  Protophormia_terraenovae_LysC6     41.63%    passed     37.13%
+ 143  Protophormia_terraenovae_LysC7     40.00%    failed      1.95%
+ 144  Protophormia_terraenovae_LysC8     52.24%    passed     94.38%
+ 145  Protophormia_terraenovae_LysC9     41.63%    passed     31.08%
+ 146  Protophormia_terraenovae_LysC10    42.04%    passed     86.40%
+ 147  Protophormia_terraenovae_LysC11    42.04%    passed     79.15%
+ 148  Protophormia_terraenovae_LysC12    42.04%    passed     37.38%
+ 149  Protophormia_terraenovae_LysC13    42.04%    passed     32.63%
+ 150  Protophormia_terraenovae_LysC14    42.04%    passed     53.54%
+ 151  Protophormia_terraenovae_LysC15    42.04%    passed     39.39%
+ 152  Protophormia_terraenovae_LysC16    25.71%    failed      0.32%
+ 153  Protophormia_terraenovae_LysC17    38.37%    failed      0.00%
+ 154  Protophormia_terraenovae_LysC19    42.04%    passed     26.01%
+ 155  Protophormia_terraenovae_LysC20    42.04%    passed     33.30%
+ 156  Protocalliphora_azurea_LysCC1      27.35%    failed      0.00%
+ 157  Protocalliphora_azurea_LysC1       41.63%    passed     26.93%
+ 158  Protocalliphora_azurea_LysC2       41.22%    passed     64.02%
+ 159  Protocalliphora_azurea_LysC4       25.71%    failed      0.46%
+ 160  Protocalliphora_azurea_LysC5       37.96%    failed      0.04%
+ 161  Phyto_melanocephala_LysCC1         27.35%    failed      0.00%
+ 162  Phyto_melanocephala_LysC1          26.53%    passed     17.04%
+ 163  Phyto_melanocephala_LysC2          37.96%    failed      2.73%
+ 164  Phyto_melanocephala_LysC3          42.04%    passed     87.28%
+ 165  Phyto_melanocephala_LysC4          42.04%    passed     64.46%
+ 166  Phormia_regina_LysCC1              29.80%    failed      0.00%
+ 167  Phormia_regina_LysC1               41.63%    passed     95.99%
+ 168  Phormia_regina_LysC2               41.63%    passed     77.83%
+ 169  Phormia_regina_LysC3               25.71%    failed      0.01%
+ 170  Phormia_regina_LysC4               42.04%    passed     55.71%
+ 171  Phormia_regina_LysC5               40.41%    passed     16.00%
+ 172  Phormia_regina_LysC6               38.37%    failed      0.00%
+ 173  Phormia_regina_LysC8               42.04%    passed     82.87%
+ 174  Phormia_regina_LysC9               41.63%    passed     18.50%
+ 175  Phormia_regina_LysC10              41.63%    passed     15.58%
+ 176  Phormia_regina_LysC11              42.04%    passed     73.99%
+ 177  Paykullia_maculata_LysC1           42.04%    passed     72.35%
+ 178  Paykullia_maculata_LysC2           37.96%    passed     13.63%
+ 179  Paykullia_maculata_LysC3           26.94%    passed      6.22%
+ 180  Paykullia_maculata_LysCC1          28.98%    failed      0.00%
+ 181  Melanophora_roralis_LysC1          25.71%    failed      0.31%
+ 182  Melanophora_roralis_LysC2          37.96%    failed      1.29%
+ 183  Melanophora_roralis_LysCC1         28.16%    failed      0.00%
+ 184  Cochliomyia_hominivoraxUS_LysC1    42.04%    passed     46.47%
+ 185  Cochliomyia_hominivoraxUS_LysC2    41.63%    passed     21.61%
+ 186  Cochliomyia_hominivoraxUS_LysC3    42.04%    passed     29.48%
+ 187  Cochliomyia_hominivoraxUS_LysC4    37.96%    failed      0.00%
+ 188  Cochliomyia_hominivoraxUS_LysC5    42.04%    passed      8.34%
+ 189  Cochliomyia_hominivoraxUS_LysC6    42.04%    passed     14.91%
+ 190  Cochliomyia_hominivoraxUS_LysCC1   27.35%    failed      0.00%
+ 191  Chrysomya_rufifacies_LysC1         54.29%    passed     58.90%
+ 192  Chrysomya_rufifacies_LysC2         54.29%    passed     58.90%
+ 193  Chrysomya_rufifacies_LysC3         37.96%    failed      0.01%
+ 194  Chrysomya_rufifacies_LysC4         42.04%    passed     60.04%
+ 195  Chrysomya_rufifacies_LysC5         24.08%    failed      0.00%
+ 196  Chrysomya_rufifacies_LysC6         42.04%    passed     60.04%
+ 197  Chrysomya_rufifacies_LysCC1        31.02%    failed      0.00%
+ 198  Chrysomya_megacephala_LysC1        42.45%    passed     31.43%
+ 199  Chrysomya_megacephala_LysC2        58.37%    passed     27.65%
+ 200  Chrysomya_megacephala_LysC3        42.04%    passed     21.84%
+ 201  Chrysomya_megacephala_LysC4        42.04%    passed      6.30%
+ 202  Chrysomya_megacephala_LysC5        42.04%    passed      9.77%
+ 203  Chrysomya_megacephala_LysC6        59.18%    passed     36.90%
+ 204  Chrysomya_megacephala_LysC7        42.45%    passed     31.43%
+ 205  Chrysomya_megacephala_LysC8        42.45%    passed     38.30%
+ 206  Chrysomya_megacephala_LysC9        41.63%    passed      7.35%
+ 207  Chrysomya_megacephala_LysC10       41.63%    passed      7.35%
+ 208  Chrysomya_megacephala_LysC11       41.63%    passed      7.35%
+ 209  Chrysomya_megacephala_LysC12       41.63%    passed      7.35%
+ 210  Chrysomya_megacephala_LysC13       41.63%    passed     32.75%
+ 211  Chrysomya_megacephala_LysC14       41.63%    passed     96.15%
+ 212  Chrysomya_megacephala_LysC15       41.63%    passed     75.01%
+ 213  Chrysomya_megacephala_LysC16       42.45%    passed     31.43%
+ 214  Chrysomya_megacephala_LysC17       42.45%    passed     31.43%
+ 215  Chrysomya_megacephala_LysC18       41.63%    passed      7.35%
+ 216  Chrysomya_megacephala_LysC19       41.63%    passed      7.35%
+ 217  Chrysomya_megacephala_LysCC1       29.80%    failed      0.00%
+ 218  Calliphora_vomitoria_LysCC1        28.57%    failed      0.00%
+ 219  Calliphora_vomitoria_LysC1         41.63%    passed     68.68%
+ 220  Calliphora_vomitoria_LysC2         41.63%    passed     61.96%
+ 221  Calliphora_vomitoria_LysC3         41.63%    passed     26.69%
+ 222  Calliphora_vomitoria_LysC4         41.63%    passed     26.69%
+ 223  Calliphora_vomitoria_LysC5         42.04%    passed     64.09%
+ 224  Calliphora_vomitoria_LysC6         42.04%    passed     11.05%
+ 225  Calliphora_vomitoria_LysC7         42.04%    passed     19.65%
+ 226  Calliphora_vomitoria_LysC8         42.04%    passed     33.86%
+ 227  Calliphora_vomitoria_LysC9         24.49%    failed      2.19%
+ 228  Calliphora_vomitoria_LysC10        37.14%    failed      3.29%
+ 229  Calliphora_vomitoria_LysC11        42.04%    passed     41.65%
+ 230  Calliphora_vomitoria_LysC12        42.04%    passed     56.29%
+ 231  Calliphora_vomitoria_LysC13        42.04%    passed     36.99%
+ 232  Calliphora_vomitoria_LysC14        42.04%    passed     44.26%
+ 233  Calliphora_vomitoria_LysC15        42.04%    passed     64.83%
+ 234  Calliphora_vomitoria_LysC16        42.04%    passed     27.75%
+ 235  Bellardia_pandia_LysC1             40.82%    passed     47.70%
+ 236  Bellardia_pandia_LysC2             51.43%    passed     31.15%
+ 237  Bellardia_pandia_LysC3             43.27%    passed     14.01%
+ 238  Bellardia_pandia_LysC4             55.51%    passed     11.75%
+ 239  Bellardia_pandia_LysC5             37.55%    failed      3.11%
+ 240  Bellardia_pandia_LysC6             25.31%    failed      3.80%
+ 241  Bellardia_pandia_LysCC1            28.16%    failed      0.00%
+ 242  Bellardia_bayeri_LysC1             41.63%    passed     25.08%
+ 243  Bellardia_bayeri_LysC4             42.04%    passed     15.42%
+ 244  Bellardia_bayeri_LysC5             37.55%    failed      1.41%
+ 245  Bellardia_bayeri_LysC6             25.31%    passed      8.42%
+ 246  Bellardia_bayeri_LysCC1            28.16%    failed      0.00%
+WARNING: 9 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                              39.83%  99 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: Musca_domestica_XM_059127592 is identical to Musca_domestica_XM_059127591 but kept for subsequent analysis
+NOTE: Lucilia_cuprina_XM_046955614 is identical to Lucilia_cuprina_XM_046955615 but kept for subsequent analysis
+NOTE: Chrysomya_rufifacies_LysC2 is identical to Chrysomya_rufifacies_LysC1 but kept for subsequent analysis
+NOTE: Chrysomya_megacephala_LysC7 is identical to Chrysomya_megacephala_LysC1 but kept for subsequent analysis
+NOTE: Chrysomya_megacephala_LysC10 is identical to Chrysomya_megacephala_LysC9 but kept for subsequent analysis
+NOTE: 6 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Chrysomya_megacephala_LysC16 (identical to Chrysomya_megacephala_LysC1) is ignored but added at the end
+NOTE: Chrysomya_megacephala_LysC17 (identical to Chrysomya_megacephala_LysC1) is ignored but added at the end
+NOTE: Chrysomya_megacephala_LysC11 (identical to Chrysomya_megacephala_LysC9) is ignored but added at the end
+NOTE: Chrysomya_megacephala_LysC12 (identical to Chrysomya_megacephala_LysC9) is ignored but added at the end
+NOTE: Chrysomya_megacephala_LysC18 (identical to Chrysomya_megacephala_LysC9) is ignored but added at the end
+NOTE: Chrysomya_megacephala_LysC19 (identical to Chrysomya_megacephala_LysC9) is ignored but added at the end
+Alignment was printed to lysc_all_alinhado.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to lysc_all_alinhado.fasta.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.036 seconds
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+30 trees examined
+Threads: 1 / Time: 8.064 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -75704
+Threads: 2 / Time: 5.904 sec / Speedup: 1.366 / Efficiency: 68% / LogL: -75704
+Threads: 3 / Time: 5.043 sec / Speedup: 1.599 / Efficiency: 53% / LogL: -75704
+Threads: 4 / Time: 4.653 sec / Speedup: 1.733 / Efficiency: 43% / LogL: -75704
+BEST NUMBER OF THREADS: 3
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -34039.136
+Optimal log-likelihood: -34038.915
+Rate parameters:  A-C: 1.74526  A-G: 4.57349  A-T: 1.78736  C-G: 1.38051  C-T: 5.78172  G-T: 1.00000
+Base frequencies:  A: 0.264  C: 0.214  G: 0.215  T: 0.308
+Proportion of invariable sites: 0.056
+Gamma shape alpha: 1.024
+Parameters optimization took 1 rounds (0.132 sec)
+Time for fast ML tree search: 0.829 seconds
+
+NOTE: ModelFinder requires 77 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 735 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         36446.772    485 73863.543    75756.796    76094.480
+  2  GTR+F+I       35914.846    486 72801.692    74710.418    75037.230
+  3  GTR+F+G4      34071.349    486 69114.698    71023.424    71350.235
+  4  GTR+F+I+G4    34038.931    487 69051.863    70976.203    71292.000
+  5  GTR+F+R2      34491.727    487 69957.455    71881.795    72197.592
+  6  GTR+F+R3      34190.276    489 69358.553    71314.553    71607.890
+  7  GTR+F+R4      34049.505    491 69081.011    71069.258    71339.547
+  8  GTR+F+R5      34017.063    493 69020.126    71041.221    71287.862
+  9  GTR+F+R6      34004.360    495 68998.721    71053.281    71275.657
+ 10  GTR+F+R7      34001.996    497 68997.992    71086.650    71284.127
+ 14  GTR+F+I+R2    34340.492    488 69656.983    71597.081    71901.720
+ 15  GTR+F+I+R3    34104.309    490 69188.618    71160.667    71442.555
+ 16  GTR+F+I+R4    34020.740    492 69025.480    71030.075    71288.616
+ 17  GTR+F+I+R5    34011.901    494 69011.802    71049.552    71284.138
+ 18  GTR+F+I+R6    34000.148    496 68992.297    71063.826    71273.833
+ 19  GTR+F+I+R7    33999.905    498 68995.809    71101.758    71286.545
+ 31  SYM+R6        34175.494    492 69334.987    71339.582    71598.124
+ 40  SYM+I+R6      34169.406    493 69324.813    71345.908    71592.549
+ 53  TVM+F+R6      34021.134    494 69030.268    71068.018    71302.604
+ 62  TVM+F+I+R6    34018.191    495 69026.382    71080.943    71303.318
+ 75  TVMe+R6       34207.819    491 69397.637    71385.884    71656.174
+ 84  TVMe+I+R6     34203.432    492 69390.864    71395.459    71654.001
+ 97  TIM3+F+R6     34052.202    493 69090.403    71111.499    71358.139
+106  TIM3+F+I+R6   34048.129    494 69084.259    71122.009    71356.595
+119  TIM3e+R6      34271.086    490 69522.172    71494.221    71776.108
+128  TIM3e+I+R6    34264.851    491 69511.702    71499.949    71770.239
+141  TIM2+F+R6     34010.967    493 69007.933    71029.029    71275.670
+150  TIM2+F+I+R6   34007.039    494 69002.077    71039.827    71274.413
+163  TIM2e+R6      34185.039    490 69350.078    71322.128    71604.015
+172  TIM2e+I+R6    34180.040    491 69342.081    71330.328    71600.617
+185  TIM+F+R6      34044.993    493 69075.986    71097.081    71343.722
+194  TIM+F+I+R6    34041.284    494 69070.569    71108.319    71342.905
+207  TIMe+R6       34255.701    490 69491.401    71463.450    71745.338
+216  TIMe+I+R6     34250.580    491 69483.159    71471.406    71741.695
+229  TPM3u+F+R6    34068.582    492 69121.164    71125.759    71384.300
+238  TPM3u+F+I+R6  34065.813    493 69117.626    71138.722    71385.363
+251  TPM3+R6       34304.695    489 69587.390    71543.390    71836.727
+260  TPM3+I+R6     34300.385    490 69580.770    71552.820    71834.707
+273  TPM2u+F+R6    34027.490    492 69038.979    71043.574    71302.116
+282  TPM2u+F+I+R6  34024.688    493 69035.376    71056.471    71303.112
+295  TPM2+R6       34216.945    489 69411.890    71367.890    71661.226
+304  TPM2+I+R6     34213.521    490 69407.042    71379.091    71660.979
+317  K3Pu+F+R6     34061.723    492 69107.446    71112.041    71370.583
+326  K3Pu+F+I+R6   34058.991    493 69103.983    71125.078    71371.719
+339  K3P+R6        34289.421    489 69556.843    71512.843    71806.180
+348  K3P+I+R6      34285.791    490 69551.581    71523.630    71805.518
+361  TN+F+R6       34052.957    492 69089.915    71094.510    71353.051
+370  TN+F+I+R6     34049.752    493 69085.505    71106.600    71353.241
+383  TNe+R6        34272.638    489 69523.277    71479.277    71772.613
+392  TNe+I+R6      34268.310    490 69516.621    71488.670    71770.557
+405  HKY+F+R6      34070.340    491 69122.679    71110.926    71381.216
+414  HKY+F+I+R6    34067.658    492 69119.315    71123.910    71382.452
+427  K2P+R6        34307.163    488 69590.326    71530.424    71835.063
+436  K2P+I+R6      34303.649    489 69585.299    71541.299    71834.635
+449  F81+F+R6      35181.175    490 71342.350    73314.399    73596.286
+458  F81+F+I+R6    35178.691    491 71339.382    73327.629    73597.918
+471  JC+R6         35365.514    487 71705.029    73629.369    73945.166
+480  JC+I+R6       35362.616    488 71701.231    73641.329    73945.968
+Akaike Information Criterion:           GTR+F+I+R6
+Corrected Akaike Information Criterion: GTR+F+I+G4
+Bayesian Information Criterion:         GTR+F+I+R6
+Best-fit model: GTR+F+I+R6 chosen according to BIC
+
+All model information printed to lysc_all_alinhado.fasta.model.gz
+CPU time for ModelFinder: 279.760 seconds (0h:4m:39s)
+Wall-clock time for ModelFinder: 99.363 seconds (0h:1m:39s)
+Generating 10000 samples for ultrafast bootstrap (seed: 242985)...
+
+NOTE: 56 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -35185.557
+2. Current log-likelihood: -34010.580
+3. Current log-likelihood: -33997.872
+Optimal log-likelihood: -33997.764
+Rate parameters:  A-C: 1.79764  A-G: 4.65726  A-T: 1.81854  C-G: 1.41432  C-T: 5.95230  G-T: 1.00000
+Base frequencies:  A: 0.264  C: 0.214  G: 0.215  T: 0.308
+Proportion of invariable sites: 0.047
+Site proportion and rates:  (0.146,0.085) (0.159,0.301) (0.184,0.593) (0.220,1.182) (0.213,2.134) (0.030,3.896)
+Parameters optimization took 3 rounds (1.264 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0933477 secs using 300.2% CPU
+Computing ML distances took 0.093595 sec (of wall-clock time) 0.282479 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00060944 secs using 248.6% CPU
+Computing RapidNJ tree took 0.030570 sec (of wall-clock time) 0.016801 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -34487.488
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 3.428 second
+Computing log-likelihood of 98 initial trees ... 2.693 seconds
+Current best score: -33997.764
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -33992.171
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -33964.235
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 9: -33959.415
+Iteration 10 / LogL: -33992.119 / Time: 0h:2m:9s
+Iteration 20 / LogL: -33980.896 / Time: 0h:2m:31s
+Finish initializing candidate tree set (20)
+Current best tree score: -33959.415 / CPU time: 50.684
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -33954.012
+Iteration 30 / LogL: -33970.690 / Time: 0h:2m:44s (0h:3m:34s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -33950.282
+Iteration 40 / LogL: -34321.563 / Time: 0h:2m:55s (0h:2m:58s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 41: -33945.233
+Iteration 50 / LogL: -33950.798 / Time: 0h:3m:6s (0h:2m:42s left)
+Log-likelihood cutoff on original alignment: -34019.919
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 56: -33944.013
+Iteration 60 / LogL: -33991.751 / Time: 0h:3m:23s (0h:2m:49s left)
+Iteration 70 / LogL: -33987.926 / Time: 0h:3m:33s (0h:2m:21s left)
+Iteration 80 / LogL: -33949.078 / Time: 0h:3m:44s (0h:2m:0s left)
+Iteration 90 / LogL: -33949.447 / Time: 0h:3m:54s (0h:1m:40s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 100: -33942.283
+Iteration 100 / LogL: -33942.283 / Time: 0h:4m:7s (0h:2m:29s left)
+Log-likelihood cutoff on original alignment: -34011.896
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.983
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -33953.601 / Time: 0h:4m:23s (0h:2m:15s left)
+Iteration 120 / LogL: -33991.691 / Time: 0h:4m:33s (0h:1m:57s left)
+Iteration 130 / LogL: -33966.567 / Time: 0h:4m:45s (0h:1m:40s left)
+Iteration 140 / LogL: -34037.610 / Time: 0h:4m:54s (0h:1m:24s left)
+Iteration 150 / LogL: -33974.169 / Time: 0h:5m:5s (0h:1m:9s left)
+Log-likelihood cutoff on original alignment: -34011.310
+Iteration 160 / LogL: -33945.575 / Time: 0h:5m:20s (0h:0m:55s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 170: -33941.875
+Iteration 170 / LogL: -33941.875 / Time: 0h:5m:32s (0h:2m:17s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 175: -33939.516
+Iteration 180 / LogL: -33955.860 / Time: 0h:5m:44s (0h:2m:10s left)
+Iteration 190 / LogL: -33944.559 / Time: 0h:5m:55s (0h:1m:55s left)
+Iteration 200 / LogL: -33967.956 / Time: 0h:6m:6s (0h:1m:40s left)
+Log-likelihood cutoff on original alignment: -34010.459
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+Iteration 210 / LogL: -33947.945 / Time: 0h:6m:23s (0h:2m:2s left)
+Iteration 220 / LogL: -33952.200 / Time: 0h:6m:33s (0h:1m:47s left)
+Iteration 230 / LogL: -34202.933 / Time: 0h:6m:44s (0h:1m:33s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 232: -33938.625
+Iteration 240 / LogL: -33978.568 / Time: 0h:6m:55s (0h:2m:1s left)
+Iteration 250 / LogL: -33948.019 / Time: 0h:7m:7s (0h:1m:47s left)
+Log-likelihood cutoff on original alignment: -34009.339
+Iteration 260 / LogL: -34002.862 / Time: 0h:7m:23s (0h:1m:35s left)
+Iteration 270 / LogL: -33942.845 / Time: 0h:7m:34s (0h:1m:21s left)
+Iteration 280 / LogL: -33990.025 / Time: 0h:7m:45s (0h:1m:8s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 286: -33938.139
+Iteration 290 / LogL: -33945.063 / Time: 0h:7m:56s (0h:2m:5s left)
+Iteration 300 / LogL: -33939.779 / Time: 0h:8m:6s (0h:1m:51s left)
+Log-likelihood cutoff on original alignment: -34009.339
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.991
+Iteration 310 / LogL: -33939.248 / Time: 0h:8m:22s (0h:1m:57s left)
+Iteration 320 / LogL: -33951.755 / Time: 0h:8m:33s (0h:1m:43s left)
+Iteration 330 / LogL: -33950.791 / Time: 0h:8m:44s (0h:1m:30s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 331: -33936.149
+Iteration 340 / LogL: -33940.095 / Time: 0h:8m:56s (0h:1m:57s left)
+Iteration 350 / LogL: -33940.894 / Time: 0h:9m:6s (0h:1m:43s left)
+Log-likelihood cutoff on original alignment: -34009.339
+Iteration 360 / LogL: -33940.579 / Time: 0h:9m:21s (0h:1m:31s left)
+Iteration 370 / LogL: -33974.935 / Time: 0h:9m:31s (0h:1m:18s left)
+Iteration 380 / LogL: -33944.288 / Time: 0h:9m:42s (0h:1m:4s left)
+Iteration 390 / LogL: -33942.590 / Time: 0h:9m:52s (0h:0m:51s left)
+Iteration 400 / LogL: -33941.364 / Time: 0h:10m:4s (0h:0m:39s left)
+Log-likelihood cutoff on original alignment: -34009.339
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.989
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 410 / LogL: -33957.450 / Time: 0h:10m:22s (0h:1m:55s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 415: -33934.911
+Iteration 420 / LogL: -33947.707 / Time: 0h:10m:35s (0h:2m:1s left)
+Iteration 430 / LogL: -33936.998 / Time: 0h:10m:46s (0h:1m:48s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 440: -33934.801
+Iteration 440 / LogL: -33934.801 / Time: 0h:11m:0s (0h:2m:7s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 445: -33934.708
+Iteration 450 / LogL: -33953.451 / Time: 0h:11m:12s (0h:2m:1s left)
+Log-likelihood cutoff on original alignment: -34009.339
+Iteration 460 / LogL: -33970.130 / Time: 0h:11m:29s (0h:1m:49s left)
+Iteration 470 / LogL: -33975.540 / Time: 0h:11m:41s (0h:1m:36s left)
+Iteration 480 / LogL: -33993.621 / Time: 0h:11m:53s (0h:1m:23s left)
+Iteration 490 / LogL: -33990.749 / Time: 0h:12m:7s (0h:1m:10s left)
+Iteration 500 / LogL: -33996.139 / Time: 0h:12m:20s (0h:0m:57s left)
+Log-likelihood cutoff on original alignment: -34009.339
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.990
+Iteration 510 / LogL: -33978.251 / Time: 0h:12m:38s (0h:1m:56s left)
+Iteration 520 / LogL: -33953.245 / Time: 0h:12m:52s (0h:1m:43s left)
+Iteration 530 / LogL: -33939.670 / Time: 0h:13m:5s (0h:1m:30s left)
+Iteration 540 / LogL: -33966.699 / Time: 0h:13m:17s (0h:1m:17s left)
+TREE SEARCH COMPLETED AFTER 546 ITERATIONS / Time: 0h:13m:25s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -33934.708
+Optimal log-likelihood: -33934.702
+Rate parameters:  A-C: 1.81912  A-G: 4.73938  A-T: 1.81794  C-G: 1.39638  C-T: 6.04758  G-T: 1.00000
+Base frequencies:  A: 0.264  C: 0.214  G: 0.215  T: 0.308
+Proportion of invariable sites: 0.047
+Site proportion and rates:  (0.150,0.083) (0.180,0.312) (0.192,0.655) (0.192,1.273) (0.213,2.144) (0.026,4.064)
+Parameters optimization took 1 rounds (0.252 sec)
+BEST SCORE FOUND : -33934.702
+Creating bootstrap support values...
+Split supports printed to NEXUS file lysc_all_alinhado.fasta.splits.nex
+Total tree length: 31.079
+
+Total number of iterations: 546
+CPU time used for tree search: 1934.065 sec (0h:32m:14s)
+Wall-clock time used for tree search: 704.389 sec (0h:11m:44s)
+Total CPU time used: 2225.631 sec (0h:37m:5s)
+Total wall-clock time used: 811.712 sec (0h:13m:31s)
+
+Computing bootstrap consensus tree...
+Reading input file lysc_all_alinhado.fasta.splits.nex...
+240 taxa and 1873 splits.
+Consensus tree written to lysc_all_alinhado.fasta.contree
+Reading input trees file lysc_all_alinhado.fasta.contree
+Log-likelihood of consensus tree: -33937.898
+
+Analysis results written to: 
+  IQ-TREE report:                lysc_all_alinhado.fasta.iqtree
+  Maximum-likelihood tree:       lysc_all_alinhado.fasta.treefile
+  Likelihood distances:          lysc_all_alinhado.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          lysc_all_alinhado.fasta.splits.nex
+  Consensus tree:                lysc_all_alinhado.fasta.contree
+  Screen log file:               lysc_all_alinhado.fasta.log
+
+Date and Time: Thu Feb 27 14:37:07 2025
