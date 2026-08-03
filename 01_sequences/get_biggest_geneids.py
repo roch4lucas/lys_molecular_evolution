@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 """
 Description: Python script to get the longest protein sequence for a list of 
-NCBI GeneIDs, excluding pseudogenes, using NCBI Entrez. Script verbose is in Portuguese
+NCBI GeneIDs, excluding pseudogenes, using NCBI Entrez.
 
-- Input: TSV file with 2 columns: GeneIDs / Organisms
+- Input: TSV file with 2 columns: GeneIDs / Organism
 - Output: FASTA file
+
+Usage:	python3 -m pip install -r requirements.txt
+		python3 get_biggest_geneids.py i- input_name.tsv -o output_name.fasta
 
 Don't forget to add a valid NCBI Entrez email (Entrez.mail)
 
@@ -17,59 +20,71 @@ import concurrent.futures
 from Bio import Entrez, SeqIO
 import pandas as pd
 import threading
+import argparse
 
-# Email config
+##### ------------ Email config  ------------ #####
+
 Entrez.email = "your@email.com"  # add your own
+
+##### --------------------------------------- #####
+
+
+
+# argparse config
+parser = argparse.ArgumentParser(description="Fetches the longest non-pseudogene protein by GeneID from NCBI")
+parser.add_argument("-i", "--input", help="Input TSV file", required=True)
+parser.add_argument("-o", "--output", help="Output FASTA file", required=True)
+args = parser.parse_args()
 
 print_lock = threading.Lock()
 
-def ler_arquivo_geneids(arquivo):
-    """Lê o arquivo TSV contendo GeneIDs e organismos."""
+def read_geneids_file(file_path):
+    """Reads the TSV file containing GeneIDs and Org_names."""
     try:
-        df = pd.read_csv(arquivo, sep='\t', header=None)
-        # Assumindo que o arquivo tem duas colunas: GeneID e organismo
+        df = pd.read_csv(file_path, sep='\t', header=None)
+        # Assuming the file has at least two columns: GeneID and Org_name
         if len(df.columns) >= 2:
-            df.columns = ['gene_id', 'organismo'] + [f'coluna_{i}' for i in range(2, len(df.columns))]
+            df.columns = ['GeneID', 'Org_name'] + [f'column_{i}' for i in range(2, len(df.columns))]
         else:
-            df.columns = ['gene_id']
-            df['organismo'] = None
+            df.columns = ['GeneID']
+            df['Org_name'] = None
         return df
     except Exception as e:
         with print_lock:
             print(f"Error reading GeneID file: {e}")
         return None
 
-def eh_pseudogene(record):
+def is_pseudogene(record):
     """
-    Verifica se um registro de proteína está associado a um pseudogene.
+    Checks if a protein record is associated with a pseudogene.
     
     Args:
-        record: Um objeto SeqRecord do Biopython com informações da proteína
+        record: A Biopython SeqRecord object with protein information
     
     Returns:
-        bool: True se for um pseudogene, False caso contrário
+        bool: True if it is a pseudogene, False otherwise
     """
-    # Palavras-chave que podem indicar um pseudogene
+    # Keywords that may indicate a pseudogene
     keywords = ['pseudogene', 'pseudo', 'nonfunctional', 'non-functional']
     
-    # Verificar no título/descrição
+    # Check in title/description
     if any(keyword in record.description.lower() for keyword in keywords):
         return True
         
-    # Verificar nas anotações
+    # Check in features
     for feature in record.features:
-        # Verificar qualificadores como note, product, gene_desc
+        # Check qualifiers like note, product, gene_desc
         for qualifier in ['note', 'product', 'gene_desc']:
             if qualifier in feature.qualifiers:
                 for value in feature.qualifiers[qualifier]:
                     if any(keyword in value.lower() for keyword in keywords):
                         return True
                         
-        # Verificar no qualificador pseudogene específico
+        # Check in specific pseudogene qualifier
         if 'pseudogene' in feature.qualifiers:
             return True
             
-    # Verificar em outras anotações
+    # Check in other annotations
     for annotation_key, annotation_value in record.annotations.items():
         if isinstance(annotation_value, str):
             if any(keyword in annotation_value.lower() for keyword in keywords):
@@ -81,29 +96,29 @@ def eh_pseudogene(record):
     
     return False
 
-def processar_gene(gene_info):
+def process_gene(gene_info):
     """
-    Processa um único gene para encontrar a maior proteína não-pseudogene.
+    Processes a single gene to find the longest non-pseudogene protein.
     
     Args:
-        gene_info: Tupla contendo (gene_id, organismo)
+        gene_info: Tuple containing (GeneID, Org_name)
     
     Returns:
-        tuple: (gene_id, proteína, protein_id) ou (gene_id, None, None) se não encontrado
+        tuple: (GeneID, protein, protein_id) or (GeneID, None, None) if not found
     """
-    gene_id, organismo = gene_info
+    GeneID, Org_name = gene_info
     
     with print_lock:
-        print(f"Processando gene {gene_id}...", end=" ", flush=True)
+        print(f"Processing gene {GeneID}...", end=" ", flush=True)
     
     try:
-        # Construir a consulta
-        query = f"{gene_id}[Gene ID]"
-        if organismo:
-            query += f" AND {organismo}[Organism]"
-        query += " NOT pseudogene[All Fields]"  # Tentar excluir pseudogenes na consulta
+        # Build the query
+        query = f"{GeneID}[Gene ID]"
+        if Org_name:
+            query += f" AND {Org_name}[Organism]"
+        query += " NOT pseudogene[All Fields]"  # Attempt to exclude pseudogenes in query
         
-        # Primeiro buscar os IDs de proteínas associados ao gene
+        # First fetch protein IDs associated with the gene
         search_handle = Entrez.esearch(db="protein", term=query, retmax=100)
         search_results = Entrez.read(search_handle)
         search_handle.close()
@@ -112,106 +127,106 @@ def processar_gene(gene_info):
         
         if not protein_ids:
             with print_lock:
-                print(f"Nenhuma proteína encontrada")
-            return gene_id, None, None
+                print("No proteins found")
+            return GeneID, None, None
         
-        # Buscar informações para todas as proteínas encontradas
+        # Fetch information for all found proteins
         fetch_handle = Entrez.efetch(db="protein", id=",".join(protein_ids), rettype="gb", retmode="text")
         records = list(SeqIO.parse(fetch_handle, "genbank"))
         fetch_handle.close()
         
-        # Filtrar pseudogenes
+        # Filter out pseudogenes
         filtered_records = []
         for record in records:
-            if not eh_pseudogene(record):
+            if not is_pseudogene(record):
                 filtered_records.append(record)
             else:
                 with print_lock:
-                    print(f"  Pseudogene ignorado: {record.id}")
+                    print(f"  Ignored pseudogene: {record.id}")
         
-        # Encontrar a sequência mais longa entre os registros filtrados
+        # Find the longest sequence among the filtered records
         if filtered_records:
-            maior_proteina = max(filtered_records, key=lambda rec: len(rec.seq))
-            # Adicionar o GeneID à descrição da sequência
-            maior_proteina.description = f"GeneID:{gene_id} | {maior_proteina.description}"
+            longest_protein = max(filtered_records, key=lambda rec: len(rec.seq))
+            # Add GeneID to the sequence description
+            longest_protein.description = f"GeneID:{GeneID} | {longest_protein.description}"
             with print_lock:
-                print(f"OK - Proteína: {maior_proteina.id} ({len(maior_proteina.seq)} aa)")
-            return gene_id, maior_proteina, maior_proteina.id
+                print(f"OK - Protein: {longest_protein.id} ({len(longest_protein.seq)} aa)")
+            return GeneID, longest_protein, longest_protein.id
         else:
             with print_lock:
-                print(f"Nenhuma proteína válida (todos pseudogenes)")
-            return gene_id, None, None
+                print("No valid proteins (all pseudogenes)")
+            return GeneID, None, None
             
     except Exception as e:
         with print_lock:
-            print(f"Erro: {e}")
-        return gene_id, None, None
+            print(f"Error: {e}")
+        return GeneID, None, None
 
 def main():
-    arquivo_entrada = "geneids.tsv"
-    arquivo_saida = "proteinas_maiores.fasta"
+    input_file = args.input
+    output_file = args.output
     
-    # Número de workers para processamento paralelo
-    # Ajuste este valor com base na sua conexão de internet e CPU
-    # Um valor entre 4-10 normalmente é bom para equilibrar desempenho e 
-    # respeitar os limites de requisições do NCBI
+    # Number of workers for parallel processing
+    # Adjust this value based on your internet connection and CPU
+    # A value between 4-10 is usually good to balance performance
+    # and respect NCBI request limits
     num_workers = 5
     
     start_time = time.time()
     
-    # Ler o arquivo de entrada
-    df = ler_arquivo_geneids(arquivo_entrada)
+    # Read input file
+    df = read_geneids_file(input_file)
     if df is None:
         return
     
-    print(f"Processando {len(df)} genes em paralelo com {num_workers} workers...")
+    print(f"Processing {len(df)} genes in parallel with {num_workers} workers...")
     
-    # Criar lista de tuplas (gene_id, organismo) para processamento
-    genes_para_processar = [(str(row['gene_id']), row.get('organismo')) for _, row in df.iterrows()]
+    # Create list of tuples (GeneID, Org_name) for processing
+    genes_to_process = [(str(row['GeneID']), row.get('Org_name')) for _, row in df.iterrows()]
     
-    # Lista para armazenar os resultados
-    resultados = {}
+    # Dictionary to store results
+    results = {}
     
-    # Executar o processamento paralelo
+    # Execute parallel processing
     with concurrent.futures.ThreadPoolExecutor(max_workers=num_workers) as executor:
-        # Submeter todas as tarefas
+        # Submit all tasks
         future_to_gene = {
-            executor.submit(processar_gene, gene_info): gene_info[0] 
-            for gene_info in genes_para_processar
+            executor.submit(process_gene, gene_info): gene_info[0] 
+            for gene_info in genes_to_process
         }
         
-        # Processar os resultados conforme eles são concluídos
+        # Process results as they are completed
         completed = 0
         for future in concurrent.futures.as_completed(future_to_gene):
-            gene_id = future_to_gene[future]
+            GeneID = future_to_gene[future]
             try:
-                gene_id, proteina, protein_id = future.result()
-                resultados[gene_id] = proteina
+                GeneID, protein, protein_id = future.result()
+                results[GeneID] = protein
                 
-                # Atualizar contador de progresso
+                # Update progress counter
                 completed += 1
-                if completed % 5 == 0 or completed == len(genes_para_processar):
-                    print(f"Progresso: {completed}/{len(genes_para_processar)} genes processados")
+                if completed % 5 == 0 or completed == len(genes_to_process):
+                    print(f"Progress: {completed}/{len(genes_to_process)} genes processed")
                 
             except Exception as e:
-                print(f"Erro ao processar gene {gene_id}: {e}")
+                print(f"Error processing gene {GeneID}: {e}")
     
-    # Filtrar apenas proteínas encontradas
-    proteinas_encontradas = [proteina for proteina in resultados.values() if proteina is not None]
+    # Filter only found proteins
+    found_proteins = [protein for protein in results.values() if protein is not None]
     
-    # Salvar os resultados no arquivo FASTA
-    if proteinas_encontradas:
-        with open(arquivo_saida, "w") as output_handle:
-            SeqIO.write(proteinas_encontradas, output_handle, "fasta")
+    # Save results to FASTA file
+    if found_proteins:
+        with open(output_file, "w") as output_handle:
+            SeqIO.write(found_proteins, output_handle, "fasta")
         
         end_time = time.time()
-        duracao = end_time - start_time
+        duration = end_time - start_time
         
-        print(f"\nProcessamento concluído em {duracao:.2f} segundos.")
-        print(f"{len(proteinas_encontradas)} proteínas foram salvas em '{arquivo_saida}'.")
-        print(f"Genes não encontrados ou que possuíam apenas pseudogenes: {len(df) - len(proteinas_encontradas)}")
+        print(f"\nProcessing completed in {duration:.2f} seconds.")
+        print(f"{len(found_proteins)} proteins were saved to '{output_file}'.")
+        print(f"Genes not found or containing only pseudogenes: {len(df) - len(found_proteins)}")
     else:
-        print("\nNenhuma proteína foi encontrada.")
+        print("\nNo proteins were found.")
 
 if __name__ == "__main__":
     main()
