@@ -177,26 +177,23 @@ if (nem_int_term %in% names(coefs) && nem_slope_term %in% names(coefs)) {
 
 pgls_plot <- ggplot(data_matched, aes(x = genome_length_Mb, y = lys_genes, color = diptera_taxa1)) +
   geom_point(size = 3, alpha = 0.8) +
-  # BUG FIX: Replaced 'size' with 'linewidth' to comply with ggplot2 3.4.0+
   geom_abline(intercept = int_brach, slope = slope_brach, 
-              color = "#D55E00", linewidth = 1.2, linetype = "dashed") +
+              color = "#317EC2", linewidth = 1.2, linetype = "dashed") +
   geom_abline(intercept = int_nem, slope = slope_nem, 
-              color = "#0072B2", linewidth = 1.2, linetype = "dashed") +
-  scale_color_manual(values = c("Brachycera" = "#D55E00", "Nematocera" = "#0072B2")) +
-  theme_minimal(base_size = 14) +
+              color = "#D55E00", linewidth = 1.2, linetype = "dashed") +
+  scale_color_manual(values = c("Brachycera" = "#317EC2", "Nematocera" = "#D55E00")) +
+  theme_minimal(base_size = 12) +
   labs(x = "Genome Length (Mb)",
        y = "Lysozyme Genes",
-       color = "Suborder",
-       title = "Phylogenetic Generalized Least Squares (PGLS)",
-       subtitle = "Relationship between genome size and lysozyme gene count") +
+       color = "Suborder") +
   theme_minimal() +
   theme(
     # Fundo e grades
     panel.grid.minor = element_blank(),
     panel.grid.major = element_line(color = "#EAEAEA", linewidth = 0.5),
     
-    axis.line = element_line(color = "black", linewidth = 1.2),
-    axis.ticks = element_line(color = "black", linewidth = 1.2),
+    axis.line = element_line(color = "black", linewidth = 0.8),
+    axis.ticks = element_line(color = "black", linewidth = 0.8),
     axis.ticks.length = unit(0.2, "cm"),
     
     axis.text = element_text(size = 14, color = "black"),

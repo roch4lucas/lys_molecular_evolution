@@ -1,0 +1,463 @@
+IQ-TREE version 3.1.3 for MacOS ARM 64-bit built Jul 26 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    Opabinia.local (SSE4.2, 8 GB RAM)
+Command: iqtree -s lysc_calliphoridae_v2_aligned.fasta -T 6 -B 1000 -m MFP -st DNA
+Seed:    907177 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Sep 15 14:24:12 2026
+Kernel:  SSE2 - 6 threads (8 CPU cores detected)
+
+Reading alignment file lysc_calliphoridae_v2_aligned.fasta ... Fasta format detected
+Reading fasta file: done in 0.00246191 secs using 89.81% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00182295 secs using 81.02% CPU
+Alignment has 247 sequences with 756 columns, 705 distinct patterns
+562 parsimony-informative, 94 singleton sites, 100 constant sites
+                                        Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000330925 secs using 79.78% CPU
+   1  Hermetia_illucens_LysC1_XP_037909237.1   42.46%    failed      2.81%
+   2  CG11159_Dromel_LysC1                     41.67%    failed      0.03%
+   3  Stomoxys_calcitrans_XM_013256305         41.27%    passed     25.65%
+   4  Musca_domestica_XM_005187455             40.87%    passed      5.26%
+   5  CG16756_Dromel_LysC1                     39.29%    failed      0.02%
+   6  CG16799_Dromel_LysC1                     28.57%    failed      0.01%
+   7  Calliphora_vicina_XM_065513499           31.35%    failed      0.00%
+   8  Calliphora_vomitoria_LysCC1              30.56%    failed      0.00%
+   9  Bellardia_pandia_LysCC1                  30.16%    failed      0.00%
+  10  Bellardia_bayeri_LysCC1                  30.16%    failed      0.00%
+  11  Lucilia_sericata_XM_037964714            29.37%    failed      0.00%
+  12  Lucilia_cuprina_XM_046953569             29.37%    failed      0.00%
+  13  Protophormia_terraenovae_LysCC1          29.37%    failed      0.00%
+  14  Protocalliphora_azurea_LysCC1            29.37%    failed      0.00%
+  15  Phormia_regina_LysCC1                    31.75%    failed      0.00%
+  16  Cochliomyia_hominivoraxUS_LysCC1         29.37%    failed      0.00%
+  17  Chrysomya_rufifacies_LysCC1              32.94%    failed      0.00%
+  18  Chrysomya_megacephala_LysCC1             31.75%    failed      0.00%
+  19  Paykullia_maculata_LysCC1                30.95%    failed      0.00%
+  20  Melanophora_roralis_LysCC1               30.16%    failed      0.00%
+  21  Phyto_melanocephala_LysCC1               29.37%    failed      0.00%
+  22  Stomorhina_lunata_LysCC1                 30.95%    failed      0.00%
+  23  Stomoxys_calcitrans_XM_013256299         28.17%    failed      0.77%
+  24  Musca_domestica_XM_005187448             29.37%    failed      2.81%
+  25  Musca_domestica_XM_005187451             34.92%    failed      0.82%
+  26  NP_523881.1_Dromel_LysX                  43.25%    failed      0.00%
+  27  NP_523882.1_Dromel_LysB                  44.05%    failed      0.00%
+  28  NP_476823.1_Dromel_LysD                  44.05%    failed      0.00%
+  29  NP_476827.2_Dromel_LysE                  44.05%    failed      0.00%
+  30  NP_476829.1_Dromel_LysS                  44.05%    failed      0.00%
+  31  NP_476828.1_Dromel_LysP                  43.65%    failed      0.00%
+  32  Calliphora_vicina_XM_065499793           43.65%    passed     39.72%
+  33  Calliphora_vicina_XM_065499876           43.65%    passed     38.26%
+  34  Calliphora_vicina_XM_065499877           43.65%    passed     45.63%
+  35  Calliphora_vomitoria_LysC11              43.65%    passed     57.79%
+  36  Calliphora_vomitoria_LysC12              43.65%    passed     68.02%
+  37  Calliphora_vomitoria_LysC15              43.65%    passed     74.26%
+  38  Calliphora_vicina_XM_065500492           43.65%    passed     45.11%
+  39  Calliphora_vicina_XM_065500526           43.65%    passed     53.69%
+  40  Calliphora_vomitoria_LysC13              43.65%    passed     46.48%
+  41  Calliphora_vomitoria_LysC16              43.65%    passed     35.03%
+  42  Calliphora_vicina_XM_065500692           43.65%    passed     44.85%
+  43  Calliphora_vicina_XM_065500622           43.65%    passed     36.34%
+  44  Calliphora_vicina_XM_065500698           43.65%    passed     28.31%
+  45  Calliphora_vomitoria_LysC14              43.65%    passed     52.85%
+  46  Phormia_regina_LysC4                     43.65%    passed     42.83%
+  47  Cochliomyia_hominivoraxUS_LysC6          43.65%    passed     12.22%
+  48  Protophormia_terraenovae_LysC20          43.65%    passed     22.52%
+  49  Lucilia_sericata_XM_037963752            43.65%    passed     53.45%
+  50  Lucilia_sericata_XM_037963759            43.65%    passed     41.45%
+  51  Lucilia_sericata_XM_037963757            43.65%    passed     58.21%
+  52  Lucilia_sericata_XM_037963756            43.65%    passed     62.56%
+  53  Lucilia_sericata_XM_037963760            43.65%    passed     49.17%
+  54  Lucilia_cuprina_XM_023448798             43.65%    passed     57.25%
+  55  Lucilia_sericata_XM_037963755            43.65%    passed     44.90%
+  56  Lucilia_cuprina_XM_023448796             43.65%    passed     23.32%
+  57  Lucilia_cuprina_XM_023448799             43.65%    passed     50.29%
+  58  Lucilia_sericata_XM_037963758            43.65%    passed     55.98%
+  59  Lucilia_cuprina_XM_023448797             43.65%    passed     15.29%
+  60  Chrysomya_megacephala_LysC3              43.65%    passed     15.43%
+  61  Chrysomya_megacephala_LysC4              43.65%    failed      3.91%
+  62  Chrysomya_megacephala_LysC5              43.65%    passed      6.09%
+  63  Phyto_melanocephala_LysC4                43.65%    passed     67.65%
+  64  Protophormia_terraenovae_LysC19          43.65%    passed     19.67%
+  65  Phormia_regina_LysC5                     42.06%    passed      9.93%
+  66  Cochliomyia_hominivoraxUS_LysC3          43.65%    passed     18.11%
+  67  Calliphora_vicina_XM_065511310           43.65%    passed     28.53%
+  68  Calliphora_vomitoria_LysC7               43.65%    passed     31.67%
+  69  Calliphora_vomitoria_LysC6               43.65%    passed     19.79%
+  70  Calliphora_vomitoria_LysC8               43.65%    passed     50.47%
+  71  Protophormia_terraenovae_LysC10          43.65%    passed     89.84%
+  72  Protophormia_terraenovae_LysC11          43.65%    passed     75.23%
+  73  Phormia_regina_LysC8                     43.65%    passed     67.66%
+  74  Protophormia_terraenovae_LysC12          43.65%    passed     45.04%
+  75  Protophormia_terraenovae_LysC13          43.65%    passed     44.13%
+  76  Protophormia_terraenovae_LysC15          43.65%    passed     48.48%
+  77  Phormia_regina_LysC11                    43.65%    passed     75.75%
+  78  Chrysomya_rufifacies_LysC4               43.65%    passed     72.92%
+  79  Chrysomya_rufifacies_LysC6               43.65%    passed     72.92%
+  80  Musca_domestica_XM_059127590             43.65%    failed      0.00%
+  81  Musca_domestica_XM_059127601             43.65%    failed      0.00%
+  82  Musca_domestica_XM_020037574             43.65%    failed      0.00%
+  83  Musca_domestica_XM_005185770             43.65%    failed      0.00%
+  84  Musca_domestica_XM_059127595             43.65%    failed      0.00%
+  85  Musca_domestica_NM_001308972             43.65%    failed      0.00%
+  86  Musca_domestica_XM_020037581             43.65%    failed      0.00%
+  87  Musca_domestica_XM_059127597             43.65%    failed      0.00%
+  88  Musca_domestica_XM_005185778             43.65%    failed      0.00%
+  89  Musca_domestica_XM_059127598             43.65%    failed      0.00%
+  90  Musca_domestica_XM_059127599             43.65%    failed      0.00%
+  91  Musca_domestica_XM_059127594             43.65%    failed      0.00%
+  92  Musca_domestica_XM_059127596             43.65%    failed      0.05%
+  93  Musca_domestica_XM_020037580             43.65%    failed      0.00%
+  94  Musca_domestica_XM_059127603             43.65%    failed      0.00%
+  95  Musca_domestica_XM_059127591             43.65%    failed      0.00%
+  96  Musca_domestica_XM_059127602             43.65%    failed      0.03%
+  97  Musca_domestica_XM_059127592             43.65%    failed      0.00%
+  98  Musca_domestica_XM_005185779             43.65%    failed      0.37%
+  99  Cochliomyia_hominivoraxUS_LysC1          43.65%    passed     57.27%
+ 100  Stomoxys_calcitrans_XM_059368529         43.65%    failed      0.01%
+ 101  Stomoxys_calcitrans_XM_059368530         43.65%    failed      0.01%
+ 102  Stomoxys_calcitrans_XM_059368531         43.65%    failed      0.01%
+ 103  Stomoxys_calcitrans_XM_013259399         43.65%    failed      0.01%
+ 104  Stomoxys_calcitrans_XM_059368532         43.65%    failed      0.00%
+ 105  Stomoxys_calcitrans_XM_013259396         43.65%    failed      0.01%
+ 106  Bellardia_bayeri_LysC4                   43.65%    passed     25.21%
+ 107  Stomorhina_lunata_LysC6                  43.65%    passed     20.36%
+ 108  Stomorhina_lunata_LysC7                  43.65%    failed      3.71%
+ 109  Protophormia_terraenovae_LysC14          43.65%    passed     55.75%
+ 110  Protophormia_terraenovae_LysC9           43.25%    passed     20.49%
+ 111  Phormia_regina_LysC9                     43.25%    passed     10.21%
+ 112  Protocalliphora_azurea_LysC2             42.86%    passed     59.09%
+ 113  Chrysomya_megacephala_LysC1              44.05%    passed     19.10%
+ 114  Chrysomya_megacephala_LysC7              44.05%    passed     19.10%
+ 115  Chrysomya_megacephala_LysC8              44.05%    passed     24.24%
+ 116  Chrysomya_megacephala_LysC16             44.05%    passed     19.10%
+ 117  Chrysomya_megacephala_LysC17             44.05%    passed     19.10%
+ 118  Cochliomyia_hominivoraxUS_LysC5          43.65%    failed      4.97%
+ 119  Phyto_melanocephala_LysC3                43.65%    passed     71.34%
+ 120  Lucilia_cuprina_XM_046955367             57.94%    passed     35.13%
+ 121  Paykullia_maculata_LysC1                 43.65%    passed     83.30%
+ 122  Bellardia_pandia_LysC1                   42.46%    passed     65.29%
+ 123  Bellardia_bayeri_LysC1                   43.25%    passed     40.52%
+ 124  Calliphora_vicina_XM_065511531           43.25%    passed     69.50%
+ 125  Calliphora_vomitoria_LysC3               43.25%    passed     40.16%
+ 126  Calliphora_vomitoria_LysC4               43.25%    passed     40.16%
+ 127  Calliphora_vicina_XM_065512022           42.86%    passed     85.60%
+ 128  Stomoxys_calcitrans_XM_013259394         43.65%    passed     38.66%
+ 129  Stomoxys_calcitrans_XM_013262540         43.25%    failed      2.66%
+ 130  Protophormia_terraenovae_LysC5           43.25%    passed     16.25%
+ 131  Protocalliphora_azurea_LysC1             43.25%    passed     22.52%
+ 132  Phormia_regina_LysC10                    43.25%    passed      8.64%
+ 133  Chrysomya_megacephala_LysC9              43.25%    failed      3.59%
+ 134  Chrysomya_megacephala_LysC10             43.25%    failed      3.59%
+ 135  Chrysomya_megacephala_LysC11             43.25%    failed      3.59%
+ 136  Chrysomya_megacephala_LysC12             43.25%    failed      3.59%
+ 137  Chrysomya_megacephala_LysC18             43.25%    failed      3.59%
+ 138  Chrysomya_megacephala_LysC19             43.25%    failed      3.59%
+ 139  Protophormia_terraenovae_LysC7           41.67%    failed      0.85%
+ 140  Protophormia_terraenovae_LysC6           43.25%    passed     23.11%
+ 141  Protophormia_terraenovae_LysC8           53.57%    passed     92.34%
+ 142  Lucilia_sericata_XM_037958005            43.25%    passed     76.43%
+ 143  Cochliomyia_hominivoraxUS_LysC2          43.25%    passed     11.37%
+ 144  Lucilia_sericata_XM_037958003            42.86%    passed     45.00%
+ 145  Lucilia_cuprina_XM_046955615             42.86%    passed      7.49%
+ 146  Lucilia_cuprina_XM_046955614             42.86%    passed      7.49%
+ 147  Lucilia_sericata_XM_037958008            43.65%    passed     43.25%
+ 148  Lucilia_cuprina_XM_046955619             43.65%    passed      9.04%
+ 149  Stomorhina_lunata_LysC5                  43.25%    failed      0.70%
+ 150  Calliphora_vicina_XM_065511517           43.25%    passed     76.79%
+ 151  Calliphora_vomitoria_LysC1               43.25%    passed     84.14%
+ 152  Calliphora_vomitoria_LysC2               43.25%    passed     79.49%
+ 153  Calliphora_vicina_XM_065511645           43.25%    passed     93.41%
+ 154  Lucilia_sericata_XM_037951089            43.25%    passed     41.38%
+ 155  Lucilia_sericata_XM_037951088            43.25%    passed     48.54%
+ 156  Lucilia_cuprina_XM_023438453             43.25%    passed     17.31%
+ 157  Lucilia_cuprina_XM_023438456             43.25%    passed     35.96%
+ 158  Protophormia_terraenovae_LysC1           43.25%    passed     79.00%
+ 159  Protophormia_terraenovae_LysC3           43.25%    passed     64.21%
+ 160  Protophormia_terraenovae_LysC4           43.25%    passed     48.46%
+ 161  Phormia_regina_LysC2                     43.25%    passed     79.60%
+ 162  Chrysomya_rufifacies_LysC1               55.56%    passed     46.72%
+ 163  Chrysomya_rufifacies_LysC2               55.56%    passed     46.72%
+ 164  Chrysomya_megacephala_LysC13             43.25%    passed     21.59%
+ 165  Chrysomya_megacephala_LysC14             43.25%    passed     86.71%
+ 166  Chrysomya_megacephala_LysC15             43.25%    passed     60.51%
+ 167  Stomorhina_lunata_LysC3                  42.86%    passed      9.65%
+ 168  Stomoxys_calcitrans_XM_059370494         43.25%    passed     10.87%
+ 169  Stomoxys_calcitrans_XM_013257674         43.25%    passed      8.38%
+ 170  Stomoxys_calcitrans_XM_059370495         43.25%    passed      9.36%
+ 171  Stomoxys_calcitrans_XM_059370493         43.25%    failed      3.97%
+ 172  Stomoxys_calcitrans_XM_059370490         43.25%    passed      5.61%
+ 173  Stomoxys_calcitrans_XM_059370492         43.25%    passed     12.88%
+ 174  Stomoxys_calcitrans_XM_013257675         43.25%    passed      8.60%
+ 175  Stomoxys_calcitrans_XM_013257684         43.25%    failed      1.21%
+ 176  Stomoxys_calcitrans_XM_013257687         43.25%    failed      0.52%
+ 177  Stomoxys_calcitrans_XM_013257682         43.25%    failed      2.24%
+ 178  Stomoxys_calcitrans_XM_013257686         43.25%    failed      1.38%
+ 179  Stomoxys_calcitrans_XM_013257685         43.25%    failed      0.42%
+ 180  Stomoxys_calcitrans_XM_013257683         43.25%    failed      2.75%
+ 181  Musca_domestica_XM_020035061             43.25%    failed      0.29%
+ 182  Musca_domestica_XM_020035062             43.25%    failed      0.49%
+ 183  Musca_domestica_XM_011292181             43.25%    failed      0.78%
+ 184  Musca_domestica_XM_020035060             43.25%    failed      0.33%
+ 185  Musca_domestica_XM_011292180             43.25%    failed      1.19%
+ 186  Musca_domestica_XM_005178415             43.25%    failed      1.50%
+ 187  Musca_domestica_XM_005178411             43.25%    failed      1.33%
+ 188  Musca_domestica_XM_005185318             43.25%    passed      7.63%
+ 189  Musca_domestica_XM_059126266             43.25%    passed      6.32%
+ 190  Musca_domestica_XM_059126267             43.25%    failed      4.04%
+ 191  Musca_domestica_XM_005185309             43.25%    failed      2.22%
+ 192  Musca_domestica_XM_020035064             43.25%    failed      3.26%
+ 193  Musca_domestica_XM_020035063             43.25%    passed     34.61%
+ 194  Musca_domestica_XM_011292185             43.25%    passed     13.27%
+ 195  Lucilia_sericata_XM_037951090            43.25%    passed     92.70%
+ 196  Lucilia_cuprina_XM_023438454             43.25%    passed     76.39%
+ 197  Protophormia_terraenovae_LysC2           43.25%    passed     60.99%
+ 198  Phormia_regina_LysC1                     43.25%    passed     98.12%
+ 199  Musca_domestica_XM_005178434             66.67%    passed     34.40%
+ 200  Musca_domestica_XM_005178432             42.46%    passed     21.55%
+ 201  Calliphora_vicina_XM_065512186           43.65%    passed     44.69%
+ 202  Calliphora_vomitoria_LysC5               43.65%    passed     53.59%
+ 203  Stomoxys_calcitrans_XM_013259395         42.86%    passed     15.98%
+ 204  Stomorhina_lunata_LysC4                  43.25%    passed     74.54%
+ 205  Bellardia_pandia_LysC3                   44.84%    passed     23.07%
+ 206  Lucilia_sericata_XM_037958002            41.67%    passed     13.28%
+ 207  Lucilia_cuprina_XM_023439612             42.46%    passed     14.19%
+ 208  Chrysomya_megacephala_LysC2              59.52%    passed     17.28%
+ 209  CG30062_Dromel_Lys1B                     31.75%    failed      0.00%
+ 210  Calliphora_vicina_XM_065512512           44.44%    passed      5.74%
+ 211  Calliphora_vomitoria_LysC9               26.59%    failed      0.89%
+ 212  Bellardia_pandia_LysC6                   27.38%    failed      1.81%
+ 213  Bellardia_bayeri_LysC6                   27.38%    failed      4.43%
+ 214  Lucilia_sericata_XM_037958027            27.78%    failed      0.74%
+ 215  Lucilia_cuprina_XM_023441183             27.38%    failed      0.28%
+ 216  Protophormia_terraenovae_LysC16          27.78%    failed      0.10%
+ 217  Protocalliphora_azurea_LysC4             27.78%    failed      0.14%
+ 218  Phormia_regina_LysC3                     27.78%    failed      0.00%
+ 219  Chrysomya_rufifacies_LysC5               26.19%    failed      0.00%
+ 220  Paykullia_maculata_LysC3                 28.97%    failed      2.61%
+ 221  Phyto_melanocephala_LysC1                28.57%    passed      8.65%
+ 222  Melanophora_roralis_LysC1                27.78%    failed      0.09%
+ 223  Stomorhina_lunata_LysC2                  26.98%    passed      7.13%
+ 224  Stomoxys_calcitrans_XM_013262434         25.40%    passed     11.18%
+ 225  Musca_domestica_XM_005184849             26.98%    failed      4.47%
+ 226  Musca_domestica_XM_059128787             26.98%    failed      4.06%
+ 227  Calliphora_vicina_LysCP                  38.89%    failed      1.49%
+ 228  Calliphora_vomitoria_LysC10              38.89%    failed      1.71%
+ 229  Bellardia_pandia_LysC5                   39.29%    failed      1.41%
+ 230  Bellardia_bayeri_LysC5                   39.29%    failed      0.58%
+ 231  Phyto_melanocephala_LysC2                39.68%    failed      2.12%
+ 232  Paykullia_maculata_LysC2                 39.68%    passed      8.33%
+ 233  Melanophora_roralis_LysC2                39.68%    failed      0.54%
+ 234  Lucilia_sericata_XM_037958029            40.87%    failed      0.02%
+ 235  Lucilia_cuprina_XM_023441184             40.87%    failed      0.00%
+ 236  Protophormia_terraenovae_LysC17          40.08%    failed      0.00%
+ 237  Phormia_regina_LysC6                     40.08%    failed      0.00%
+ 238  Protocalliphora_azurea_LysC5             39.68%    failed      0.01%
+ 239  Cochliomyia_hominivoraxUS_LysC4          39.68%    failed      0.00%
+ 240  Chrysomya_rufifacies_LysC3               39.68%    failed      0.00%
+ 241  Stomorhina_lunata_LysC1                  39.29%    failed      1.51%
+ 242  Stomoxys_calcitrans_XM_013262443         40.87%    passed     13.99%
+ 243  Musca_domestica_XM_059128789             39.68%    passed     19.76%
+ 244  CG7798_Dromel_LysP                       40.87%    failed      0.00%
+ 245  Chrysomya_megacephala_LysC6              60.32%    passed     24.40%
+ 246  Bellardia_pandia_LysC2                   52.78%    passed     40.73%
+ 247  Bellardia_pandia_LysC4                   56.75%    passed      7.15%
+WARNING: 9 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                    41.51%  112 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: Musca_domestica_XM_059127592 is identical to Musca_domestica_XM_059127591 but kept for subsequent analysis
+NOTE: Chrysomya_megacephala_LysC7 is identical to Chrysomya_megacephala_LysC1 but kept for subsequent analysis
+NOTE: Chrysomya_megacephala_LysC10 is identical to Chrysomya_megacephala_LysC9 but kept for subsequent analysis
+NOTE: Lucilia_cuprina_XM_046955614 is identical to Lucilia_cuprina_XM_046955615 but kept for subsequent analysis
+NOTE: Chrysomya_rufifacies_LysC2 is identical to Chrysomya_rufifacies_LysC1 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000437975 secs using 132% CPU
+Identifying sites to remove: done in 0.00102687 secs using 91.74% CPU
+NOTE: 6 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Chrysomya_megacephala_LysC16 (identical to Chrysomya_megacephala_LysC1) is ignored but added at the end
+NOTE: Chrysomya_megacephala_LysC17 (identical to Chrysomya_megacephala_LysC1) is ignored but added at the end
+NOTE: Chrysomya_megacephala_LysC11 (identical to Chrysomya_megacephala_LysC9) is ignored but added at the end
+NOTE: Chrysomya_megacephala_LysC12 (identical to Chrysomya_megacephala_LysC9) is ignored but added at the end
+NOTE: Chrysomya_megacephala_LysC18 (identical to Chrysomya_megacephala_LysC9) is ignored but added at the end
+NOTE: Chrysomya_megacephala_LysC19 (identical to Chrysomya_megacephala_LysC9) is ignored but added at the end
+Alignment was printed to lysc_calliphoridae_v2_aligned.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to lysc_calliphoridae_v2_aligned.fasta.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.021 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -38129.927
+2. Current log-likelihood: -38128.832
+Optimal log-likelihood: -38128.596
+Rate parameters:  A-C: 1.72314  A-G: 4.02056  A-T: 1.63338  C-G: 1.39425  C-T: 5.12952  G-T: 1.00000
+Base frequencies:  A: 0.260  C: 0.219  G: 0.218  T: 0.303
+Proportion of invariable sites: 0.021
+Gamma shape alpha: 0.970
+Parameters optimization took 2 rounds (0.308 sec)
+Time for fast ML tree search: 3.203 seconds
+
+NOTE: ModelFinder requires 58 MB RAM!
+ModelFinder will test up to 968 DNA models (sample size: 756 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Akaike Information Criterion:           GTR+F+R6
+Corrected Akaike Information Criterion: TIM2+F+R5
+Bayesian Information Criterion:         GTR+F+R6
+Best-fit model: GTR+F+R6 chosen according to BIC
+
+All model information printed to lysc_calliphoridae_v2_aligned.fasta.model.gz
+CPU time for ModelFinder: 244.223 seconds (0h:4m:4s)
+Wall-clock time for ModelFinder: 116.465 seconds (0h:1m:56s)
+Generating 1000 samples for ultrafast bootstrap (seed: 907177)...
+
+NOTE: 35 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -38057.810
+Optimal log-likelihood: -38057.800
+Rate parameters:  A-C: 1.68428  A-G: 4.01598  A-T: 1.61077  C-G: 1.38707  C-T: 5.04134  G-T: 1.00000
+Base frequencies:  A: 0.260  C: 0.219  G: 0.218  T: 0.303
+Site proportion and rates:  (0.113,0.040) (0.118,0.176) (0.227,0.443) (0.144,0.872) (0.237,1.475) (0.161,2.486)
+Parameters optimization took 1 rounds (0.313 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0656919 secs using 547.2% CPU
+Computing ML distances took 0.066036 sec (of wall-clock time) 0.359993 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.000399828 secs using 349.7% CPU
+Constructing RapidNJ tree: done in 0.0238531 secs using 83.99% CPU
+Computing RapidNJ tree took 0.024286 sec (of wall-clock time) 0.021447 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -38552.250
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.195 second
+Computing log-likelihood of 98 initial trees ... 10.820 seconds
+Current best score: -38057.800
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -38056.148
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -38031.816
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 10: -38030.634
+Iteration 10 / LogL: -38030.634 / Time: 0h:2m:39s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 11: -38018.131
+Iteration 20 / LogL: -38054.373 / Time: 0h:3m:10s
+Finish initializing candidate tree set (20)
+Current best tree score: -38018.131 / CPU time: 72.905
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -38021.666 / Time: 0h:3m:43s (0h:4m:58s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 35: -38016.490
+Iteration 40 / LogL: -38104.536 / Time: 0h:4m:13s (0h:5m:34s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -38013.336
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 49: -38009.864
+Iteration 50 / LogL: -38020.891 / Time: 0h:4m:44s (0h:5m:39s left)
+Log-likelihood cutoff on original alignment: -38073.930
+Iteration 60 / LogL: -38027.027 / Time: 0h:5m:15s (0h:5m:0s left)
+Iteration 70 / LogL: -38021.801 / Time: 0h:5m:45s (0h:4m:22s left)
+Iteration 80 / LogL: -38013.861 / Time: 0h:6m:14s (0h:3m:45s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 85: -38009.040
+Iteration 90 / LogL: -38027.528 / Time: 0h:6m:44s (0h:5m:7s left)
+Iteration 100 / LogL: -38013.688 / Time: 0h:7m:13s (0h:4m:32s left)
+Log-likelihood cutoff on original alignment: -38073.930
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.978
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -38012.870 / Time: 0h:7m:44s (0h:4m:47s left)
+Iteration 120 / LogL: -38016.570 / Time: 0h:8m:15s (0h:4m:14s left)
+Iteration 130 / LogL: -38019.119 / Time: 0h:8m:48s (0h:3m:43s left)
+Iteration 140 / LogL: -38012.256 / Time: 0h:9m:20s (0h:3m:11s left)
+Iteration 150 / LogL: -38013.662 / Time: 0h:9m:51s (0h:2m:39s left)
+Log-likelihood cutoff on original alignment: -38070.931
+Iteration 160 / LogL: -38147.925 / Time: 0h:10m:22s (0h:2m:7s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 168: -38008.246
+Iteration 170 / LogL: -38013.305 / Time: 0h:10m:52s (0h:5m:10s left)
+Iteration 180 / LogL: -38012.779 / Time: 0h:11m:24s (0h:4m:39s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 186: -38007.647
+Iteration 190 / LogL: -38051.733 / Time: 0h:11m:55s (0h:5m:4s left)
+Iteration 200 / LogL: -38008.979 / Time: 0h:12m:25s (0h:4m:31s left)
+Log-likelihood cutoff on original alignment: -38068.706
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+Iteration 210 / LogL: -38020.689 / Time: 0h:12m:58s (0h:4m:44s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 212: -38006.151
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 215: -38005.571
+Iteration 220 / LogL: -38040.633 / Time: 0h:13m:30s (0h:5m:1s left)
+Iteration 230 / LogL: -38028.494 / Time: 0h:14m:4s (0h:4m:30s left)
+Iteration 240 / LogL: -38084.144 / Time: 0h:14m:38s (0h:3m:59s left)
+Iteration 250 / LogL: -38010.336 / Time: 0h:15m:9s (0h:3m:27s left)
+Log-likelihood cutoff on original alignment: -38068.706
+Iteration 260 / LogL: -38019.783 / Time: 0h:15m:41s (0h:2m:55s left)
+Iteration 270 / LogL: -38008.181 / Time: 0h:16m:16s (0h:2m:23s left)
+Iteration 280 / LogL: -38063.055 / Time: 0h:16m:48s (0h:1m:51s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 285: -38005.021
+Iteration 290 / LogL: -38019.668 / Time: 0h:17m:25s (0h:5m:5s left)
+Iteration 300 / LogL: -38014.594 / Time: 0h:18m:0s (0h:4m:33s left)
+Log-likelihood cutoff on original alignment: -38068.706
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+Iteration 310 / LogL: -38009.141 / Time: 0h:18m:36s (0h:4m:51s left)
+Iteration 320 / LogL: -38011.063 / Time: 0h:19m:11s (0h:4m:19s left)
+Iteration 330 / LogL: -38007.062 / Time: 0h:19m:47s (0h:3m:47s left)
+Iteration 340 / LogL: -38005.401 / Time: 0h:20m:21s (0h:3m:15s left)
+Iteration 350 / LogL: -38024.880 / Time: 0h:20m:55s (0h:2m:43s left)
+Log-likelihood cutoff on original alignment: -38068.706
+Iteration 360 / LogL: -38028.543 / Time: 0h:21m:25s (0h:2m:10s left)
+Iteration 370 / LogL: -38012.676 / Time: 0h:21m:57s (0h:1m:37s left)
+Iteration 380 / LogL: -38026.129 / Time: 0h:22m:29s (0h:1m:5s left)
+TREE SEARCH COMPLETED AFTER 386 ITERATIONS / Time: 0h:22m:50s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -38005.021
+Optimal log-likelihood: -38005.018
+Rate parameters:  A-C: 1.71122  A-G: 4.09581  A-T: 1.64683  C-G: 1.42125  C-T: 5.24329  G-T: 1.00000
+Base frequencies:  A: 0.260  C: 0.219  G: 0.218  T: 0.303
+Site proportion and rates:  (0.114,0.040) (0.108,0.172) (0.224,0.416) (0.151,0.826) (0.240,1.480) (0.164,2.474)
+Parameters optimization took 1 rounds (0.279 sec)
+BEST SCORE FOUND : -38005.018
+Creating bootstrap support values...
+Split supports printed to NEXUS file lysc_calliphoridae_v2_aligned.fasta.splits.nex
+Total tree length: 39.650
+
+Total number of iterations: 386
+CPU time used for tree search: 925.569 sec (0h:15m:25s)
+Wall-clock time used for tree search: 1252.942 sec (0h:20m:52s)
+Total CPU time used: 1172.722 sec (0h:19m:32s)
+Total wall-clock time used: 1371.387 sec (0h:22m:51s)
+
+Computing bootstrap consensus tree...
+Reading input file lysc_calliphoridae_v2_aligned.fasta.splits.nex...
+241 taxa and 1275 splits.
+Consensus tree written to lysc_calliphoridae_v2_aligned.fasta.contree
+Reading input trees file lysc_calliphoridae_v2_aligned.fasta.contree
+Log-likelihood of consensus tree: -38005.531
+
+Analysis results written to: 
+  IQ-TREE report:                lysc_calliphoridae_v2_aligned.fasta.iqtree
+  Maximum-likelihood tree:       lysc_calliphoridae_v2_aligned.fasta.treefile
+  Likelihood distances:          lysc_calliphoridae_v2_aligned.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          lysc_calliphoridae_v2_aligned.fasta.splits.nex
+  Consensus tree:                lysc_calliphoridae_v2_aligned.fasta.contree
+  Screen log file:               lysc_calliphoridae_v2_aligned.fasta.log
+
+Date and Time: Tue Sep 15 14:47:05 2026
