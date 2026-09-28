@@ -22,7 +22,7 @@ library(here)
 
 # 1. Load data and tree --------------------------------------------------------
 cat("Loading data and tree...\n")
-tree <- read.tree(here("03_phylo_stats/data/speciestree_insecta.nwk"))
+tree <- read.tree(here("03_phylo_stats/data/Insecta_v2.NEWICK2.nwk"))
 
 tree <- compute.brlen(tree, method = "Grafen") # --> Grafen's method (1989)
 tree <- multi2di(tree) # --> binary tree without polytomies
@@ -117,8 +117,8 @@ comp_data <- comparative.data(phy = tree_matched,
                               vcv = TRUE, 
                               na.omit = TRUE)
 
-pgls_mod1 <- pgls(lys_genes ~ genome_length_Mb, data = comp_data, lambda = "ML")
-pgls_mod2 <- pgls(lys_genes ~ genome_length_Mb * diptera_taxa1, data = comp_data, lambda = "ML")
+pgls_mod1 <- pgls(log(lys_genes) ~ log(genome_length_Mb), data = comp_data, lambda = "ML")
+pgls_mod2 <- pgls(log(lys_genes) ~ log(genome_length_Mb) * diptera_taxa1, data = comp_data, lambda = "ML")
 
 cat("\n[PGLS Base Model Summary]\n")
 print(summary(pgls_mod1))
@@ -160,12 +160,13 @@ legend("topleft", legend = c("Brachycera", "Nematocera"),
 # ==============================================================================
 cat("Generating PGLS Scatter Plot...\n")
 
+# Extração de coeficientes (agora representando a relação log-log)
 coefs <- coef(pgls_mod2)
 int_brach <- coefs["(Intercept)"]
-slope_brach <- coefs["genome_length_Mb"]
+slope_brach <- coefs["log(genome_length_Mb)"]
 
 nem_int_term <- "diptera_taxa1Nematocera"
-nem_slope_term <- "genome_length_Mb:diptera_taxa1Nematocera"
+nem_slope_term <- "log(genome_length_Mb):diptera_taxa1Nematocera"
 
 if (nem_int_term %in% names(coefs) && nem_slope_term %in% names(coefs)) {
   int_nem <- int_brach + coefs[nem_int_term]
@@ -175,7 +176,8 @@ if (nem_int_term %in% names(coefs) && nem_slope_term %in% names(coefs)) {
   slope_nem <- slope_brach
 }
 
-pgls_plot <- ggplot(data_matched, aes(x = genome_length_Mb, y = lys_genes, color = diptera_taxa1)) +
+# Plot com ambos os eixos transformados
+pgls_plot <- ggplot(data_matched, aes(x = log(genome_length_Mb), y = log(lys_genes), color = diptera_taxa1)) +
   geom_point(size = 3, alpha = 0.8) +
   geom_abline(intercept = int_brach, slope = slope_brach, 
               color = "#317EC2", linewidth = 1.2, linetype = "dashed") +
@@ -183,22 +185,17 @@ pgls_plot <- ggplot(data_matched, aes(x = genome_length_Mb, y = lys_genes, color
               color = "#D55E00", linewidth = 1.2, linetype = "dashed") +
   scale_color_manual(values = c("Brachycera" = "#317EC2", "Nematocera" = "#D55E00")) +
   theme_minimal(base_size = 12) +
-  labs(x = "Genome Length (Mb)",
-       y = "Lysozyme Genes",
+  labs(x = "Log[Genome Length (Mb)]",
+       y = "Log[Lysozyme Genes]",
        color = "Suborder") +
-  theme_minimal() +
   theme(
-    # Fundo e grades
     panel.grid.minor = element_blank(),
     panel.grid.major = element_line(color = "#EAEAEA", linewidth = 0.5),
-    
     axis.line = element_line(color = "black", linewidth = 0.8),
     axis.ticks = element_line(color = "black", linewidth = 0.8),
     axis.ticks.length = unit(0.2, "cm"),
-    
     axis.text = element_text(size = 14, color = "black"),
     axis.title = element_text(size = 16, face = "bold"),
-    
     legend.position = "top",
     legend.justification = "left",
     legend.title = element_text(size = 14, face = "bold"),

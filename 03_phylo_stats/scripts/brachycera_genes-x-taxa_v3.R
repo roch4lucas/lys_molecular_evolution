@@ -16,7 +16,7 @@ library(here)
 
 
 # 1. Load data
-tree <- read.tree(here("03_phylo_stats/data/speciestree_insecta.nwk"))
+tree <- read.tree(here("03_phylo_stats/data/Insecta_v2.NEWICK2.nwk"))
 data <- read.table(here("03_phylo_stats/data/insecta_genes-taxa2.tsv"),
                    header = TRUE, sep = "\t", stringsAsFactors = FALSE)
 
@@ -26,8 +26,9 @@ same <- intersect(tree$tip.label, data$species)
 data <- data[data$species %in% same, ]
 tree <- keep.tip(tree, same)
 
-# 3. Resolve polytomies
+# 3. Resolve polytomies and zero branches
 tree <- multi2di(tree)
+tree$edge.length[tree$edge.length == 0] <- 1e-6
 
 # 4. Data preparation
 data$taxa <- as.factor(data$taxa)
@@ -40,7 +41,7 @@ comp_data <- comparative.data(phy = tree,
 
 # 6. PGLS
 # lambda = "ML" for automatic phylo signal estimation
-model_pgls <- pgls(lys_genes ~ taxa, 
+model_pgls <- pgls(log(lys_genes) ~ taxa, 
                     data = comp_data, 
                     lambda = "ML")
 
